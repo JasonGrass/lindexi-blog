@@ -1,0 +1,121 @@
+---
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
+import Layout from "@layouts/Layout.astro";
+import Main from "@layouts/Main.astro";
+
+import { SITE } from "@config";
+import getMyBlogCollection from '@utils/getMyBlogCollection'
+
+import "../../styles/archive.css"
+
+export interface Post {
+  id: string;
+  slug: string;
+  title: string;
+  pubDatetime: Date;
+  dateMmdd: string,
+}
+
+function formatDateToYYMM(date:Date):string {  
+  // 获取月份，并确保为两位数
+  const month = (date.getMonth() + 1).toString().padStart(2, '0');
+  const day = date.getDate().toString().padStart(2, '0');
+  // 返回格式化后的字符串
+  return `${month}月${day}日`;
+}
+
+const allposts = await getMyBlogCollection();
+
+const posts = allposts.map(p=>{
+    return {
+    id:p.id,
+    slug:p.slug,
+    pubDatetime:p.data.pubDatetime,
+    title:p.data.title,
+    dateMmdd: formatDateToYYMM(p.data.pubDatetime),
+    // data:p.data,
+    // tags:p.data.tags,
+    //collection:p.collection
+}
+})
+
+// 按年份分组并排序博客文章
+export const groupAndSortPostsByYear = (posts: Post[]): Record<string, Post[]> => {
+  // 先按年份分组
+  const groupedPosts = posts.reduce((acc: Record<string, Post[]>, post: Post) => {
+    const year = new Date(post.pubDatetime).getFullYear().toString();
+    if (!acc[year]) {
+      acc[year] = [];
+    }
+    acc[year].push(post);
+    return acc;
+  }, {});
+
+  // 对每个年份内的博客文章按时间排序
+  Object.keys(groupedPosts).forEach(year => {
+    groupedPosts[year].sort((a, b) => new Date(b.pubDatetime).getTime() - new Date(a.pubDatetime).getTime());
+  });
+
+  return groupedPosts;
+};
+
+// 按年份分组并排序博客文章
+const groupedPosts = groupAndSortPostsByYear(posts);
+
+// 按年份排序
+const sortedYears = Object.keys(groupedPosts).sort((a, b) => parseInt(b) - parseInt(a));
+
+/*
+{
+    id: '2022/0702-vsc-debug-vue.md',
+    slug: 'vscode-debug-vue',
+    data: {
+      author: '晒太阳的猫',
+      pubDatetime: 2022-07-02T21:04:00.000Z,
+      title: 'VSCode Vue 调试',
+      tags: [Array],
+      description: 'VSCode Vue 调试'
+    },
+    tags: [ 'vue', 'javascript' ],
+    collection: 'blog'
+  },
+*/
+
+---
+
+<Layout title={`Archive | ${SITE.title}`}>
+  <Header activeNav="archive" />
+  <Main pageTitle="Archive" pageDesc="All posts">
+    <div class="timeline-wrapper">
+      <div class="timeline">
+
+        {sortedYears.map((year) => (
+          <div>
+            {/* 年份节点 */}
+            <div class="flex items-center mt-2 mb-2">
+              <div class="year-text font-bold text-2xl w-24 pl-2">{year}</div>
+              <div class="year-small-node bg-blue-500 rounded-full  mr-4"></div>
+            </div>
+            
+            {/* 按年份分组的博客条目 */}
+            {groupedPosts[year].map((post, index) => (
+              <div class={`flex items-center pt-2 pb-2 ${index % 2 === 0 ? 'blog-line-even' : 'blog-line-odd'}`}>
+                <div class="blog-date-text flex items-center justify-end w-24 pr-4">
+                  {post.dateMmdd}
+                </div>
+                <div class="flex items-center">
+                  <div class="blog-small-node rounded-full mr-4"></div>
+                  <a href={`/posts/${post.slug}`} class="blog-title-text font-medium hover:underline">{post.title}</a>
+                </div>
+              </div>
+            ))}
+          </div>
+        ))}
+
+      </div>
+    </div>
+    
+  </Main>
+  <Footer />
+</Layout>

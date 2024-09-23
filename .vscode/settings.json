@@ -1,0 +1,12 @@
+{
+    "cSpell.words": [
+        "astro",
+        "astrojs",
+        "Datetime",
+        "giscus",
+        "rehype",
+        "squoosh"
+    ],
+    "pasteImage.path": "${currentFileDir}/images",
+    "pasteImage.insertPattern": "${imageSyntaxPrefix}${imageFilePath}${imageSyntaxSuffix}"
+}

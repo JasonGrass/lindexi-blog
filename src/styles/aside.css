@@ -1,0 +1,101 @@
+aside {
+  --aside-color-base: var(--color-base-purple);
+  --aside-color-lightness: 54%;
+  --aside-accent-color: hsl(
+    var(--aside-color-base),
+    var(--aside-color-lightness)
+  );
+  --aside-text-lightness: 20%;
+  --aside-text-accent-color: hsl(
+    var(--aside-color-base),
+    var(--aside-text-lightness)
+  );
+
+  border-inline-start: 4px solid var(--aside-accent-color);
+  padding: 1rem;
+  background-color: hsla(
+    var(--aside-color-base),
+    var(--aside-color-lightness),
+    var(--theme-accent-opacity)
+  );
+  outline: 1px solid transparent;
+  margin: 1rem 0;
+}
+.theme-dark aside {
+  --aside-text-lightness: 85%;
+}
+aside .title {
+  line-height: 1;
+  margin: 0 0 0.5rem 0 !important;
+  font-size: 0.9rem;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--aside-text-accent-color);
+}
+aside .icon svg {
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  fill: currentcolor;
+}
+aside a,
+aside a > code:not([class*="language"]) {
+  color: var(--aside-text-accent-color);
+}
+aside section {
+  padding-left: 0;
+}
+aside section p {
+  margin: 0 !important;
+}
+aside p,
+aside.content ul {
+  color: var(--theme-text);
+}
+.theme-dark aside code:not([class*="language"]) {
+  color: var(--theme-code-text);
+}
+aside pre {
+  margin-left: 0;
+  margin-right: 0;
+}
+aside.tip {
+  --aside-color-lightness: 42%;
+  --aside-color-base: var(--color-base-teal);
+}
+aside.caution {
+  --aside-color-lightness: 59%;
+  --aside-color-base: var(--color-base-yellow);
+}
+aside.danger {
+  --aside-color-lightness: 54%;
+  --aside-color-base: var(--color-base-red);
+}
+
+:root {
+  --color-base-purple: 269, 79%;
+  --color-purple: var(--color-base-purple), 54%;
+  --color-base-teal: 180, 80%;
+  --color-base-yellow: 41, 100%;
+  --color-base-red: 351, 100%;
+  --color-gray-10: var(--color-base-gray), 10%;
+  --color-gray-90: var(--color-base-gray), 90%;
+  --color-base-gray: 250, 14%;
+}
+
+html[data-theme="light"] {
+  --theme-code-tabs: #22272f;
+  --theme-code-bg: #282c34;
+  --theme-accent-opacity: 0.1;
+  --theme-text: hsla(var(--color-gray-10), 1);
+  --theme-code-text: hsla(var(--color-gray-95), 1);
+}
+
+html[data-theme="dark"] {
+  --theme-code-tabs: #22272f;
+  --theme-code-bg: #282c34;
+  --theme-accent-opacity: 0.4;
+  --theme-text: hsla(var(--color-gray-90), 1);
+  --theme-code-text: hsla(var(--color-base-white), 80%, 1);
+}

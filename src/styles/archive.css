@@ -1,0 +1,68 @@
+html[data-theme="light"] {
+  --archive-color-bg: rgb(251, 254, 251);
+  --archive-color-bg-2: rgb(239, 239, 239);
+  --archive-color-text: rgb(103, 103, 103);
+  --archive-color-accent: rgb(0, 108, 172);
+}
+html[data-theme="dark"] {
+  --archive-color-bg: rgb(32, 32, 32);
+  --archive-color-bg-2: rgb(39, 39, 45);
+  --archive-color-text: rgb(160, 162, 164);
+  --archive-color-accent: rgb(255, 107, 1);
+}
+
+.timeline-wrapper {
+  /* padding: 20px; */
+}
+
+.timeline {
+  position: relative;
+  padding-left: 0px;
+}
+
+.timeline::after {
+  content: "";
+  position: absolute;
+  left: 6.12rem;
+  top: 18px;
+  bottom: 12px;
+  width: 4px;
+  background: #77777733;
+}
+
+.year-text {
+  color: var(--archive-color-text);
+}
+
+.year-small-node {
+  width: 10px;
+  height: 10px;
+  margin-left: -1px;
+  background-color: whitesmoke;
+  border: 2px solid gray;
+  z-index: 1;
+}
+
+.blog-date-text {
+  font-size: 0.8rem;
+  color: var(--archive-color-text);
+}
+
+.blog-small-node {
+  width: 8px;
+  height: 8px;
+  background-color: rgb(194, 198, 204);
+  z-index: 1;
+}
+
+.blog-line-even {
+  background-color: var(--archive-color-bg-2);
+}
+
+.blog-line-odd {
+  background-color: var(--archive-color-bg);
+}
+
+.blog-title-text {
+  color: var(--archive-color-accent);
+}
