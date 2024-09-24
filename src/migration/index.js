@@ -1,4 +1,5 @@
 const fs = require("fs");
+const fsPromise = require("fs").promises;
 const path = require("path");
 const simpleGit = require("simple-git");
 
@@ -14,22 +15,43 @@ const git = simpleGit(sourceDir);
 
 // 定义源目录和目标目录
 // const sourceDir = "../../lindexi-blog/lindexi.github.io/";
-const targetDir = "./migratedBlogs";
+const targetDir = "./src/content/blog";
 if (!fs.existsSync(targetDir)) {
   fs.mkdirSync(targetDir);
 }
 
 /*
 TODO 
-不发表
+图片下载
+文章末尾的声明
+评论接入
 */
 
+async function removeDirContents(dirPath) {
+  const entries = await fsPromise.readdir(dirPath, { withFileTypes: true });
+
+  for (const entry of entries) {
+    const fullPath = path.join(dirPath, entry.name);
+
+    if (entry.isDirectory()) {
+      await removeDirContents(fullPath); // 递归删除子目录
+      await fsPromise.rmdir(fullPath); // 删除空目录
+    } else {
+      await fsPromise.unlink(fullPath); // 删除文件
+    }
+  }
+}
+
 async function getPostTitle(filename, content) {
+  let title = "";
   const titleMatch = content.match(/# (.+)/);
   if (titleMatch) {
-    return titleMatch[1].trim();
+    title = titleMatch[1].trim();
+  } else {
+    title = filename;
   }
-  return filename;
+  title = title.replace(/\[/g, "【").replace(/\]/g, "]");
+  return title;
 }
 
 async function getCreateTime(filePath, content) {
@@ -59,7 +81,8 @@ async function getTags(content) {
     return null;
   }
 
-  const tags = tagsMatch[1].split(/[,，]/).map(tag => tag.trim());
+  let tags = tagsMatch[1].split(/[,，]/).map(tag => tag.trim());
+  tags = tags.filter(t => Boolean(t));
   if (tags.length < 1) {
     return null;
   }
@@ -68,7 +91,6 @@ async function getTags(content) {
 
 async function getSlug(filename) {
   const slug = filename.replace(/#/g, "").replace(/\s+/g, "-");
-
   return slug.substring(0, slug.length - 3);
 }
 
@@ -76,6 +98,14 @@ async function getIsDraft(content) {
   const match = content.match(/<!--\s*不发布\s*-->/);
   return Boolean(match);
 }
+
+async function getNewFilename(createTime, filename) {
+  const prefix = `${(createTime.getMonth() + 1).toString().padStart(2, "0")}${createTime.getDate().toString().padStart(2, "0")}`;
+  const name = filename.replace(/[Cc][#＃]/g, "csharp").replace(/[#＃]/g, "");
+  return `${prefix}-${name}`;
+}
+
+const slugSet = new Set();
 
 async function parseOne(file) {
   if (path.extname(file).toLowerCase() !== ".md") {
@@ -90,8 +120,13 @@ async function parseOne(file) {
   const createTime = await getCreateTime(filePath, content);
   const modTime = await getModifyTime(filePath);
   const tags = await getTags(content);
-  const slug = await getSlug(file);
+  let slug = await getSlug(file);
   const isDraft = await getIsDraft(content);
+
+  while (slugSet.has(slug)) {
+    slug = `${slug}_`;
+  }
+  slugSet.add(slug);
 
   const year = createTime.getFullYear();
   const formattedCreateTime = createTime
@@ -103,7 +138,7 @@ async function parseOne(file) {
     .replace("T", " ")
     .substring(0, 19);
 
-  const newFileName = `${(createTime.getMonth() + 1).toString().padStart(2, "0")}${createTime.getDate().toString().padStart(2, "0")}-${file}`;
+  const newFileName = await getNewFilename(createTime, file);
   const newDir = path.join(targetDir, year.toString());
   const newFilePath = path.join(newDir, newFileName);
 
@@ -137,12 +172,12 @@ ${content}`;
 }
 
 (async () => {
+  await removeDirContents(targetDir);
+
   const files = await fs.readdirSync(sourceDir);
 
-  const test = files[2];
-  parseOne(test);
-
-  //   files.forEach(async file => {
-  //     parseOne(file);
-  //   });
+  files.forEach(async file => {
+    await parseOne(file);
+    console.log(`migrate ${file}`);
+  });
 })();

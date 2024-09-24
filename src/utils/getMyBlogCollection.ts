@@ -16,12 +16,12 @@ export default async function getMyBlogCollection<
       throw Error("slug parse error. no slug?");
     }
 
-    const regex = /^\d+.*/;
-    if (slugWithoutSubPath.match(regex)) {
-      throw Error(
-        `slug cannot start with number, please check. ${slugWithoutSubPath}`
-      );
-    }
+    // const regex = /^\d+.*/;
+    // if (slugWithoutSubPath.match(regex)) {
+    //   throw Error(
+    //     `slug cannot start with number, please check. ${slugWithoutSubPath}`
+    //   );
+    // }
 
     return { ...post, slug: slugWithoutSubPath };
   });

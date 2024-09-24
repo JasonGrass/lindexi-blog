@@ -10,7 +10,8 @@
     "astro": "astro",
     "format:check": "prettier --check . --plugin=prettier-plugin-astro",
     "format": "prettier --write . --plugin=prettier-plugin-astro",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "migrate": "node ./src/migration/index.js"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.1",
