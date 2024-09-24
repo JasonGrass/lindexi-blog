@@ -4,6 +4,7 @@
         "astrojs",
         "Datetime",
         "giscus",
+        "lindexi",
         "rehype",
         "squoosh"
     ],
