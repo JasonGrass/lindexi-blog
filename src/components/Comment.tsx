@@ -22,6 +22,7 @@ const Comments = () => {
   const [mounted, setMounted] = React.useState(false);
   const [theme, setTheme] = React.useState("light");
 
+  // https://vitaneri.com/posts/how-to-integrate-utterances-with-astro
   function toggleUtterancesTheme() {
     if (document.querySelector(".utterances-frame")) {
       const theme =
