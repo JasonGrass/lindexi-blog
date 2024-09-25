@@ -125,6 +125,10 @@
   article#article {
     word-wrap: break-word;
   }
+
+  .utterances {
+    max-width: 100%;
+  }
 }
 
 @layer components {

@@ -1,5 +1,4 @@
 import * as React from "react";
-import Giscus from "@giscus/react";
 
 const id = "inject-comments";
 
@@ -23,6 +22,23 @@ const Comments = () => {
   const [mounted, setMounted] = React.useState(false);
   const [theme, setTheme] = React.useState("light");
 
+  function toggleUtterancesTheme() {
+    if (document.querySelector(".utterances-frame")) {
+      const theme =
+        localStorage.getItem("theme") === "light"
+          ? "github-light"
+          : "github-dark";
+      const message = {
+        type: "set-theme",
+        theme,
+      };
+      const iframe = document.querySelector(
+        ".utterances-frame"
+      ) as HTMLIFrameElement; // omit as HTMLIFrameElement if you're wring JS
+      iframe?.contentWindow?.postMessage(message, "https://utteranc.es");
+    }
+  }
+
   React.useEffect(() => {
     const theme = getSavedTheme() || getSystemTheme();
     setTheme(theme);
@@ -45,25 +61,33 @@ const Comments = () => {
     setMounted(true);
   }, []);
 
+  React.useEffect(() => {
+    const script = document.createElement("script");
+    const container = document.querySelector("#utterances-container");
+
+    // Set configurations
+    Object.entries({
+      src: "https://utteranc.es/client.js",
+      repo: "lindexi/lindexi",
+      "issue-term": "title",
+      label: "💬",
+      theme: theme == "light" ? "github-light" : "github-dark",
+      crossorigin: "anonymous",
+      async: "true",
+    }).forEach(([key, value]) => {
+      script.setAttribute(key, value);
+    });
+
+    container?.appendChild(script);
+  }, [mounted]);
+
+  React.useEffect(() => {
+    toggleUtterancesTheme();
+  }, [theme]);
+
   return (
     <div id={id} className="w-full">
-      {mounted ? (
-        <Giscus
-          id={id}
-          repo="JasonGrass/blog-discussions"
-          repoId="R_kgDOMh8Hmg"
-          category="Announcements"
-          categoryId="DIC_kwDOMh8Hms4ChiRX"
-          mapping="title"
-          strict="0"
-          reactionsEnabled="1"
-          emitMetadata="0"
-          inputPosition="top"
-          lang="zh-CN"
-          loading="lazy"
-          theme={theme}
-        />
-      ) : null}
+      {mounted ? <div id="utterances-container"></div> : null}
     </div>
   );
 };
