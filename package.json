@@ -23,6 +23,7 @@
     "astro": "^4.13.0",
     "astro-auto-import": "^0.4.2",
     "astro-expressive-code": "^0.35.6",
+    "axios": "^1.7.7",
     "fuse.js": "^7.0.0",
     "github-slugger": "^2.0.0",
     "rehype-external-links": "^3.0.0",
