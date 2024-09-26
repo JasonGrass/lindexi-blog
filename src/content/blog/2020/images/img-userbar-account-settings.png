@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html data-color-mode="auto" data-light-theme="light" data-dark-theme="dark" lang="en">
+  <head>
+    <title>Sign in for Software Support and Product Help - GitHub Support</title>
+    <meta name="description" content="Access your support options and sign in to your account for GitHub software support and product assistance. Get the help you need from our dedicated support team.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="user-login" content="">
+    <meta name="expected-hostname" content="support.github.com">
+    <meta name="websocket-host" content="ws.support.github.com">
+    <meta name="google-site-verification" content="c1kuD-K2HIVF635lypcsWPoD4kilo5-jA_wBFyT4uMY">
+    <meta name="google-site-verification" content="SbDPjtKE1pAlvFCFUOgfnEnGPyTvaKv7GFAde5CXRDc">
+    <meta name="google-site-verification" content="qNLEvwNINhFvLLt0ILXmGxcqj5670HrDShAapt0YTxQ">
+    <meta name="analytics-v2">
+    
+    <meta name="unmask-data" content="true">
+    <link rel="icon" type="image/x-icon" href="https://support-assets.githubassets.com/assets/favicon-ae8bf9f35cb1154c4ec648bff9dca997c6a465404d26d05a825d2aafc1131bd7.ico" />
+    <link rel="stylesheet" href="https://support-assets.githubassets.com/assets/frameworks-dd555c4555fe9eba0247446f8d53b887004ec03f6da8de825f132e4bb1034c20.css" media="all" />
+    <link rel="stylesheet" href="https://support-assets.githubassets.com/assets/main-16bccc0787a021d2555997d577dd4d8b58b060495d93365ec2a5c20fac44aecf.css" media="all" />
+    <link rel="stylesheet" href="https://support-assets.githubassets.com/assets/footer-ca76482898bcdf8217bc629a8765b65a65a1afdf986e1c7c731e04daa24b20bd.css" media="all" />
+    
+    <noscript><link rel="stylesheet" href="https://support-assets.githubassets.com/assets/noscript-924d3b7092f08eead0c93be8ab8c5683495244312eab41b6040251c1b85a7a4b.css" media="all" /></noscript>
+      <link rel="stylesheet" href="https://support-assets.githubassets.com/assets/primer-brand-da26861349ac91103100a85a9dc8f3dfe7279a28521005aed338b94e5deffad9.css" media="all" />
+
+  </head>
+  <body class="dotcom" data-layout-version="1">
+    <navigation-menu class="Header flex-wrap flex-md-nowrap flex-justify-center flex-md-justify-between color-bg-header color-fg-on-emphasis" role="banner"
+    premium-notifications-url="/premium/notifications"
+    user-load-url="/_user/load"
+    user-uncached="false">
+      <div class="Header-item mr-0 ml-md-3 fs-unmask">
+        <a href="/" class="d-flex flex-items-center text-semibold no-underline Header-link">
+          <div aria-hidden="true" class="mr-2"><svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true" class="octicon octicon-mark-github">
+    <path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"></path>
+</svg></div>
+          <div class="f4 no-wrap">GitHub Support</div>
+        </a>
+      </div>
+    </navigation-menu>
+    
+    
+    <div class='spinner-wrapper-component-wrapper'>
+  <div data-react-class="route-landing" data-react-props="{&quot;signInClickEvent&quot;:{&quot;event-click&quot;:&quot;eyJ0eXBlIjoicmVmZXJyYWxfY2xpY2siLCJjYXRlZ29yeSI6IklOVEVSTkFMX1JFU09VUkNFIiwic291cmNlIjoiSU5URVJOQUwiLCJwYXRoIjpudWxsLCJ0YXJnZXQiOiJyZXF1ZXN0X3NpZ25faW5fYnV0dG9uIiwiZG9jc190b3BpY3MiOm51bGwsInNlYXJjaF9xdWVyeSI6bnVsbH0=&quot;,&quot;event-hmac&quot;:&quot;05f9f19977399a13bd667dec8ec4258bb20d34c9f043d99c48530ac9d33a4a32&quot;},&quot;signInProximaClickEvent&quot;:{&quot;event-click&quot;:&quot;eyJ0eXBlIjoicmVmZXJyYWxfY2xpY2siLCJjYXRlZ29yeSI6IklOVEVSTkFMX1JFU09VUkNFIiwic291cmNlIjoiSU5URVJOQUwiLCJwYXRoIjpudWxsLCJ0YXJnZXQiOiJyZXF1ZXN0X3NpZ25faW5fcHJveGltYV9idXR0b24iLCJkb2NzX3RvcGljcyI6bnVsbCwic2VhcmNoX3F1ZXJ5IjpudWxsfQ==&quot;,&quot;event-hmac&quot;:&quot;61e4ddae7f51f0c5a078f7b99ed6b205d997e9fd51371f1caa59c9366117e621&quot;},&quot;signUpClickEvent&quot;:{&quot;event-click&quot;:&quot;eyJ0eXBlIjoicmVmZXJyYWxfY2xpY2siLCJjYXRlZ29yeSI6IklOVEVSTkFMX1JFU09VUkNFIiwic291cmNlIjoiSU5URVJOQUwiLCJwYXRoIjpudWxsLCJ0YXJnZXQiOiJyZXF1ZXN0X3NpZ25fdXBfYnV0dG9uIiwiZG9jc190b3BpY3MiOm51bGwsInNlYXJjaF9xdWVyeSI6bnVsbH0=&quot;,&quot;event-hmac&quot;:&quot;7f0915927c037073142b327fbbb6dcae12e32eff78b958a6f9a1142add64fa6d&quot;},&quot;cannotSignInClickEvent&quot;:{&quot;event-click&quot;:&quot;eyJ0eXBlIjoicmVmZXJyYWxfY2xpY2siLCJjYXRlZ29yeSI6IklOVEVSTkFMX1JFU09VUkNFIiwic291cmNlIjoiSU5URVJOQUwiLCJwYXRoIjpudWxsLCJ0YXJnZXQiOiJyZXF1ZXN0X2Nhbm5vdF9zaWduX2luX2xpbmsiLCJkb2NzX3RvcGljcyI6bnVsbCwic2VhcmNoX3F1ZXJ5IjpudWxsfQ==&quot;,&quot;event-hmac&quot;:&quot;933d34bdcd449bb94de6ad5faa37632dc960713ad445f315c2ceba7cb3fb089c&quot;},&quot;returnToURL&quot;:null,&quot;proximaEnabled&quot;:false,&quot;proximaDomain&quot;:&quot;.ghe.com&quot;}" data-react-cache-id="route-landing-0"></div>
+  <div class='spinner-wrapper-component-spinner'>
+    <svg style="box-sizing: content-box; color: var(--color-icon-primary);" width="64" height="64" viewBox="0 0 16 16" fill="none" data-view-component="true" class="anim-rotate">
+  <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-opacity="0.25" stroke-width="2" vector-effect="non-scaling-stroke" />
+  <path d="M15 8a7.002 7.002 0 00-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke" />
+</svg>
+  </div>
+</div>
+
+
+    <footer role="contentinfo">
+      
+      <div class="global-footer color-bg-subtle fs-unmask">
+  <div class="container-xl p-responsive f6 py-4 d-sm-flex flex-justify-between flex-row flex-items-center">
+    <ul class="list-style-none d-flex flex-wrap color-fg-muted">
+      <li class="mr-3"> &copy; 2024 GitHub, Inc.</li>
+      <li class="mr-3">
+        <a class="Link--secondary" data-event-click="eyJ0eXBlIjoicmVmZXJyYWxfY2xpY2siLCJjYXRlZ29yeSI6IkRPQ1VNRU5UQVRJT04iLCJzb3VyY2UiOiJTT1VSQ0VfVU5LTk9XTiIsInBhdGgiOiJodHRwczovL2RvY3MuZ2l0aHViLmNvbS9hcnRpY2xlcy9naXRodWItdGVybXMtb2Ytc2VydmljZSIsInRhcmdldCI6bnVsbCwiZG9jc190b3BpY3MiOm51bGwsInNlYXJjaF9xdWVyeSI6bnVsbH0=" data-event-hmac="586307a2e94214a7bf82dbc844e869be6d8ead4cd17e22007773fea6d35449c2" href="https://docs.github.com/articles/github-terms-of-service">Terms</a>
+      </li>
+      <li class="mr-3">
+        <a class="Link--secondary" data-event-click="eyJ0eXBlIjoicmVmZXJyYWxfY2xpY2siLCJjYXRlZ29yeSI6IkRPQ1VNRU5UQVRJT04iLCJzb3VyY2UiOiJTT1VSQ0VfVU5LTk9XTiIsInBhdGgiOiJodHRwczovL2RvY3MuZ2l0aHViLmNvbS9hcnRpY2xlcy9naXRodWItcHJpdmFjeS1zdGF0ZW1lbnQiLCJ0YXJnZXQiOm51bGwsImRvY3NfdG9waWNzIjpudWxsLCJzZWFyY2hfcXVlcnkiOm51bGx9" data-event-hmac="2cd08fdbdf594dc80737918fade0f0012d7ae9f75c6385c4545d1110d1200348" href="https://docs.github.com/articles/github-privacy-statement">Privacy</a>
+      </li>
+      <li>
+          <a class="Link--secondary" data-event-click="eyJ0eXBlIjoicmVmZXJyYWxfY2xpY2siLCJjYXRlZ29yeSI6IkRPQ1VNRU5UQVRJT04iLCJzb3VyY2UiOiJTT1VSQ0VfVU5LTk9XTiIsInBhdGgiOiJodHRwczovL2RvY3MuZ2l0aHViLmNvbS9zdXBwb3J0L2NvbnRhY3RpbmctZ2l0aHViLXN1cHBvcnQiLCJ0YXJnZXQiOm51bGwsImRvY3NfdG9waWNzIjpudWxsLCJzZWFyY2hfcXVlcnkiOm51bGx9" data-event-hmac="d46413fe563f2fb05057c256acfb4915c3268caa4a2f319c9e2d22f130b1abcf" href="https://docs.github.com/support/contacting-github-support">Contacting Support</a>
+      </li>
+      <li>
+        <div data-react-class="cookie-consent/preference-links" data-react-props="{}" data-react-cache-id="cookie-consent/preference-links-0"></div>
+      </li>
+    </ul>
+    <ul class="list-style-none d-flex flex-items-center mb-3 mb-sm-0 lh-condensed-ultra">
+      <li class="mr-3">
+        <a href="https://twitter.com/github" class="color-fg-subtle">
+          <img src="https://support-assets.githubassets.com/assets/footer/twitter-e917c2c412b92ec2aa9bf1c34e5a15d88b8a3d4c37d70b4e5ef49934b4627c3c.svg" loading="lazy" decoding="async" alt="Twitter icon" width="22" height="18">
+          <span class="sr-only"></span>
+        </a>
+      </li>
+      <li class="mr-3">
+        <a href="https://www.facebook.com/GitHub" class="color-fg-subtle">
+          <img src="https://support-assets.githubassets.com/assets/footer/facebook-8a9b70f6191aaf5bf8c6ef5c164d8aa7f15fe64a5844b6b7c2e624618ad87090.svg" loading="lazy" decoding="async" alt="Facebook icon" width="18" height="18">
+          <span class="sr-only"></span>
+        </a>
+      </li>
+      <li class="mr-3 flex-self-start">
+        <a href="https://www.linkedin.com/company/github" class="color-fg-subtle">
+          <img src="https://support-assets.githubassets.com/assets/footer/linkedin-06682d5635c240179c5de196a824d6068804381267a94e554cd1c543f5551368.svg" loading="lazy" decoding="async" alt="Linkedin icon" width="19" height="18">
+          <span class="sr-only">GitHub on LinkedIn</span>
+        </a>
+      </li>
+      <li class="mr-3">
+        <a href="https://www.youtube.com/github" class="color-fg-subtle">
+          <img src="https://support-assets.githubassets.com/assets/footer/youtube-1b52fa5bdcccc9f87b32725a2b8d58bb5e4f0a0d060a4c99cd42e124230f7535.svg" loading="lazy" decoding="async" alt="YouTube icon" width="23" height="16">
+          <span class="sr-only">GitHub on YouTube</span>
+        </a>
+      </li>
+      <li class="mr-3">
+        <a href="https://www.twitch.tv/github" class="color-fg-subtle">
+          <img src="https://support-assets.githubassets.com/assets/footer/twitch-92521e2712d2a7e7ea7c6b17c5755f67389153105a13e8c565c5485d7ec42949.svg" loading="lazy" decoding="async" alt="Twitch icon" width="18" height="18">
+          <span class="sr-only">GitHub on Twitch</span>
+        </a>
+      </li>
+      <li class="mr-3">
+        <a href="https://www.tiktok.com/@github" class="color-fg-subtle">
+          <img src="https://support-assets.githubassets.com/assets/footer/tiktok-a6927eeb1abdea71d02ff4435fca283170edfc6feb11ebba5e97bc95f23d6178.svg" loading="lazy" decoding="async" alt="TikTok icon" width="18" height="18">
+          <span class="sr-only">GitHub on TikTok</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com" class="color-fg-subtle">
+          <img src="https://support-assets.githubassets.com/assets/footer/github-mark-424ea80dd2a2cf11590985f4fd7471fe66f03bf247f7473584c484512a986f44.svg" loading="lazy" decoding="async" alt="GitHub mark" width="20" height="20">
+          <span class="sr-only">Back to GitHub.com</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+    </footer>
+      <div data-react-class="cookie-consent/banner" data-react-props="{&quot;events&quot;:{&quot;acceptedEvent&quot;:{&quot;event_change&quot;:&quot;eyJ0eXBlIjoiY29va2llX2NvbnNlbnRfYmFubmVyX2V2ZW50IiwiZXZlbnQiOiJBQ0NFUFRFRCJ9&quot;,&quot;event_hmac&quot;:&quot;480841fc923b320eba492644ee12df6b1d97e65ebbcc457bf21aa40fbb5174b2&quot;},&quot;rejectedEvent&quot;:{&quot;event_change&quot;:&quot;eyJ0eXBlIjoiY29va2llX2NvbnNlbnRfYmFubmVyX2V2ZW50IiwiZXZlbnQiOiJSRUpFQ1RFRCJ9&quot;,&quot;event_hmac&quot;:&quot;282b0aab8a9dff300c2bae61cbba2939517b3d4300755ac904b33653ed5b98a9&quot;},&quot;displayedEvent&quot;:{&quot;event_change&quot;:&quot;eyJ0eXBlIjoiY29va2llX2NvbnNlbnRfYmFubmVyX2V2ZW50IiwiZXZlbnQiOiJESVNQTEFZRUQifQ==&quot;,&quot;event_hmac&quot;:&quot;eca445acc2ba733c290a01eb70025595a58d23b19a0d2602c43f63ca1d5ebdce&quot;},&quot;notDisplayedEvent&quot;:{&quot;event_change&quot;:&quot;eyJ0eXBlIjoiY29va2llX2NvbnNlbnRfYmFubmVyX2V2ZW50IiwiZXZlbnQiOiJOT1RfRElTUExBWUVEIn0=&quot;,&quot;event_hmac&quot;:&quot;a84d10eaaa13d05c39d2608937a87ff0b3295fe34233da6470cc600b1768c4f9&quot;}},&quot;fullStoryPath&quot;:&quot;https://support-assets.githubassets.com/assets/fs-b1944bc4d372a1afc5e0d6667ceb726fb9112b3840259fdc708d78b983891552.js&quot;,&quot;environment&quot;:&quot;production&quot;}" data-react-cache-id="cookie-consent/banner-0"></div>
+    
+    
+    <script src="https://support-assets.githubassets.com/packs/js/runtime-a9161a29d16d7e25094e.js" crossorigin="anonymous" webpack_public_path="https://support-assets.githubassets.com/packs/" defer="defer"></script>
+<script src="https://support-assets.githubassets.com/packs/js/263-c283fefbc51e42b1f214.js" crossorigin="anonymous" webpack_public_path="https://support-assets.githubassets.com/packs/" defer="defer"></script>
+<script src="https://support-assets.githubassets.com/packs/js/643-be3a2ecca4b26e045467.js" crossorigin="anonymous" webpack_public_path="https://support-assets.githubassets.com/packs/" defer="defer"></script>
+<script src="https://support-assets.githubassets.com/packs/js/analytics-88cb963b26408abf5016.js" crossorigin="anonymous" webpack_public_path="https://support-assets.githubassets.com/packs/" defer="defer"></script>
+<script src="https://support-assets.githubassets.com/packs/js/636-6cb520a0b57f39d3ab2f.js" crossorigin="anonymous" webpack_public_path="https://support-assets.githubassets.com/packs/" defer="defer"></script>
+<script src="https://support-assets.githubassets.com/packs/js/919-4b88698cbc67ad0a4d01.js" crossorigin="anonymous" webpack_public_path="https://support-assets.githubassets.com/packs/" defer="defer"></script>
+<script src="https://support-assets.githubassets.com/packs/js/813-e9cbd45c26fc2171d409.js" crossorigin="anonymous" webpack_public_path="https://support-assets.githubassets.com/packs/" defer="defer"></script>
+<script src="https://support-assets.githubassets.com/packs/js/694-b778ffb8d39fb1fb293a.js" crossorigin="anonymous" webpack_public_path="https://support-assets.githubassets.com/packs/" defer="defer"></script>
+<script src="https://support-assets.githubassets.com/packs/js/application-95c7094bb863afab5a5a.js" crossorigin="anonymous" webpack_public_path="https://support-assets.githubassets.com/packs/" defer="defer"></script>
+<script src="https://support-assets.githubassets.com/packs/js/987-9f7e64c207247e046a58.js" crossorigin="anonymous" webpack_public_path="https://support-assets.githubassets.com/packs/" defer="defer"></script>
+<script src="https://support-assets.githubassets.com/packs/js/react-71acd627eae54d38a3c5.js" crossorigin="anonymous" webpack_public_path="https://support-assets.githubassets.com/packs/" defer="defer"></script>
+    
+  </body>
+</html>

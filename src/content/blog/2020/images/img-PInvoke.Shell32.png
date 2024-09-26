@@ -1,0 +1,1856 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="canonical" href="https://www.nuget.org/packages/PInvoke.Shell32">
+
+    
+            <meta property="fb:app_id" content="235682883225736" />
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@nuget">
+        <meta property="og:title" content="PInvoke.Shell32 0.7.124" />
+        <meta property="og:type" content="nugetgallery:package" />
+        <meta property="og:url" content="https://nuget.org/packages/PInvoke.Shell32/" />
+        <meta property="og:description" content="P/Invoke methods for the Windows Shell32.dll." />
+        <meta property="og:determiner" content="a" />
+        <meta property="og:image" content="https://nuget.org/Content/gallery/img/default-package-icon-256x256.png" />
+            <link rel="alternate" type="application/atom+xml" title="Subscribe to PInvoke.Shell32 updates" href="/packages/PInvoke.Shell32/atom.xml" />
+
+    
+        <meta name="description" content="P/Invoke methods for the Windows Shell32.dll.">
+
+
+    <title>
+        NuGet Gallery
+        | PInvoke.Shell32 0.7.124
+    </title>
+
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <link title="NuGet.org" type="application/opensearchdescription+xml" href="/opensearch.xml" rel="search">
+
+    <link href="/Content/gallery/css/site.min.css?v=LX-BE9-fuA5am-OHwMz2A97NR9weGSkaB4-JsuQOnjQ1" rel="stylesheet"/>
+
+    <link href="/Content/gallery/css/bootstrap.min.css" rel="stylesheet"/>
+
+
+    <script>
+        // Check the browser preferred color scheme
+        const prefersDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        const defaultTheme = prefersDarkMode ? "dark" : "light";
+        const preferredTheme = localStorage.getItem("theme")
+
+        // Check if the localStorage item is set, if not set it to the system theme
+        if (!preferredTheme || !(preferredTheme === "dark" || preferredTheme === "light")) {
+            localStorage.setItem("theme", "system");
+        }
+
+        if (preferredTheme === "light" || preferredTheme === "dark") {
+            document.documentElement.setAttribute('data-theme', preferredTheme);
+        }
+        else {
+            document.documentElement.setAttribute('data-theme', defaultTheme);
+        }
+    </script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    
+    
+    
+    
+                <script type="text/javascript">
+                var appInsights = window.appInsights || function (config) {
+                    function s(config) {
+                        t[config] = function () {
+                            var i = arguments;
+                            t.queue.push(function () { t[config].apply(t, i) })
+                        }
+                    }
+
+                    var t = { config: config }, r = document, f = window, e = "script", o = r.createElement(e), i, u;
+                    for (o.src = config.url || "//az416426.vo.msecnd.net/scripts/a/ai.0.js", r.getElementsByTagName(e)[0].parentNode.appendChild(o), t.cookie = r.cookie, t.queue = [], i = ["Event", "Exception", "Metric", "PageView", "Trace"]; i.length;) s("track" + i.pop());
+                    return config.disableExceptionTracking || (i = "onerror", s("_" + i), u = f[i], f[i] = function (config, r, f, e, o) {
+                        var s = u && u(config, r, f, e, o);
+                        return s !== !0 && t["_" + i](config, r, f, e, o), s
+                    }), t
+                }({
+                    instrumentationKey: 'df3a36b9-dfba-401c-82ab-35690083be3e',
+                    samplingPercentage: 100
+                });
+
+                window.appInsights = appInsights;
+                appInsights.trackPageView();
+            </script>
+
+</head>
+<body >
+    
+
+<div id="cookie-banner"></div>
+
+
+
+
+<nav class="navbar navbar-inverse" role="navigation">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <a href="#" id="skipToContent" class="showOnFocus" title="Skip To Content">Skip To Content</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="/" class="home-link">
+                        <div class="navbar-logo nuget-logo-image" alt="NuGet home" role="img" aria-label="NuGet Home"     onerror="this.src='https://nuget.org/Content/gallery/img/logo-header-94x29.png'; this.onerror = null;"
+></div>
+                    </a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav" role="tablist">
+                            <li class="active" role="presentation">
+        <a role="tab" aria-selected="true" href="/packages">
+            <span>Packages</span>
+        </a>
+    </li>
+
+                            <li class="" role="presentation">
+        <a role="tab" aria-selected="false" href="/packages/manage/upload">
+            <span>Upload</span>
+        </a>
+    </li>
+
+    <li class="" role="presentation">
+        <a role="tab" aria-selected="false" href="/stats">
+            <span>Statistics</span>
+        </a>
+    </li>
+                                                    <li class="" role="presentation">
+        <a role="tab" aria-selected="false" href="https://docs.microsoft.com/nuget/">
+            <span>Documentation</span>
+        </a>
+    </li>
+
+                            <li class="" role="presentation">
+        <a role="tab" aria-selected="false" href="/downloads">
+            <span>Downloads</span>
+        </a>
+    </li>
+
+                            <li class="" role="presentation">
+        <a role="tab" aria-selected="false" href="https://blog.nuget.org/">
+            <span>Blog</span>
+        </a>
+    </li>
+
+                    </ul>
+                        <ul class="nav navbar-nav navbar-right" role="tablist">
+    <li class="" role="presentation">
+        <a role="tab" aria-selected="false" href="/users/account/LogOn?returnUrl=%2Fpackages%2FPInvoke.Shell32" title="Sign in to an existing NuGet.org account">
+            <span>Sign in</span>
+        </a>
+    </li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div id="search-bar-header" class="container search-container">
+            <div class="row">
+                <form aria-label="Package search bar" class="col-sm-12" action="/packages" method="get">
+                    <div class="input-group">
+    <input name="q" type="text" class="form-control input-brand" id="search" aria-label="Enter packages to search"
+           placeholder="Search for packages..." autocomplete="off"
+           value=""
+            />
+    <span class="input-group-btn">
+        <button class="btn btn-brand btn-search" type="submit"
+                title="Search for packages" aria-label="Search">
+            <span class="ms-Icon ms-Icon--Search" aria-hidden="true"></span>
+        </button>
+    </span>
+</div>
+                    <div id="autocomplete-results-container" class="text-left" tabindex="0"></div>
+
+<script type="text/html" id="autocomplete-results-row">
+    <!-- ko if: $data -->
+    <!-- ko if: $data.PackageRegistration -->
+    <div class="col-sm-4 autocomplete-row-id autocomplete-row-data">
+        <span data-bind="attr: { id: 'autocomplete-result-id-' + $data.PackageRegistration.Id, title: $data.PackageRegistration.Id }, text: $data.PackageRegistration.Id"></span>
+    </div>
+    <div class="col-sm-4 autocomplete-row-downloadcount text-right autocomplete-row-data">
+        <span data-bind="text: $data.DownloadCount + ' downloads'"></span>
+    </div>
+    <div class="col-sm-4 autocomplete-row-owners text-left autocomplete-row-data">
+        <span data-bind="text: $data.OwnersString + ' '"></span>
+    </div>
+    <!-- /ko -->
+    <!-- ko ifnot: $data.PackageRegistration -->
+    <div class="col-sm-12 autocomplete-row-id autocomplete-row-data">
+        <span data-bind="attr: { id: 'autocomplete-result-id-' + $data, title: $data  }, text: $data"></span>
+    </div>
+    <!-- /ko -->
+    <!-- /ko -->
+</script>
+
+<script type="text/html" id="autocomplete-results-template">
+    <!-- ko if: $data.data.length > 0 -->
+    <div data-bind="foreach: $data.data" id="autocomplete-results-list">
+        <a data-bind="attr: { id: 'autocomplete-result-row-' + $data, href: '/packages/' + $data, title: $data }" tabindex="-1">
+            <div data-bind="attr:{ id: 'autocomplete-container-' + $data }" class="autocomplete-results-row">
+            </div>
+        </a>
+    </div>
+    <!-- /ko -->
+</script>
+
+                </form>
+            </div>
+        </div>
+</nav>
+
+
+
+
+
+
+    <div id="skippedToContent">
+    
+
+
+
+
+
+
+
+
+
+
+<section role="main" class="container main-container page-package-details">
+    <div class="row">
+        <div class="col-sm-9 package-details-main">
+            <div class="package-header">
+                    <div class="package-title">
+                        <h1>
+                            <span class="pull-left">
+                                <img class="package-icon img-responsive package-default-icon" aria-hidden="true" alt=""     onerror="this.src='https://nuget.org/Content/gallery/img/default-package-icon-256x256.png'; this.onerror = null;"
+ />
+                            </span>
+                            <span class="title">
+                                PInvoke.<wbr>Shell32
+                            </span>
+                            <span class="version-title">
+                                0.7.124
+                            </span>
+                        </h1>
+
+                            <span class="prefix-reserve-title">
+                                <i class="ms-Icon ms-Icon--SkypeCircleCheck reserved-indicator" data-content="The ID prefix of this package has been reserved for one of the owners of this package by NuGet.org." tabindex="0"
+                                   alt="The ID prefix of this package has been reserved for one of the owners of this package by NuGet.org."></i>
+                                <a href="https://docs.microsoft.com/nuget/nuget-org/id-prefix-reservation" class="prefix-reserve-label">
+                                    Prefix Reserved
+                                </a>
+                            </span>
+                    </div>
+
+
+
+
+
+
+<div class="framework framework-badges">
+            <a href=/packages/PInvoke.Shell32#supportedframeworks-body-tab
+       >
+        <span class=framework-badge-asset>
+            .NET Standard 2.0
+        </span>
+        <span class="tooltip-block">
+            <span class="tooltip-wrapper popover right" role="tooltip">
+                <span class="arrow"></span>
+                <span class="popover-content">
+                    This package targets .NET Standard 2.0. The package is compatible with this framework or higher.
+                </span>
+            </span>
+        </span>
+    </a>
+        <a href=/packages/PInvoke.Shell32#supportedframeworks-body-tab
+       >
+        <span class=framework-badge-asset>
+            .NET Framework 4.5
+        </span>
+        <span class="tooltip-block">
+            <span class="tooltip-wrapper popover right" role="tooltip">
+                <span class="arrow"></span>
+                <span class="popover-content">
+                    This package targets .NET Framework 4.5. The package is compatible with this framework or higher.
+                </span>
+            </span>
+        </span>
+    </a>
+</div>
+
+
+
+
+<div class="deprecation-container">
+    <div class="icon-text alert alert-brand-warning">
+        <div id="show-deprecation-content-container" class="deprecation-expander" tabindex="0" data-toggle="collapse" data-target="#deprecation-content-container" aria-expanded="false" aria-controls="deprecation-content-container" aria-labelledby="deprecation-container-label" role="button">
+            <div class="deprecation-expander" role="button">
+                <div class="deprecation-expander-container">
+                    <i class="deprecation-expander-icon ms-Icon ms-Icon--Warning" aria-hidden="true"></i>
+
+                    <div id="deprecation-container-label" class="deprecation-expander-info-right">
+                                This package has been deprecated as it is <b>legacy</b> and is no longer maintained.
+
+                    </div>
+                </div>
+
+                <div class="deprecation-expander-container">
+                    <i id="deprecation-expander-icon-right" class="deprecation-expander-icon deprecation-expander-info-right ms-Icon ms-Icon--ChevronUp" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="deprecation-content-container collapse in" id="deprecation-content-container">
+                <b>Suggested Alternatives</b>
+                <p><a href="/packages/Microsoft.Windows.CsWin32/">Microsoft.Windows.CsWin32</a></p>
+
+                <b>Additional Details</b>
+                <p>CsWin32 provides complete Win32 SDK and WDK APIs, generated exactly as needed by your library or application, without any added runtime dependencies. See <a href="https://github.com/dotnet/pinvoke/issues/565" rel="nofollow">https://github.com/dotnet/pinvoke/issues/565</a> for details.</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+                    <div class="install-tabs">
+                        <ul class="nav nav-tabs" role="tablist">
+
+    <li role="presentation" class="active">
+        <a href="#dotnet-cli"
+           id="dotnet-cli-tab" class="package-manager-tab"
+           aria-selected="true" tabindex="0"
+           aria-controls="dotnet-cli" role="tab" data-toggle="tab"
+           title="Switch to tab panel which contains package installation command for .NET CLI">
+            .NET CLI
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a href="#package-manager"
+           id="package-manager-tab" class="package-manager-tab"
+           aria-selected="false" tabindex="-1"
+           aria-controls="package-manager" role="tab" data-toggle="tab"
+           title="Switch to tab panel which contains package installation command for Package Manager">
+            Package Manager
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a href="#package-reference"
+           id="package-reference-tab" class="package-manager-tab"
+           aria-selected="false" tabindex="-1"
+           aria-controls="package-reference" role="tab" data-toggle="tab"
+           title="Switch to tab panel which contains package installation command for PackageReference">
+            PackageReference
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a href="#paket-cli"
+           id="paket-cli-tab" class="package-manager-tab"
+           aria-selected="false" tabindex="-1"
+           aria-controls="paket-cli" role="tab" data-toggle="tab"
+           title="Switch to tab panel which contains package installation command for Paket CLI">
+            Paket CLI
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a href="#script-interactive"
+           id="script-interactive-tab" class="package-manager-tab"
+           aria-selected="false" tabindex="-1"
+           aria-controls="script-interactive" role="tab" data-toggle="tab"
+           title="Switch to tab panel which contains package installation command for Script &amp; Interactive">
+            Script &amp; Interactive
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a href="#cake"
+           id="cake-tab" class="package-manager-tab"
+           aria-selected="false" tabindex="-1"
+           aria-controls="cake" role="tab" data-toggle="tab"
+           title="Switch to tab panel which contains package installation command for Cake">
+            Cake
+        </a>
+    </li>
+                        </ul>
+                        <div class="tab-content">
+
+    <div role="tabpanel" class="tab-pane active" id="dotnet-cli">
+        <div class="install-script-row">
+
+            
+            <pre class="install-script" id="dotnet-cli-text"><span class="install-command-row">dotnet add package PInvoke.Shell32 --version 0.7.124</span>                <div class="copy-button">
+                    <button id="dotnet-cli-button" class="btn btn-brand-icon" type="button" 
+                    data-toggle="popover" data-placement="bottom" data-content="Copied."
+                    aria-label="Copy the .NET CLI command" role="button">
+                        <span class="ms-Icon ms-Icon--Copy" aria-hidden="true"></span>
+                        <span>Copy</span>
+                    </button>
+                </div>
+            </pre>
+        </div>
+
+    </div>
+    <div role="tabpanel" class="tab-pane " id="package-manager">
+        <div class="install-script-row">
+
+            
+            <pre class="install-script" id="package-manager-text"><span class="install-command-row">NuGet\Install-Package PInvoke.Shell32 -Version 0.7.124</span>                <div class="copy-button">
+                    <button id="package-manager-button" class="btn btn-brand-icon" type="button" 
+                    data-toggle="popover" data-placement="bottom" data-content="Copied."
+                    aria-label="Copy the Package Manager command" role="button">
+                        <span class="ms-Icon ms-Icon--Copy" aria-hidden="true"></span>
+                        <span>Copy</span>
+                    </button>
+                </div>
+            </pre>
+        </div>
+
+    <div class="icon-text alert alert-brand-info" >
+        <i class="ms-Icon ms-Icon--Info" aria-hidden="true"></i>
+        
+This command is intended to be used within the Package Manager Console in Visual Studio, as it uses the NuGet module's version of <a href='https://docs.microsoft.com/nuget/reference/ps-reference/ps-ref-install-package'>Install-Package</a>.
+                    
+    </div>
+    </div>
+    <div role="tabpanel" class="tab-pane " id="package-reference">
+        <div class="install-script-row">
+
+            
+            <pre class="install-script" id="package-reference-text"><span class="install-command-row">&lt;PackageReference Include=&quot;PInvoke.Shell32&quot; Version=&quot;0.7.124&quot; /&gt;</span>                <div class="copy-button">
+                    <button id="package-reference-button" class="btn btn-brand-icon" type="button" 
+                    data-toggle="popover" data-placement="bottom" data-content="Copied."
+                    aria-label="Copy the PackageReference XML node" role="button">
+                        <span class="ms-Icon ms-Icon--Copy" aria-hidden="true"></span>
+                        <span>Copy</span>
+                    </button>
+                </div>
+            </pre>
+        </div>
+
+    <div class="icon-text alert alert-brand-info" >
+        <i class="ms-Icon ms-Icon--Info" aria-hidden="true"></i>
+        
+For projects that support <a href="https://docs.microsoft.com/nuget/consume-packages/package-references-in-project-files">PackageReference</a>, copy this XML node into the project file to reference the package.
+                    
+    </div>
+    </div>
+    <div role="tabpanel" class="tab-pane " id="paket-cli">
+        <div class="install-script-row">
+
+            
+            <pre class="install-script" id="paket-cli-text"><span class="install-command-row">paket add PInvoke.Shell32 --version 0.7.124</span>                <div class="copy-button">
+                    <button id="paket-cli-button" class="btn btn-brand-icon" type="button" 
+                    data-toggle="popover" data-placement="bottom" data-content="Copied."
+                    aria-label="Copy the Paket CLI command" role="button">
+                        <span class="ms-Icon ms-Icon--Copy" aria-hidden="true"></span>
+                        <span>Copy</span>
+                    </button>
+                </div>
+            </pre>
+        </div>
+
+    <div class="icon-text alert alert-brand-warning"   role="alert" aria-live="assertive"  >
+        <i class="ms-Icon ms-Icon--Warning" aria-hidden="true"></i>
+        
+<b display="none" aria-label="warning" role="alert"></b> The NuGet Team does not provide support for this client. Please contact its <a href="https://fsprojects.github.io/Paket/contact.html" aria-label="Contact the maintainers of the Paket CLI client">maintainers</a> for support.
+                    
+    </div>
+    </div>
+    <div role="tabpanel" class="tab-pane " id="script-interactive">
+        <div class="install-script-row">
+
+            
+            <pre class="install-script" id="script-interactive-text"><span class="install-command-row">#r &quot;nuget: PInvoke.Shell32, 0.7.124&quot;</span>                <div class="copy-button">
+                    <button id="script-interactive-button" class="btn btn-brand-icon" type="button" 
+                    data-toggle="popover" data-placement="bottom" data-content="Copied."
+                    aria-label="Copy the Script &amp; Interactive command" role="button">
+                        <span class="ms-Icon ms-Icon--Copy" aria-hidden="true"></span>
+                        <span>Copy</span>
+                    </button>
+                </div>
+            </pre>
+        </div>
+
+    <div class="icon-text alert alert-brand-info" >
+        <i class="ms-Icon ms-Icon--Info" aria-hidden="true"></i>
+        
+#r directive can be used in F# Interactive and Polyglot Notebooks. Copy this into the interactive tool or source code of the script to reference the package.
+                    
+    </div>
+    </div>
+    <div role="tabpanel" class="tab-pane " id="cake">
+        <div class="install-script-row">
+
+            
+            <pre class="install-script" id="cake-text"><span class="install-command-row">// Install PInvoke.Shell32 as a Cake Addin
+#addin nuget:?package=PInvoke.Shell32&amp;version=0.7.124
+
+// Install PInvoke.Shell32 as a Cake Tool
+#tool nuget:?package=PInvoke.Shell32&amp;version=0.7.124</span>                <div class="copy-button">
+                    <button id="cake-button" class="btn btn-brand-icon" type="button" 
+                    data-toggle="popover" data-placement="bottom" data-content="Copied."
+                    aria-label="Copy the Cake command" role="button">
+                        <span class="ms-Icon ms-Icon--Copy" aria-hidden="true"></span>
+                        <span>Copy</span>
+                    </button>
+                </div>
+            </pre>
+        </div>
+
+    <div class="icon-text alert alert-brand-warning"   role="alert" aria-live="assertive"  >
+        <i class="ms-Icon ms-Icon--Warning" aria-hidden="true"></i>
+        
+<b display="none" aria-label="warning" role="alert"></b> The NuGet Team does not provide support for this client. Please contact its <a href="https://cakebuild.net/support/nuget" aria-label="Contact the maintainers of the Cake client">maintainers</a> for support.
+                    
+    </div>
+    </div>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="body-tabs">
+                <ul class="nav nav-tabs" role="tablist">
+
+                        <li role="presentation" class="active" id="show-readme-container">
+                            <a href="#readme-body-tab"
+                               role="tab"
+                               data-toggle="tab"
+                               data-target="#readme-tab"
+                               id="readme-body-tab"
+                               class="body-tab"
+                               aria-controls="readme-tab"
+                               aria-selected="true"
+                               tabindex="0">
+                                    <i class="ms-Icon ms-Icon--Dictionary" aria-hidden="true"></i>
+                                README
+                            </a>
+                        </li>
+                        <li role="presentation" id="show-supportedframeworks-container">
+                            <a href="#supportedframeworks-body-tab"
+                                role="tab"
+                                data-toggle="tab"
+                                data-target="#supportedframeworks-tab"
+                                id="supportedframeworks-body-tab"
+                                class="body-tab"
+                                aria-controls="supportedframeworks-tab"
+                                aria-selected="false"
+                                tabindex="-1">
+                                <i class="ms-Icon ms-Icon--Package" aria-hidden="true"></i>
+                                Frameworks
+                            </a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#dependencies-body-tab"
+                               role="tab"
+                               data-toggle="tab"
+                               data-target="#dependencies-tab"
+                               id="dependencies-body-tab"
+                               class="body-tab"
+                               aria-controls="dependencies-tab"
+                               aria-selected="false"
+                               tabindex="-1">
+                                <i class="ms-Icon ms-Icon--Packages" aria-hidden="true"></i>
+                                Dependencies
+                            </a>
+                        </li>
+
+                        <li role="presentation">
+                            <a href="#usedby-body-tab"
+                               role="tab"
+                               data-toggle="tab"
+                               data-target="#usedby-tab"
+                               id="usedby-body-tab"
+                               class="body-tab"
+                               aria-controls="usedby-tab"
+                               aria-selected="false"
+                               tabindex="-1">
+                                <i class="ms-Icon ms-Icon--BranchFork2" aria-hidden="true"></i>
+                                Used By
+                            </a>
+                        </li>
+
+
+                    <li role="presentation">
+                        <a href="#versions-body-tab"
+                           role="tab"
+                           data-toggle="tab"
+                           data-target="#versions-tab"
+                           id="versions-body-tab"
+                           class="body-tab"
+                           aria-controls="versions-tab"
+                           aria-selected="false"
+                           tabindex="-1">
+                            <i class="ms-Icon ms-Icon--Stopwatch" aria-hidden="true"></i>
+                            Versions
+                        </a>
+                    </li>
+
+                        <li role="presentation">
+                            <a href="#releasenotes-body-tab"
+                               role="tab"
+                               data-toggle="tab"
+                               data-target="#releasenotes-tab"
+                               id="releasenotes-body-tab"
+                               class="body-tab"
+                               aria-controls="releasenotes-tab"
+                               aria-selected="false"
+                               tabindex="-1">
+                                <i class="ms-Icon ms-Icon--ReadingMode" aria-hidden="true"></i>
+                                Release Notes
+                            </a>
+                        </li>
+                </ul>
+            </div>
+
+            <div class="tab-content body-tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="readme-tab"  aria-label="Readme tab content">
+                            <p>P/Invoke methods for the Windows Shell32.dll.</p>
+                    </div>
+                    <div role="tabpanel" class="tab-pane " id="supportedframeworks-tab" aria-label="Supported frameworks tab content">
+<table class="framework framework-table" aria-label="Supported frameworks">
+    <thead>
+        <tr>
+            <th scope="col" class="framework-table-title"><b>Product</b></th>
+            <th scope="col" class="framework-table-title">
+                <b aria-hidden="true" >Versions</b>
+                <span class="sr-only">Compatible and additional computed target framework versions.</span>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+                <tr>
+                    <td class="framework-table-product">
+                        .NET
+                    </td>
+
+                    <td class="framework-table-frameworks">
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">net5.0</span>
+                                <span class="sr-only">net5.0 was computed.&nbsp;</span>
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">net5.0-windows</span>
+                                <span class="sr-only">net5.0-windows was computed.&nbsp;</span>
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">net6.0</span>
+                                <span class="sr-only">net6.0 was computed.&nbsp;</span>
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">net6.0-android</span>
+                                <span class="sr-only">net6.0-android was computed.&nbsp;</span>
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">net6.0-ios</span>
+                                <span class="sr-only">net6.0-ios was computed.&nbsp;</span>
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">net6.0-maccatalyst</span>
+                                <span class="sr-only">net6.0-maccatalyst was computed.&nbsp;</span>
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">net6.0-macos</span>
+                                <span class="sr-only">net6.0-macos was computed.&nbsp;</span>
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">net6.0-tvos</span>
+                                <span class="sr-only">net6.0-tvos was computed.&nbsp;</span>
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">net6.0-windows</span>
+                                <span class="sr-only">net6.0-windows was computed.&nbsp;</span>
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">net7.0</span>
+                                <span class="sr-only">net7.0 was computed.&nbsp;</span>
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">net7.0-android</span>
+                                <span class="sr-only">net7.0-android was computed.&nbsp;</span>
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">net7.0-ios</span>
+                                <span class="sr-only">net7.0-ios was computed.&nbsp;</span>
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">net7.0-maccatalyst</span>
+                                <span class="sr-only">net7.0-maccatalyst was computed.&nbsp;</span>
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">net7.0-macos</span>
+                                <span class="sr-only">net7.0-macos was computed.&nbsp;</span>
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">net7.0-tvos</span>
+                                <span class="sr-only">net7.0-tvos was computed.&nbsp;</span>
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">net7.0-windows</span>
+                                <span class="sr-only">net7.0-windows was computed.&nbsp;</span>
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">net8.0</span>
+                                <span class="sr-only">net8.0 was computed.&nbsp;</span>
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">net8.0-android</span>
+                                <span class="sr-only">net8.0-android was computed.&nbsp;</span>
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">net8.0-browser</span>
+                                <span class="sr-only">net8.0-browser was computed.&nbsp;</span>
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">net8.0-ios</span>
+                                <span class="sr-only">net8.0-ios was computed.&nbsp;</span>
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">net8.0-maccatalyst</span>
+                                <span class="sr-only">net8.0-maccatalyst was computed.&nbsp;</span>
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">net8.0-macos</span>
+                                <span class="sr-only">net8.0-macos was computed.&nbsp;</span>
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">net8.0-tvos</span>
+                                <span class="sr-only">net8.0-tvos was computed.&nbsp;</span>
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">net8.0-windows</span>
+                                <span class="sr-only">net8.0-windows was computed.&nbsp;</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="framework-table-product">
+                        .NET Core
+                    </td>
+
+                    <td class="framework-table-frameworks">
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">netcoreapp2.0</span>
+                                <span class="sr-only">netcoreapp2.0 was computed.&nbsp;</span>
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">netcoreapp2.1</span>
+                                <span class="sr-only">netcoreapp2.1 was computed.&nbsp;</span>
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">netcoreapp2.2</span>
+                                <span class="sr-only">netcoreapp2.2 was computed.&nbsp;</span>
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">netcoreapp3.0</span>
+                                <span class="sr-only">netcoreapp3.0 was computed.&nbsp;</span>
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">netcoreapp3.1</span>
+                                <span class="sr-only">netcoreapp3.1 was computed.&nbsp;</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="framework-table-product">
+                        .NET Standard
+                    </td>
+
+                    <td class="framework-table-frameworks">
+                                <span aria-hidden="true" class="framework-badge-asset framework-table-margin">netstandard2.0</span>
+                                <span class="sr-only">netstandard2.0 is compatible.&nbsp;</span>
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">netstandard2.1</span>
+                                <span class="sr-only">netstandard2.1 was computed.&nbsp;</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="framework-table-product">
+                        .NET Framework
+                    </td>
+
+                    <td class="framework-table-frameworks">
+                                <span aria-hidden="true" class="framework-badge-asset framework-table-margin">net45</span>
+                                <span class="sr-only">net45 is compatible.&nbsp;</span>
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">net451</span>
+                                <span class="sr-only">net451 was computed.&nbsp;</span>
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">net452</span>
+                                <span class="sr-only">net452 was computed.&nbsp;</span>
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">net46</span>
+                                <span class="sr-only">net46 was computed.&nbsp;</span>
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">net461</span>
+                                <span class="sr-only">net461 was computed.&nbsp;</span>
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">net462</span>
+                                <span class="sr-only">net462 was computed.&nbsp;</span>
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">net463</span>
+                                <span class="sr-only">net463 was computed.&nbsp;</span>
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">net47</span>
+                                <span class="sr-only">net47 was computed.&nbsp;</span>
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">net471</span>
+                                <span class="sr-only">net471 was computed.&nbsp;</span>
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">net472</span>
+                                <span class="sr-only">net472 was computed.&nbsp;</span>
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">net48</span>
+                                <span class="sr-only">net48 was computed.&nbsp;</span>
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">net481</span>
+                                <span class="sr-only">net481 was computed.&nbsp;</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="framework-table-product">
+                        MonoAndroid
+                    </td>
+
+                    <td class="framework-table-frameworks">
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">monoandroid</span>
+                                <span class="sr-only">monoandroid was computed.&nbsp;</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="framework-table-product">
+                        MonoMac
+                    </td>
+
+                    <td class="framework-table-frameworks">
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">monomac</span>
+                                <span class="sr-only">monomac was computed.&nbsp;</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="framework-table-product">
+                        MonoTouch
+                    </td>
+
+                    <td class="framework-table-frameworks">
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">monotouch</span>
+                                <span class="sr-only">monotouch was computed.&nbsp;</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="framework-table-product">
+                        Tizen
+                    </td>
+
+                    <td class="framework-table-frameworks">
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">tizen40</span>
+                                <span class="sr-only">tizen40 was computed.&nbsp;</span>
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">tizen60</span>
+                                <span class="sr-only">tizen60 was computed.&nbsp;</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="framework-table-product">
+                        Universal Windows Platform
+                    </td>
+
+                    <td class="framework-table-frameworks">
+                                <span aria-hidden="true" class="framework-badge-asset framework-table-margin">uap10.0.19041</span>
+                                <span class="sr-only">uap10.0.19041 is compatible.&nbsp;</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="framework-table-product">
+                        Xamarin.iOS
+                    </td>
+
+                    <td class="framework-table-frameworks">
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">xamarinios</span>
+                                <span class="sr-only">xamarinios was computed.&nbsp;</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="framework-table-product">
+                        Xamarin.Mac
+                    </td>
+
+                    <td class="framework-table-frameworks">
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">xamarinmac</span>
+                                <span class="sr-only">xamarinmac was computed.&nbsp;</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="framework-table-product">
+                        Xamarin.TVOS
+                    </td>
+
+                    <td class="framework-table-frameworks">
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">xamarintvos</span>
+                                <span class="sr-only">xamarintvos was computed.&nbsp;</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="framework-table-product">
+                        Xamarin.WatchOS
+                    </td>
+
+                    <td class="framework-table-frameworks">
+                                <span aria-hidden="true" class="framework-badge-computed framework-table-margin">xamarinwatchos</span>
+                                <span class="sr-only">xamarinwatchos was computed.&nbsp;</span>
+                    </td>
+                </tr>
+    </tbody>
+</table>
+<div>
+    <div>
+        <i class="frameworktableinfo-computed-icon framework-badge-computed"></i>
+        <span class="frameworktableinfo-text">Compatible target framework(s)</span>
+    </div>
+    <div>
+        <i class="frameworktableinfo-asset-icon"></i>
+        <span class="frameworktableinfo-text">Included target framework(s) (in package)</span>
+    </div>
+    <span class="frameworktableinfo-text"><i>Learn more about <a href='https://docs.microsoft.com/dotnet/standard/frameworks' aria-label="Learn more about Target Frameworks">Target Frameworks</a> and <a href='https://docs.microsoft.com/dotnet/standard/net-standard' aria-label="Learn more about .NET Standard">.NET Standard</a>.</i></span>
+</div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane " id="dependencies-tab" aria-label="Dependencies tab content">
+                                    <ul class="list-unstyled dependency-groups" id="dependency-groups">
+                                            <li>
+                                                    <h4><span>.NETFramework 4.5</span></h4>
+                                                <ul class="list-unstyled dependency-group">
+                                                        <li>
+                                                                <a href="/packages/PInvoke.Kernel32/">PInvoke.Kernel32</a>
+                                                                <span>(&gt;= 0.7.124)</span>
+                                                        </li>
+                                                        <li>
+                                                                <a href="/packages/PInvoke.Windows.Core/">PInvoke.Windows.Core</a>
+                                                                <span>(&gt;= 0.7.124)</span>
+                                                        </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                    <h4><span>.NETStandard 2.0</span></h4>
+                                                <ul class="list-unstyled dependency-group">
+                                                        <li>
+                                                                <a href="/packages/PInvoke.Kernel32/">PInvoke.Kernel32</a>
+                                                                <span>(&gt;= 0.7.124)</span>
+                                                        </li>
+                                                        <li>
+                                                                <a href="/packages/PInvoke.Windows.Core/">PInvoke.Windows.Core</a>
+                                                                <span>(&gt;= 0.7.124)</span>
+                                                        </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                    <h4><span>UAP 10.0.19041</span></h4>
+                                                <ul class="list-unstyled dependency-group">
+                                                        <li>
+                                                                <a href="/packages/PInvoke.Kernel32/">PInvoke.Kernel32</a>
+                                                                <span>(&gt;= 0.7.124)</span>
+                                                        </li>
+                                                        <li>
+                                                                <a href="/packages/PInvoke.Windows.Core/">PInvoke.Windows.Core</a>
+                                                                <span>(&gt;= 0.7.124)</span>
+                                                        </li>
+                                                </ul>
+                                            </li>
+                                    </ul>
+                    </div>
+                <div role="tabpanel" class="tab-pane " id="usedby-tab" aria-label="Used by tab content">
+                        <div class="used-by" id="used-by">
+                                    <h3>
+                                        <strong>NuGet packages </strong> (2)
+                                    </h3>
+                                    <p>
+                                        Showing the top 2 NuGet packages that depend on PInvoke.Shell32:
+                                    </p>
+                                    <table class="table borderless" aria-label="Packages that depend on PInvoke.Shell32">
+                                        <thead>
+                                            <tr>
+                                                <th class="used-by-adjust-table-head" scope="col" role="columnheader">Package</th>
+                                                <th class="used-by-adjust-table-head" scope="col" role="columnheader">Downloads</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="no-border">
+                                                <tr>
+                                                    <td class="used-by-desc-column">
+                                                        <a class="text-left ngp-link" href="/packages/PInvoke.Win32/">
+                                                            PInvoke.Win32
+                                                        </a>
+                                                            <i class="ms-Icon ms-Icon--SkypeCircleCheck reserved-indicator" title="The ID prefix of this package has been reserved for one of the owners of this package by NuGet.org."
+                                                               alt="The ID prefix of this package has been reserved for one of the owners of this package by NuGet.org."></i>
+                                                        <p class="used-by-desc">P/Invoke methods for Win32 APIs</p>
+                                                    </td>
+                                                    <td>
+                                                        <i class="ms-Icon ms-Icon--Download used-by-download-icon" aria-hidden="true"></i> <label class="used-by-count">49.4K</label>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="used-by-desc-column">
+                                                        <a class="text-left ngp-link" href="/packages/ServiceStack.Desktop/">
+                                                            ServiceStack.Desktop
+                                                        </a>
+                                                            <i class="ms-Icon ms-Icon--SkypeCircleCheck reserved-indicator" title="The ID prefix of this package has been reserved for one of the owners of this package by NuGet.org."
+                                                               alt="The ID prefix of this package has been reserved for one of the owners of this package by NuGet.org."></i>
+                                                        <p class="used-by-desc">Desktop Assets, Vue and React Framework libraries, Bootstrap, Material Design SVGs, Font Awesome and Win32 APIs for ServiceStack CEF .NET Core Desktop Apps</p>
+                                                    </td>
+                                                    <td>
+                                                        <i class="ms-Icon ms-Icon--Download used-by-download-icon" aria-hidden="true"></i> <label class="used-by-count">12.7K</label>
+                                                    </td>
+                                                </tr>
+                                        </tbody>
+                                    </table>
+
+                                    <h3>
+                                        <strong>GitHub repositories </strong> (2)
+                                    </h3>
+                                    <p>
+                                        Showing the top 2 popular GitHub repositories that depend on PInvoke.Shell32:
+                                    </p>
+                                    <table class="table borderless" aria-label="GitHub repositories that depend on PInvoke.Shell32">
+                                        <thead>
+                                            <tr>
+                                                <th class="used-by-adjust-table-head" scope="col" role="columnheader">Repository</th>
+                                                <th class="used-by-adjust-table-head" scope="col" role="columnheader">Stars</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="no-border">
+                                                <tr>
+                                                    <td class="used-by-desc-column">
+                                                        <a data-index-number="0" class="text-left gh-link" href="https://github.com/ServiceStack/ServiceStack" target="_blank">
+                                                            ServiceStack/ServiceStack
+                                                        </a>
+                                                        <div class="row used-by-desc">
+                                                            <span>Thoughtfully architected, obscenely fast, thoroughly enjoyable web services for all</span>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <i class="ms-Icon ms-Icon--FavoriteStarFill gh-star" aria-hidden="true"></i> <label class="used-by-count">5.4K</label>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="used-by-desc-column">
+                                                        <a data-index-number="1" class="text-left gh-link" href="https://github.com/lindexi/lindexi_gd" target="_blank">
+                                                            lindexi/lindexi_gd
+                                                        </a>
+                                                        <div class="row used-by-desc">
+                                                            <span>博客用到的代码</span>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <i class="ms-Icon ms-Icon--FavoriteStarFill gh-star" aria-hidden="true"></i> <label class="used-by-count">179</label>
+                                                    </td>
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                        </div>
+                </div>
+                <div role="tabpanel" class="tab-pane " id="versions-tab" aria-label="Versions tab content">
+                    <div class="version-history" id="version-history">
+                        <table aria-label="Version History of PInvoke.Shell32" class="table borderless">
+                            <thead>
+                                <tr>
+                                    <th scope="col" role="columnheader">Version</th>
+                                    <th scope="col" role="columnheader">Downloads</th>
+                                    <th scope="col" role="columnheader">Last updated</th>
+                                                                                                                <th scope="col" role="columnheader" aria-hidden="true" abbr="Package Warnings"></th>
+                                </tr>
+                            </thead>
+                            <tbody class="no-border">
+                                        <tr class="bg-brand-info">
+                                            <td>
+                                                <a href="/packages/PInvoke.Shell32/0.7.124" title="0.7.124">
+                                                    0.7.124
+                                                </a>
+                                            </td>
+                                            <td>
+                                                19,636
+                                            </td>
+                                            <td>
+                                                <span data-datetime="2022-06-30T13:27:43.8870000">6/30/2022</span>
+                                            </td>
+
+
+                                                <td class="package-icon-cell package-warning-icon">
+                                                    <a class="tooltip-target tooltip-icon--black-icon" href="javascript:void(0)" role="button"  aria-describedby="package-icon-0.7.124" >
+                                                        <i class="ms-Icon ms-Icon--Warning package-icon"></i>
+                                                        <span class="tooltip-block" role="tooltip" id="package-icon-0.7.124">
+                                                            <span class="tooltip-wrapper tooltip-with-icon popover right">
+                                                                <span class="arrow"></span>
+                                                                <span class="popover-content">
+                                                                    0.7.124 is deprecated because it is no longer maintained.
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="/packages/PInvoke.Shell32/0.7.104" title="0.7.104">
+                                                    0.7.104
+                                                </a>
+                                            </td>
+                                            <td>
+                                                25,896
+                                            </td>
+                                            <td>
+                                                <span data-datetime="2021-02-18T15:36:28.3000000">2/18/2021</span>
+                                            </td>
+
+
+                                                <td class="package-icon-cell package-warning-icon">
+                                                    <a class="tooltip-target tooltip-icon--black-icon" href="javascript:void(0)" role="button"  aria-describedby="package-icon-0.7.104" >
+                                                        <i class="ms-Icon ms-Icon--Warning package-icon"></i>
+                                                        <span class="tooltip-block" role="tooltip" id="package-icon-0.7.104">
+                                                            <span class="tooltip-wrapper tooltip-with-icon popover right">
+                                                                <span class="arrow"></span>
+                                                                <span class="popover-content">
+                                                                    0.7.104 is deprecated because it is no longer maintained.
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="/packages/PInvoke.Shell32/0.7.78" title="0.7.78">
+                                                    0.7.78
+                                                </a>
+                                            </td>
+                                            <td>
+                                                2,267
+                                            </td>
+                                            <td>
+                                                <span data-datetime="2020-10-06T15:18:44.1400000">10/6/2020</span>
+                                            </td>
+
+
+                                                <td class="package-icon-cell package-warning-icon">
+                                                    <a class="tooltip-target tooltip-icon--black-icon" href="javascript:void(0)" role="button"  aria-describedby="package-icon-0.7.78" >
+                                                        <i class="ms-Icon ms-Icon--Warning package-icon"></i>
+                                                        <span class="tooltip-block" role="tooltip" id="package-icon-0.7.78">
+                                                            <span class="tooltip-wrapper tooltip-with-icon popover right">
+                                                                <span class="arrow"></span>
+                                                                <span class="popover-content">
+                                                                    0.7.78 is deprecated because it is no longer maintained.
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="/packages/PInvoke.Shell32/0.6.49" title="0.6.49">
+                                                    0.6.49
+                                                </a>
+                                            </td>
+                                            <td>
+                                                3,800
+                                            </td>
+                                            <td>
+                                                <span data-datetime="2020-06-13T05:27:33.9800000">6/13/2020</span>
+                                            </td>
+
+
+                                                <td class="package-icon-cell package-warning-icon">
+                                                    <a class="tooltip-target tooltip-icon--black-icon" href="javascript:void(0)" role="button"  aria-describedby="package-icon-0.6.49" >
+                                                        <i class="ms-Icon ms-Icon--Warning package-icon"></i>
+                                                        <span class="tooltip-block" role="tooltip" id="package-icon-0.6.49">
+                                                            <span class="tooltip-wrapper tooltip-with-icon popover right">
+                                                                <span class="arrow"></span>
+                                                                <span class="popover-content">
+                                                                    0.6.49 is deprecated because it is no longer maintained.
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="/packages/PInvoke.Shell32/0.6.6" title="0.6.6">
+                                                    0.6.6
+                                                </a>
+                                            </td>
+                                            <td>
+                                                5,988
+                                            </td>
+                                            <td>
+                                                <span data-datetime="2019-10-15T03:32:02.3830000">10/15/2019</span>
+                                            </td>
+
+
+                                                <td class="package-icon-cell package-warning-icon">
+                                                    <a class="tooltip-target tooltip-icon--black-icon" href="javascript:void(0)" role="button"  aria-describedby="package-icon-0.6.6" >
+                                                        <i class="ms-Icon ms-Icon--Warning package-icon"></i>
+                                                        <span class="tooltip-block" role="tooltip" id="package-icon-0.6.6">
+                                                            <span class="tooltip-wrapper tooltip-with-icon popover right">
+                                                                <span class="arrow"></span>
+                                                                <span class="popover-content">
+                                                                    0.6.6 is deprecated because it is no longer maintained.
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="/packages/PInvoke.Shell32/0.6.1" title="0.6.1">
+                                                    0.6.1
+                                                </a>
+                                            </td>
+                                            <td>
+                                                836
+                                            </td>
+                                            <td>
+                                                <span data-datetime="2019-10-15T01:49:51.4230000">10/15/2019</span>
+                                            </td>
+
+
+                                                <td class="package-icon-cell package-warning-icon">
+                                                    <a class="tooltip-target tooltip-icon--black-icon" href="javascript:void(0)" role="button"  aria-describedby="package-icon-0.6.1" >
+                                                        <i class="ms-Icon ms-Icon--Warning package-icon"></i>
+                                                        <span class="tooltip-block" role="tooltip" id="package-icon-0.6.1">
+                                                            <span class="tooltip-wrapper tooltip-with-icon popover right">
+                                                                <span class="arrow"></span>
+                                                                <span class="popover-content">
+                                                                    0.6.1 is deprecated because it is no longer maintained.
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="/packages/PInvoke.Shell32/0.5.184" title="0.5.184">
+                                                    0.5.184
+                                                </a>
+                                            </td>
+                                            <td>
+                                                4,793
+                                            </td>
+                                            <td>
+                                                <span data-datetime="2019-01-15T00:59:58.9800000">1/15/2019</span>
+                                            </td>
+
+
+                                                <td class="package-icon-cell package-warning-icon">
+                                                    <a class="tooltip-target tooltip-icon--black-icon" href="javascript:void(0)" role="button"  aria-describedby="package-icon-0.5.184" >
+                                                        <i class="ms-Icon ms-Icon--Warning package-icon"></i>
+                                                        <span class="tooltip-block" role="tooltip" id="package-icon-0.5.184">
+                                                            <span class="tooltip-wrapper tooltip-with-icon popover right">
+                                                                <span class="arrow"></span>
+                                                                <span class="popover-content">
+                                                                    0.5.184 is deprecated because it is no longer maintained.
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="/packages/PInvoke.Shell32/0.5.155" title="0.5.155">
+                                                    0.5.155
+                                                </a>
+                                            </td>
+                                            <td>
+                                                1,876
+                                            </td>
+                                            <td>
+                                                <span data-datetime="2018-07-13T16:26:50.1000000">7/13/2018</span>
+                                            </td>
+
+
+                                                <td class="package-icon-cell package-warning-icon">
+                                                    <a class="tooltip-target tooltip-icon--black-icon" href="javascript:void(0)" role="button"  aria-describedby="package-icon-0.5.155" >
+                                                        <i class="ms-Icon ms-Icon--Warning package-icon"></i>
+                                                        <span class="tooltip-block" role="tooltip" id="package-icon-0.5.155">
+                                                            <span class="tooltip-wrapper tooltip-with-icon popover right">
+                                                                <span class="arrow"></span>
+                                                                <span class="popover-content">
+                                                                    0.5.155 is deprecated because it is no longer maintained.
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="/packages/PInvoke.Shell32/0.5.152" title="0.5.152">
+                                                    0.5.152
+                                                </a>
+                                            </td>
+                                            <td>
+                                                1,078
+                                            </td>
+                                            <td>
+                                                <span data-datetime="2018-05-18T13:12:19.7270000">5/18/2018</span>
+                                            </td>
+
+
+                                                <td class="package-icon-cell package-warning-icon">
+                                                    <a class="tooltip-target tooltip-icon--black-icon" href="javascript:void(0)" role="button"  aria-describedby="package-icon-0.5.152" >
+                                                        <i class="ms-Icon ms-Icon--Warning package-icon"></i>
+                                                        <span class="tooltip-block" role="tooltip" id="package-icon-0.5.152">
+                                                            <span class="tooltip-wrapper tooltip-with-icon popover right">
+                                                                <span class="arrow"></span>
+                                                                <span class="popover-content">
+                                                                    0.5.152 is deprecated because it is no longer maintained.
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="/packages/PInvoke.Shell32/0.5.147" title="0.5.147">
+                                                    0.5.147
+                                                </a>
+                                            </td>
+                                            <td>
+                                                987
+                                            </td>
+                                            <td>
+                                                <span data-datetime="2018-05-03T14:05:46.8200000">5/3/2018</span>
+                                            </td>
+
+
+                                                <td class="package-icon-cell package-warning-icon">
+                                                    <a class="tooltip-target tooltip-icon--black-icon" href="javascript:void(0)" role="button"  aria-describedby="package-icon-0.5.147" >
+                                                        <i class="ms-Icon ms-Icon--Warning package-icon"></i>
+                                                        <span class="tooltip-block" role="tooltip" id="package-icon-0.5.147">
+                                                            <span class="tooltip-wrapper tooltip-with-icon popover right">
+                                                                <span class="arrow"></span>
+                                                                <span class="popover-content">
+                                                                    0.5.147 is deprecated because it is no longer maintained.
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="/packages/PInvoke.Shell32/0.5.134" title="0.5.134">
+                                                    0.5.134
+                                                </a>
+                                            </td>
+                                            <td>
+                                                944
+                                            </td>
+                                            <td>
+                                                <span data-datetime="2018-03-14T15:02:19.9800000">3/14/2018</span>
+                                            </td>
+
+
+                                                <td class="package-icon-cell package-warning-icon">
+                                                    <a class="tooltip-target tooltip-icon--black-icon" href="javascript:void(0)" role="button"  aria-describedby="package-icon-0.5.134" >
+                                                        <i class="ms-Icon ms-Icon--Warning package-icon"></i>
+                                                        <span class="tooltip-block" role="tooltip" id="package-icon-0.5.134">
+                                                            <span class="tooltip-wrapper tooltip-with-icon popover right">
+                                                                <span class="arrow"></span>
+                                                                <span class="popover-content">
+                                                                    0.5.134 is deprecated because it is no longer maintained.
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="/packages/PInvoke.Shell32/0.5.126" title="0.5.126">
+                                                    0.5.126
+                                                </a>
+                                            </td>
+                                            <td>
+                                                1,027
+                                            </td>
+                                            <td>
+                                                <span data-datetime="2018-02-14T16:33:27.1130000">2/14/2018</span>
+                                            </td>
+
+
+                                                <td class="package-icon-cell package-warning-icon">
+                                                    <a class="tooltip-target tooltip-icon--black-icon" href="javascript:void(0)" role="button"  aria-describedby="package-icon-0.5.126" >
+                                                        <i class="ms-Icon ms-Icon--Warning package-icon"></i>
+                                                        <span class="tooltip-block" role="tooltip" id="package-icon-0.5.126">
+                                                            <span class="tooltip-wrapper tooltip-with-icon popover right">
+                                                                <span class="arrow"></span>
+                                                                <span class="popover-content">
+                                                                    0.5.126 is deprecated because it is no longer maintained.
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="/packages/PInvoke.Shell32/0.5.111" title="0.5.111">
+                                                    0.5.111
+                                                </a>
+                                            </td>
+                                            <td>
+                                                3,102
+                                            </td>
+                                            <td>
+                                                <span data-datetime="2017-10-25T19:21:33.8570000">10/25/2017</span>
+                                            </td>
+
+
+                                                <td class="package-icon-cell package-warning-icon">
+                                                    <a class="tooltip-target tooltip-icon--black-icon" href="javascript:void(0)" role="button"  aria-describedby="package-icon-0.5.111" >
+                                                        <i class="ms-Icon ms-Icon--Warning package-icon"></i>
+                                                        <span class="tooltip-block" role="tooltip" id="package-icon-0.5.111">
+                                                            <span class="tooltip-wrapper tooltip-with-icon popover right">
+                                                                <span class="arrow"></span>
+                                                                <span class="popover-content">
+                                                                    0.5.111 is deprecated because it is no longer maintained.
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="/packages/PInvoke.Shell32/0.5.97" title="0.5.97">
+                                                    0.5.97
+                                                </a>
+                                            </td>
+                                            <td>
+                                                1,812
+                                            </td>
+                                            <td>
+                                                <span data-datetime="2017-07-27T21:28:07.0100000">7/27/2017</span>
+                                            </td>
+
+
+                                                <td class="package-icon-cell package-warning-icon">
+                                                    <a class="tooltip-target tooltip-icon--black-icon" href="javascript:void(0)" role="button"  aria-describedby="package-icon-0.5.97" >
+                                                        <i class="ms-Icon ms-Icon--Warning package-icon"></i>
+                                                        <span class="tooltip-block" role="tooltip" id="package-icon-0.5.97">
+                                                            <span class="tooltip-wrapper tooltip-with-icon popover right">
+                                                                <span class="arrow"></span>
+                                                                <span class="popover-content">
+                                                                    0.5.97 is deprecated because it is no longer maintained.
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="/packages/PInvoke.Shell32/0.5.86" title="0.5.86">
+                                                    0.5.86
+                                                </a>
+                                            </td>
+                                            <td>
+                                                1,042
+                                            </td>
+                                            <td>
+                                                <span data-datetime="2017-07-01T01:27:03.6730000">7/1/2017</span>
+                                            </td>
+
+
+                                                <td class="package-icon-cell package-warning-icon">
+                                                    <a class="tooltip-target tooltip-icon--black-icon" href="javascript:void(0)" role="button"  aria-describedby="package-icon-0.5.86" >
+                                                        <i class="ms-Icon ms-Icon--Warning package-icon"></i>
+                                                        <span class="tooltip-block" role="tooltip" id="package-icon-0.5.86">
+                                                            <span class="tooltip-wrapper tooltip-with-icon popover right">
+                                                                <span class="arrow"></span>
+                                                                <span class="popover-content">
+                                                                    0.5.86 is deprecated because it is no longer maintained.
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="/packages/PInvoke.Shell32/0.5.64" title="0.5.64">
+                                                    0.5.64
+                                                </a>
+                                            </td>
+                                            <td>
+                                                1,522
+                                            </td>
+                                            <td>
+                                                <span data-datetime="2017-03-15T15:42:50.4530000">3/15/2017</span>
+                                            </td>
+
+
+                                                <td class="package-icon-cell package-warning-icon">
+                                                    <a class="tooltip-target tooltip-icon--black-icon" href="javascript:void(0)" role="button"  aria-describedby="package-icon-0.5.64" >
+                                                        <i class="ms-Icon ms-Icon--Warning package-icon"></i>
+                                                        <span class="tooltip-block" role="tooltip" id="package-icon-0.5.64">
+                                                            <span class="tooltip-wrapper tooltip-with-icon popover right">
+                                                                <span class="arrow"></span>
+                                                                <span class="popover-content">
+                                                                    0.5.64 is deprecated because it is no longer maintained.
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="/packages/PInvoke.Shell32/0.5.60" title="0.5.60">
+                                                    0.5.60
+                                                </a>
+                                            </td>
+                                            <td>
+                                                966
+                                            </td>
+                                            <td>
+                                                <span data-datetime="2017-03-15T06:14:14.9000000">3/15/2017</span>
+                                            </td>
+
+
+                                                <td class="package-icon-cell package-warning-icon">
+                                                    <a class="tooltip-target tooltip-icon--black-icon" href="javascript:void(0)" role="button"  aria-describedby="package-icon-0.5.60" >
+                                                        <i class="ms-Icon ms-Icon--Warning package-icon"></i>
+                                                        <span class="tooltip-block" role="tooltip" id="package-icon-0.5.60">
+                                                            <span class="tooltip-wrapper tooltip-with-icon popover right">
+                                                                <span class="arrow"></span>
+                                                                <span class="popover-content">
+                                                                    0.5.60 is deprecated because it is no longer maintained.
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="/packages/PInvoke.Shell32/0.4.10" title="0.4.10">
+                                                    0.4.10
+                                                </a>
+                                            </td>
+                                            <td>
+                                                1,255
+                                            </td>
+                                            <td>
+                                                <span data-datetime="2017-03-06T18:38:34.4000000">3/6/2017</span>
+                                            </td>
+
+
+                                                <td class="package-icon-cell package-warning-icon">
+                                                    <a class="tooltip-target tooltip-icon--black-icon" href="javascript:void(0)" role="button"  aria-describedby="package-icon-0.4.10" >
+                                                        <i class="ms-Icon ms-Icon--Warning package-icon"></i>
+                                                        <span class="tooltip-block" role="tooltip" id="package-icon-0.4.10">
+                                                            <span class="tooltip-wrapper tooltip-with-icon popover right">
+                                                                <span class="arrow"></span>
+                                                                <span class="popover-content">
+                                                                    0.4.10 is deprecated because it is no longer maintained.
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="/packages/PInvoke.Shell32/0.3.152" title="0.3.152">
+                                                    0.3.152
+                                                </a>
+                                            </td>
+                                            <td>
+                                                1,556
+                                            </td>
+                                            <td>
+                                                <span data-datetime="2016-10-03T04:36:16.5600000">10/3/2016</span>
+                                            </td>
+
+
+                                                <td class="package-icon-cell package-warning-icon">
+                                                    <a class="tooltip-target tooltip-icon--black-icon" href="javascript:void(0)" role="button"  aria-describedby="package-icon-0.3.152" >
+                                                        <i class="ms-Icon ms-Icon--Warning package-icon"></i>
+                                                        <span class="tooltip-block" role="tooltip" id="package-icon-0.3.152">
+                                                            <span class="tooltip-wrapper tooltip-with-icon popover right">
+                                                                <span class="arrow"></span>
+                                                                <span class="popover-content">
+                                                                    0.3.152 is deprecated because it is no longer maintained.
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="/packages/PInvoke.Shell32/0.3.90" title="0.3.90">
+                                                    0.3.90
+                                                </a>
+                                            </td>
+                                            <td>
+                                                1,352
+                                            </td>
+                                            <td>
+                                                <span data-datetime="2016-08-04T23:48:39.8600000">8/4/2016</span>
+                                            </td>
+
+
+                                                <td class="package-icon-cell package-warning-icon">
+                                                    <a class="tooltip-target tooltip-icon--black-icon" href="javascript:void(0)" role="button"  aria-describedby="package-icon-0.3.90" >
+                                                        <i class="ms-Icon ms-Icon--Warning package-icon"></i>
+                                                        <span class="tooltip-block" role="tooltip" id="package-icon-0.3.90">
+                                                            <span class="tooltip-wrapper tooltip-with-icon popover right">
+                                                                <span class="arrow"></span>
+                                                                <span class="popover-content">
+                                                                    0.3.90 is deprecated because it is no longer maintained.
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </td>
+                                        </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                    <div role="tabpanel" class="tab-pane " id="releasenotes-tab" aria-label="Release notes tab content">
+                        <p><a href="https://github.com/dotnet/pinvoke/releases/tag/v0.7.124" rel="nofollow">https://github.com/dotnet/pinvoke/releases/tag/v0.7.124</a></p>
+                    </div>
+            </div>
+        </div>
+
+        <aside aria-label="Package details info" class="col-sm-3 package-details-info">
+                <div class="sidebar-section">
+                    <div class="row sidebar-headers">
+                        <div class="col-md-6">
+                            Downloads
+                        </div>
+                        <div class="col-md-6 title-links">
+                                <a href="/stats/packages/PInvoke.Shell32?groupby=Version" title="Package Statistics">Full stats →</a>
+                        </div>
+                    </div>
+                    <div class="download-info">
+                        <div class="download-info-row">
+                            <span class="download-info-header">Total</span>
+                            <span class="download-info-content">81.7K</span>
+                        </div>
+                        <div class="download-info-row">
+                            <span class="download-info-header">Current version</span>
+                            <span class="download-info-content">19.6K</span>
+                        </div>
+                        <div class="download-info-row">
+                            <span class="download-info-header">Per day average</span>
+                            <span class="download-info-content">27</span>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="sidebar-section">
+                <div class="sidebar-headers">About</div>
+                <ul class="list-unstyled ms-Icon-ul sidebar-links">
+                    <li>
+                        <i class="ms-Icon ms-Icon--History" aria-hidden="true"></i>
+                        Last updated <span data-datetime="2022-06-30T13:27:43.8870000">6/30/2022</span>
+                    </li>
+                        <li>
+                            <i class="ms-Icon ms-Icon--Globe" aria-hidden="true"></i>
+                            <a href="https://github.com/dotnet/pinvoke" data-track="outbound-project-url" title="Visit the project site to learn more about this package" rel="nofollow">
+                                Project website
+                            </a>
+                        </li>
+
+                        <li>
+                                    <div class="git-image-icon icon" aria-hidden="true" role="img" alt="Git logo"></div>
+
+                            <a href="https://github.com/dotnet/pinvoke" data-track="outbound-repository-url" title="View the source code for this package" rel="nofollow">
+                                Source repository
+                            </a>
+                        </li>
+
+                            <li>
+                                <i class="ms-Icon ms-Icon--Certificate" aria-hidden="true"></i>
+<a href="https://licenses.nuget.org/MIT" aria-label="License MIT">MIT</a>                                    license
+                            </li>
+
+                        <li>
+                            <i class="ms-Icon ms-Icon--CloudDownload" aria-hidden="true"></i>
+                            <a href="https://www.nuget.org/api/v2/package/PInvoke.Shell32/0.7.124" data-track="outbound-manual-download" title="Download the raw nupkg file." rel="nofollow">Download package</a>
+                            &nbsp;(90.01 KB)
+                        </li>
+                            <li>
+                                <i class="ms-Icon ms-Icon--CloudDownload" aria-hidden="true"></i>
+                                <a href="https://www.nuget.org/api/v2/symbolpackage/PInvoke.Shell32/0.7.124" data-track="outbound-manual-download" title="Download the raw snupkg file." rel="nofollow">Download symbols</a>
+                                &nbsp;(37.96 KB)
+                            </li>
+
+                        <li>
+                            <i class="ms-Icon ms-Icon--FabricFolderSearch" aria-hidden="true" aria-label="nuget.info is a 3rd party website, not controlled by Microsoft. This link is made available to you per the NuGet Terms of Use." title="nuget.info is a 3rd party website, not controlled by Microsoft. This link is made available to you per the NuGet Terms of Use."></i>
+                            <a href="https://nuget.info/packages/PInvoke.Shell32/0.7.124" data-track="outbound-nugetpackageexplorer-url"
+                                aria-label="open in NuGet Package Explorer"
+                                title="Explore additional package info on NuGet Package Explorer" target="_blank" rel="nofollow noreferrer">
+                                Open in NuGet Package Explorer
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <img class="icon nuget-trends-icon"
+                                 aria-label="nugettrends.com is a 3rd party website, not controlled by Microsoft. This link is made available to you per the NuGet Terms of Use." title="nugettrends.com is a 3rd party website, not controlled by Microsoft. This link is made available to you per the NuGet Terms of Use."
+                                 src="https://nuget.org/Content/gallery/img/nuget-trends.svg"
+                                     onerror="this.src='https://nuget.org/Content/gallery/img/nuget-trends-32x32.png'; this.onerror = null;"
+ />
+                            <a href="https://nugettrends.com/packages?ids=PInvoke.Shell32" data-track="outbound-nuget-trends-url"
+                               aria-label="open in nugetrends.com"
+                               title="Explore download trends on nugettrends.com" target="_blank" rel="nofollow noreferrer">
+                                Open in NuGet Trends
+                            </a>
+                        </li>
+
+                        <li class="report-link">
+                            <i class="ms-Icon ms-Icon--Flag" aria-hidden="true"></i>
+                            <a href="/packages/PInvoke.Shell32/0.7.124/ReportAbuse" title="Report the package as abusive">
+                                Report package
+                            </a>
+                        </li>
+                </ul>
+            </div>
+
+
+            <div class="sidebar-section">
+                <div class="row sidebar-headers">
+                    <div class="col-md-6">
+                        Owners
+                    </div>
+                    <div class="col-md-6 title-links">
+                        <a href="/packages/PInvoke.Shell32/0.7.124/ContactOwners" title="Ask the package owners a question">Contact owners →</a>
+                    </div>
+                </div>
+
+                    <ul class="list-unstyled owner-list">
+                            <li>
+                                    <a class="profile-icon" href="/profiles/aarnott" title="aarnott">
+                                        <img src="/profiles/aarnott/avatar?imageSize=64"
+                                class="owner-image"
+                                height="32"
+                                width="32"
+                                title="aarnott"
+                                alt="aarnott gravatar" />
+                                    </a>
+                                <a class="username" href="/profiles/aarnott" title="aarnott">
+                                    aarnott
+                                </a>
+                            </li>
+                            <li>
+                                    <a class="profile-icon" href="/profiles/dotnetfoundation" title="dotnetfoundation">
+                                        <img src="/profiles/dotnetfoundation/avatar?imageSize=64"
+                                class="owner-image"
+                                height="32"
+                                width="32"
+                                title="dotnetfoundation"
+                                alt="dotnetfoundation gravatar" />
+                                    </a>
+                                <a class="username" href="/profiles/dotnetfoundation" title="dotnetfoundation">
+                                    dotnetfoundation
+                                </a>
+                            </li>
+                            <li>
+                                    <a class="profile-icon" href="/profiles/PInvoke" title="PInvoke">
+                                        <img src="/profiles/PInvoke/avatar?imageSize=64"
+                                class="owner-image"
+                                height="32"
+                                width="32"
+                                title="PInvoke"
+                                alt="PInvoke gravatar" />
+                                    </a>
+                                <a class="username" href="/profiles/PInvoke" title="PInvoke">
+                                    PInvoke
+                                </a>
+                            </li>
+                    </ul>
+
+
+            </div>
+                
+                    <p>Copyright &#169; .NET Foundation and Contributors</p>
+
+                <p class="share-buttons">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://nuget.org/packages/PInvoke.Shell32/&t=Check+out+PInvoke.Shell32+on+%23NuGet." target="_blank" rel="nofollow noreferrer">
+                        <img width="24" height="24" alt="Share this package on Facebook"
+                                src="https://nuget.org/Content/gallery/img/facebook.svg"
+                                    onerror="this.src='https://nuget.org/Content/gallery/img/facebook-24x24.png'; this.onerror = null;"
+ />
+                    </a>
+                    <a href="https://twitter.com/intent/tweet?url=https://nuget.org/packages/PInvoke.Shell32/&text=Check+out+PInvoke.Shell32+on+%23NuGet." target="_blank" rel="nofollow noreferrer">
+                        <img width="24" height="24" alt="Tweet this package"
+                                src="https://nuget.org/Content/gallery/img/twitter.svg"
+                                    onerror="this.src='https://nuget.org/Content/gallery/img/twitter-24x24.png'; this.onerror = null;"
+ />
+                    </a>
+                        <a href="/packages/PInvoke.Shell32/atom.xml" data-track="atom-feed">
+                            <img width="24" height="24" alt="Use the Atom feed to subscribe to new versions of PInvoke.Shell32"
+                                    src="https://nuget.org/Content/gallery/img/rss.svg"
+                                        onerror="this.src='https://nuget.org/Content/gallery/img/rss-24x24.png'; this.onerror = null;"
+ />
+                        </a>
+                </p>
+        </aside>
+    </div>
+</section>
+
+
+    </div>
+    <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <span class="footer-heading"><a href="/policies/Contact">Contact</a></span>
+                <p>
+                    Got questions about NuGet or the NuGet Gallery?
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <span class="footer-heading"><a href="https://status.nuget.org/">Status</a></span>
+                <p>
+                    Find out the service status of NuGet.org and its related services.
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <span class="footer-heading">
+                    <a aria-label="Frequently Asked Questions" href="https://aka.ms/nuget-faq">
+                        <abbr title="Frequently Asked Questions">FAQ</abbr>
+                    </a>
+                </span>
+                <p>
+                    Read the Frequently Asked Questions about NuGet and see if your question made the list.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 row-gap">
+                <div class="nuget-logo-footer" alt="NuGet home" role="img" aria-label="NuGet Home"     onerror="this.src='https://nuget.org/Content/gallery/img/logo-footer-184x57.png'; this.onerror = null;"
+></div>
+            </div>
+            <div class="col-md-9 row-gap">
+                <div class="row">
+                        <div class="col-md-12 footer-release-info">
+                            <p>
+                                        &#169; Microsoft 2024 -
+
+                                <a href="/policies/About">About</a> -
+                                <a href="/policies/Terms">Terms of Use</a> -
+                                <a href="https://go.microsoft.com/fwlink/?LinkId=521839" id="footer-privacy-policy-link">Privacy Statement</a>
+                                    - <a href="https://www.microsoft.com/trademarks">Trademarks</a>
+                                <br />
+                            </p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--
+    This is the NuGet Gallery version 5.0.0-hotfix-body-id-10273490.
+        Deployed from 12d629564a Link: https://www.github.com/NuGet/NuGetGallery/commit/12d629564a
+        Built on agr-gal-m Link: https://www.github.com/NuGet/NuGetGallery/tree/agr-gal-m
+        Built on 2024-09-24T20:03:55.0873021+00:00
+    Deployment label: PROD-USNC.ASE-5.0.0-hotfix-body-id-10273490
+    You are on AW0MDWK00003E.
+-->
+
+</footer>
+
+        <script src="https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js"></script>
+
+    <script src="/Scripts/gallery/site.min.js?v=8A55APczSWXzIupfcK7uWkeG_i-zVg0EvH1ZHn_ZMlY1"></script>
+
+    
+
+
+    <style type="text/css">
+        #dotnet-cli .install-command-row::before {    content: "> "}#package-manager .install-command-row::before {    content: "PM> "}#paket-cli .install-command-row::before {    content: "> "}#script-interactive .install-command-row::before {    content: "> "}
+    </style>
+
+    <script type="text/javascript">
+        var packageId = "PInvoke.Shell32";
+        var packageVersion = "0.7.124";
+        var packageManagers = ["dotnet-cli","package-manager","package-reference","paket-cli","script-interactive","cake"];
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js" integrity="sha512-gU7kztaQEl7SHJyraPfZLQCNnrKdaQi5ndOyt4L4UPL/FHDd/uB9Je6KDARIqwnNNE27hnqoWLBq+Kpe4iHfeQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/languages/fsharp.min.js" integrity="sha512-DXYctkkhmMYJ4vYp4Dm6jprD4ZareZ7ud/d9mGCKif/Dt3FnN95SjogHvwKvxXHoMAAkZX6EO6ePwpDIR1Y8jw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/languages/dos.min.js" integrity="sha512-mz4SrGyk+dtPY9MNYOMkD81gp8ajViZ4S0VDuM/Zqg40cg9xgIBYSiL5fN79Htbz4f2+uR9lrDO6mgcjM+NAXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/languages/powershell.min.js" integrity="sha512-pnt8OPBTOklRd4/iSW7msOiCVO4uvffF17Egr3c7AaN0h3qFnSu7L6UmdZJUCednMhhruTLRq7X9WbyAWNBegw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            document.querySelectorAll('pre code').forEach((el) => {
+                hljs.highlightElement(el);
+            });
+        });
+        </script>
+
+    <script src="/Scripts/gallery/page-display-package.min.js?v=F8dGhNzBInq9tQ4nnK2Vko96gIoks5Y2mwmj7qU5qsA1"></script>
+
+
+</body>
+</html>
