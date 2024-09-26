@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const axios = require("axios");
+const cryptoJS = require("crypto-js");
 
 async function processImage(folder, content) {
   return await processMarkdown(folder, content);
@@ -160,8 +161,8 @@ function truncateFileName(fileName) {
     return fileName;
   }
 
-  const dateStr = new Date().toISOString().replace(/[-:.TZ]/g, ""); // 生成当前日期字符串
-  const suffix = `modify-${dateStr}`;
+  const md5 = cryptoJS.MD5(fileName).toString();
+  const suffix = `modify-${md5}`;
 
   // 找到最后一个点的位置，用于分割文件名和后缀
   const lastDotIndex = fileName.lastIndexOf(".");
