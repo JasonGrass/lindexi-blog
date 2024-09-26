@@ -7,14 +7,16 @@ const currentDir = process.cwd();
 
 console.log(`work dir: ${currentDir}`);
 
-const sourceDir = path.resolve(
-  currentDir,
-  "../../lindexi-blog/lindexi.github.io/"
-);
+const sourceDir = path.resolve(currentDir, "../../lindexi-blog/lindexi");
+const sourceBlogDir = path.resolve(sourceDir, "_posts");
+
+if (!fs.existsSync(sourceBlogDir)) {
+  console.error(`source folder not exist. ${sourceDir}`);
+  return;
+}
+
 const git = simpleGit(sourceDir);
 
-// 定义源目录和目标目录
-// const sourceDir = "../../lindexi-blog/lindexi.github.io/";
 const targetDir = "./src/content/blog";
 if (!fs.existsSync(targetDir)) {
   fs.mkdirSync(targetDir);
@@ -22,8 +24,9 @@ if (!fs.existsSync(targetDir)) {
 
 /*
 TODO 
-图片下载
-评论接入
+图片下载，刷选出使用本地图片的，需要进行迁移；下载需要考虑缓存
+评论替换和接入  Giscus
+重定向处理 - 在 404 页面中解析当前链接，进行重定向  post -> posts 
 */
 
 async function removeDirContents(dirPath) {
@@ -41,9 +44,21 @@ async function removeDirContents(dirPath) {
   }
 }
 
-async function getPostTitle(filename, content) {
+async function getBlogHeaderContent(content) {
+  const regex = /^---\s*\n\s*([\s\S]*?)\s*\n\s*---/;
+  const match = content.match(regex);
+  if (match && match[1]) {
+    const header = match[1];
+    const left = content.replace(regex, "");
+
+    return [header, left];
+  }
+  return null;
+}
+
+async function getBlogTitle(filename, headerContent) {
   let title = "";
-  const titleMatch = content.match(/# (.+)/);
+  const titleMatch = headerContent.match(/title:(.+)/);
   if (titleMatch) {
     title = titleMatch[1].trim();
   } else {
@@ -53,11 +68,18 @@ async function getPostTitle(filename, content) {
   return title;
 }
 
-async function getCreateTime(filePath, content) {
-  const createTimeMatch = content.match(/<!--\s*CreateTime:(.+)\s*-->/);
+function tryFixDateTime(datetimeStr) {
+  // 处理一些意外情况
+  // 2018/2/13 17:23:03 2018/2/13 17:23:03 -> 2018/2/13 17:23:03
+  const strList = datetimeStr.split(/[\s]/).map(tag => tag.trim());
+  return `${strList[0]} ${strList[1]}`;
+}
+
+async function getCreateTime(filePath, headerContent) {
+  const createTimeMatch = headerContent.match(/CreateTime:(.+)/);
 
   if (createTimeMatch) {
-    const createTime = new Date(createTimeMatch[1].trim());
+    const createTime = new Date(tryFixDateTime(createTimeMatch[1].trim()));
     return createTime;
   }
 
@@ -67,20 +89,28 @@ async function getCreateTime(filePath, content) {
   return modTime;
 }
 
-async function getModifyTime(filePath) {
+async function getModifyTime(filePath, headerContent) {
+  const modifyTimeMath = headerContent.match(/date:(.+)/);
+
+  if (modifyTimeMath) {
+    const createTime = new Date(tryFixDateTime(modifyTimeMath[1].trim()));
+    return createTime;
+  }
+
+  // 使用 simple-git 获取文件的最后修改时间
   const log = await git.log({ file: filePath, n: 1 });
   const modTime = new Date(log.latest.date);
   return modTime;
 }
 
-async function getTags(content) {
-  const tagsMatch = content.match(/<!--\s*标签[：:](.+)\s*-->/);
+async function getTags(headerContent) {
+  const tagsMatch = headerContent.match(/categories:(.+)/);
 
   if (!tagsMatch) {
     return null;
   }
 
-  let tags = tagsMatch[1].split(/[,，]/).map(tag => tag.trim());
+  let tags = tagsMatch[1].split(/[,，\s]/).map(tag => tag.trim());
   tags = tags.filter(t => Boolean(t));
   if (tags.length < 1) {
     return null;
@@ -89,8 +119,8 @@ async function getTags(content) {
 }
 
 async function getSlug(filename) {
-  const slug = filename.replace(/#/g, "").replace(/\s+/g, "-");
-  return slug.substring(0, slug.length - 3);
+  const slug = filename.replace(/[#＃]/g, "").replace(/\s+/g, "-");
+  return slug.substring(11, slug.length - 3); // 去除前面的日期和后面的 `.md`
 }
 
 async function getIsDraft(content) {
@@ -99,9 +129,9 @@ async function getIsDraft(content) {
 }
 
 async function getNewFilename(createTime, filename) {
-  const prefix = `${(createTime.getMonth() + 1).toString().padStart(2, "0")}${createTime.getDate().toString().padStart(2, "0")}`;
+  // const prefix = `${(createTime.getMonth() + 1).toString().padStart(2, "0")}${createTime.getDate().toString().padStart(2, "0")}`;
   const name = filename.replace(/[Cc][#＃]/g, "csharp").replace(/[#＃]/g, "");
-  return `${prefix}-${name}`;
+  return name;
 }
 
 async function getContent(content) {
@@ -120,14 +150,17 @@ async function parseOne(file) {
     return;
   }
 
-  const filePath = path.join(sourceDir, file);
+  const filePath = path.join(sourceBlogDir, file);
   let content = await fs.readFileSync(filePath, "utf8");
+  const allContent = await getBlogHeaderContent(content);
+  const headerContent = allContent[0];
+  content = allContent[1];
 
   content = await getContent(content);
-  const title = await getPostTitle(file, content);
-  const createTime = await getCreateTime(filePath, content);
-  const modTime = await getModifyTime(filePath);
-  const tags = await getTags(content);
+  const title = await getBlogTitle(file, headerContent);
+  const createTime = await getCreateTime(filePath, headerContent);
+  const modTime = await getModifyTime(filePath, headerContent);
+  const tags = await getTags(headerContent);
   let slug = await getSlug(file);
   const isDraft = await getIsDraft(content);
 
@@ -182,10 +215,12 @@ ${content}`;
 (async () => {
   await removeDirContents(targetDir);
 
-  const files = await fs.readdirSync(sourceDir);
+  const files = await fs.readdirSync(sourceBlogDir);
 
-  files.forEach(async file => {
+  for (let i = 0; i < files.length; i++) {
+    const file = files[i];
+    console.log(`migrate start ${file}`);
     await parseOne(file);
-    console.log(`migrate ${file}`);
-  });
+    console.log(`migrate finish ${file}`);
+  }
 })();
