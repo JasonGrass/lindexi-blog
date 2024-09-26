@@ -2,6 +2,7 @@ const fs = require("fs");
 const fsPromise = require("fs").promises;
 const path = require("path");
 const simpleGit = require("simple-git");
+const imageHandler = require("./imageHandler");
 
 const currentDir = process.cwd();
 
@@ -21,13 +22,6 @@ const targetDir = "./src/content/blog";
 if (!fs.existsSync(targetDir)) {
   fs.mkdirSync(targetDir);
 }
-
-/*
-TODO 
-图片下载，刷选出使用本地图片的，需要进行迁移；下载需要考虑缓存
-评论替换和接入  Giscus
-重定向处理 - 在 404 页面中解析当前链接，进行重定向  post -> posts 
-*/
 
 async function removeDirContents(dirPath) {
   const entries = await fsPromise.readdir(dirPath, { withFileTypes: true });
@@ -155,8 +149,8 @@ async function parseOne(file) {
   const allContent = await getBlogHeaderContent(content);
   const headerContent = allContent[0];
   content = allContent[1];
-
   content = await getContent(content);
+
   const title = await getBlogTitle(file, headerContent);
   const createTime = await getCreateTime(filePath, headerContent);
   const modTime = await getModifyTime(filePath, headerContent);
@@ -187,6 +181,8 @@ async function parseOne(file) {
     fs.mkdirSync(newDir);
   }
 
+  content = await imageHandler.processImage(newDir, content);
+
   const headerLines = [];
   headerLines.push("---\n");
   headerLines.push(`title: ${title}\n`);
@@ -213,7 +209,7 @@ ${content}`;
 }
 
 (async () => {
-  await removeDirContents(targetDir);
+  // await removeDirContents(targetDir);
 
   const files = await fs.readdirSync(sourceBlogDir);
 
