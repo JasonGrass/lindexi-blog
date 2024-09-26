@@ -86,11 +86,14 @@ const Comments = () => {
     toggleUtterancesTheme();
   }, [theme]);
 
-  return (
-    <div id={id} className="w-full">
-      {mounted ? <div id="utterances-container"></div> : null}
-    </div>
-  );
+  // 屏蔽评论
+  return null;
+
+  // return (
+  //   <div id={id} className="w-full">
+  //     {mounted ? <div id="utterances-container"></div> : null}
+  //   </div>
+  // );
 };
 
 export default Comments;
