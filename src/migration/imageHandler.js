@@ -20,6 +20,7 @@ async function processMarkdown(imageParentFolder, markdown) {
     let fileName = `img-${path.basename(url)}`;
     fileName = ensureImageExtension(fileName);
     fileName = sanitizeFilePath(fileName);
+    fileName = truncateFileName(fileName);
 
     const imageFolder = path.join(imageParentFolder, "images");
     if (!fs.existsSync(imageFolder)) {
@@ -150,6 +151,35 @@ function sanitizeFilePath(filePath) {
 
   // 使用 '-' 代替非法字符
   return filePath.replace(illegalCharacters, "-");
+}
+
+function truncateFileName(fileName) {
+  const maxLength = 60;
+
+  if (fileName.length < maxLength) {
+    return fileName;
+  }
+
+  const dateStr = new Date().toISOString().replace(/[-:.TZ]/g, ""); // 生成当前日期字符串
+  const suffix = `modify-${dateStr}`;
+
+  // 找到最后一个点的位置，用于分割文件名和后缀
+  const lastDotIndex = fileName.lastIndexOf(".");
+
+  // 如果没有后缀
+  if (lastDotIndex === -1) {
+    return fileName.substring(0, maxLength) + "-" + suffix;
+  }
+
+  // 分割文件名和后缀
+  const name = fileName.substring(0, lastDotIndex);
+  const extension = fileName.substring(lastDotIndex);
+
+  // 截断文件名，保留后缀
+  const truncatedName = name.substring(0, maxLength);
+
+  // 合并截断后的文件名、日期字符串和后缀
+  return `${truncatedName}-${suffix}${extension}`;
 }
 
 module.exports = {
