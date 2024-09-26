@@ -3,14 +3,14 @@ const path = require("path");
 const axios = require("axios");
 
 async function processImage(folder, content) {
-  await processMarkdown(folder, content);
+  return await processMarkdown(folder, content);
 }
 
 async function processMarkdown(imageParentFolder, markdown) {
   const imageDtoList = extractImageLinks(markdown);
 
   if (!imageDtoList) {
-    return;
+    return markdown;
   }
 
   for (let i = 0; i < imageDtoList.length; i++) {
@@ -31,7 +31,7 @@ async function processMarkdown(imageParentFolder, markdown) {
     if (fs.existsSync(dest)) {
       // 图片已经存在，则不必再下载
       markdown = replaceImageLinks(markdown, url, `images/${fileName}`);
-      return;
+      continue;
     }
 
     // http https

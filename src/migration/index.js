@@ -9,10 +9,20 @@ const currentDir = process.cwd();
 console.log(`work dir: ${currentDir}`);
 
 const sourceDir = path.resolve(currentDir, "../../lindexi-blog/lindexi");
+const sourceDir2 = path.resolve(
+  currentDir,
+  "../../lindexi-blog/lindexi.github.io"
+);
+
 const sourceBlogDir = path.resolve(sourceDir, "_posts");
 
 if (!fs.existsSync(sourceBlogDir)) {
   console.error(`source folder not exist. ${sourceDir}`);
+  return;
+}
+
+if (!fs.existsSync(sourceDir2)) {
+  console.error(`source folder not exist. ${sourceDir2}`);
   return;
 }
 
