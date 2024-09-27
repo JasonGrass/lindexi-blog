@@ -48,8 +48,10 @@ const layoutProps = {
 
 const url =  Astro.url.href;
 
-const refUrl = url.replace("https://blog.lindexi.com/posts","http://blog.lindexi.com/post")
-
+let refUrl = url.replace("https://blog.lindexi.com/posts","http://blog.lindexi.com/post")
+if(refUrl.endsWith("/")){
+  refUrl = refUrl.substring(0, refUrl.length-1)
+}
 ---
 
 <Layout {...layoutProps}>
