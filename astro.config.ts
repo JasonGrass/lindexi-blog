@@ -1,4 +1,8 @@
-import { defineConfig, squooshImageService } from "astro/config";
+import {
+  defineConfig,
+  passthroughImageService,
+  squooshImageService,
+} from "astro/config";
 import tailwind from "@astrojs/tailwind";
 import react from "@astrojs/react";
 import remarkToc from "remark-toc";
@@ -51,9 +55,9 @@ export default defineConfig({
       ],
     ],
   },
-  // image: {
-  //   service: squooshImageService(),
-  // },
+  image: {
+    service: passthroughImageService(),
+  },
   vite: {
     optimizeDeps: {
       exclude: ["@resvg/resvg-js"],
