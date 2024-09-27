@@ -51,9 +51,9 @@ export default defineConfig({
       ],
     ],
   },
-  image: {
-    service: squooshImageService(),
-  },
+  // image: {
+  //   service: squooshImageService(),
+  // },
   vite: {
     optimizeDeps: {
       exclude: ["@resvg/resvg-js"],
