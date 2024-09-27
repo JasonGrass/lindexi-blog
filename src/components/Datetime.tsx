@@ -52,11 +52,16 @@ export default function Datetime({
           modDatetime={modDatetime}
         />
       </span>
-      <span>,</span>
+      <span className={`${size === "sm" ? "text-sm" : "text-base"}`}>,</span>
       <span className={`${size === "sm" ? "text-sm" : "text-base"}`}>
         Created:
       </span>
-      <FormattedDatetime pubDatetime={pubDatetime} modDatetime={pubDatetime} />
+      <span className={`${size === "sm" ? "text-sm" : "text-base"}`}>
+        <FormattedDatetime
+          pubDatetime={pubDatetime}
+          modDatetime={pubDatetime}
+        />
+      </span>
     </div>
   );
 }
