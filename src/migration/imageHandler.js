@@ -4,6 +4,7 @@ const axios = require("axios");
 const cryptoJS = require("crypto-js");
 
 async function processImage(folder, content) {
+  // deleteFilesWithPercentSign(folder);
   return await processMarkdown(folder, content);
 }
 
@@ -86,6 +87,12 @@ async function downloadImage(url, outputPath) {
       maxRedirects: 5, // 设置最大重定向次数
     });
 
+    // 检查 content-type 是否为图片类型
+    const contentType = response.headers["content-type"];
+    if (!contentType.startsWith("image/")) {
+      throw new Error(`URL did not return an image: ${url}`);
+    }
+
     // 创建写入流，并将响应数据写入文件
     const writer = fs.createWriteStream(outputPath);
 
@@ -96,7 +103,7 @@ async function downloadImage(url, outputPath) {
       writer.on("error", reject);
     });
   } catch (error) {
-    console.error(`Error downloading image: ${error}; ${url}`);
+    console.error(`Error downloading image: ${error.message}; ${url}`);
   }
 }
 
@@ -156,8 +163,9 @@ function sanitizeFilePath(filePath) {
 
 function truncateFileName(fileName) {
   const maxLength = 60;
+  const containsPercentSign = fileName.includes("%");
 
-  if (fileName.length < maxLength) {
+  if (fileName.length < maxLength && !containsPercentSign) {
     return fileName;
   }
 
@@ -176,11 +184,67 @@ function truncateFileName(fileName) {
   const name = fileName.substring(0, lastDotIndex);
   const extension = fileName.substring(lastDotIndex);
 
+  if (containsPercentSign) {
+    return `img-${suffix}${extension}`;
+  }
+
   // 截断文件名，保留后缀
   const truncatedName = name.substring(0, maxLength);
 
   // 合并截断后的文件名、日期字符串和后缀
   return `${truncatedName}-${suffix}${extension}`;
+}
+
+// 删除文件名中有 % 的文件
+function deleteFilesWithPercentSign(dirPath) {
+  const imageFolder = path.join(dirPath, "images");
+
+  // 读取目录内容
+  fs.readdir(imageFolder, (err, files) => {
+    if (err) {
+      console.error(`读取目录时出错: ${err}`);
+      return;
+    }
+
+    files.forEach(file => {
+      const filePath = path.join(imageFolder, file);
+      let filePath2 = "";
+      try {
+        filePath2 = path.join(imageFolder, decodeURIComponent(file));
+      } catch (decodeErr) {
+        console.warn(file);
+        console.error(decodeErr);
+      }
+
+      // 获取文件信息
+      fs.stat(filePath, (err, stats) => {
+        if (err) {
+          console.error(`无法获取文件信息: ${err}`);
+          return;
+        }
+
+        if (stats.isFile() && file.includes("%")) {
+          // 删除包含百分号的文件
+          fs.unlink(filePath, err => {
+            if (err) {
+              console.error(`删除文件时出错: ${err}  ${filePath}`);
+            } else {
+              console.log(`已删除文件: ${filePath}`);
+            }
+          });
+
+          // 删除包含百分号的文件
+          fs.unlink(filePath2, err => {
+            if (err) {
+              console.error(`删除文件时出错: ${err}  ${filePath}`);
+            } else {
+              console.log(`已删除文件: ${filePath2}`);
+            }
+          });
+        }
+      });
+    });
+  });
 }
 
 module.exports = {
