@@ -27,19 +27,19 @@ tags:
 
 请到[VisualStudio 插件商店](https://marketplace.visualstudio.com/items?itemName=lindexigd.vs-extension-18109) 下载最新版本的[编码检测和修改工具](https://marketplace.visualstudio.com/items?itemName=lindexigd.vs-extension-18109) 或通过 VisualStudio 的插件安装
 
-![](images/img-lindexi%2F20194615112829.png)
+![](images/img-modify-a414ce72c46aae50dcc146a03f94a319.png)
 
 <!-- ![](images/img-VisualStudio 编码规范工具 2.6 修改当前文件编码0.png) -->
 
 双击下载的插件进行安装，安装完成之后，如果是 VisualStudio 2017 可以在菜单栏看到菜单
 
-![](images/img-lindexi%2F2019461567484.png)
+![](images/img-modify-92009abe7d1312ccdb6c3193f73d3e78.png)
 
 如果是 VisualStudio 2019 需要在二级菜单才能看到菜单
 
 <!-- ![](images/img-VisualStudio 编码规范工具 2.6 修改当前文件编码4.png) -->
 
-![](images/img-lindexi%2F201946152150829.png)
+![](images/img-modify-80c857381202e021956b8475a4ac7de2.png)
 
 ### 修改当前文件编码
 
@@ -51,7 +51,7 @@ tags:
 
 <!-- ![](images/img-VisualStudio 编码规范工具 2.6 修改当前文件编码5.png) -->
 
-![](images/img-lindexi%2F201946153140370.png)
+![](images/img-modify-664e2eb657a59700fd7b22f4bc9127e5.png)
 
 现在能支持的转换的编码是带符号的 Utf-8 和 GBK 编码
 
@@ -61,7 +61,7 @@ tags:
 
 <!-- ![](images/img-VisualStudio 编码规范工具 2.6 修改当前文件编码1.png) -->
 
-![](images/img-lindexi%2F201946151729613.png)
+![](images/img-modify-31e8ad41fda8c83487051f22d5fd0d38.png)
 
 首先是可以忽略一些文件或文件夹，默认是忽略一些不是文本的文件和 bin、obj、git文件夹，注意，千万不要去转换 git 文件夹的代码。
 
@@ -81,11 +81,11 @@ tags:
 
 <!-- ![](images/img-VisualStudio 编码规范工具 2.6 修改当前文件编码2.png) -->
 
-![](images/img-lindexi%2F201946151823827.png)
+![](images/img-modify-db5a972be3edb69916806e7e768aac37.png)
 
 找到所有不符合规范的文件，可以一键点击转换
 
-![](images/img-lindexi%2F20194615184676.png)
+![](images/img-modify-015855b003114593dbffbed6200ec53c.png)
 
 <!-- ![](images/img-VisualStudio 编码规范工具 2.6 修改当前文件编码3.png) -->
 

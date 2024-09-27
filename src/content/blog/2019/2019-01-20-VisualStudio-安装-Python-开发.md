@@ -30,7 +30,7 @@ tags:
 
 <!-- ![](images/img-VisualStudio 安装 Python 开发0.png) -->
 
-![](images/img-lindexi%2F2019120102842707.png)
+![](images/img-modify-892ebf0470f27ad6c6c9c6b9120f6cf2.png)
 
 这时可能会让用户点击确定，请点击一下
 
@@ -38,7 +38,7 @@ tags:
 
 <!-- ![](images/img-VisualStudio 安装 Python 开发1.png) -->
 
-![](images/img-lindexi%2F2019120102942335.png)
+![](images/img-modify-c5372df04fa0f489f6bc64986247ab77.png)
 
 出去和小伙伴聊聊天，然后回来可能看到下面的界面，如果没有看到，那么就请你的小伙伴去吃个饭，如果还是还没有看到，请看看你的设备联网了没
 
@@ -50,7 +50,7 @@ tags:
 
 <!-- ![](images/img-VisualStudio 安装 Python 开发3.png) -->
 
-![](images/img-lindexi%2F2019120103142303.png)
+![](images/img-modify-ca7e4255856a6d994b496ab275cf3017.png)
 
 如果是英文版的系统请点击下面的图片的按钮
 
@@ -72,7 +72,7 @@ tags:
 
 ![](https://docs.microsoft.com/en-us/visualstudio/python/media/vs-getting-started-python-01-new-project.png?wt.mc_id=MVP)
 
-![](images/img-lindexi%2F2019120104544736.png)
+![](images/img-modify-0114f068e225aace1b23ae4938216bf2.png)
 
 现在就安装完成了
 

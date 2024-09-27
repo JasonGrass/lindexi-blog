@@ -27,7 +27,7 @@ tags:
 
 <!-- ![](images/img-dotnet OpenXML SDK 形状的翻转与旋转0.png) -->
 
-![](images/img-lindexi%2F20209231749437138.jpg)
+![](images/img-modify-702c5b985b41159d452b76a72491c27e.jpg)
 
 这个课件的箭头内容如下
 
@@ -74,13 +74,13 @@ tags:
 
 <!-- ![](images/img-dotnet OpenXML SDK 形状的翻转与旋转1.png) -->
 
-![](images/img-lindexi%2F2020923180473700.jpg)
+![](images/img-modify-b0ae20e0d180d61ba2288840a92f4b77.jpg)
 
 上面图片红色的是箭头，也就是 PPTX 文档里面的形状，而黑色的是辅助线。可以看到使用  `a:off` 决定元素的坐标，而这个形状线条多长和方向就通过 `a:ext` 决定，请看下面
 
 <!-- ![](images/img-dotnet OpenXML SDK 形状的翻转与旋转2.png) -->
 
-![](images/img-lindexi%2F2020923183556693.jpg)
+![](images/img-modify-cbcb3b5d4221a637a499a147be9cda1c.jpg)
 
 可以看到箭头距离画布的左上角是 100 像素，而刚好箭头的指向就是刚好 x 是 100 而 y 也是 100 的方向。换句话说，可以将线条形状认为是通过两个点绘制的，而两个点是通过 `a:off` 和 `a:ext` 这两个作为点
 
@@ -133,7 +133,7 @@ BooleanValue verticalFlip = transform.VerticalFlip;
 
 <!-- ![](images/img-dotnet OpenXML SDK 形状的翻转与旋转3.png) -->
 
-![](images/img-lindexi%2F2020923193406553.jpg)
+![](images/img-modify-c9acc6a28ad80764807863de54722e52.jpg)
 
 而在 PPT 中，在进行垂直方向镜像之后，不能更改元素的坐标，也就是如果绘制出线条形状的外接矩形，可以看到外接矩形在元素进行翻转前后的坐标和大小不变
 
@@ -237,7 +237,7 @@ OfficeDocumentZipper
 
 <!-- ![](images/img-dotnet OpenXML SDK 形状的翻转与旋转4.png) -->
 
-![](images/img-lindexi%2F20201030839281566.jpg)
+![](images/img-modify-fdd4f3d210220be1c4e19b1783eb93a9.jpg)
 
 而如果给 `a:xfrm` 加上翻转和旋转，如下代码
 
@@ -252,13 +252,13 @@ OfficeDocumentZipper
 
 <!-- ![](images/img-dotnet OpenXML SDK 形状的翻转与旋转5.png) -->
 
-![](images/img-lindexi%2F20201030840533883.jpg)
+![](images/img-modify-5d7e41f53b2b68c3e4fc4ddc263aad50.jpg)
 
 可以看到文本没有跟随进行水平翻转。如果文本有跟随水平翻转，那么显示效果应该是如下
 
 <!-- ![](images/img-dotnet OpenXML SDK 形状的翻转与旋转6.png) -->
 
-![](images/img-lindexi%2F20201030846287556.jpg)
+![](images/img-modify-55604bb6ce9355fa297501b63878d5d2.jpg)
 
 因此在进行水平翻转时，将不会让文本跟随翻转
 
@@ -273,7 +273,7 @@ OfficeDocumentZipper
 
 <!-- ![](images/img-dotnet OpenXML SDK 形状的翻转与旋转7.png) -->
 
-![](images/img-lindexi%2F20201030849117461.jpg)
+![](images/img-modify-023ab671e50a00a6cca37b07eeb3b274.jpg)
 
 带文本的形状的翻转效果如下
 
@@ -286,7 +286,7 @@ OfficeDocumentZipper
 
 <!-- ![](images/img-dotnet OpenXML SDK 形状的翻转与旋转8.png) -->
 
-![](images/img-lindexi%2F2020103085558033.jpg)
+![](images/img-modify-94fced235cd00c00fd0888cc87a698aa.jpg)
 
 步骤如下：
 

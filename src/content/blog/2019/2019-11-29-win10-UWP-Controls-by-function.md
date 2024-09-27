@@ -342,7 +342,7 @@ Windows的 XAML UI 框架提供了很多控件，支持用户界面开发库。
 
 <!-- ![](images/img-win10_uwp_controls_by_function4.png) -->
 
-![](images/img-lindexi%2F2018112619448552.png)
+![](images/img-modify-9553e44bc65b86d56c79a9284bd6963d.png)
 
 ## Date and time controls
 
@@ -350,7 +350,7 @@ Windows的 XAML UI 框架提供了很多控件，支持用户界面开发库。
 
 日历日期选择器
 
-![](images/img-lindexi%2F2018112619393562.png)
+![](images/img-modify-1e30edaf3331976399116b3319402a3a.png)
 
 <!-- ![这里写图片描述](http://img.blog.csdn.net/20160328100448795) -->
 
@@ -362,7 +362,7 @@ Windows的 XAML UI 框架提供了很多控件，支持用户界面开发库。
 
 <!-- ![](images/img-win10_uwp_controls_by_function1.png) -->
 
-![](images/img-lindexi%2F20181126194222738.png)
+![](images/img-modify-c9f4341d52012b901f59c62ecaffc783.png)
 
 ### Time picker
 
@@ -372,7 +372,7 @@ Windows的 XAML UI 框架提供了很多控件，支持用户界面开发库。
 
 <!-- ![](images/img-win10_uwp_controls_by_function2.png) -->
 
-![](images/img-lindexi%2F20181126194313564.png)
+![](images/img-modify-af850a8bf802346e807fbfe6908e1e34.png)
 
 ## Flyouts
 
@@ -392,7 +392,7 @@ Windows的 XAML UI 框架提供了很多控件，支持用户界面开发库。
         </Button>
 ```
 
-![](images/img-lindexi%2F20181126194153688.png)
+![](images/img-modify-f31a01f3c1ae37d4ee38407f24da47b3.png)
 
 <!-- ![](images/img-win10_uwp_controls_by_function0.png) -->
 
@@ -438,7 +438,7 @@ Windows的 XAML UI 框架提供了很多控件，支持用户界面开发库。
 
 <!-- ![](images/img-win10_uwp_controls_by_function5.png) -->
 
-![](images/img-lindexi%2F2018112619443717.png)
+![](images/img-modify-169febf206ffb4044ccf605c05967e4d.png)
 
 如果需要gif的图片显示请看 http://www.songsong.org/post/2015/10/11/ImageLib.html
 
@@ -456,7 +456,7 @@ Windows的 XAML UI 框架提供了很多控件，支持用户界面开发库。
 
 <!-- ![](images/img-win10_uwp_controls_by_function6.png) -->
 
-![](images/img-lindexi%2F20181126194452388.png)
+![](images/img-modify-5d882ee1d8ba4786358c1a7824a5f8f4.png)
 
 更多关于笔迹请看 [win10 uwp 使用油墨输入](https://blog.csdn.net/lindexi_gd/article/details/51119878 )
 
@@ -499,15 +499,15 @@ Windows的 XAML UI 框架提供了很多控件，支持用户界面开发库。
 
 <!-- ![](images/img-win10_uwp_controls_by_function7.png) -->
 
-![](images/img-lindexi%2F20181126194546865.png)
+![](images/img-modify-b03faec2a34174bb4143aed22ada723f.png)
 
 <!-- ![](images/img-win10_uwp_controls_by_function8.png) -->
 
-![](images/img-lindexi%2F20181126194556519.png)
+![](images/img-modify-7c13382ef36cf5e0f54c7892f22242f9.png)
 
 <!-- ![](images/img-win10_uwp_controls_by_function9.png) -->
 
-![](images/img-lindexi%2F2018112619465737.png)
+![](images/img-modify-15dfb4ac64e84e159a30721fc8d93e13.png)
 
 
 ## Layout controls
@@ -567,7 +567,7 @@ Windows的 XAML UI 框架提供了很多控件，支持用户界面开发库。
 
 <!-- ![](images/img-win10_uwp_controls_by_function10.png) -->
 
-![](images/img-lindexi%2F20181126194635434.png)
+![](images/img-modify-bb7bf02673cd5fd1c426b692e79104fa.png)
 
 ## Media controls
 
@@ -590,7 +590,7 @@ Windows的 XAML UI 框架提供了很多控件，支持用户界面开发库。
 
 <!-- ![](images/img-win10_uwp_controls_by_function11.png) -->
 
-![](images/img-lindexi%2F20181126194736481.png)
+![](images/img-modify-2664875ade00676a5b787dcde6d3b772.png)
 
 其实我之前用它播放音频，使用的项目请看 https://github.com/lindexi/Markdown
 
@@ -665,7 +665,7 @@ Windows的 XAML UI 框架提供了很多控件，支持用户界面开发库。
 
 <!-- ![](images/img-win10_uwp_controls_by_function13.png) -->
 
-![](images/img-lindexi%2F20181126194913444.png)
+![](images/img-modify-f45b78f53d90e56fffa1c75057a1e7b7.png)
 
 通过设置属性 IsIndeterminate 可以设置为不带进度的进度条
 
@@ -712,7 +712,7 @@ Windows的 XAML UI 框架提供了很多控件，支持用户界面开发库。
 
 <!-- ![](images/img-win10_uwp_controls_by_function16.png) -->
 
-![](images/img-lindexi%2F20181126195126391.png)
+![](images/img-modify-0a88fe75e2492c472bf854b81663d006.png)
 
 ### Password box
 
@@ -727,7 +727,7 @@ Windows的 XAML UI 框架提供了很多控件，支持用户界面开发库。
 
 <!-- ![](images/img-win10_uwp_controls_by_function17.png) -->
 
-![](images/img-lindexi%2F20181126195139731.png)
+![](images/img-modify-d277df035ce4ce07a7ae876711128e26.png)
 
 ### Rich edit box
 
@@ -780,7 +780,7 @@ Windows的 XAML UI 框架提供了很多控件，支持用户界面开发库。
 
 <!-- ![](images/img-win10_uwp_controls_by_function18.png) -->
 
-![](images/img-lindexi%2F20181126195226522.png)
+![](images/img-modify-11983730cc622c8c0d377c4d5b498770.png)
 
 ### Text box
 
@@ -795,7 +795,7 @@ Windows的 XAML UI 框架提供了很多控件，支持用户界面开发库。
 
 <!-- ![](images/img-win10_uwp_controls_by_function19.png) -->
 
-![](images/img-lindexi%2F20181126195241312.png)
+![](images/img-modify-58f1d2698433dec27886a245dc3b79f1.png)
 
 博客：http://blog.csdn.net/lindexi_gd
 

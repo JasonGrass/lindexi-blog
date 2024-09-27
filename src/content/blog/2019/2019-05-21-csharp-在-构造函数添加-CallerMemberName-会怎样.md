@@ -78,7 +78,7 @@ tags:
 
 <!-- ![](images/img-C# 在 构造函数添加 CallerMemberName 会怎样1.png) -->
 
-![](images/img-lindexi%2F20191219148624.png)
+![](images/img-modify-a116ef63288c415a9bc473a18e7a31e2.png)
 
 但是如果此时修改 F2 函数，这时输出的就是 `.ctor` 因为 CallerMemberName 是编译做的
 
@@ -94,7 +94,7 @@ tags:
 
 <!-- ![](images/img-C# 在 构造函数添加 CallerMemberName 会怎样0.png) -->
 
-![](images/img-lindexi%2F201912191321979.png)
+![](images/img-modify-789a89da5b9d1155ab01e8d7418dec17.png)
 
 分析一下两个的 IL 代码就知道，在 `public F2() : base()` 的 IL 代码
 

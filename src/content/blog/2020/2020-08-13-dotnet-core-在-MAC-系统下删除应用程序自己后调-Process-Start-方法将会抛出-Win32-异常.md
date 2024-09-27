@@ -26,7 +26,7 @@ tags:
 
 <!-- ![](images/img-dotnet core 在 MAC 系统下删除应用程序自己后调 Process Start 方法将会抛出 Win-modify-acef3ca8ba28d8373e011970d57bd02d.png) -->
 
-![](images/img-lindexi%2F2020813938278627.jpg)
+![](images/img-modify-ac365316981c61bf260b62bceee6e710.jpg)
 
 在更新 [dotnetCampus.UpdateAllDotNetTools](https://github.com/dotnet-campus/dotnetCampus.UpdateAllDotNetTools) 将会删除当前运行的 [dotnetCampus.UpdateAllDotNetTools](https://github.com/dotnet-campus/dotnetCampus.UpdateAllDotNetTools) 进程的文件，在 MAC 下是可以删除正在运行的程序的文件，但是在 .NET Core 的 Process.Start 方法里面的逻辑是需要先获取当前进程所在的文件，获取对应的文件夹，用于找到命令
 

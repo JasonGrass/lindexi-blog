@@ -77,7 +77,7 @@ dotnet build
 
 <!-- ![](images/img-WPF 使用 Composition API 做高性能渲染0.gif) -->
 
-![](images/img-lindexi%2F2019328102935615.png)
+![](images/img-modify-65e8b5c98517a1dd77f63f0b44124882.png)
 
 ## 项目主要代码
 

@@ -32,7 +32,7 @@ tags:
 
 但是如果要做出下面的图片的样子，就需要修改`Style`，下面我来告诉大家如何做出下面图片
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017102154055-modify-fcf379ed736a99095ac7b477fd99d315.jpg)
+![](images/img-modify-fcf379ed736a99095ac7b477fd99d315.jpg)
 
 首先在资源写下面的`Style`，建议写在 Page 的资源，这样在整个页面都可以指定
 

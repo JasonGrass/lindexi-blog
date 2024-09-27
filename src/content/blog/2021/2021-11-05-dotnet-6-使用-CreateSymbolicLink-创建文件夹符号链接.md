@@ -42,13 +42,13 @@ tags:
 
 <!-- ![](images/img-dotnet 6 使用 CreateSymbolicLink 创建文件夹符号链接0.png) -->
 
-![](images/img-lindexi%2F20211152014156475.jpg)
+![](images/img-modify-7cb4f4c4f7e94a8356a5681367b148a2.jpg)
 
 在 [Rx-Explorer](https://www.microsoft.com/store/productId/9N88QBQKF2RS) 里的效果如下
 
 <!-- ![](images/img-dotnet 6 使用 CreateSymbolicLink 创建文件夹符号链接1.png) -->
 
-![](images/img-lindexi%2F2021115201442899.jpg)
+![](images/img-modify-e0b45b42a6768c3f9eb3ce18200c494e.jpg)
 
 ### 更多细节
 
@@ -115,7 +115,7 @@ git remote add origin https://github.com/lindexi/lindexi_gd.git
 
 <!-- ![](images/img-dotnet 6 使用 CreateSymbolicLink 创建文件夹符号链接2.png) -->
 
-![](images/img-lindexi%2F2021116834246891.jpg)
+![](images/img-modify-45df86de6fbc7d8b0d9b8d2a61ec1dc7.jpg)
 
 尝试双击 b.txt 用记事本打开，记事本里面看到的是 `a.txt` 的内容，编辑也是对 a.txt 生效，如何 Windows API 的定义
 

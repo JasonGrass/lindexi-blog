@@ -28,7 +28,7 @@ tags:
 
 在开始之前，给大家看一下效果
 
-![](images/img-lindexi%2FWPF%2520%25E4%25BD%25BF%25E7%2594%25A8%2520Man-modify-b9a42ef572548afcff9145d040060206.gif)
+![](images/img-modify-b9a42ef572548afcff9145d040060206.gif)
 
 <!-- ![](images/img-WPF 使用 ManipulationProcessor2D 纯数学计算方式提供多点漫游元素功能0.gif) -->
 

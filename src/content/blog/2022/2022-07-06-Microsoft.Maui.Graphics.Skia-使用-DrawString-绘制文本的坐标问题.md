@@ -50,13 +50,13 @@ tags:
 
 <!-- ![](images/img-Microsoft.Maui.Graphics.Skia 使用 DrawString 绘制文本的坐标问题0-modify-41e21146a9c53163f5015d595cb37bb1.png) -->
 
-![](images/img-lindexi%2F202277851443916.jpg)
+![](images/img-modify-0b91ba6cf28ef227f6c299fe66323b8d.jpg)
 
 可以看到文本是从 100,100 作为左上角的基线 BaseLine 开始绘制的。这里需要科普文本的 基线 BaseLine 是什么。其实大家学英语到知道四线三格吧，如下图，第三条线就是 BaseLine 基线
 
 <!-- ![](images/img-Microsoft.Maui.Graphics.Skia 使用 DrawString 绘制文本的坐标问题1-modify-271160fedecdc50d99ceab1a9b3c33dd.png) -->
 
-![](images/img-lindexi%2F2022761725522151.jpg)
+![](images/img-modify-25aff8f975a6190bbf3e16f7bc556433.jpg)
 
 我将汉字换成英文，更方便大家了解
 
@@ -72,7 +72,7 @@ tags:
 
 <!-- ![](images/img-Microsoft.Maui.Graphics.Skia 使用 DrawString 绘制文本的坐标问题2-modify-87feeca9126605f578e8828d11e59133.png) -->
 
-![](images/img-lindexi%2F20227785225663.jpg)
+![](images/img-modify-618921f55a9a88e4d2e6c545480e0ff8.jpg)
 
 
 但在采用的是 `void DrawString(string value, float x, float y, float width, float height, HorizontalAlignment horizontalAlignment, VerticalAlignment verticalAlignment, TextFlow textFlow = TextFlow.ClipBounds, float lineSpacingAdjustment = 0F)` 方法进行绘制文本，那将会让绘制的文本完全放在 `float x, float y, float width, float height` 这个矩形框里面，如以下代码
@@ -89,7 +89,7 @@ tags:
 
 <!-- ![](images/img-Microsoft.Maui.Graphics.Skia 使用 DrawString 绘制文本的坐标问题3-modify-00da2c319eb5310e46257df2afa79f86.png) -->
 
-![](images/img-lindexi%2F20227785325256.jpg)
+![](images/img-modify-24dc62fc5ded6f806aefb2e5fcb6cfbd.jpg)
 
 可以看到文本在矩形内
 
@@ -105,7 +105,7 @@ tags:
 
 <!-- ![](images/img-Microsoft.Maui.Graphics.Skia 使用 DrawString 绘制文本的坐标问题4-modify-5db4686ee17615c4c91e23414c5caf98.png) -->
 
-![](images/img-lindexi%2F202277853354898.jpg)
+![](images/img-modify-61c5bccba0fdd1dfd680012e4306c9cb.jpg)
 
 - 文本的水平居右
 
@@ -117,7 +117,7 @@ tags:
 
 <!-- ![](images/img-Microsoft.Maui.Graphics.Skia 使用 DrawString 绘制文本的坐标问题5-modify-29ec96ac8edb45aa4c360130bae39a62.png) -->
 
-![](images/img-lindexi%2F20227785467789.jpg)
+![](images/img-modify-dd35b7cc0cfe705f2cb034196d1f035d.jpg)
 
 - 文本的垂直居中
 
@@ -129,7 +129,7 @@ tags:
 
 <!-- ![](images/img-Microsoft.Maui.Graphics.Skia 使用 DrawString 绘制文本的坐标问题6-modify-f9a5764f01ba6d36560ab9d83f705e57.png) -->
 
-![](images/img-lindexi%2F202277854361294.jpg)
+![](images/img-modify-cc9cf71b50be28a97c2ea24d390aafb7.jpg)
 
 - 文本的垂直距下
 
@@ -141,7 +141,7 @@ tags:
 
 <!-- ![](images/img-Microsoft.Maui.Graphics.Skia 使用 DrawString 绘制文本的坐标问题7-modify-e657226f60b7d93312214b37c0867015.png) -->
 
-![](images/img-lindexi%2F2022778554393.jpg)
+![](images/img-modify-8b687bfacb7c01439e2bd4b6ca351eed.jpg)
 
 如果文本的实际渲染大小超过给定的矩形范围，可以通过 TextFlow 参数决定是裁剪还是允许超过范围。横排文本布局的超过范围是在 Y 坐标上超过边界。默认参数是超过给定的范围就裁剪
 

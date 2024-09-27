@@ -25,13 +25,13 @@ tags:
 
 <!-- ![](images/img-VisualStudio 2019 尝试使用 C# 80 新的方式1.png) -->
 
-![](images/img-lindexi%2F20181212174618459.png)
+![](images/img-modify-8785700a4915ce101789926e8e3ab3fd.png)
 
 找到一个简单的控制台项目，创建的界面也很简单
 
 <!-- ![](images/img-VisualStudio 2019 尝试使用 C# 80 新的方式0.png) -->
 
-![](images/img-lindexi%2F20181212174552691.png)
+![](images/img-modify-a29b3bed6d4e909fc5d7507bed4c58ef.png)
 
 虽然界面不错，但是创建项目的速度没有加快，等了很久，终于看到和之前没有多少修改的界面。虽然开始是没有发现添加了什么功能，但是实际作为太阳系最强IDE还是提供了很多好玩的功能，请看[VisualStudio 2019 新特性](https://blog.lindexi.com/post/VisualStudio-2019-%E6%96%B0%E7%89%B9%E6%80%A7.html )
 
@@ -39,7 +39,7 @@ tags:
 
 <!-- ![](images/img-VisualStudio 2019 尝试使用 C# 80 新的方式2.png) -->
 
-![](images/img-lindexi%2F201812121753079.png)
+![](images/img-modify-bfeb33ee2f10199c1c972941c0b049aa.png)
 
 当前，在使用之前需要做一些准备，首先是[下载](https://aka.ms/netcore3download) dotnet core 3.0 不然一些功能不能使用。如果官网无法下载，可以到[CSDN](https://download.csdn.net/download/lindexi_gd/11100712 )下载
 
@@ -60,13 +60,13 @@ tags:
 
 <!-- ![](images/img-VisualStudio 2019 尝试使用 C# 80 新的方式3.png) -->
 
-![](images/img-lindexi%2F2018121221123464.png)
+![](images/img-modify-68c323cf73272f5f470312e071953461.png)
 
 正式版的 VisualStudio 2019 需要点击开启预览版
 
 <!-- ![](images/img-VisualStudio 2019 尝试使用 C# 80 新的方式5.png) -->
 
-![](images/img-lindexi%2F20194981321503.png)
+![](images/img-modify-402b0a56b280f85e53a89a90d654b8df.png)
 
 ## 可空类型
 
@@ -115,7 +115,7 @@ tags:
 
 <!-- ![](images/img-VisualStudio 2019 尝试使用 C# 80 新的方式4.png) -->
 
-![](images/img-lindexi%2F20181212211819918.png)
+![](images/img-modify-4c9def8fdb2d0d297dda7c15435f7aa4.png)
 
 现在对于 string 是不可空的，但是为了兼容以前的代码，没有强制让编译不通过。同时提供了可空的字符串，也就是 `string?` 请看代码
 
@@ -284,7 +284,7 @@ warning CS8602: Possible dereference of a null reference.
 
 <!-- ![](images/img-VisualStudio 2019 尝试使用 C# 80 新的方式6.png) -->
 
-![](images/img-lindexi%2F20194982040494.png)
+![](images/img-modify-03277bc1421ae19813004d8f76a6bca3.png)
 
 ### property pattern
 
@@ -350,7 +350,7 @@ warning CS8602: Possible dereference of a null reference.
 
 <!-- ![](images/img-VisualStudio 2019 尝试使用 C# 80 新的方式7.png) -->
 
-![](images/img-lindexi%2F20194985342956.png)
+![](images/img-modify-b3eef9b7191d3e36d836776435a96fcd.png)
 
 如果是一个类能否也隐私转换为元组可以的，现在微软让 C# 和 .NET 的关系没有之前那么紧密，很多功能都是通过只要一个类里面存在某个方法就可以使用的方式
 
@@ -410,7 +410,7 @@ warning CS8602: Possible dereference of a null reference.
 
 <!-- ![](images/img-VisualStudio 2019 尝试使用 C# 80 新的方式8.png) -->
 
-![](images/img-lindexi%2F20194993015484.png)
+![](images/img-modify-f83bfbdbd4616da2fc3edc0e88f9d36d.png)
 
 ## using declarations
 
@@ -453,7 +453,7 @@ warning CS8602: Possible dereference of a null reference.
 
 <!-- ![](images/img-VisualStudio 2019 尝试使用 C# 80 新的方式9.png) -->
 
-![](images/img-lindexi%2F20194994246135.png)
+![](images/img-modify-fcd32ae3273fdd3d54ceee687a7aa82a.png)
 
 ## Disposable ref structs
 

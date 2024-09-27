@@ -69,5 +69,5 @@ The command '/bin/sh -c yum update' returned a non-zero code: 1
 
 <!-- ![](images/img-dotnet 制作 docker 提示 Insufficient space in download direc-modify-f0d1a45d2b8da9d23902311bbe0531d4.png) -->
 
-![](images/img-lindexi%2F2020111720513525.jpg)
+![](images/img-modify-cfa8486db6c76daffd7749a572d9f6f4.jpg)
 

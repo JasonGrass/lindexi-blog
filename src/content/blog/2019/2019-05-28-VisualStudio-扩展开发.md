@@ -442,21 +442,21 @@ DefinitionPage 就是我上面定义的选项
 
 1. 打开 Nuget 升级，把所有提示升级的都升级。
 
- ![](images/img-AwCCAwMAItoFAMV%2BBQA28wYAAQAEAK4%2BAQBmQwIAaOgJAOjZ%2F2-modify-1894d31e2479ec4f700c50f6699d512b.jpg)
+ ![](images/img-modify-1894d31e2479ec4f700c50f6699d512b.jpg)
 
 1. 打开 source.extension.vsixmanifest
 
  选 InstallationTarget 包括各版本
 
- ![](images/img-AwCCAwMAItoFAMV%2BBQA28wYAAQAEAK4%2BAQBmQwIAaOgJAOjZ%2F2-modify-e766a2b5b1a641f0348db48a492233fa.jpg)
+ ![](images/img-modify-e766a2b5b1a641f0348db48a492233fa.jpg)
 
- ![](images/img-AwCCAwMAItoFAMV%2BBQA28wYAAQAEAK4%2BAQBmQwIAaOgJAOjZ%2F2-modify-7951a237e96f21eb98603dcf39f944ac.jpg)
+ ![](images/img-modify-7951a237e96f21eb98603dcf39f944ac.jpg)
 
 1. 打开属性，修改路径
 
  启动外部程序`C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\devenv.exe`
 
- ![](images/img-AwCCAwMAItoFAMV%2BBQA28wYAAQAEAK4%2BAQBmQwIAaOgJAOjZ%2F2-modify-ac6e7e0e7e0e4a3403c81ef276591530.jpg)
+ ![](images/img-modify-ac6e7e0e7e0e4a3403c81ef276591530.jpg)
 
 1. 启动项目
 

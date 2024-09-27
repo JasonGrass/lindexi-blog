@@ -26,7 +26,7 @@ tags:
 
 <!-- ![](images/img-win10 uwp 使用 XamlTreeDump 获取 XAML 树元素内容0.png) -->
 
-![](images/img-lindexi%2F20215896206650.jpg)
+![](images/img-modify-0162a154a56ae6d56438ef58d00f1ca1.jpg)
 
 假定咱有 UI 界面代码如下
 

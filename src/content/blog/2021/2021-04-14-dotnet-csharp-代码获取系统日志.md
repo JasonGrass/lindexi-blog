@@ -40,5 +40,5 @@ tags:
 
 本文代码放在 [github](https://github.com/lindexi/lindexi_gd/tree/8beda1f5/LejairbairwecarnelLelearnawcana) 欢迎小伙伴访问
 
-![](images/img-lindexi%2FIMG_75762.jpg)
+![](images/img-modify-ed7d64c7e2d7d4e48cae06275d671b3f.jpg)
 

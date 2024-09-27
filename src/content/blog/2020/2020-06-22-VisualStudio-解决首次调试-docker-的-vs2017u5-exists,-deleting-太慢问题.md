@@ -58,7 +58,7 @@ https://vsdebugger.azureedge.net/vsdbg-16-6-20415-1/vsdbg-linux-x64.zip
 
 <!-- ![](images/img-VisualStudio 解决首次调试 docker 的 vs2017u5 exists, deleting 太-modify-22fb74707e4fd24fd191642d8fe80e38.png) -->
 
-![](images/img-lindexi%2F2020622110174143.jpg)
+![](images/img-modify-3a16cf153c6d3078198eaf2c185ac05a.jpg)
 
 
 接下来在 `C:\Users\lindexi\vsdbg\vs2017u5` 文件夹创建两个文件，分别是 success_version.txt 和 success_rid.txt 文件

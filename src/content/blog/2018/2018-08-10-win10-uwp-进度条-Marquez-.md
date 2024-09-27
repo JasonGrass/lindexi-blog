@@ -13,7 +13,7 @@ tags:
 
 
 本文将告诉大家，如何做一个带文字的进度条，这个进度条可以用在游戏，现在我做的挂机游戏就使用了他。
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2FMarquez.gif)
+![](images/img-modify-07797ab6ef72c929dbb4a1c7d34a01ef.gif)
 
 <!--more-->
 
@@ -25,7 +25,7 @@ tags:
 
 如何做上图的效果，实际需要的是两个控件，一个是显示文字 的 TextBlock  一个是进度条。
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201764111545.jpg)
+![](images/img-modify-c342549c4f5cd8377b1d56e4593a73dc.jpg)
 
 那么如何让 文字和左边的距离变化？使用 TranslateTransform
 

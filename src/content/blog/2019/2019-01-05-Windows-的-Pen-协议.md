@@ -23,5 +23,5 @@ description: "Windows 的 Pen 协议"
 
 [Pen Devices ](https://docs.microsoft.com/en-us/windows-hardware/design/component-guidelines/pen-devices )
 
-![](images/img-lindexi%2F201915111149796.png)
+![](images/img-modify-3a5446f5f00109ce6dd7b70a309ca02f.png)
 

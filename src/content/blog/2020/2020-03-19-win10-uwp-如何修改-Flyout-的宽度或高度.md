@@ -46,7 +46,7 @@ tags:
 
 <!-- ![](images/img-win10 uwp 如何修改 Flyout 的宽度或高度0.png) -->
 
-![](images/img-lindexi%2F2020319195303952.jpg)
+![](images/img-modify-998474d6e3bb15a8d61f322f04adea9b.jpg)
 
 可以通过两个方法修改 Flyout 的宽度或高度
 

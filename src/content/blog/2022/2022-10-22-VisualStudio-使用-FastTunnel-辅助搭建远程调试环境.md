@@ -33,7 +33,7 @@ tags:
 
 <!-- ![](images/img-VisualStudio 使用 FastTunnel 辅助搭建远程调试环境0.png) -->
 
-![](images/img-lindexi%2F202210221543151792.jpg)
+![](images/img-modify-7fe2fc441718f8ca97013df88ce02e04.jpg)
 
 开始之前，先从 [https://github.com/FastTunnel/FastTunnel/releases](https://github.com/FastTunnel/FastTunnel/releases) 下载最新的版本。需要下载一个客户端版本和一个服务端版本，其中服务端版本将放在服务器上运行，客户端版本放在用户设备上运行，开发设备上啥都不需要
 
@@ -47,7 +47,7 @@ tags:
 
 <!-- ![](images/img-VisualStudio 使用 FastTunnel 辅助搭建远程调试环境5.png) -->
 
-![](images/img-lindexi%2F202210221615517487.jpg)
+![](images/img-modify-44c7ba4ad44a2ae3f96f9d029236239d.jpg)
 
 完成配置之后，运行 FastTunnel.Server 应用
 
@@ -133,7 +133,7 @@ tags:
 
 <!-- ![](images/img-VisualStudio 使用 FastTunnel 辅助搭建远程调试环境1.png) -->
 
-![](images/img-lindexi%2F20221022164578756.jpg)
+![](images/img-modify-34baadf3a9f7a03b7a425c7f4739613e.jpg)
 
 这个勾选 `无身份验证` 是比较危险的，记得调试完成要帮用户关闭 msvsmon.exe 应用。因为这就意味着任何能访问到用户设备远程调试端口的人都可以挂上调试，而挂上了调试了，还有啥不能做的。这也是我为什么不使用默认的远程调试端口的原因
 
@@ -147,20 +147,20 @@ tags:
 
 <!-- ![](images/img-VisualStudio 使用 FastTunnel 辅助搭建远程调试环境2.png) -->
 
-![](images/img-lindexi%2F2022102216861349.jpg)
+![](images/img-modify-f8c3b30ce60ef567855b408d016a8af4.jpg)
 
 
 在连接目标里面输入服务器的地址和映射远程调试的端口，例如我的配置是 `debug.lindexi.com:1275` 的，界面如下
 
 <!-- ![](images/img-VisualStudio 使用 FastTunnel 辅助搭建远程调试环境3.png) -->
 
-![](images/img-lindexi%2F20221022161018934.jpg)
+![](images/img-modify-49a1550ec3a8b5a3ad7c18e26a1059bf.jpg)
 
 输入完成之后，按下回车。如果成功的话，就可以看到列出用户设备上所有能被调试的进程
 
 <!-- ![](images/img-VisualStudio 使用 FastTunnel 辅助搭建远程调试环境4.png) -->
 
-![](images/img-lindexi%2F202210221613561366.jpg)
+![](images/img-modify-a38eb7e1fdf4b8e0614cccd8902b9002.jpg)
 
 选择感兴趣的进程，即可开始调试
 

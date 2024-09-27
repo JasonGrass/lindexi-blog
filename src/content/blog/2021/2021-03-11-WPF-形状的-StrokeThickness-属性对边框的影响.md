@@ -36,7 +36,7 @@ tags:
 
 <!-- ![](images/img-WPF 形状的 StrokeThickness 属性对边框的影响0.png) -->
 
-![](images/img-lindexi%2F2021311195398712.jpg)
+![](images/img-modify-8cdc0ef27d52fbb462169e4a69b8da22.jpg)
 
 这个行为和 SVG 上的行为是相同的
 
@@ -53,7 +53,7 @@ tags:
 
 <!-- ![](images/img-WPF 形状的 StrokeThickness 属性对边框的影响1.png) -->
 
-![](images/img-lindexi%2F2021311195526422.jpg)
+![](images/img-modify-9e053adf2be997feacf3274341d6a0ea.jpg)
 
 我比较推荐 WPF 的这个设计，固定了矩形的宽度和高度，那么边框的大小是向内的。因为这样设计起来比较好计算
 
@@ -72,7 +72,7 @@ tags:
 
 <!-- ![](images/img-WPF 形状的 StrokeThickness 属性对边框的影响2.png) -->
 
-![](images/img-lindexi%2F20213112018544.jpg)
+![](images/img-modify-df14b2512d5bd20b02d8e8400fe1aef2.jpg)
 
 设计器上的蓝色的选择框表示的是形状的大小和坐标，可以看到 StrokeThickness 是在 100 100 的大小内
 

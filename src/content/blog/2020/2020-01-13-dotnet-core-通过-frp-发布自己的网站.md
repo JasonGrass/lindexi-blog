@@ -86,7 +86,7 @@ Now listening on: http://0.0.0.0:8000
 
 <!-- ![](images/img-dotnet core 通过 frp 发布自己的网站1.png) -->
 
-![](images/img-lindexi%2F201921593652428.png)
+![](images/img-modify-f86319af68826907639622259e77d485.png)
 
 在这里写入 Host 或 Name 输入 server 作为你二级域名，然后在 Value 输入你的服务器地址
 
@@ -94,7 +94,7 @@ Now listening on: http://0.0.0.0:8000
 
 <!-- ![](images/img-dotnet core 通过 frp 发布自己的网站0.png) -->
 
-![](images/img-lindexi%2F201921593616616.png)
+![](images/img-modify-be8e845c27628adc45705c1c27431ec1.png)
 
 这里就让 dns 的 server.lindexi.com 指向我的服务器 ip 通过访问 [http://server.lindexi.com](http://server.lindexi.com ) 就可以访问服务器 
 

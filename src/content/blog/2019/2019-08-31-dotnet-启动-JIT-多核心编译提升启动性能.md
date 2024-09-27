@@ -94,7 +94,7 @@ else
 
 <!-- ![](images/img-dotnet 启动 JIT 多核心编译提升启动性能0.png) -->
 
-![](images/img-lindexi%2F201931163451479.png)
+![](images/img-modify-7d62a4b6dd56568a82e570bcda307197.png)
 
 在 dotnet core 还可以使用[阶梯编译](https://blog.lindexi.com/post/dotnet-core-2.1-%E4%BD%BF%E7%94%A8%E9%98%B6%E6%A2%AF%E7%BC%96%E8%AF%91.html ) 在软件启动的过程使用到的方法都使用快速编译的方法，减少JIT执行的时间
  

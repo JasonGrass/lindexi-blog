@@ -82,7 +82,7 @@ public void Foo(NonVisualDrawingProperties nonVisualDrawingProperties)
 
 <!-- ![](images/img-dotnet OpenXML 元素 cNvPr NonVisual Drawing Properties 的属性-modify-7d35366b9482ffb51e976354dc384f76.png) -->
 
-![](images/img-lindexi%2F20209271722151549.jpg)
+![](images/img-modify-e6ded036de66d35094d8ce3681142cbf.jpg)
 
 在 OpenXML SDK 的读取方法如下
 
@@ -111,7 +111,7 @@ public void Foo(NonVisualDrawingProperties nonVisualDrawingProperties)
 
 <!-- ![](images/img-dotnet OpenXML 元素 cNvPr NonVisual Drawing Properties 的属性-modify-0b4fd1128bd5633c4b93c741e261d532.png) -->
 
-![](images/img-lindexi%2F20209271727309455.jpg)
+![](images/img-modify-879d38dfe02e60e50c1ef057af251320.jpg)
 
 另一个在 PPT 可见的是在动画的窗格
 
@@ -158,7 +158,7 @@ public void Foo(NonVisualDrawingProperties nonVisualDrawingProperties)
 
 <!-- ![](images/img-dotnet OpenXML 元素 cNvPr NonVisual Drawing Properties 的属性-modify-360d818623666b75e7d538b4b7822267.png) -->
 
-![](images/img-lindexi%2F20209271742366060.jpg)
+![](images/img-modify-e223d42cf0e5041ba815c49cde6b2ad0.jpg)
 
 测试课件请点击 [元素标题.pptx](https://github.com/lindexi/lindexi_gd/blob/b57cf920518bde16b8eab09d38b2d9037305d54b/KedewallawFudeneanairchea/%E5%85%83%E7%B4%A0%E6%A0%87%E9%A2%98.pptx) 下载
 
@@ -178,19 +178,19 @@ public void Foo(NonVisualDrawingProperties nonVisualDrawingProperties)
 
 <!-- ![](images/img-dotnet OpenXML 元素 cNvPr NonVisual Drawing Properties 的属性-modify-1be41286870e7f05c30ac8129f181f95.png) -->
 
-![](images/img-lindexi%2F20209271657456329.jpg)
+![](images/img-modify-7be2f41e38d404acf78f71b90e356556.jpg)
 
 如果去掉上面这个 `hidden="true"` 属性，那么可以看到选择窗格里面的可见图标修改
 
 <!-- ![](images/img-dotnet OpenXML 元素 cNvPr NonVisual Drawing Properties 的属性-modify-e06d48bf5a7e713586368747c65dcee7.png) -->
 
-![](images/img-lindexi%2F20209271658398116.jpg)
+![](images/img-modify-6c3e3d23e53352e946b12f022fee2c9b.jpg)
 
 打开选择窗格的方法是在 PPT 的选择下拉，点击选择窗格
 
 <!-- ![](images/img-dotnet OpenXML 元素 cNvPr NonVisual Drawing Properties 的属性-modify-112a43f42ba4b6a8f06bf0e5aa370a25.png) -->
 
-![](images/img-lindexi%2F20209271659213275.jpg)
+![](images/img-modify-9aa660c95910f62b07745a52a40f4d9b.jpg)
 
 在 OpenXML SDK 的读取方法如下
 

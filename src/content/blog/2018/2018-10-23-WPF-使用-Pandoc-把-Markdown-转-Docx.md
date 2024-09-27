@@ -27,7 +27,7 @@ tags:
 
 <!-- ![](images/img-WPF 使用 Pandoc 把 Markdown 转 Docx0.png) -->
 
-![](images/img-lindexi%2F2018102311206349.png)
+![](images/img-modify-0c2bd8b2b0647d553dbb8daf48d297a8.png)
 
 界面很简单，就不告诉大家如何做出这样的界面了，现在是来解决一些坑
 

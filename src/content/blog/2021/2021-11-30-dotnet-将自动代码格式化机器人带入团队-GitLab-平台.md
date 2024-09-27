@@ -63,7 +63,7 @@ FormatCode:
 
 <!-- ![](images/img-dotnet 将自动代码格式化机器人带入团队 GitLab 平台0.png) -->
 
-![](images/img-lindexi%2F20211130205183790.jpg)
+![](images/img-modify-0f14b8a4f3e3a57d00ae79ef27c08f8c.jpg)
 
 对于 AutomateFormatCodeAndCreateGitLabMergeRequest 命令，是支持传入丰富的参数的，参数列表如下
 

@@ -85,11 +85,11 @@ nuget.exe spec
 
 <!-- ![](images/img-VisualStudio 使用新项目格式快速打出 Nuget 包2.png) -->
 
-![](images/img-lindexi%2F20181015112052382.png)
+![](images/img-modify-4e5edf880bbd83803d7ec74817e432e5.png)
 
 <!-- ![](images/img-VisualStudio 使用新项目格式快速打出 Nuget 包3.png) -->
 
-![](images/img-lindexi%2F20181015112112209.png)
+![](images/img-modify-671ec44456435b43c78ce2aacb45d0d7.png)
 
 当然这个粗糙的包还可以做一些修改，例如修改这个包的 id 在 新的项目格式会使用 AssemblyName 作为默认的包的 id 来尝试修改这个值看打出来的包是什么
 
@@ -105,13 +105,13 @@ nuget.exe spec
 
 <!-- ![](images/img-VisualStudio 使用新项目格式快速打出 Nuget 包4.png) -->
 
-![](images/img-lindexi%2F20181015112130992.png)
+![](images/img-modify-e9a6148a8e168d786b071049a896c650.png)
 
 这时右击项目打包就会在 `bin\Debug` 文件夹找到 lindexi.1.0.0.nupkg 文件
 
 <!-- ![](images/img-VisualStudio 使用新项目格式快速打出 Nuget 包5.png) -->
 
-![](images/img-lindexi%2F2018101511215649.png)
+![](images/img-modify-16234d9cb8f6524a833c7d83c0b4142e.png)
 
 如果想要自己定义一个 nuget 包的 id 和 AssemblyName 不相同，可以通过修改 PackageId 的方式，具体请看[项目文件中的已知 NuGet 属性（使用这些属性，创建 NuGet 包就可以不需要 nuspec 文件啦） - walterlv](https://blog.walterlv.com/post/known-nuget-properties-in-csproj.html )
 
@@ -119,11 +119,11 @@ nuget.exe spec
 
 <!-- ![](images/img-VisualStudio 使用新项目格式快速打出 Nuget 包6.png) -->
 
-![](images/img-lindexi%2F20181015112224371.png)
+![](images/img-modify-16a443de2bb18e57fec1b014b7d78497.png)
 
 <!-- ![](images/img-VisualStudio 使用新项目格式快速打出 Nuget 包7.png) -->
 
-![](images/img-lindexi%2F20181015112259646.png)
+![](images/img-modify-557c117b055e84eb155034684a50db1c.png)
 
 那么如何验证打出来的包是可以使用的？做法很简单，就是使用 Nuget 安装本地的包的方式
 
@@ -131,37 +131,37 @@ nuget.exe spec
 
 <!-- ![](images/img-VisualStudio 使用新项目格式快速打出 Nuget 包8.png) -->
 
-![](images/img-lindexi%2F2018101511234592.png)
+![](images/img-modify-2aebabd137efb9e8b35963fcd3f5b9e0.png)
 
 点击设置
 
 <!-- ![](images/img-VisualStudio 使用新项目格式快速打出 Nuget 包9.png) -->
 
-![](images/img-lindexi%2F2018101511246876.png)
+![](images/img-modify-1ef1310096a653ddbbeaace113e8011f.png)
 
 点击添加一个本地的包，修改输出包的文件夹
 
 <!-- ![](images/img-VisualStudio 使用新项目格式快速打出 Nuget 包10.png) -->
 
-![](images/img-lindexi%2F20181015112432959.png)
+![](images/img-modify-7ebcd69b21a290c154cb7728c6c08710.png)
 
 切换本地包
 
 <!-- ![](images/img-VisualStudio 使用新项目格式快速打出 Nuget 包11.png) -->
 
-![](images/img-lindexi%2F20181015112451513.png)
+![](images/img-modify-f2b7376394dd607101397177996ac2f9.png)
 
 点击浏览
 
 <!-- ![](images/img-VisualStudio 使用新项目格式快速打出 Nuget 包12.png) -->
 
-![](images/img-lindexi%2F20181015112512931.png)
+![](images/img-modify-27c49583b9243a04203e2d82b28936e0.png)
 
 点击刚才创建的包
 
 <!-- ![](images/img-VisualStudio 使用新项目格式快速打出 Nuget 包13.png) -->
 
-![](images/img-lindexi%2F20181015112528247.png)
+![](images/img-modify-4b1cf44ea6e56fddf1236794abaaca68.png)
 
 这时就可以看到刚才快速创建的包
 

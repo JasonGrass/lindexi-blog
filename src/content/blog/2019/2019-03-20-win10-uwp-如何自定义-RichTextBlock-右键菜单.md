@@ -37,7 +37,7 @@ tags:
 
 运行上面代码可以看到这个图片
 
-![](images/img-lindexi%2F201932094724277.png)
+![](images/img-modify-4b23c23c7feddee08c5df0931476a3d5.png)
 
 代码在 [github](https://github.com/lindexi/lindexi_gd/tree/7a716887868435aab72683997806c9e7133722b4/LekaryusijefowHirgemsterevepalltrallxay)
 

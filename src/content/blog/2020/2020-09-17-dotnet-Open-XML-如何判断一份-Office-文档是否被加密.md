@@ -86,7 +86,7 @@ tags:
 
 <!-- ![](images/img-dotnet Open XML 如何判断一份 Office 文档是否被加密0.png) -->
 
-![](images/img-lindexi%2F2020917193654934.jpg)
+![](images/img-modify-4c3a385473f5b045926f1fa39f3b2112.jpg)
 
 而在 Office 的解密方法就是使用用户输入的密码和 EncryptionInfo 内容判断，然后解压缩 EncryptedPackage 文件，所以上面的判断大概是对的
 

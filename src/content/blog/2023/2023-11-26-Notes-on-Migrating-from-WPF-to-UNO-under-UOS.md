@@ -26,7 +26,7 @@ Before I begin, let me explain my requirements. I currently have [a small WPF ap
 As we all know, there are many multi-platform development frameworks available in the current dotnet system. This time, I decided to try developing with the UNO/MAUI approach. The overall technical architecture is shown in the diagram below.
 
 <!-- ![](images/img-Notes on Migrating from WPF to UNO under UOS0.png) -->
-![](images/img-lindexi%2F20231126112176598.jpg)
+![](images/img-modify-1f308c273df7b735476340969de34b4d.jpg)
 
 As shown in the diagram, I still use the WPF framework on Windows. However, this time the WPF framework is used as the underlying framework. Most of the business code will not directly touch the WPF framework, only some platform compatibility adaptation code will. The rest of the business code will indirectly use the WPF framework through the UNO and MAUI frameworks. On the UOS, the GTK application framework is used. Similarly, only platform compatibility adaptation code will touch the GTK application framework, and most business code will not directly interact with it.
 
@@ -69,10 +69,10 @@ If there is content that depends on the space stretched by the measurement durin
 With this logic, you will see the text content being clipped during the input process. Basically, you can see the text content being clipped under the Skia.WPF and Skia.GTK projects.
 
 <!-- ![](images/img-从 WPF 搬迁到 UOS 下的 UNO 的笔记1.png) -->
-![](images/img-lindexi%2F202311161640203139.jpg)
+![](images/img-modify-1dc8a2942a36774cc165496b1d82484c.jpg)
 
 <!-- ![](images/img-从 WPF 搬迁到 UOS 下的 UNO 的笔记2.png) -->
-![](images/img-lindexi%2F202311161640505448.jpg)
+![](images/img-modify-fed3763196f826ccfcceba18962bcff2.jpg)
 
 For now, the only workaround is to modify the interface design.
 

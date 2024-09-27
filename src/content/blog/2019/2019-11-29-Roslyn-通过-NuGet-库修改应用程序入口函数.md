@@ -33,7 +33,7 @@ tags:
 
 <!-- ![](images/img-Roslyn 通过 NuGet 库修改应用程序入口函数0.png) -->
 
-![](images/img-lindexi%2F2019421164746788.png)
+![](images/img-modify-f2756482055bdc19983b5f5aae54a8f6.png)
 
 安装完成可以在用户名的 .nuget 文件夹找到
 

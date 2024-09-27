@@ -24,33 +24,33 @@ tags:
 
 <!-- ![](images/img-Github 给仓库上传 NuGet 库0.png) -->
 
-![](images/img-lindexi%2F20191019155624816.png)
+![](images/img-modify-72dffaa9793b3a26f702a00a5dcf61e1.png)
 
 点击打开一个项目的 Package 默认会邀请你加入，点击开启功能
 
 <!-- ![](images/img-Github 给仓库上传 NuGet 库1.png) -->
 
-![](images/img-lindexi%2F20191019155739966.png)
+![](images/img-modify-4d093c079cccb14df95ae57f0b8decfe.png)
 
 在 Github 会显示如何做 NuGet 的上传，上面的 `GH_TOKEN` 就是自己生成的代表自己密码，请看文档 [创建用于命令行的个人访问令牌 - GitHub 帮助](https://help.github.com/cn/articles/creating-a-personal-access-token-for-the-command-line )
 
 大概的方法就是点击 Settings -> Developer settings -> Personal access tokens 如下图
 
-![](images/img-userbar-account-settings.png)
+![](https://help.github.com/assets/images/help/settings/userbar-account-settings.png)
 
-![](images/img-developer-settings.png)
+![](https://help.github.com/assets/images/help/settings/developer-settings.png)
 
-![](images/img-personal_access_tokens_tab.png)
+![](https://help.github.com/assets/images/help/settings/personal_access_tokens_tab.png)
 
 单击 Generate new token（生成新令牌）
 
-![](images/img-generate_new_token.png)
+![](https://help.github.com/assets/images/help/settings/generate_new_token.png)
 
 输入随意的名字，然后注意勾选 Package 权限，也就是 `write:packages` 和 `read:packages` 权限
 
 <!-- ![](images/img-Github 给仓库上传 NuGet 库2.png) -->
 
-![](images/img-lindexi%2F2019101916040343.png)
+![](images/img-modify-f38f6c5d81cab3021730c9e2773492a2.png)
 
 将页面拉到最下，点击 Generate token 按钮就可以创建密码
 
@@ -58,7 +58,7 @@ tags:
 
 <!-- ![](images/img-Github 给仓库上传 NuGet 库3.png) -->
 
-![](images/img-lindexi%2F2019101916321866.png)
+![](images/img-modify-96a7dcd1ee03ccf6cd762c089677ebfe.png)
 
 然后在对应的仓库配置密码，在默认打开 package 页面的时候就可以看到
 
@@ -105,7 +105,7 @@ nuget push Lindexi_gd.1.0.0.nupkg -Source GithubLindexi
 
 <!-- ![](images/img-Github 给仓库上传 NuGet 库4.png) -->
 
-![](images/img-lindexi%2F2019101916111211.png)
+![](images/img-modify-eca751d854becd7f309fc305b2a3d392.png)
 
 如果在上传的时候提示下面代码
 

@@ -35,7 +35,7 @@ description: "安装 wordpress 出现 抱歉，我不能写入wp-config.php文�
 抱歉，我不能写入wp-config.php文件
 ```
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201832125330.jpg)
+![](images/img-modify-7c6691897b079561f1437719b72cd539.jpg)
 
 那么需要拷贝这个内容，注意在文件最后添加 `?>`
 
@@ -68,7 +68,7 @@ vi  wp-config.php
 
 这时可以看到一些奇怪的代码，不过直接返回安装的页面，也就是`http://你的网站/` 就可以看到这个页面
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F20183213250.jpg)
+![](images/img-modify-3dbb2f5a893e7155267563318b36a09c.jpg)
 
 写自己的账号密码就好
 

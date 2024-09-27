@@ -31,7 +31,7 @@ tags:
 更改之后，可以在任务管理器上看到进程名的更改
 
 <!-- ![](images/img-dotnet 如何更改应用在任务管理器显示的进程名 AssemblyTitle 的值0.png) -->
-![](images/img-lindexi%2F202012121758262369.jpg)
+![](images/img-modify-ac15826f8b63a7cecd226bc4caee237a.jpg)
 
 在更新到新的 VS 2017 的 SDK Style 的 csproj 格式，默认没有给 `Properties\AssemblyInfo.cs` 文件，如果此时大家自己创建一个 `Properties\AssemblyInfo.cs` 文件，那么在构建的时候将会提示 `Error CS0579 Duplicate 'System.Reflection.AssemblyTitleAttribute' attribute` 原因是当前的 AssemblyInfo.cs 是生成的。如果想要加上 `Properties\AssemblyInfo.cs` 文件，就需要在 csproj 上设置不要自动生成 `AssemblyInfo.cs` 文件
 
@@ -80,7 +80,7 @@ tags:
 
 <!-- ![](images/img-dotnet 如何更改应用在任务管理器显示的进程名 AssemblyTitle 的值1.png) -->
 
-![](images/img-lindexi%2F20201212209324787.jpg)
+![](images/img-modify-68bdcfc6b02a51fd1882b92c70138b9c.jpg)
 
 本文代码放在[github](https://github.com/lindexi/lindexi_gd/tree/18983486/BeehijemwaboHaihafobe)欢迎大家访问
 

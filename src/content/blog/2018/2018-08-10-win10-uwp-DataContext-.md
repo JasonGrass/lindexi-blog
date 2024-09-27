@@ -40,7 +40,7 @@ tags:
 
 然后在首页添加这个控件
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2018114144020-modify-256ed2c9d7e29ae55e01542ee1044abc.jpg)
+![](images/img-modify-256ed2c9d7e29ae55e01542ee1044abc.jpg)
 
 ```csharp
         <local:LuenqxuhkRrjbzcf ></local:LuenqxuhkRrjbzcf>
@@ -71,7 +71,7 @@ tags:
 
 接下来添加两个按钮在首页，一个是设置用户控件的 DataContext ，一个删除，这时可以看到界面出现变化
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017%25E5%25B9%25-modify-6697a95268f836c7f88980b3ddfbfb28.gif)
+![](images/img-modify-6697a95268f836c7f88980b3ddfbfb28.gif)
 
 ```csharp
 <Grid>
@@ -129,7 +129,7 @@ tags:
 
 如果只有一个页面，而且使用的地方也是在 页面的内容，那么建议使用这个方法。
 
-![](images/img-AwCCAwMAItoFADbzBgABAAQArj4BAGZDAgBo6AkA6Nk%3D%2F2017430-modify-4bc6fd00d214852a6bd083eb00322cf0.jpg)
+![](images/img-modify-4bc6fd00d214852a6bd083eb00322cf0.jpg)
 
 如果需要在 Page 的元素也绑定到 ViewModel ，那么可以参见下面的方法。
 
@@ -146,7 +146,7 @@ tags:
 
 这样在程序任何地方都可以使用
 
-![](images/img-AwCCAwMAItoFADbzBgABAAQArj4BAGZDAgBo6AkA6Nk%3D%2F2017430-modify-7cc7c1763edac130602ee694de8d70be.jpg)
+![](images/img-modify-7cc7c1763edac130602ee694de8d70be.jpg)
 
 我的想法，如果是 ViewModel ，那么写在这里，对于 MVVM 的 ViewModel ，MainPage 对应的 ViewModel 建议写在这里。
 

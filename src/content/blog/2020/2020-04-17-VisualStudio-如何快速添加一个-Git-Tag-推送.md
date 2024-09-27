@@ -25,31 +25,31 @@ tags:
 
 <!-- ![](images/img-VisualStudio 如何快速添加一个 Git Tag 推送0.png) -->
 
-![](images/img-lindexi%2F20204171135492210.jpg)
+![](images/img-modify-6a232f6a75b98d5853c5befb0cc650bd.jpg)
 
 点击 Tags 进入标记界面
 
 <!-- ![](images/img-VisualStudio 如何快速添加一个 Git Tag 推送1.png) -->
 
-![](images/img-lindexi%2F20204171137237845.jpg)
+![](images/img-modify-384e6455c3cc9a40939b5ba5db6facd7.jpg)
 
 此时可以通过点击 新建Tag按钮 新建一个 Tag 给他版本号和信息，请看下图
 
 <!-- ![](images/img-VisualStudio 如何快速添加一个 Git Tag 推送2.png) -->
 
-![](images/img-lindexi%2F2020417113959016.jpg)
+![](images/img-modify-db99eec32ac3504f753dc6674785b619.jpg)
 
 点击创建按钮就可以完成了创建，上面代码只有 Tag 号是必须的，而信息是不必须的。当然有信息可以协助小伙伴更好了解这个 Tag 对应的功能
 
 <!-- ![](images/img-VisualStudio 如何快速添加一个 Git Tag 推送3.png) -->
 
-![](images/img-lindexi%2F2020417114041309.jpg)
+![](images/img-modify-c687185a54051994919f1880d2d601ab.jpg)
 
 此时就可以看到刚才新建的 Tag 了，右击这个新建的 Tag 号就可以找到推送按钮，点击推送按钮就可以将 Tag 推送到服务器了
 
 <!-- ![](images/img-VisualStudio 如何快速添加一个 Git Tag 推送4.png) -->
 
-![](images/img-lindexi%2F20204171141525045.jpg)
+![](images/img-modify-4f51ba81f75f616b20e8b3d9df30a42b.jpg)
 
 熟悉这个方法可以快速给代码添加一个 Tag 号
 

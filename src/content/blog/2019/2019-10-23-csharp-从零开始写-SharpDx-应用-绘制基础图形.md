@@ -199,7 +199,7 @@ using Factory = SharpDX.Direct2D1.Factory;
 
 <!-- ![](images/img-C# 从零开始写 SharpDx 应用 绘制基础图形0.png) -->
 
-![](images/img-lindexi%2F2019616202452970.png)
+![](images/img-modify-c1a91372fad530079bf0ed2e3a9720d4.png)
 
 这段代码写在 Draw 函数里面，在 SharpDx 里面创建的资源，例如笔画和样式等，都需要做手动的释放，这部分的写法和 WPF 不相同，需要自己关注资源的创建和释放，但是这样做才能做到更改的性能
 
@@ -290,7 +290,7 @@ using Factory = SharpDX.Direct2D1.Factory;
 
 <!-- ![](images/img-C# 从零开始写 SharpDx 应用 绘制基础图形1.png) -->
 
-![](images/img-lindexi%2F2019616204315473.png)
+![](images/img-modify-c306c5a0dacfc769d047963bb4f388b3.png)
 
 创建椭圆时传入的是圆心和两个方向的大小
 

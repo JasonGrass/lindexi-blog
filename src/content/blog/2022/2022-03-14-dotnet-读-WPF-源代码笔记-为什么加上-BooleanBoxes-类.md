@@ -55,7 +55,7 @@ tags:
 
 <!-- ![](images/img-dotnet 读 WPF 源代码笔记 为什么加上 BooleanBoxes 类0.png) -->
 
-![](images/img-lindexi%2F2022315856539039.jpg)
+![](images/img-modify-a7e613fb13c0cc1c719f10a933a9275d.jpg)
 
 |                  Method |      Mean |    StdDev |    Median | Scaled |
 |------------------------ |---------- |---------- |---------- |------- |

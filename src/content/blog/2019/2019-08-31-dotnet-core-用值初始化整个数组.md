@@ -49,7 +49,7 @@ Array.Fill(data, true);
 
 <!-- ![](images/img-dotnet core 用值初始化整个数组0.png) -->
 
-![](images/img-lindexi%2F20191111995339.png)
+![](images/img-modify-eac77c6531110ee21c7bc74bc001333e.png)
 
 那么这个方法是如何做到高性能的？
 

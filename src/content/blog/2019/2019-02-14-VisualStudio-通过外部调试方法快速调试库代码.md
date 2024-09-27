@@ -35,7 +35,7 @@ dotnet new wpf -o 创建的 WPF 的项目的名
 
 <!-- ![](images/img-VisualStudio 通过外部调试方法快速调试库代码0.png) -->
 
-![](images/img-lindexi%2F2019214202049612.png)
+![](images/img-modify-0c359dfbd9e1ade1f87d9f6e9f7c66c5.png)
 
 这时打开 WPF 的 App.xaml.cs 文件，创建构造函数，在构造函数使用 Foo 类
 
@@ -69,13 +69,13 @@ dotnet new wpf -o 创建的 WPF 的项目的名
 
 <!-- ![](images/img-VisualStudio 通过外部调试方法快速调试库代码1.png) -->
 
-![](images/img-lindexi%2F2019214205621510.png)
+![](images/img-modify-4c8341b3db870048d1b55e4b251fb09b.png)
 
 然后输入 WPF 程序的 exe 所在路径
 
 <!-- ![](images/img-VisualStudio 通过外部调试方法快速调试库代码2.png) -->
 
-![](images/img-lindexi%2F2019214205738829.png)
+![](images/img-modify-ac1a2d8404da1eb22e11de54a56a4f79.png)
 
 如果这个 dotnet core 程序被多个项目引用，希望能在不同的引用的程序调试请看[VisualStudio 使用多个环境进行调试](https://lindexi.gitee.io/post/VisualStudio-%E4%BD%BF%E7%94%A8%E5%A4%9A%E4%B8%AA%E7%8E%AF%E5%A2%83%E8%BF%9B%E8%A1%8C%E8%B0%83%E8%AF%95.html )
 
@@ -83,7 +83,7 @@ dotnet new wpf -o 创建的 WPF 的项目的名
 
 <!-- ![](images/img-VisualStudio 通过外部调试方法快速调试库代码3.png) -->
 
-![](images/img-lindexi%2F201921421357443.png)
+![](images/img-modify-36aec4745895b437ebe602b5f6d0f6c9.png)
 
 现在尝试在 Foo 类加上断点，然后按下 F5 调试
 
@@ -91,13 +91,13 @@ dotnet new wpf -o 创建的 WPF 的项目的名
 
 <!-- ![](images/img-VisualStudio 通过外部调试方法快速调试库代码4.png) -->
 
-![](images/img-lindexi%2F20192142163832.png)
+![](images/img-modify-cf2c0f08ebfc3f4a57b248cb4e5a9e14.png)
 
 尝试修改一下里面的内容
 
 <!-- ![](images/img-VisualStudio 通过外部调试方法快速调试库代码5.png) -->
 
-![](images/img-lindexi%2F20192142179341.png)
+![](images/img-modify-d1fc560ec1419342d6360d320bca166c.png)
 
 可以继续运行，同时修改了输入
 
@@ -121,7 +121,7 @@ dotnet new wpf -o 创建的 WPF 的项目的名
 
 <!-- ![](images/img-VisualStudio 通过外部调试方法快速调试库代码6.png) -->
 
-![](images/img-lindexi%2F2019214213527111.png)
+![](images/img-modify-ac03aa0257b731958af90ee50e81bf5e.png)
 
 如果是添加一个参数之后再调试，就会发现 System.MissingMethodException 找不到方法
 
@@ -133,7 +133,7 @@ System.MissingMethodException:“Method not found: 'Void DirtesFanelsalmair.Foo.
 
 <!-- ![](images/img-VisualStudio 通过外部调试方法快速调试库代码7.png) -->
 
-![](images/img-lindexi%2F2019214213719716.png)
+![](images/img-modify-ba1f2f6d8ce3e678731900d3481dab39.png)
 
 但是如果我添加了默认的参数是有影响，如下面代码
 

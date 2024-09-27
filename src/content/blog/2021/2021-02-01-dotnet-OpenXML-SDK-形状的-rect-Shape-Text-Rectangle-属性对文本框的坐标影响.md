@@ -64,7 +64,7 @@ tags:
 
 <!-- ![](images/img-dotnet OpenXML SDK 形状的 rect Shape Text Rectangle 属性对文本框的-modify-8415d753a0d2f15163e900d6fc91346c.png) -->
 
-![](images/img-lindexi%2F2021211716308914.jpg)
+![](images/img-modify-ae039905413a2c992d24a86642a0f4af.jpg)
 
 在 OpenXML 里面，根据 ECMA 376 的 20.1.9.22 文档内容，形状的 `a:rect` 决定文本框的外框的矩形范围。而在文本框里面还有 `a:bodyPr` 的 lIns (Left Inset)  和 rIns (Right Inset) 和 bIns (Bottom Inset) 和 tIns (Top Inset) 决定文本在文本框里面的边距
 
@@ -96,13 +96,13 @@ tags:
 
 <!-- ![](images/img-dotnet OpenXML SDK 形状的 rect Shape Text Rectangle 属性对文本框的-modify-89a9f8db136449f695373f698202ecac.png) -->
 
-![](images/img-lindexi%2F2021211727273025.jpg)
+![](images/img-modify-e1cdb92bbe0f379b477f5b9664f221a5.jpg)
 
 在 Office 里面，对文本框的边距设置，作用是 `a:bodyPr` 属性，而不是 `a:rect` 属性
 
 <!-- ![](images/img-dotnet OpenXML SDK 形状的 rect Shape Text Rectangle 属性对文本框的-modify-bb6b9998db752e23589647015132cf99.png) -->
 
-![](images/img-lindexi%2F20212284094980.jpg)
+![](images/img-modify-4edcbc94d1f0289791fe6c9fb56462a8.jpg)
 
 本文全部代码放在 [github](https://github.com/lindexi/lindexi_gd/tree/c796ed65/RurlejileGearhuheljale) 或 [gitee](https://gitee.com/lindexi/lindexi_gd/tree/c796ed65/RurlejileGearhuheljale) 欢迎大家访问
 

@@ -56,7 +56,7 @@ class F2
 
 <!-- ![](images/img-dotnet 已知问题 错误标记 MethodImplOptions.InternalCall 特性参数将会在类-modify-d0f4ea6929654faf9a820f0b9d5e2411.png) -->
 
-![](images/img-lindexi%2F202311191122288520.jpg)
+![](images/img-modify-502059be6e9601cd097c10334d41f28f.jpg)
 
 这也就是导致了此问题更加难以调试的原因
 

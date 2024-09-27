@@ -26,7 +26,7 @@ tags:
 
 以下是在 VisualStudio 2019 进行构建，十分简单，只需要部署环境完成之后进行构建即可
 
-![](images/img-lindexi%2F202188206162793.jpg)
+![](images/img-modify-f0fabc10c80f84913837647d811d5007.jpg)
 
 然而在 VisualStudio 2022 里面，将会在构建的时候提示失败
 

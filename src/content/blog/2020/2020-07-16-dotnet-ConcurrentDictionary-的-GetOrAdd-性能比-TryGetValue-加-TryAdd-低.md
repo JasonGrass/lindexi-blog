@@ -65,7 +65,7 @@ tags:
 
 <!-- ![](images/img-dotnet ConcurrentDictionary 的 GetOrAdd 性能比 TryGetValue 加-modify-8517b91c64bbfd8768aa27b4190fa4b0.png) -->
 
-![](images/img-lindexi%2F2020716116373889.jpg)
+![](images/img-modify-0bb9adbe80cdbe99ac25a90de54b9c42.jpg)
 
 |  Method |     Mean |    Error |   StdDev |  Gen 0 | Gen 1 | Gen 2 | Allocated |
 |-------- |---------:|---------:|---------:|-------:|------:|------:|----------:|

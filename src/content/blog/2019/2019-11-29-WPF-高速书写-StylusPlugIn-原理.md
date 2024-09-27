@@ -39,7 +39,7 @@ tags:
 
 <!-- ![](images/img-WPF 触摸到事件4.png) -->
 
-![](images/img-lindexi%2F2018815111230935.png)
+![](images/img-modify-17019329028d1a062e2a8ea47d6c93a0.png)
 
 这里需要补充一下，从  `PenThreadWorker.FireEvent` 可以调用 PenContext 三个不同的方法，分别是 FirePenDown 、FirePackets、FirePenUp 而这几个方法最后都会调用到 `WispLogic.ProcessInput` 方法。在 `WispLogic.ProcessInput` 经过封装调用 `WispLogic.ProcessInputReport`  在这个函数里面就会执行所有的 StylusPlugin 请看代码
 
@@ -134,17 +134,17 @@ Point point = new Point((double)data[data.Length - inputArrayLengthPerPoint], (d
 
 <!-- ![](images/img-WPF 高速书写 StylusPlugIn 原理0.png) -->
 
-<!-- ![](images/img-lindexi%2F2018930203356206.png) -->
+<!-- ![](images/img-modify-c4508bd6ef0dd62e8d911425670589ad.png) -->
 
 <!-- ![](images/img-WPF 高速书写 StylusPlugIn 原理2.png) -->
 
-![](images/img-lindexi%2F2018108203514549.png)
+![](images/img-modify-2401b88bceb86b1d81043d8ef8871f77.png)
 
 然后调用 HittestPlugInCollection 找到命中的 stylusPlugInCollection 这里的命中测试和 WPF 的元素命中测试不相同，在于即使有元素挡住也会命中
 
 <!-- ![](images/img-WPF 高速书写 StylusPlugIn 原理1.png) -->
 
-![](images/img-lindexi%2F201810220224112.png)
+![](images/img-modify-5f12fade6571cf82786fd183e16b7d37.png)
 
 
 ```csharp
@@ -217,7 +217,7 @@ Point point = new Point((double)data[data.Length - inputArrayLengthPerPoint], (d
 
 <!-- ![](images/img-WPF 高速书写 StylusPlugIn 原理3.png) -->
 
-![](images/img-lindexi%2F2018108203932919.png)
+![](images/img-modify-bdcd33c286a1b92c66d34106b488a2c5.png)
 
 如果找到了 StylusPlugInCollection 而且 `wispStylusDevice.CurrentNonVerifiedTarget` 不存在，就创建 RawStylusInput 然后调用 `StylusPlugInCollection.FireRawStylusInput` 请看代码
 
@@ -310,7 +310,7 @@ internal void InvokeStylusPluginCollection(RawStylusInputReport inputReport)
 
 <!-- ![](images/img-WPF 高速书写 StylusPlugIn 原理4.png) -->
 
-![](images/img-lindexi%2F2018108212117763.png)
+![](images/img-modify-424549d9a869312de75cba10c9beff03.png)
 
 从上面的调用可以看到 StylusPlugIn 从触摸到调用的函数很少，如果要做到高性能就需要使用这个方法
 

@@ -25,49 +25,49 @@ Integrations Settings 如下图
 
 <!-- ![](images/img-在 Gitlab 开启 MatterMost 机器人0.png) -->
 
-![](images/img-lindexi%2F201986182226228.png)
+![](images/img-modify-ac2d389857a584e5c9f2a5699714c946.png)
 
 然后调用 MatterMost notifications 开启通知机器人
 
 <!-- ![](images/img-在 Gitlab 开启 MatterMost 机器人1.png) -->
 
-![](images/img-lindexi%2F201986182321443.png)
+![](images/img-modify-ae68311f54fb5a572ec51cf69365d565.png)
 
 点击进去之后可以看到以下页面
 
 <!-- ![](images/img-在 Gitlab 开启 MatterMost 机器人2.png) -->
 
-![](images/img-lindexi%2F20198618254341.png)
+![](images/img-modify-27f6c07167a1569dc888c603207ba486.png)
 
 此时应该点击 Active 开启，这样就完成了第一步
 
 第二步就是打开 Mattermost 点击集成的功能
 
-![](images/img-lindexi%2F201951784850976.png)
+![](images/img-modify-766da4b743c0ae03094abf9e1b487bd7.png)
 
 <!-- ![](images/img-dotnet core 集成到 Mattermost 聊天工具0.png) -->
 
 在这里选择引入 Webhook 的方式
 
-![](images/img-lindexi%2F201951784924310.png)
+![](images/img-modify-9fb3247f25ad06b7ed5a210e2ccbe2be.png)
 
 <!-- ![](images/img-dotnet core 集成到 Mattermost 聊天工具1.png) -->
 
 点击添加钩子
 
-![](images/img-lindexi%2F20195178500833.png)
+![](images/img-modify-87337106a69cc7cb55898eadb6807011.png)
 
 <!-- ![](images/img-dotnet core 集成到 Mattermost 聊天工具2.png) -->
 
 输入一个标题和选择频道
 
-![](images/img-lindexi%2F201951785037963.png)
+![](images/img-modify-47c3c4fb2ba03cbf1f0b2763ffd75360.png)
 
 <!-- ![](images/img-dotnet core 集成到 Mattermost 聊天工具3.png) -->
 
 现在就可以看到一个链接了
 
-![](images/img-lindexi%2F201951785122324.png)
+![](images/img-modify-fd95d52a5390c2f0670f47eb1f703758.png)
 
 将这个链接复制到剪贴板，于是第二步完成
 
@@ -75,13 +75,13 @@ Integrations Settings 如下图
 
 <!-- ![](images/img-在 Gitlab 开启 MatterMost 机器人3.png) -->
 
-![](images/img-lindexi%2F201986182749952.png)
+![](images/img-modify-5561df97121b34f14b8af505a26caca6.png)
 
 粘贴进去之后点击测试设置同时保存，如果此时在对应的 MatterMost 可以看到频道里面显示消息，那么就部署完成
 
 <!-- ![](images/img-在 Gitlab 开启 MatterMost 机器人4.png) -->
 
-![](images/img-lindexi%2F201986182827109.png)
+![](images/img-modify-68fb85639bce092807f7a9ef9f0e8487.png)
 
 现在尝试对新建的项目新建一个MR就可以看到 Mattermost 的通知
 

@@ -86,19 +86,19 @@ ReleaseToDev:
 
 <!-- ![](images/img-dotnet tool 创建 GitLab 合并请求 Merge Requests 工具1.png) -->
 
-![](images/img-lindexi%2F202111301957157005.jpg)
+![](images/img-modify-8960a5e775952c54cf24714561362184.jpg)
 
 点击设置界面的 Access Tokens 选项，即可看到如下界面
 
 <!-- ![](images/img-dotnet tool 创建 GitLab 合并请求 Merge Requests 工具0.png) -->
 
-![](images/img-lindexi%2F202111301956303214.jpg)
+![](images/img-modify-16a7dc0f9f3987935b3dbee0daadc28a.jpg)
 
 填写 Token name 为你期望的字符串，如 `TestFoo` 等。这个用来给你了解此 Token 的用途，是给你自己看的内容，接着在 `Select scopes` 上全部打上勾
 
 <!-- ![](images/img-dotnet tool 创建 GitLab 合并请求 Merge Requests 工具2.png) -->
 
-![](images/img-lindexi%2F2021113020041198.jpg)
+![](images/img-modify-d0aa1d251c7890b3ae1564be71dac537.jpg)
 
 完成之后，点击 Create personal access token 按钮即可
 
@@ -106,19 +106,19 @@ ReleaseToDev:
 
 <!-- ![](images/img-dotnet tool 创建 GitLab 合并请求 Merge Requests 工具3.png) -->
 
-![](images/img-lindexi%2F2021113020193779.jpg)
+![](images/img-modify-62132ab2dd429481b751f0d4da27c9e7.jpg)
 
 拷贝如上 access token 代码，进入到 CI/CD Settings 设置，点开 Variables 点击 Add variable 按钮添加变量
 
 <!-- ![](images/img-dotnet tool 创建 GitLab 合并请求 Merge Requests 工具5.png) -->
 
-![](images/img-lindexi%2F202111302010107347.jpg)
+![](images/img-modify-59f73df08159f720d3befb1e9a90a54b.jpg)
 
 添加一个 Key 叫 Token 且值是刚才复制的 access token 代码
 
 <!-- ![](images/img-dotnet tool 创建 GitLab 合并请求 Merge Requests 工具6.png) -->
 
-![](images/img-lindexi%2F202111302011426983.jpg)
+![](images/img-modify-c22b08805500d3fa019111e1ff4f9fe6.jpg)
 
 这样就完成了配置。在 GitLab 上，即可通过 `$Token` 变量获取到刚才设置的 access token 代码
 

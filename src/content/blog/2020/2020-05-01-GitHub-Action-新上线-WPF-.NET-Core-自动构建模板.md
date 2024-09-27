@@ -33,19 +33,19 @@ dotnet new wpf -o Foo
 
 <!-- ![](images/img-GitHub Action 新上线 WPF .NET Core 自动构建模板0.png) -->
 
-![](images/img-lindexi%2F20204302228221572.jpg)
+![](images/img-modify-6c20ce110c100f4c6d6f6fd4460aba76.jpg)
 
 暂时先使用测试的证书，创建测试证书的方法就是双击打包项目的 Package.appxmanifest 文件，点击打包，然后点击选择证书
 
 <!-- ![](images/img-GitHub Action 新上线 WPF .NET Core 自动构建模板1.png) -->
 
-![](images/img-lindexi%2F20204302229314549.jpg)
+![](images/img-modify-86d1a1ca291e32ee5126fcbd93af4800.jpg)
 
 点击创建然后输入名字点击确定就可以，请看下图
 
 <!-- ![](images/img-GitHub Action 新上线 WPF .NET Core 自动构建模板2.png) -->
 
-![](images/img-lindexi%2F20204302230254238.jpg)
+![](images/img-modify-d14a430680c550281b2aa57a092e9716.jpg)
 
 此时就创建了 `Foo_TemporaryKey.pfx` 证书文件，当然你的证书名应该和我不相同
 
@@ -78,7 +78,7 @@ base64 -f Foo_TemporaryKey.pfx -o base64.txt
 <!-- ![](images/img-GitHub Action 新上线 WPF .NET Core 自动构建模板3.png) -->
 
 
-![](images/img-lindexi%2F20204302238184084.jpg)
+![](images/img-modify-b4ab20e27072094fde41e9772b1e76ca.jpg)
 
 点击 Add a new secret 新建保密信息
 
@@ -86,14 +86,14 @@ base64 -f Foo_TemporaryKey.pfx -o base64.txt
 
 <!-- ![](images/img-GitHub Action 新上线 WPF .NET Core 自动构建模板4.png) -->
 
-![](images/img-lindexi%2F2020430224019618.jpg)
+![](images/img-modify-0ec0b27d1fa61469547896334bfc619d.jpg)
 
 点击添加，然后进入 Action 页面
 
 <!-- ![](images/img-GitHub Action 新上线 WPF .NET Core 自动构建模板5.png) -->
 
 
-![](images/img-lindexi%2F20204302240577115.jpg)
+![](images/img-modify-5c1767aca9898abfbf0e135c7efafe4c.jpg)
 
 此时可以看到新推出的 WPF 构建项目
 

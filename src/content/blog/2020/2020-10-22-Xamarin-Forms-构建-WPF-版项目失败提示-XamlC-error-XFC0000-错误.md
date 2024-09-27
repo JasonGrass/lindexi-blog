@@ -34,7 +34,7 @@ Views/NewItemPage.xaml : error :  : XamlC error XFC0000 : Cannot resolve type "C
 
 <!-- ![](images/img-Xamarin Forms 构建 WPF 版项目失败提示 XamlC error XFC0000 错误0-modify-b849c84badf721c6c1c639b165cd8ef6.png) -->
 
-![](images/img-lindexi%2F2020102292074124.jpg)
+![](images/img-modify-969167a079b6c97dcf990aa77e73c0b1.jpg)
 
 如 [[Bug] XAML compiler broke with 4.7.0 · Issue #11101 · xamarin/Xamarin.Forms](https://github.com/xamarin/Xamarin.Forms/issues/11101#issuecomment-713626002 ) 所说，一个可以使用的方法是 [Michael Schnerring](https://github.com/schnerring) 大佬提供的方法
 

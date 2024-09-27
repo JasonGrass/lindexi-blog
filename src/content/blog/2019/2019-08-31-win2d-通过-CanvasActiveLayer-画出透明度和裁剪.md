@@ -59,7 +59,7 @@ tags:
 
 <!-- ![](images/img-win2d 通过 CanvasActiveLayer 画出透明度和裁剪0.png) -->
 
-![](images/img-lindexi%2F2019117211632750.png)
+![](images/img-modify-9160b7d783ff47c7c743f85383292773.png)
 
 然后再创建一个椭圆，画出椭圆
 
@@ -79,7 +79,7 @@ tags:
 
 <!-- ![](images/img-win2d 通过 CanvasActiveLayer 画出透明度和裁剪1.png) -->
 
-![](images/img-lindexi%2F2019117211836981.png)
+![](images/img-modify-d8bbd7f9c1f3ed36250cf7337e703741.png)
 
 下面告诉大家如何使用 CanvasActiveLayer 的方法
 
@@ -135,7 +135,7 @@ tags:
 
 <!-- ![](images/img-win2d 通过 CanvasActiveLayer 画出透明度和裁剪2.png) -->
 
-![](images/img-lindexi%2F2019117212330454.png)
+![](images/img-modify-56d2e7e03c16f1eeead004597047cd82.png)
 
 从代码可以看到 CreateLayer 的设计是创建一个简单的方法，在这个方法里面可以快速设置画出的界面，同时在这个方法外面将会和之前一样
 
@@ -156,7 +156,7 @@ tags:
 
 <!-- ![](images/img-win2d 通过 CanvasActiveLayer 画出透明度和裁剪3.png) -->
 
-![](images/img-lindexi%2F2019118115012101.png)
+![](images/img-modify-d25fed49c627fc0c6715e1320ca22454.png)
 
 现在运行代码可以看到圆形是半透明的
 
@@ -193,7 +193,7 @@ tags:
 
 <!-- ![](images/img-win2d 通过 CanvasActiveLayer 画出透明度和裁剪4.png) -->
 
-![](images/img-lindexi%2F2019118121018332.png)
+![](images/img-modify-7987a04a9db22b7aac6d29b41af93c55.png)
 
 上面使用了渐变颜色，更多关于渐变请看 [win2d 渐变颜色](https://blog.csdn.net/lindexi_gd/article/details/82177605 )
 
@@ -207,7 +207,7 @@ tags:
 
 <!-- ![](images/img-win2d 通过 CanvasActiveLayer 画出透明度和裁剪5.png) -->
 
-![](images/img-lindexi%2F201911981918851.png)
+![](images/img-modify-294361b8364ea12eb4e7175ce3a504e1.png)
 
 现在运行代码可以看到界面是一个矩形
 
@@ -251,7 +251,7 @@ tags:
 
 <!-- ![](images/img-win2d 通过 CanvasActiveLayer 画出透明度和裁剪6.png) -->
 
-![](images/img-lindexi%2F201911982129485.png)
+![](images/img-modify-f257240fc0d341a5b58cf830dd11bc1b.png)
 
 关于如何做出一个 Geometry 和更多博客请看
 

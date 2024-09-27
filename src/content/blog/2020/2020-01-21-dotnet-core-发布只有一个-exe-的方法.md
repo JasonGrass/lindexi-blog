@@ -53,7 +53,7 @@ dotnet publish -c Release --self-contained -r win-x86
 
 <!-- ![](images/img-dotnet core 发布只有一个 exe 的方法0.png) -->
 
-![](images/img-lindexi%2F201921104230270.png)
+![](images/img-modify-e401a22556eb3baee357df0bc12650ee.png)
 
 同时使用这个工具还有一个好处，就是对文件进行压缩
 

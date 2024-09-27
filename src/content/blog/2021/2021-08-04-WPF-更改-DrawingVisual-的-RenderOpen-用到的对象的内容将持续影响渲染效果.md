@@ -50,7 +50,7 @@ tags:
 
 <!-- ![](images/img-WPF 更改 DrawingVisual 的 RenderOpen 用到的对象的内容将持续影响渲染效果0-modify-c4d43d32d3b69d021d82044c70ff886e.png) -->
 
-![](images/img-lindexi%2F202184834335299.jpg)
+![](images/img-modify-b09a1072a87e248aa6e635abfb4fdf0b.jpg)
 
 然而我看到了每次都需要创建一个 TranslateTransform 对象，我觉得也许会影响内存。是否 TranslateTransform 对象可以和 RectangleGeometry 对象一样复用。在调用 Pop 方法之后，是否 TranslateTransform 对象的内容已被拷贝，于是我变更代码如下
 
@@ -80,7 +80,7 @@ tags:
 
 <!-- ![](images/img-WPF 更改 DrawingVisual 的 RenderOpen 用到的对象的内容将持续影响渲染效果1-modify-7c5c61329e1229ee2c48be64e81c1469.png) -->
 
-![](images/img-lindexi%2F202184836237122.jpg)
+![](images/img-modify-063ca95e555a945c04d6b107c57bab7c.jpg)
 
 从以上的例子可以看到在 DrawingContext 里面绘制的内容，其实调用 PushTransform 方法只是将传入的 TranslateTransform 进行记录，而没有进行更多的拷贝。在后续变更 TranslateTransform 时，将会在渲染的时候，读取到变更之后的 TranslateTransform 对象的属性
 

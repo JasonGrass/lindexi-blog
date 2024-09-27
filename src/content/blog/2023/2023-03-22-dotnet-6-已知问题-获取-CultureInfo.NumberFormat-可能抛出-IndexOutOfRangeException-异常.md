@@ -93,7 +93,7 @@ _ = new CultureInfo("en-US").NumberFormat;
 下图是注册表的配置：
 
 <!-- ![](images/img-dotnet 6 已知问题 获取 CultureInfo.NumberFormat 可能抛出 IndexOutO-modify-6e000ec58d5cf0e358276939bdd4f1f7.png) -->
-![](images/img-lindexi%2F2023324921229743.jpg)
+![](images/img-modify-d6d3fabe385fd7e6a106db30ff3ba6f0.jpg)
 
 如果是 .NET 系的非 WPF 应用，这个异常是在自己应用程序代码抛出的，可选采用忽略用户配置的方式，在创建 CultureInfo 对象时，可以传入参数，表示是否使用用户配置，如以下代码
 
@@ -152,7 +152,7 @@ var numberFormat = new CultureInfo("en-US", false).NumberFormat;
 因此 GetLocaleInfoCoreUserOverride 是可能在此情况下返回空字符串的。由于这是 ICU 引入的问题，通过以上代码也可以知道，只需要让 ShouldUseUserOverrideNlsData 为 true 即可不调用 IcuGetLocaleInfo 方法，换成 NlsGetLocaleInfo 方法，走 NLS 从而修复此问题
 
 <!-- ![](images/img-dotnet 6 已知问题 获取 CultureInfo.NumberFormat 可能抛出 IndexOutO-modify-997ddab03ba56e366c2c7ba0d965c3b2.png) -->
-![](images/img-lindexi%2F20233221637405126.jpg)
+![](images/img-modify-b2b5e1b6d5b4fb19b793f7f52aa8fe69.jpg)
 
 在 .NET 7 将判断返回值是空字符串，准确来说是对于 10 个字符，将返回的格式化字符串数组而不是强行读取
 

@@ -182,7 +182,7 @@ tags:
 
 现在看起来的界面是
 
-![](images/img-lindexi%2F201931610244652.png)
+![](images/img-modify-acdee12e45c23738a28e977c4eb50e4f.png)
 
 写到这里的代码请看 [https://github.com/lindexi/lindexi_gd/tree/43ee46e847179b61157c5bfbbdec0382ccc97268/KeejemairbouLirallpurpallnasfakaw](https://github.com/lindexi/lindexi_gd/tree/43ee46e847179b61157c5bfbbdec0382ccc97268/KeejemairbouLirallpurpallnasfakaw)
 

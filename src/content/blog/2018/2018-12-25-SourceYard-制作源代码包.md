@@ -37,19 +37,19 @@ description: "SourceYard 制作源代码包"
 
 <!-- ![](images/img-SourceYard 制作源代码包0.png) -->
 
-![](images/img-lindexi%2F201812911718537.png)
+![](images/img-modify-b6e3c272c717faed5993f3d84410260b.png)
 
 在我之前的博客[C# 金额转中文大写](https://lindexi.gitee.io/post/C-%E9%87%91%E9%A2%9D%E8%BD%AC%E4%B8%AD%E6%96%87%E5%A4%A7%E5%86%99.html )已经有了代码，可以从[码云复制](https://gitee.com/lindexi/codes/w6bxlue9o14rv5nscjyhf20 ) 复制的代码因为没有命名空间，需要手动添加，于是现在就创建了一个项目，这个项目包含一个类。
 
 <!-- ![](images/img-SourceYard 制作源代码包1.png) -->
 
-![](images/img-lindexi%2F2018129111242105.png)
+![](images/img-modify-989ea5bc8128e0b15fd1dd5ea4cd64b8.png)
 
 使用 SourceYard 很简单，只需要在 TheLib 项目管理 Nuget 安装 SourceYard 就可以
 
 <!-- ![](images/img-SourceYard 制作源代码包2.png) -->
 
-![](images/img-lindexi%2F2018129111349653.png)
+![](images/img-modify-8fe4d84ec4ffece1f4ec75a6cf92b2db.png)
 
 现在 SourceYard 还没正式发布，里面还存在一些坑，但是对于这么简单的项目已经可以使用。
 
@@ -59,7 +59,7 @@ description: "SourceYard 制作源代码包"
 
 <!-- ![](images/img-SourceYard 制作源代码包3.png) -->
 
-![](images/img-lindexi%2F2018129111533228.png)
+![](images/img-modify-b28cde459586b78f26c61c5eaf3b075b.png)
 
 如果需要将 TheLib 修改为 dotnet framework 的项目，只需要右击编辑 csproj 文件就可以，在[理解 C# 项目 csproj 文件格式的本质和编译流程](https://walterlv.gitee.io/post/understand-the-csproj.html )和[广州 .NET 微软技术俱乐部12月份活动](http://www.10tiao.com/html/391/201811/2654072986/1.html) 吕毅都讲了项目的格式，如果只需要修改 dotnet framework 不需要了解那么多，只需要在 TargetFramework 里面修改为 net45 就完成
 
@@ -87,37 +87,37 @@ description: "SourceYard 制作源代码包"
 
 <!-- ![](images/img-SourceYard 制作源代码包4.png) -->
 
-![](images/img-lindexi%2F2018129112917582.png)
+![](images/img-modify-a9c38a141c4f34615d91930ad0f3822f.png)
 
 文件可以通过 [Nuget 管理器](https://www.microsoft.com/store/productId/9WZDNCRDMDM3) 打开，这个文件可以在应用商店找到
 
 <!-- ![](images/img-SourceYard 制作源代码包5.png) -->
 
-![](images/img-lindexi%2F2018129113026481.png)
+![](images/img-modify-06e09bdbc9998c487ede3ae2c9e62936.png)
 
 这里两个不同的文件，其他是传统的 Nuget 包，也就是 TheLib.1.0.2.nupkg 里面包含 dll 请打开文件很快就可以看到
 
 <!-- ![](images/img-SourceYard 制作源代码包6.png) -->
 
-![](images/img-lindexi%2F2018129113243747.png)
+![](images/img-modify-afa71d2540d4431daef1a75b55f8c021.png)
 
 源代码的文件的格式也请小伙伴打开看一下，里面没有 dll 里面是代码，在安装这个文件就会引用代码，代码会编译在引用的项目。多个不同的源代码包会编译为一个程序集。
 
 <!-- ![](images/img-SourceYard 制作源代码包7.png) -->
 
-![](images/img-lindexi%2F201812911383738.png)
+![](images/img-modify-cd4abfc6a95df39da4d9e3b1072172c8.png)
 
 虽然有 Nuget 文件但是还不知道这个文件能不能使用，创建两个不同的项目用来用这两个文件，因为刚才已经修改项目为 dotnet framework 的，就需要创建一个 dotnet framework 的项目
 
 <!-- ![](images/img-SourceYard 制作源代码包8.png) -->
 
-![](images/img-lindexi%2F2018129115048210.png)
+![](images/img-modify-9eebf232b2207783bd877b760f3c5a74.png)
 
 右击项目管理 Nuget 引用本地的 Nuget 文件的文件夹，如我这里的 Nuget 文件是在 `D:\lindexi\SourceYard\bin\Debug` 文件夹下，我就需要添加这样的路径，请看图片
 
 <!-- ![](images/img-SourceYard 制作源代码包9.png) -->
 
-![](images/img-lindexi%2F2018129115544606.png)
+![](images/img-modify-fc77ba86129f81151a6a127895fb9ea9.png)
 
 这里的程序包源的名称是可以随意给的，程序员最难的就是命名，好在有[Whitman](https://www.microsoft.com/store/productId/9P8LNZRNJX85 ) 这个工具可以按下 ctrl+, 输入第一个字符为小写的变量，按下 ctrl+shift+, 输入第一个字符为大写的变量。现在这个工具已经从 dotnet framework 升级到 dotnet core 请看 [将基于 .NET Framework 的 WPF 项目迁移到基于 .NET Core 3 - walterlv](https://walterlv.gitee.io/post/migrate-wpf-project-from-dotnet-framework-to-dotnet-core.html ) 关于 WPF 怎么可以在 dotnet core 运行，微软已经将 WPF 的 dotnet core 开源，可以在 [github](https://github.com/dotnet/wpf ) 找到
 
@@ -125,7 +125,7 @@ description: "SourceYard 制作源代码包"
 
 <!-- ![](images/img-SourceYard 制作源代码包10.png) -->
 
-![](images/img-lindexi%2F201812912055633.png)
+![](images/img-modify-ff2785107a7634df2ab9a452d1f5736a.png)
 
 刚才创建的 dotnet framework 程序还是比较不清真的，先进行卸载，然后编辑 csproj 文件，可以看到这里的文件内容非常多，这是很不清真的。从刚才的 TheLib 文件里面拷贝 csproj 文件到 AppUsingDll 项目里，记得需要先去掉 SourceYard 的部分
 
@@ -162,7 +162,7 @@ description: "SourceYard 制作源代码包"
 
 <!-- ![](images/img-SourceYard 制作源代码包12.png) -->
 
-![](images/img-lindexi%2F201812913059674.png)
+![](images/img-modify-9d906282cdd520c44358b50fc22aace1.png)
 
 如果此时进行编译会看到编译不通过，因为还需要删除 AssemblyInfo.cs 文件的很多代码，其实可以直接删除这个文件
 
@@ -170,7 +170,7 @@ description: "SourceYard 制作源代码包"
 
 <!-- ![](images/img-SourceYard 制作源代码包11.png) -->
 
-![](images/img-lindexi%2F201812912055633.png)
+![](images/img-modify-ff2785107a7634df2ab9a452d1f5736a.png)
 
 安装之后添加一点代码测试一下能否使用
 
@@ -186,13 +186,13 @@ description: "SourceYard 制作源代码包"
 
 <!-- ![](images/img-SourceYard 制作源代码包13.png) -->
 
-![](images/img-lindexi%2F2018129143342731.png)
+![](images/img-modify-29e01be1b2ab7e25dbac99a024fc0d89.png)
 
 右击项目管理 Nuget 安装源代码包，然后在主函数添加相同的测试代码
 
 <!-- ![](images/img-SourceYard 制作源代码包14.png) -->
 
-![](images/img-lindexi%2F2018129143448185.png)
+![](images/img-modify-feab866c1da32aa0220d5d8ae3401441.png)
 
 ```csharp
         static void Main(string[] args)
@@ -209,11 +209,11 @@ description: "SourceYard 制作源代码包"
 
 <!-- ![](images/img-SourceYard 制作源代码包15.png) -->
 
-![](images/img-lindexi%2F201812914371424.png)
+![](images/img-modify-efd55ac6a0d70033403f9a1c004d276d.png)
 
 <!-- ![](images/img-SourceYard 制作源代码包16.png) -->
 
-![](images/img-lindexi%2F2018129143741224.png)
+![](images/img-modify-13d82eeab486483c7cba483d62362e90.png)
 
 这时就可以看到 SourceYard 的好处，通过 SourceYard 可以将源代码作为 Nuget 包，这样不但减少 dll 的数量，同时做到源代码的兼容。在之前，无论是PCL还是多项目方式的 Nuget 包管理多个不同平台的兼容难度比较大，但是通过 SourceYard 只要源代码可以兼容就可以安装。在本文的控制台的使用的库是 dotnet framework 4.5 但是控制台项目使用的是 dotnet core 2.1 的，这样都可以使用。
 
@@ -227,7 +227,7 @@ description: "SourceYard 制作源代码包"
 
 <!-- ![](images/img-SourceYard 制作源代码包17.png) -->
 
-![](images/img-lindexi%2F2018129144418506.png)
+![](images/img-modify-d65eefab27b0a681ec9019f717b11284.png)
 
 相对来说，做 WPF 的库使用新项目格式要求对新的格式比较熟悉，所以请直接卸载项目，编辑一下项目文件，填入下面的代码
 
@@ -317,7 +317,7 @@ description: "SourceYard 制作源代码包"
 
 <!-- ![](images/img-SourceYard 制作源代码包18.png) -->
 
-![](images/img-lindexi%2F201812914469889.png)
+![](images/img-modify-5ad274843d3563169f88322084e3867c.png)
 
 现在右击重新编译，就可以在输出文件夹找到输出的两个 Nuget 包
 
@@ -360,7 +360,7 @@ description: "SourceYard 制作源代码包"
 
 <!-- ![](images/img-SourceYard 制作源代码包19.png) -->
 
-![](images/img-lindexi%2F2018129145744939.png)
+![](images/img-modify-77edea11697398747bb1da7852b75e7f.png)
 
 然后取消除了中文的注释，请看代码
 
@@ -389,13 +389,13 @@ description: "SourceYard 制作源代码包"
 
 <!-- ![](images/img-SourceYard 制作源代码包20.png) -->
 
-![](images/img-lindexi%2F2018129151516104.png)
+![](images/img-modify-4e43f01e37d838b660dc4272c6897d42.png)
 
 此时在这个函数下面返回林德熙是逗比
 
 <!-- ![](images/img-SourceYard 制作源代码包21.png) -->
 
-![](images/img-lindexi%2F2018129151516104.png)
+![](images/img-modify-4e43f01e37d838b660dc4272c6897d42.png)
 
 按 F5 运行，可以看到输出的是 林德熙是逗比 也就是源代码已经修改
 

@@ -44,7 +44,7 @@ tags:
 
 <!-- ![](images/img-VisualStudio 扩展开发 添加输出窗口0.png) -->
 
-![](images/img-lindexi%2F20192395555251.png)
+![](images/img-modify-eead62a930da72467b7b6948b0ed6252.png)
 
 也就是调用一个方法，这个方法是自己写的
 
@@ -105,7 +105,7 @@ tags:
 
 <!-- ![](images/img-VisualStudio 扩展开发 添加输出窗口1.png) -->
 
-![](images/img-lindexi%2F201923102029610.png)
+![](images/img-modify-58e4728c2d13b35aed4c29b96eae13a9.png)
 
 除了通过 [SVsOutputWindow](https://docs.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.shell.interop.svsoutputwindow?redirectedfrom=MSDN&view=visualstudiosdk-2017 ) 创建输出窗口，还可以使用 OutputWindow 创建输出窗口
 
@@ -202,7 +202,7 @@ void CreatePane(string title)
 
 <!-- ![](images/img-VisualStudio 扩展开发 添加输出窗口2.png) -->
 
-![](images/img-lindexi%2F201923103441364.png)
+![](images/img-modify-89f52f0dd0c64979fc8d74f8405d9beb.png)
 
 但是通过 OutputWindow 的方法获取不是很好，因为有多语言，可能在日本使用的调试窗口写的是デバッグ可能写的插件只能在自己的语言使用，所以还是建议使用 GUID 的方法创建
 

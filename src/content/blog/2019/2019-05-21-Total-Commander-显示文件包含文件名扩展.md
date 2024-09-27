@@ -25,7 +25,7 @@ tags:
 
 <!-- ![](images/img-Total Commander 显示文件包含文件名扩展0.png) -->
 
-![](images/img-lindexi%2F2019419102222951.png)
+![](images/img-modify-2f6055d174b6ceb653d07179ea5628a4.png)
 
 [How to configure Total Commander to show files with their extensions? - Super User](https://superuser.com/a/238121/769791 )
 

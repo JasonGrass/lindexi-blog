@@ -92,7 +92,7 @@ tags:
 
 绘制界面大概如下
 
-![](images/img-lindexi%2F20208301919281724.jpg)
+![](images/img-modify-fc32cd2f2e05efafc660a43ee30424ee.jpg)
 
 本文的代码放在 [github](https://github.com/lindexi/lindexi_gd/tree/e414c652ae503d882ad13eb844e70f8bc787f287/ReewheaberekaiNayweelehe) 欢迎小伙伴访问
 

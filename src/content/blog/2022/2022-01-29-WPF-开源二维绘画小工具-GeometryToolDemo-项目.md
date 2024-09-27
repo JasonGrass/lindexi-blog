@@ -27,7 +27,7 @@ tags:
 软件运行界面效果：
 
 <!-- ![](images/img-WPF 开源二维绘画小工具 GeometryToolDemo 项目0.png) -->
-![](images/img-lindexi%2FREADME0.png)
+![](images/img-modify-fd9a662cb4964e5eb7be8f49464448a3.png)
 
 开源地址： [https://github.com/dotnet-campus/GeometryToolDemo](https://github.com/dotnet-campus/GeometryToolDemo )
 

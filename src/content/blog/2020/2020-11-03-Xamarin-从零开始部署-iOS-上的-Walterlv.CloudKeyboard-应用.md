@@ -37,32 +37,32 @@ tags:
 
 <!-- ![](images/img-Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用0.png) -->
 
-![](images/img-lindexi%2F20201132010452760.jpg)
+![](images/img-modify-ded0ff27bec56266d465e56b41065b20.jpg)
 
 在新建应用界面选择好 Team 和输入随意应用名，这个应用名不关键。接着选择 UIKit App Delegate 用于支持 iOS 13 版本，如下图
 
 <!-- ![](images/img-Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用1.png) -->
 
-![](images/img-lindexi%2F20201132011562376.jpg)
+![](images/img-modify-cedf4de2c289aaa17da92d8ab6b0e2cf.jpg)
 
 随意选择一个文件夹保存项目
 
 <!-- ![](images/img-Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用2.png) -->
 
-![](images/img-lindexi%2F20201132012525743.jpg)
+![](images/img-modify-9f5828a84d869af6f671c677d5b37480.jpg)
 
 
 新建完成之后，大概可以看到的界面如下
 
 <!-- ![](images/img-Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用3.png) -->
 
-![](images/img-lindexi%2F20201132013197413.jpg)
+![](images/img-modify-e0d0e0a929d93ce568af7b1509972e29.jpg)
 
 进入项目的选项页面，双击或右击项目点选项都可以进入此页面
 
 <!-- ![](images/img-Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用4.png) -->
 
-![](images/img-lindexi%2F20201132014208868.jpg)
+![](images/img-modify-535b9516ae455f801b401f59e72a3983.jpg)
 
 先放开 XCode 应用，再花三天时间安装上 VisualStudio 以及 Xamarin 功能，从 [https://github.com/walterlv/Walterlv.CloudKeyboard](https://github.com/walterlv/Walterlv.CloudKeyboard) 下载好代码然后打开
 
@@ -70,13 +70,13 @@ tags:
 
 <!-- ![](images/img-Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用5.png) -->
 
-![](images/img-lindexi%2F20201132016377717.jpg)
+![](images/img-modify-fd2bae8c966751e461c71f0a670bc465.jpg)
 
 以上关键的就是捆绑包标识符的内容
 
 <!-- ![](images/img-Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用6.png) -->
 
-![](images/img-lindexi%2F20201132017124756.jpg)
+![](images/img-modify-a4f9007aab1eec74d8340bcf44a54de7.jpg)
 
 这里的捆绑包标识符的命名规则是 `com.开发者团队名或组织名.随意的应用` 格式，而我的开发者团队名实际是 `lindexi-gd` 而不是 `lindexi_gd` 或 `lindexi` 哈，这部分需要在申请开发者账号的时候记录哦
 
@@ -88,14 +88,14 @@ tags:
 
 <!-- ![](images/img-Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用7.png) -->
 
-![](images/img-lindexi%2F20201132021162009.jpg)
+![](images/img-modify-10da55b2aa7eaa84b4ffdbc77f679fd8.jpg)
 
 编辑捆绑包标识符，内容就是在原先的 Walterlv.CloudKeyboard.iOS 项目的捆绑包标识符基础上的后面加上 `.Keyboard` 如下图
 
 
 <!-- ![](images/img-Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用8.png) -->
 
-![](images/img-lindexi%2F20201132022307044.jpg)
+![](images/img-modify-a09ab1f2066e66b0400f5d83c0f2a6eb.jpg)
 
 修改完成之后，记得点保存
 
@@ -103,13 +103,13 @@ tags:
 
 <!-- ![](images/img-Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用9.png) -->
 
-![](images/img-lindexi%2F2020113202412648.jpg)
+![](images/img-modify-61bac58f07f529d4d1bebc548ab5e162.jpg)
 
 生成之后大概可以看到如下界面
 
 <!-- ![](images/img-Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用10.png) -->
 
-![](images/img-lindexi%2F20201132024282102.jpg)
+![](images/img-modify-84a259c3f143f306ae7369605b3ae6ab.jpg)
 
 接着需要在 XCode 先部署一下，在 XCode 部署的作用就是生成一个占坑的应用，用于解锁信任证书
 
@@ -117,7 +117,7 @@ tags:
 
 <!-- ![](images/img-Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用11.jpg) -->
 
-![](images/img-lindexi%2F2020113202754860.jpg)
+![](images/img-modify-9e9c0239732759f1d31c1268a3a464e4.jpg)
 
 可以看到我的手机的版本比较低，而我也不想升级，因为一升级了，我的一堆应用就用不了。而刚才为了让应用在我手机能部署，也就选择了 UIKit App Delegate 框架
 
@@ -125,19 +125,19 @@ tags:
 
 <!-- ![](images/img-Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用12.png) -->
 
-![](images/img-lindexi%2F20201132030325144.jpg)
+![](images/img-modify-b7b811ddaafe4522f3ad739a16d93885.jpg)
 
 点击部署按钮，可以看到 XCode 执行安装
 
 <!-- ![](images/img-Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用13.png) -->
 
-![](images/img-lindexi%2F20201132031471456.jpg)
+![](images/img-modify-8c3729d38f9fbfe44a8cd9c3d2cbd614.jpg)
 
 但是在安装完成之后，会提示启动失败
 
 <!-- ![](images/img-Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用14.png) -->
 
-![](images/img-lindexi%2F20201132032199006.jpg)
+![](images/img-modify-7203ee1c3b477d46b0a18afa4d20d8e9.jpg)
 
 在 XCode 上提示 Could not launch "foo" Security 的原因就是开发者没有被信任
 
@@ -145,13 +145,13 @@ tags:
 
 <!-- ![](images/img-Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用15.png) -->
 
-![](images/img-lindexi%2F2020113203321102.jpg)
+![](images/img-modify-1eadd7512bccabf15e73664b315fab22.jpg)
 
 点击打开这个应用将会失败，因为无法验证 App 需要信任开发者
 
 <!-- ![](images/img-Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用16.png) -->
 
-![](images/img-lindexi%2F20201132034184292.jpg)
+![](images/img-modify-76df4b621dcf102da54c766a0b811bf3.jpg)
 
 添加信任的步骤如下
 
@@ -159,37 +159,37 @@ tags:
 
 <!-- ![](images/img-Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用17.png) -->
 
-![](images/img-lindexi%2F2020113203547409.jpg)
+![](images/img-modify-4c6e9468dfa750d220e4ac615c04390d.jpg)
 
 进入设备管理界面
 
 <!-- ![](images/img-Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用18.png) -->
 
-![](images/img-lindexi%2F20201132035519132.jpg)
+![](images/img-modify-b20ade08611bce1eb460344bbabad99c.jpg)
 
 可以在设备管理界面里面看到自己的证书，点击自己的证书
 
 <!-- ![](images/img-Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用19.png) -->
 
-![](images/img-lindexi%2F20201132036211021.jpg)
+![](images/img-modify-9e8a26f17ad970129382527ba992c7fb.jpg)
 
 点击验证
 
 <!-- ![](images/img-Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用20.png) -->
 
-![](images/img-lindexi%2F2020113203651245.jpg)
+![](images/img-modify-ea3ef900338e935aa9895c67b3cae3c6.jpg)
 
 等待一下网络，可以看到应用状态是已验证
 
 <!-- ![](images/img-Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用21.png) -->
 
-![](images/img-lindexi%2F2020113203991398.jpg)
+![](images/img-modify-8b457547615efed204ca8bbde393bca4.jpg)
 
 此时再次打开 foo 应用，可以看到应用打开
 
 <!-- ![](images/img-Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用22.png) -->
 
-![](images/img-lindexi%2F20201132039569421.jpg)
+![](images/img-modify-2949c7841ca7fec626302d503a011dfe.jpg)
 
 以上的这一步关键就是为了在通用的设备管理里面同意加入自己的证书，这个在 XCode 安装的应用也就被称为占坑的应用
 
@@ -197,32 +197,32 @@ tags:
 
 <!-- ![](images/img-Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用23.png) -->
 
-![](images/img-lindexi%2F20201132043553929.jpg)
+![](images/img-modify-451268571573505f07f751dd783383df.jpg)
 
 解决方法就是右击项目，点击选项，修改捆绑包签名
 
 <!-- ![](images/img-Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用24.png) -->
 
-![](images/img-lindexi%2F20201132044333075.jpg)
+![](images/img-modify-cdd9604c95c71d6bb4af16e77c6b8c37.jpg)
 
 
 进入捆绑包里面，修改预配配置文件
 
 <!-- ![](images/img-Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用25.jpg) -->
 
-![](images/img-lindexi%2F20201132045348222.jpg)
+![](images/img-modify-d162549f8e079af77466f166718e3171.jpg)
 
 选择自己的预配配置文件和签名标识，注意不要选自动
 
 <!-- ![](images/img-Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用26.png) -->
 
-![](images/img-lindexi%2F2020113204696009.jpg)
+![](images/img-modify-59289cc743539ae4bebbffa1686a595e.jpg)
 
 选择之后的效果大概如下
 
 <!-- ![](images/img-Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用27.png) -->
 
-![](images/img-lindexi%2F20201132046489050.jpg)
+![](images/img-modify-4d051cca5d9f1e92350bace5ccdf54d1.jpg)
 
 上面这一步详细请看 [Xamarin iOS 切换开发者账号之后的签名标识和预配配置文件更新方法](https://blog.lindexi.com/post/Xamarin-iOS-%E5%88%87%E6%8D%A2%E5%BC%80%E5%8F%91%E8%80%85%E8%B4%A6%E5%8F%B7%E4%B9%8B%E5%90%8E%E7%9A%84%E7%AD%BE%E5%90%8D%E6%A0%87%E8%AF%86%E5%92%8C%E9%A2%84%E9%85%8D%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E6%9B%B4%E6%96%B0%E6%96%B9%E6%B3%95.html)
 
@@ -230,13 +230,13 @@ tags:
 
 <!-- ![](images/img-Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用28.png) -->
 
-![](images/img-lindexi%2F202011320475141.jpg)
+![](images/img-modify-de0a3d2d9bd84145fc54138d6d89f031.jpg)
 
 在 Bundle Identifier 输入之后，按下 Tab 键失焦，此时将会提示创建，如下图
 
 <!-- ![](images/img-Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用30.png) -->
 
-![](images/img-lindexi%2F20201132049382180.jpg)
+![](images/img-modify-6f7bf89cd62504d3dc3389a6002a063a.jpg)
 
 此时再次在 VisualStudio 进行部署，如果提示因为存在同名的签名的应用，原因就是开始的时候在 XCode 创建的占坑应用用了当前在 VisualStudio 部署使用的捆绑包签名
 
@@ -251,34 +251,34 @@ error MT1006: Could not install the application '/Users/lvyi/Documents/Codes/wal
 
 <!-- ![](images/img-Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用29.jpg) -->
 
-![](images/img-lindexi%2F20201132048531701.jpg)
+![](images/img-modify-06925874c4ccb21ff086d86e4aed78fa.jpg)
 
 
 重新部署之后，可以在手机上看到两个应用
 
 <!-- ![](images/img-Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用31.png) -->
 
-![](images/img-lindexi%2F20201132053464942.jpg)
+![](images/img-modify-97cc90449a4e52381977b31a69470df6.jpg)
 
 
 删除掉一开始部署的占坑应用
 
 <!-- ![](images/img-Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用32.png) -->
 
-![](images/img-lindexi%2F20201132054138025.jpg)
+![](images/img-modify-749486a07fab788b193b038108f4d053.jpg)
 
 重新回到 VisualStudio 点击构建部署，此时在手机上可以看到 Xamarin 的图标和部署上的应用
 
 <!-- ![](images/img-Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用33.png) -->
 
 
-![](images/img-lindexi%2F20201132055273121.jpg)
+![](images/img-modify-4bcf5fdfe4489e5000aa751b1ebc2142.jpg)
 
 在 VisualStudio 启动调试的时候，可以看到 Xamarin 的界面
 
 <!-- ![](images/img-Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用34.png) -->
 
-![](images/img-lindexi%2F20201132055548722.jpg)
+![](images/img-modify-01d40a5cd4e99014cec9ff7c6fc215d1.jpg)
 
 这是一个键盘应用，需要经过如下配置才能使用上
 
@@ -286,32 +286,32 @@ error MT1006: Could not install the application '/Users/lvyi/Documents/Codes/wal
 
 <!-- ![](images/img-Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用35.png) -->
 
-![](images/img-lindexi%2F2020113205631324.jpg)
+![](images/img-modify-3dd104e621a7778ea055d91af408b57e.jpg)
 
 点击键盘
 
 <!-- ![](images/img-Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用36.png) -->
 
-![](images/img-lindexi%2F20201132056483640.jpg)
+![](images/img-modify-f7bb2a192eab95fed34a13a75eaeb804.jpg)
 
 点击添加键盘
 
 <!-- ![](images/img-Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用37.png) -->
 
-![](images/img-lindexi%2F2020113205778706.jpg)
+![](images/img-modify-618b2e7cd7e48c4cab65a125e7f4353f.jpg)
 
 选择 CloudKeyBoard 点击之后可以看到如下界面
 
 <!-- ![](images/img-Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用38.png) -->
 
-![](images/img-lindexi%2F20201132057341202.jpg)
+![](images/img-modify-1684492d3cf0d4b705f36a74ad2113bb.jpg)
 
 
 点击进入云键盘 Cloud 点击允许完全访问
 
 <!-- ![](images/img-Xamarin 从零开始部署 iOS 上的 Walterlv.CloudKeyboard 应用39.png) -->
 
-![](images/img-lindexi%2F2020113205881103.jpg)
+![](images/img-modify-7f87d3ffa0698b27849ae4f267fed13d.jpg)
 
 此时就可以使用上 Walterlv 的云键盘了，这个项目在 GitHub 完全开源
 

@@ -32,11 +32,11 @@ tags:
   <!--#endregion-->
 ```
 
-![](images/img-65fb6078-c169-4ce3-cdd9-e35752d07be0%2F2018315112517-modify-65813c689863fa0109edf3808f4e3d4b.jpg)
+![](images/img-modify-65813c689863fa0109edf3808f4e3d4b.jpg)
 
 把上面的代码折叠，请看下面
 
-![](images/img-65fb6078-c169-4ce3-cdd9-e35752d07be0%2F2018315112629-modify-e7bcb91e7b3a1e1529d0358d1c57bff7.jpg)
+![](images/img-modify-e7bcb91e7b3a1e1529d0358d1c57bff7.jpg)
 
 如果觉得这个不好用，推荐插件[XAML Regions](https://marketplace.visualstudio.com/items?itemName=JacobJohnston.XAMLRegions )
 

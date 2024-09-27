@@ -28,7 +28,7 @@ tags:
 
 <!-- ![](images/img-VisualStudio 配置多进程调试快捷键启动项目0.png) -->
 
-![](images/img-lindexi%2F20191011152558656.png)
+![](images/img-modify-f05b575148384abb12a628487a82d933.png)
 
 可以看到这样的调试效率实在很低，如果通过设置快捷键，选中项目然后按下快捷键启动项目，这样的调试效率比较高
 
@@ -37,7 +37,7 @@ tags:
 
 <!-- ![](images/img-VisualStudio 配置多进程调试快捷键启动项目1.png) -->
 
-![](images/img-lindexi%2F20191011152919172.png)
+![](images/img-modify-abd6786b42a37d15f6a0c73704926c91.png)
 
 然后在按快捷键的输入里面点击一下，然后按下设置的快捷键，如我设置的是 `ctrl+alt+r` 也就是直接输入之后按下点击分配按钮
 

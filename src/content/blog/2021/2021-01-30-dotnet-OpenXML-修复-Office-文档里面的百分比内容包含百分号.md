@@ -113,7 +113,7 @@ var percentage = new Percentage(alphaText);
 
 <!-- ![](images/img-dotnet OpenXML 修复 Office 文档里面的百分比内容包含百分号0.png) -->
 
-![](images/img-lindexi%2F20211301042339224.jpg)
+![](images/img-modify-4c6f0bae985907509890364d05c18e75.jpg)
 
 ```xml
 <xsd:group name="EG_ColorTransform">

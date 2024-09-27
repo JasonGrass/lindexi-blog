@@ -33,7 +33,7 @@ tags:
 
 <!-- ![](images/img-dotnet core 使用 sqlite 部署到 Centos 服务器0.png) -->
 
-![](images/img-lindexi%2F201892720503941.png)
+![](images/img-modify-2363040b8e06a862dfb5090f42ba9c47.png)
 
 这里需要随意给一个项目的名，我这里给了 `CataiLerlasur` 随机的名，点击确定，选择 API 主要不要设置身份验证和启动 Docker 支持，关闭 https 这样才比较简单
 
@@ -41,7 +41,7 @@ tags:
 <!-- ![](images/img-dotnet core 使用 sqlite 部署到 Centos 服务器1.png) -->
 
 
-![](images/img-lindexi%2F2018927205122243.png)
+![](images/img-modify-30af480f3049fa2c5ecffc1bef187b49.png)
 
 ## 创建模型
 
@@ -62,31 +62,31 @@ tags:
 
 <!-- ![](images/img-dotnet core 使用 sqlite 部署到 Centos 服务器2.png) -->
 
-![](images/img-lindexi%2F2018927205450633.png)
+![](images/img-modify-2a3329f5eeda33adedfec20c844cc5a6.png)
 
 通过这个方式可以快速创建
 
 <!-- ![](images/img-dotnet core 使用 sqlite 部署到 Centos 服务器3.png) -->
 
-![](images/img-lindexi%2F201892720555568.png)
+![](images/img-modify-9ef29364f246dc109d93662ee882d77b.png)
 
 现在可以选择模型类，也就是刚才创建的模型
 
 <!-- ![](images/img-dotnet core 使用 sqlite 部署到 Centos 服务器4.png) -->
 
-![](images/img-lindexi%2F2018927205635970.png)
+![](images/img-modify-b29e4f23a8e92a129b87aba2eb0b98a1.png)
 
 然后点击加号添加上下文
 
 <!-- ![](images/img-dotnet core 使用 sqlite 部署到 Centos 服务器5.png) -->
 
-![](images/img-lindexi%2F201892720579669.png)
+![](images/img-modify-855031419a23085f9be98efe54ee0e53.png)
 
 添加上下文等待 VisualStudio 创建类
 
 <!-- ![](images/img-dotnet core 使用 sqlite 部署到 Centos 服务器6.png) -->
 
-![](images/img-lindexi%2F2018927205758438.png)
+![](images/img-modify-bd680658fb7fc087749f22229db55494.png)
 
 ## 安装 Sqlite 
 
@@ -94,7 +94,7 @@ tags:
 
 <!-- ![](images/img-dotnet core 使用 sqlite 部署到 Centos 服务器7.png) -->
 
-![](images/img-lindexi%2F201892720598596.png)
+![](images/img-modify-45839a226578c9bb84bcc28c4506f7c5.png)
 
 ## 设置连接
 
@@ -102,7 +102,7 @@ tags:
 
 <!-- ![](images/img-dotnet core 使用 sqlite 部署到 Centos 服务器8.png) -->
 
-![](images/img-lindexi%2F201892721113181.png)
+![](images/img-modify-2d80d4041036e3657441d1feeb03c0c6.png)
 
 注意这里写的连接字符串是 `Filename=./xx.db` 这里的 xx.db 需要存在这个数据库，通过下面的命令行可以创建数据库
 
@@ -112,7 +112,7 @@ tags:
 
 <!-- ![](images/img-dotnet core 使用 sqlite 部署到 Centos 服务器9.png) -->
 
-![](images/img-lindexi%2F2018927211144928.png)
+![](images/img-modify-8bcf0de0c68d540b840d1bcbe384ffe7.png)
 
 输入下面两句代码
 
@@ -132,11 +132,11 @@ Update-Database
 
 <!-- ![](images/img-dotnet core 使用 sqlite 部署到 Centos 服务器10.png) -->
 
-![](images/img-lindexi%2F2018927211716111.png)
+![](images/img-modify-4ecbea18ee13aa503d54612212edfbf0.png)
 
 <!-- ![](images/img-dotnet core 使用 sqlite 部署到 Centos 服务器11.png) -->
 
-![](images/img-lindexi%2F2018927211716111.png)
+![](images/img-modify-4ecbea18ee13aa503d54612212edfbf0.png)
 
 现在可以看到项目多了一个文件 `csdn.db` 和 Migrations 文件夹
 
@@ -172,13 +172,13 @@ Update-Database
 
 <!-- ![](images/img-dotnet core 使用 sqlite 部署到 Centos 服务器12.png) -->
 
-![](images/img-lindexi%2F2018927212642225.png)
+![](images/img-modify-13e52efd9c066c0dddb0d1c864bd878c.png)
 
 现在运行一下，可以看到出现了刚才放进去的字符
 
 <!-- ![](images/img-dotnet core 使用 sqlite 部署到 Centos 服务器13.png) -->
 
-![](images/img-lindexi%2F201892721287551.png)
+![](images/img-modify-ea4a9267e584728086b709fb7d93203a.png)
 
 在部署到 Linux 之前，需要设置端口和 ip 才可以在本地访问服务器的程序，在 ASP.NET Core 设置端口的方法很简单，通过在 Program 类添加设置 `UseUrls("http://0.0.0.0:5000")` 就可以
 
@@ -197,7 +197,7 @@ Update-Database
 
 <!-- ![](images/img-dotnet core 使用 sqlite 部署到 Centos 服务器14.png) -->
 
-![](images/img-lindexi%2F2018927213232378.png)
+![](images/img-modify-66e82c04f5afe27720fcd2cc40fe16cc.png)
 
 在运行 `dotnet run` 就完成了在服务器部署了，现在可以在本地访问刚才的程序
 
@@ -207,7 +207,7 @@ Update-Database
 
 <!-- ![](images/img-dotnet core 使用 sqlite 部署到 Centos 服务器15.png) -->
 
-![](images/img-lindexi%2F201892721349331.png)
+![](images/img-modify-020406342df156234b4e31ace0d1200b.png)
 
 用 Sqlite 可以简单将数据保存在服务器，只需要定期保存文件就可以，这个文件可以放在 Window 进行调试，也就是在 Window 和 Linux 可以使用相同的 Sqlite 这样开发很简单
 
@@ -215,11 +215,11 @@ Update-Database
 
 <!-- ![](images/img-dotnet core 使用 sqlite 部署到 Centos 服务器16.png) -->
 
-![](images/img-lindexi%2F2018927213928437.png)
+![](images/img-modify-4f7dabe88f6f7ab3ee031354a48353b6.png)
 
 点击打开数据库文件，点击对应的数据就可以看到写进入的，不需要通过写 sql 语句就可以创建一个表，在表里添加列
 
 <!-- ![](images/img-dotnet core 使用 sqlite 部署到 Centos 服务器17.png) -->
 
-![](images/img-lindexi%2F201892721404323.png)
+![](images/img-modify-80f888bd90534761909bd71193bd6417.png)
 

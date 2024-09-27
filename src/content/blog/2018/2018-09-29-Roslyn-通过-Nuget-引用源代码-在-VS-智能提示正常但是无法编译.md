@@ -90,4 +90,4 @@ e\SopisatraJowje\SopisatraJowje_rb00pftp_wpftmp.csproj]
 
 [MSBuild/Roslyn 和 NuGet 的 100 个坑 - walterlv](https://blog.walterlv.com/post/problems-of-msbuild-and-nuget.html )
 
-![](images/img-lindexi%2F2018927201059809.png)
+![](images/img-modify-fdad3f8543e66c46792783976a26fb83.png)

@@ -12,7 +12,7 @@ tags:
 
 
 通过自定义命令，可以在 VisualStudio 加上一些自定义命令，可以快速启动 git 或者做其他的事情
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017102417838-modify-65e1650d36717235d609365bde04f6ef.jpg)
+![](images/img-modify-65e1650d36717235d609365bde04f6ef.jpg)
 
 <!--more-->
 
@@ -26,9 +26,9 @@ tags:
 
 首先打开工具 外部命令，点击添加，然后在弹出的窗口输入下面内容
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F20171024171253-modify-f0ae66d7aaf44b327ccfb1256aeaf486.jpg)
+![](images/img-modify-f0ae66d7aaf44b327ccfb1256aeaf486.jpg)
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017102417130-modify-2bc835383ce10b24d3e0b2ee569a76eb.jpg)
+![](images/img-modify-2bc835383ce10b24d3e0b2ee569a76eb.jpg)
 
 例如添加内容是打开 git 、打开资源管理器、打开 git blame
 
@@ -45,11 +45,11 @@ tags:
 1. 在对话框中点击 [添加命令]，添加 Tools→外部命令 12345……(就是你之前步骤里显示的那个顺序，从 1 开始计数)；
 1. 点击修改，改个显示的名字，调整下前后顺序。
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F20171024175519-modify-94d3cadd9864a531879c232b4575b907.jpg)
+![](images/img-modify-94d3cadd9864a531879c232b4575b907.jpg)
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F20171024175526-modify-13f0a765b2fe93d10452ce18decbb6f1.jpg)
+![](images/img-modify-13f0a765b2fe93d10452ce18decbb6f1.jpg)
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F20171024175552-modify-3e4f9b85df95d8af5048914bbbb700f9.jpg)
+![](images/img-modify-3e4f9b85df95d8af5048914bbbb700f9.jpg)
 
 ## 在 VisualStudio 添加 Blame
 
@@ -65,11 +65,11 @@ tags:
 
 1. 输入标题，标题可以随意写。命令就是 path 安装路径，参数写`$(ItemPath)`
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017101010119-modify-1101922b78d797557c1ed61e40d94724.jpg)
+![](images/img-modify-1101922b78d797557c1ed61e40d94724.jpg)
 
 1. 点击添加或移除按钮 自定义
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F20171010101234-modify-277b4c982b7b41918cc0c9cb47b4af5f.jpg)
+![](images/img-modify-277b4c982b7b41918cc0c9cb47b4af5f.jpg)
 
 1. 添加命令 这里选择工具的外部命令4，外部命令和添加命令所在有关，我这里添加的是第4个
 

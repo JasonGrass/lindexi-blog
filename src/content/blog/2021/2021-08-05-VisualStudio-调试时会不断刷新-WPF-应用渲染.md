@@ -47,11 +47,11 @@ tags:
 
 <!-- ![](images/img-VisualStudio 调试时会不断刷新 WPF 应用渲染0.gif) -->
 
-![](images/img-lindexi%2FVisualStudio%2520%25E8%25B0%2583%25E8%25AF%259-modify-7ac53379a8e49868923f1f9293adcbc6.gif)
+![](images/img-modify-7ac53379a8e49868923f1f9293adcbc6.gif)
 
 然而有趣的是，在 VisualStudio 不附加调试的时候，可以发现界面不动了，如下图。下图非静止图片哦
 
-![](images/img-lindexi%2FVisualStudio%2520%25E8%25B0%2583%25E8%25AF%259-modify-3b4c34aa2e4012015fc897ccaeab3e02.gif)
+![](images/img-modify-3b4c34aa2e4012015fc897ccaeab3e02.gif)
 
 如果在不附加调试时，有界面刷新时，那么依然还会动画。如上图，在鼠标在按钮上时，此时按钮界面需要刷新，于是触发了渲染。在触发渲染时，在收集的时候，重新拿到了 TranslateTransform 的值，矩形的渲染坐标更改
 

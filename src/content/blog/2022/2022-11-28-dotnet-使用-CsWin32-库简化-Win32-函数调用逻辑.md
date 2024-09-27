@@ -70,7 +70,7 @@ RegisterWaitUntilOOBECompleted
 
 我写上了两个函数名，然后交给 Microsoft.Windows.CsWin32 生成这两个 Win32 函数的封装，以及这两个 Win32 函数用到的参数类型，和一些辅助代码，如下图
 
-![](images/img-lindexi%2F202211271156463865.jpg)
+![](images/img-modify-ecd39dd2e86080686e5de6196636e34d.jpg)
 
 生成的代码都是可以直接调用的
 

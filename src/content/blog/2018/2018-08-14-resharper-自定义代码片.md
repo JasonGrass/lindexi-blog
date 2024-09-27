@@ -180,7 +180,7 @@ https://www.jetbrains.com/help/resharper/2016.2/Templates__Creating_and_Editing_
 
 选择 Code Inspection ，设置，添加例外文件。
 
-![](images/img-AwCCAwMAItoFADbzBgABAAQArj4BAGZDAgBo6AkA6Nk%3D%2F2017413-modify-8bfcabfb450a3876210421acd52cd19c.jpg)
+![](images/img-modify-8bfcabfb450a3876210421acd52cd19c.jpg)
 
 添加例外文件可以指点哪些文件忽略，可以忽略某个文件，很简单，如果有不懂请告诉我。
 
@@ -192,7 +192,7 @@ https://www.jetbrains.com/help/resharper/2016.2/Templates__Creating_and_Editing_
 
 所以需要显示空格，按 ctrl+r+w
 
-![](images/img-AwCCAwMAItoFADbzBgABAAQArj4BAGZDAgBo6AkA6Nk%3D%2F2017413-modify-79631f90699f31b7f87892c6b74f4234.jpg)
+![](images/img-modify-79631f90699f31b7f87892c6b74f4234.jpg)
 
 
 

@@ -28,13 +28,13 @@ tags:
 
 <!-- ![](images/img-dotnet OpenXML 让 PathLst 自定义形状转 SVG 路径格式的 Geometry 内容0-modify-83887252045420b395644be56c59566f.png) -->
 
-![](images/img-lindexi%2F2021211430402141.jpg)
+![](images/img-modify-df7422cec9ca8d0030c21c338fc3f0d2.jpg)
 
 下面是一个简单的 WPF 应用，读取这份文档的内容，将里面的形状显示出来
 
 <!-- ![](images/img-dotnet OpenXML 让 PathLst 自定义形状转 SVG 路径格式的 Geometry 内容1-modify-49349c71df761949bc377fd2bcf0d687.gif) -->
 
-![](images/img-lindexi%2Fdotnet%2520OpenXML%2520%25E8%25AE%25A9%2520Pat-modify-cfb160acb44433ba8854b0126818539e.gif)
+![](images/img-modify-cfb160acb44433ba8854b0126818539e.gif)
 
 以上的全部代码放在 [github](https://github.com/lindexi/lindexi_gd/tree/adcdd72536b1405c70c7c7cf6fe4e2876da891dd/LalyearnabodaLayheryacucha) 和 [gitee](https://gitee.com/lindexi/lindexi_gd/tree/adcdd72536b1405c70c7c7cf6fe4e2876da891dd/LalyearnabodaLayheryacucha) 欢迎下载测试
 

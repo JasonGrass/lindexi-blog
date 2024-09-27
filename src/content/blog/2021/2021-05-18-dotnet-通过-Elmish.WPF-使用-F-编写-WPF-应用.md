@@ -53,7 +53,7 @@ tags:
 
 <!-- ![](images/img-dotnet 通过 Elmish.WPF 使用 F# 编写 WPF 应用0.png) -->
 
-![](images/img-lindexi%2F2021518204142412.jpg)
+![](images/img-modify-251eda79cd35c6d18cc4fdbbc200e2d8.jpg)
 
 基本功能是点击加号和减号分别实现当前数值的加减
 

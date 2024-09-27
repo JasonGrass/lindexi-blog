@@ -35,6 +35,6 @@ description: "使用 SizeBench 分析 Exe 文件体积"
 
 <!-- ![](images/img-使用 SizeBench 分析 Exe 文件体积0.png) -->
 
-![](images/img-lindexi%2F202382844425092.jpg)
+![](images/img-modify-a0405b16fd0ce166578d2b5044264095.jpg)
 
 选择完成之后即可进入分析界面，分析界面的内容里面将会包含 PE 文件的各个部分的大小，比如包含的资源的大小，引用的静态库占用的大小。重复的字符串等内容的大小

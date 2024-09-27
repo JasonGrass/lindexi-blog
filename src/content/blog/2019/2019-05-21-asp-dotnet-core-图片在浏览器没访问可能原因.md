@@ -39,7 +39,7 @@ tags:
 
 <!-- ![](images/img-asp dotnet core 图片在浏览器没访问可能原因0.png) -->
 
-![](images/img-lindexi%2F201951174918622.png)
+![](images/img-modify-718e7f4d36e77b7d6476c0ec2e2c3952.png)
 
 我从控制台看到下面输出
 

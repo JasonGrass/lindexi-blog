@@ -87,7 +87,7 @@ tags:
 
 <!-- ![](images/img-win10 uwp win2d 使用 Path 绘制界面1.png) -->
 
-![](images/img-lindexi%2F20186691524212.jpg)
+![](images/img-modify-f772c3b2354d821d659a865d5343b917.jpg)
 
 ## 画线
 
@@ -156,7 +156,7 @@ tags:
 
 <!-- ![](images/img-win10 uwp win2d 使用 Path 绘制界面0.png) -->
 
-![](images/img-lindexi%2F201866856257482.jpg)
+![](images/img-modify-4952f434d94474aadbc6d48a2299f448.jpg)
 
 参见：[第四章(图形篇2) 几何图形CanvasGeometry](https://zhuanlan.zhihu.com/p/39906163 )
 

@@ -23,7 +23,7 @@ tags:
 
 打开设置、网络、代理，关了它，试试
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017616162926-modify-355ef0e0ddbdbc66ef3da4fd6c638865.jpg)
+![](images/img-modify-355ef0e0ddbdbc66ef3da4fd6c638865.jpg)
 
 
 如果遇到下面的问题：
@@ -33,7 +33,7 @@ tags:
 No home tenant info found.
 
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017616162719-modify-f7e4d5d7740d25d4fc4b9a301dba6452.jpg)
+![](images/img-modify-f7e4d5d7740d25d4fc4b9a301dba6452.jpg)
 
 那么可以尝试下面的方法：
 

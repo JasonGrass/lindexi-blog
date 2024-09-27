@@ -79,13 +79,13 @@ git remote add origin https://github.com/lindexi/lindexi_gd.git
 
 <!-- ![](images/img-dotnet 使用 FormatterServices 的 GetUninitializedObject 方法在-modify-6df4a4d431d9870c01d86c08bf66d501.png) -->
 
-![](images/img-lindexi%2F20217211938297324.jpg)
+![](images/img-modify-e0856bbda6fbadd0f73692b430ee567a.jpg)
 
 可以看到原本是 F3 的类型对应的属性，在反射拿到的是 `System.Reflection.RuntimePropertyInfo` 类型
 
 <!-- ![](images/img-dotnet 使用 FormatterServices 的 GetUninitializedObject 方法在-modify-320f18fcea26724002fe4881388ff5f4.png) -->
 
-![](images/img-lindexi%2F20217211941181314.jpg)
+![](images/img-modify-8c183010ed5847fceb05fb4b57c19b28.jpg)
 
 可以看到对应的模块被删除时，只会提示说文件找不到，而不会让反射失败
 
@@ -109,7 +109,7 @@ git remote add origin https://github.com/lindexi/lindexi_gd.git
 
 <!-- ![](images/img-dotnet 使用 FormatterServices 的 GetUninitializedObject 方法在-modify-e716304f2fe8eca46dc7738710c169c2.png) -->
 
-![](images/img-lindexi%2F20217211949336917.jpg)
+![](images/img-modify-0566c627d2c0423d8aea2d9f9cbb876f.jpg)
 
 原因是因为值类型需要计算对象的占用的内存空间的大小，在准备创建 F1 的时候需要开始计算 F2 的占用空间，因为 F2 是一个结构体。但是 F2 里面引用了 F3 类型，此时 F2 就需要开始计算 F3 的空间，然而定义 F3 占用空间大小的数据放在了被删除的程序集里面，因此拿不到 F3 的占用空间大小，从而计算不出 F2 的空间大小，也就无法创建 F1 对象，因此失败
 

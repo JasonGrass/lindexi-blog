@@ -148,7 +148,7 @@ tags:
 
 <!-- ![](images/img-dotnet OpenXML 文本 BodyProperties 的 FontScale 与文本字号缩放0-modify-e217a4ef6ab531e9d199300c3402937e.png) -->
 
-![](images/img-lindexi%2F202112291941337563.jpg)
+![](images/img-modify-05e3f3d8f85ca9deb749339829c0f106.jpg)
 
 本文所有代码和测试文件放在[github](https://github.com/lindexi/lindexi_gd/tree/24230fc0bb8202c567ccf9ffffb49eebc08be120/Pptx) 和 [gitee](https://gitee.com/lindexi/lindexi_gd/tree/24230fc0bb8202c567ccf9ffffb49eebc08be120/Pptx) 欢迎访问
 

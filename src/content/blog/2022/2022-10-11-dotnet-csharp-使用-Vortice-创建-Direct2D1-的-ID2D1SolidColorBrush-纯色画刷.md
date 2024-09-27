@@ -145,7 +145,7 @@ class Program
 
 <!-- ![](images/img-dotnet C# 使用 Vortice 创建 Direct2D1 的 ID2D1SolidColorBrush-modify-a6f016c7708abbe47b1494ebfeee1def.png) -->
 
-![](images/img-lindexi%2FD2D.png)
+![](images/img-modify-b1625b9bd6d802a62ad2620a09f17d4a.png)
 
 本文的代码放在[github](https://github.com/lindexi/lindexi_gd/tree/471614ba9a8981c3e23041804785ff77f23dac82/WakolerwhaKanicabirem) 和 [gitee](https://gitee.com/lindexi/lindexi_gd/tree/471614ba9a8981c3e23041804785ff77f23dac82/WakolerwhaKanicabirem) 欢迎访问
 

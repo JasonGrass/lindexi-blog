@@ -25,7 +25,7 @@ tags:
 
 <!-- ![](images/img-dotnet 通过依赖注入的 Scoped 给工作流注入相同的上下文信息0.png) -->
 
-![](images/img-lindexi%2F2020771455267861.jpg)
+![](images/img-modify-cb8493e131e8ea2168061c8b87f78dfc.jpg)
 
 如上图，假定有三个步骤，分别是 F1 和 F2 和 F3 三个步骤，此时有3个任务同时进来。而我期望能够在日志里面的相关输出能包含当前的步骤在执行的任务是哪一个
 

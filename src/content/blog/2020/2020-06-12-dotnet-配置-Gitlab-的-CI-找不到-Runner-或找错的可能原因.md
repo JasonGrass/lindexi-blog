@@ -27,7 +27,7 @@ tags:
 
 <!-- ![](images/img-dotnet 配置 Gitlab 的 CI 找不到 Runner 或找错的可能原因0.png) -->
 
-![](images/img-lindexi%2F20206121246568787.jpg)
+![](images/img-modify-fd7adb68aa0af057b7ff6b57a2967dfc.jpg)
 
 如上图采用的是 dotnet-campus 的服务器
 
@@ -36,7 +36,7 @@ tags:
 
 <!-- ![](images/img-dotnet 配置 Gitlab 的 CI 找不到 Runner 或找错的可能原因1.png) -->
 
-![](images/img-lindexi%2F20206121247556773.jpg)
+![](images/img-modify-3bd57d3a0ad70605d7d9a176be77d9a6.jpg)
 
 ## 没有开启 Piplines 权限
 
@@ -44,13 +44,13 @@ tags:
 
 <!-- ![](images/img-dotnet 配置 Gitlab 的 CI 找不到 Runner 或找错的可能原因2.png) -->
 
-![](images/img-lindexi%2F20206121248405534.jpg)
+![](images/img-modify-56dabbe3a19a6824cec721e493871ff3.jpg)
 
 确定下面权限打开
 
 <!-- ![](images/img-dotnet 配置 Gitlab 的 CI 找不到 Runner 或找错的可能原因3.png) -->
 
-![](images/img-lindexi%2F20206121249268612.jpg)
+![](images/img-modify-735b82710f3bf1cd0c998d01ba09f160.jpg)
 
 ## 配置的Tag和Runner的Tag不匹配
 
@@ -60,15 +60,15 @@ tags:
 
 <!-- ![](images/img-dotnet 配置 Gitlab 的 CI 找不到 Runner 或找错的可能原因4.png) -->
 
-![](images/img-lindexi%2F20206121250263619.jpg)
+![](images/img-modify-14c212e75a9fa5eda1ade599121ad703.jpg)
 
 而如下图的 Runner 指定了 Tag 是 dev 也就是要求在配置文件指定在 dev 的服务器上运行
 
 <!-- ![](images/img-dotnet 配置 Gitlab 的 CI 找不到 Runner 或找错的可能原因5.png) -->
 
-![](images/img-lindexi%2F20206121251466177.jpg)
+![](images/img-modify-ead7067cec9e0d12d3fd17490e585d0d.jpg)
 
 <!-- ![](images/img-dotnet 配置 Gitlab 的 CI 找不到 Runner 或找错的可能原因6.png) -->
 
-![](images/img-lindexi%2F2020612125376797.jpg)
+![](images/img-modify-2577176b448588ff260951f04ac8174d.jpg)
 

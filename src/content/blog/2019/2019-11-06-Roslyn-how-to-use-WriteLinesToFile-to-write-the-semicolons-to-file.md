@@ -37,7 +37,7 @@ The first thing is the code include quotation mark that we can not write the cod
 
 <!-- ![](images/img-Roslyn how to use WriteLinesToFile to write the semicolo-modify-8c0320c2eff716e4e296431c21b87418.png) -->
 
-![](images/img-lindexi%2F2018111161758689.png)
+![](images/img-modify-a7575171aa89aa34b3b051e66887b746.png)
 
 We can use property item with "CDATA" that CDATA is defined as blocks of text that are not parsed by the parser. 
 
@@ -93,7 +93,7 @@ After you run the target, you can find a file named lindexi.cs added in your pro
 
 <!-- ![](images/img-Roslyn how to use WriteLinesToFile to write the semicolo-modify-418a60b11c630137183156e43789f2bd.png) -->
 
-![](images/img-lindexi%2F2018111162627461.png)
+![](images/img-modify-145ded62821f6700ddbc88a00394c33a.png)
 
 Please open the file and then you can find the content in the file include the semicolons character.
 

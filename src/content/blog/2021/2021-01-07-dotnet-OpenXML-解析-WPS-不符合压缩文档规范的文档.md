@@ -55,7 +55,7 @@ at DocumentFormat.OpenXml.Packaging.PresentationDocument.Open(String path, Boole
 
 <!-- ![](images/img-dotnet OpenXML 解析 WPS 不符合压缩文档规范的文档0.png) -->
 
-![](images/img-lindexi%2F2021171579876.jpg)
+![](images/img-modify-929bdadd78af358dce5a6950b13478fb.jpg)
 
 当然了，点击修复还是能打开课件的
 

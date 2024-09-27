@@ -61,7 +61,7 @@ using A = DocumentFormat.OpenXml.Drawing;
 两端对齐，在 OpenXML 文档里面写入的字符串是 `just` 的值。运行效果如下：
 
 <!-- ![](images/img-dotnet OpenXML 聊聊文本段落对齐方式0.png) -->
-![](images/img-lindexi%2F202111301711449694.jpg)
+![](images/img-modify-578bc4d79c6aaf78295e8792b52b19d1.jpg)
 
 两端对齐相对来说比较复杂
 
@@ -70,7 +70,7 @@ using A = DocumentFormat.OpenXml.Drawing;
 两端对齐，和 Justified 的不同在于，这是为阿拉伯语特别做的，对应字符串是 `justLow` 的值。 运行效果如下：
 
 <!-- ![](images/img-dotnet OpenXML 聊聊文本段落对齐方式4.png) -->
-![](images/img-lindexi%2F202111301715352502.jpg)
+![](images/img-modify-ed01423f7f260296da7f6db5a07212ac.jpg)
 
 在 ECMA 376 的定义如下
 
@@ -86,7 +86,7 @@ using A = DocumentFormat.OpenXml.Drawing;
 
 <!-- ![](images/img-dotnet OpenXML 聊聊文本段落对齐方式8.png) -->
 
-![](images/img-lindexi%2F202111301927503989.jpg)
+![](images/img-modify-c8a7adbcd53d0816d9e3bf217f5ad5a0.jpg)
 
 最大的不同在于 JustifiedLow 对齐修改的是线条，但 Justified 是通过修改空格的宽度对齐
 
@@ -95,7 +95,7 @@ using A = DocumentFormat.OpenXml.Drawing;
 左对齐，对应字符串是 `l` 的值。运行效果如下：
 
 <!-- ![](images/img-dotnet OpenXML 聊聊文本段落对齐方式1.png) -->
-![](images/img-lindexi%2F202111301712178564.jpg)
+![](images/img-modify-f0c60eedf8bb6ed00b3860a62da8a449.jpg)
 
 ## Center
 
@@ -103,21 +103,21 @@ using A = DocumentFormat.OpenXml.Drawing;
 
 
 <!-- ![](images/img-dotnet OpenXML 聊聊文本段落对齐方式2.png) -->
-![](images/img-lindexi%2F202111301713237091.jpg)
+![](images/img-modify-abaebdf783d89041d4ff4144893ded01.jpg)
 
 ## Right
 
 右对齐，对应字符串是 `r` 的值。运行效果如下：
 
 <!-- ![](images/img-dotnet OpenXML 聊聊文本段落对齐方式5.png) -->
-![](images/img-lindexi%2F202111301716228874.jpg)
+![](images/img-modify-946f392f5ccddab61c667924efcda9ce.jpg)
 
 ## Distributed
 
 分散对齐，对应字符串是 `dist` 的值。运行效果如下：
 
 <!-- ![](images/img-dotnet OpenXML 聊聊文本段落对齐方式3.png) -->
-![](images/img-lindexi%2F202111301714396582.jpg)
+![](images/img-modify-ab566d67d431912ca977fafbd486b260.jpg)
 
 和两端对齐的不同，请参阅本文的参考文档
 
@@ -128,7 +128,7 @@ using A = DocumentFormat.OpenXml.Drawing;
 Distributes Thai text specially, because each character is treated as a word.
 
 <!-- ![](images/img-dotnet OpenXML 聊聊文本段落对齐方式6.png) -->
-![](images/img-lindexi%2F202111301717268723.jpg)
+![](images/img-modify-59be7bd4edd239bf1ea496f8a95c2d30.jpg)
 
 ## 代码
 

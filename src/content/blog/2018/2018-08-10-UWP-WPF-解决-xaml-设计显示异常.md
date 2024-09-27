@@ -23,11 +23,11 @@ tags:
 
 虽然垃圾微软可以在写的时候直接让开发者看到界面，但是他的设计比较烂，总是无法使用
 
-![](images/img-65fb6078-c169-4ce3-cdd9-e35752d07be0%2F2018314111735-modify-e6447ad0a205884c7447e044c1478882.jpg)
+![](images/img-modify-e6447ad0a205884c7447e044c1478882.jpg)
 
 或者
 
-![](images/img-65fb6078-c169-4ce3-cdd9-e35752d07be0%2F201831585054.jpg)
+![](images/img-modify-86ce2aa54d811058be121a2efeb9dd68.jpg)
 
 简单的方法是禁用项目代码，在左下角可以找到这个按钮 禁用代码
 

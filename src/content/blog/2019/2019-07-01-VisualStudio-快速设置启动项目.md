@@ -43,7 +43,7 @@ Project.SetasStartUpProject
 
 <!-- ![](images/img-VisualStudio 快速设置启动项目0.png) -->
 
-![](images/img-lindexi%2F201971142743883.png)
+![](images/img-modify-f033bb617de5a9dfc81c8cd0ba795c6f.png)
 
 然后分配一个快捷键给他就可以
 

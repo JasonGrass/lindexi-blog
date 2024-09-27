@@ -29,13 +29,13 @@ tags:
 
 <!-- ![](images/img-dotnet 部署 github 的 Action 进行持续集成0.png) -->
 
-![](images/img-lindexi%2F2019127115829639.png)
+![](images/img-modify-8298607850835a05f5411e15ba7f10cd.png)
 
 这个项目是支持在项目文件夹使用 `dotnet build` 进行编译，因为将 sln 文件放在项目文件夹，同时项目使用 dotnet core 写的
 
 <!-- ![](images/img-dotnet 部署 github 的 Action 进行持续集成1.png) -->
 
-![](images/img-lindexi%2F20191271205944.png)
+![](images/img-modify-91acb0e21fa3b90f3e28243060dfc817.png)
 
 点击 Action 会自动判断这是一个 dotnet 程序，点击创建 Setup this workflow 就可以
 
@@ -43,19 +43,19 @@ tags:
 
 <!-- ![](images/img-dotnet 部署 github 的 Action 进行持续集成2.png) -->
 
-![](images/img-lindexi%2F201912712115755.png)
+![](images/img-modify-d3810072632b9d0ffaea190b2e3ff687.png)
 
 此时需要关注的内容很少，甚至这个项目能在 ubuntu 编译的，点击右上角的 start commit 按钮就可以了
 
 <!-- ![](images/img-dotnet 部署 github 的 Action 进行持续集成3.png) -->
 
-![](images/img-lindexi%2F20191271232516.png)
+![](images/img-modify-557d89a21e25d6b1787ac1193675d98b.png)
 
 此时的持续集成将会在每次 push 触发，刚好现在提交了一个 dotnetcore.yml 文件，就可以在 Action 看到自动编译
 
 <!-- ![](images/img-dotnet 部署 github 的 Action 进行持续集成4.png) -->
 
-![](images/img-lindexi%2F201912712412415.png)
+![](images/img-modify-4a11ef102a30133a5212badbec064882.png)
 
 大概这样就完成了部署了
 

@@ -24,7 +24,7 @@ tags:
 
 <!-- ![](images/img-GitHub 的 Action 如何禁用0.png) -->
 
-![](images/img-lindexi%2F202052594637993.jpg)
+![](images/img-modify-7056e17d1f3fe5f08da6ad46a2d889eb.jpg)
 
 解决方法是禁用这个 Fork 仓库的 Action 构建，毕竟需要自动构建的都是将代码推送到源仓库，此时源仓库的 Action 都能触发，也就是我的仓库的 Action 其实没啥用
 
@@ -32,7 +32,7 @@ tags:
 
 <!-- ![](images/img-GitHub 的 Action 如何禁用1.png) -->
 
-![](images/img-lindexi%2F2020525949558751.jpg)
+![](images/img-modify-b48226df673b86c6f50cafd7b6ed31be.jpg)
 
 如果我表示不让所有 Fork 我的仓库的小伙伴都需要做这个设置，我想要让我的代码仅仅只是在我的仓库运行，可以如何做？简单的方法是添加一个判断
 

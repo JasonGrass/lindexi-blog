@@ -53,7 +53,7 @@ tags:
 
 <!-- ![](images/img-WPF 开启 ScrollViewer 的触摸滚动0.png) -->
 
-![](images/img-lindexi%2F2018122612330218.png)
+![](images/img-modify-5b120985799675727ff7890a457073c4.png)
 
 同时触摸的时候没有输出
 

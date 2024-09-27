@@ -46,7 +46,7 @@ tags:
 
 <!-- ![](images/img-dotnet core 隐藏控制台0.png) -->
 
-![](images/img-lindexi%2F201921111517349.png)
+![](images/img-modify-4db0517ccf4275bcaa0bb09df95e5ef9.png)
 
 或者修改 csproj 文件，将 OutputType 修改为 WinExe 请看代码
 

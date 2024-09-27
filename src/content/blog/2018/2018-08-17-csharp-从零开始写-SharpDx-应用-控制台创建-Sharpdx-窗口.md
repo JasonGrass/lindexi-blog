@@ -32,7 +32,7 @@ tags:
 
 <!-- ![](images/img-C# 控制台创建 Sharpdx 窗口0.png) -->
 
-![](images/img-lindexi%2F2018618211811713.jpg)
+![](images/img-modify-26a74071528da448419379b9a3212706.jpg)
 
 ## 下载
 

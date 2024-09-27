@@ -24,13 +24,13 @@ description: "Unity3D OpenVR SteamVR Input Action 动作"
 
 <!-- ![](images/img-Unity3D OpenVR SteamVR Input Action 动作0.png) -->
 
-![](images/img-lindexi%2F2021516952488411.jpg)
+![](images/img-modify-39a1a8203eea0728fea88457f585f1fd.jpg)
 
 默认打开的 SteamVR Input 界面会比较小，请将他拖动修改到足够大小，期望能看到如下界面所有按钮
 
 <!-- ![](images/img-Unity3D OpenVR SteamVR Input Action 动作1.png) -->
 
-![](images/img-lindexi%2F202151695624691.jpg)
+![](images/img-modify-718d020745069aaea14091419913d011.jpg)
 
 以上即可看到各个不同的交互类型，每个交互类型可以抽象为以下不同的动作类型
 
@@ -59,7 +59,7 @@ description: "Unity3D OpenVR SteamVR Input Action 动作"
 
 <!-- ![](images/img-Unity3D OpenVR SteamVR Input Action 动作1.png) -->
 
-![](images/img-lindexi%2F202151695624691.jpg)
+![](images/img-modify-718d020745069aaea14091419913d011.jpg)
 
 定义具体的交互绑定的定义，如在代码中定义交互的输入，以及绑定到具体的硬件设备上，请参阅 [Unity OpenVR 虚拟现实入门六：通过摇杆控制玩家移动 - walterlv](https://blog.walterlv.com/post/unity-openvr-starting-6.html )
 

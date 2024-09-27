@@ -82,7 +82,7 @@ tags:
 
 <!-- ![](images/img-VisualStudio 扩展开发 获得输出窗口内容0.png) -->
 
-![](images/img-lindexi%2F20192399836.png)
+![](images/img-modify-8cc270059e2ad3b4404d5d858ed3de98.png)
 
 这里的一个就是一个 Pane 都是在输出窗口里面
 

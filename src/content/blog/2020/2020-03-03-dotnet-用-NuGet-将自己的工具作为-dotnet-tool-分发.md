@@ -42,7 +42,7 @@ tags:
 
 <!-- ![](images/img-dotnet 用 NuGet 将自己的工具作为 dotnet tool 分发0.png) -->
 
-![](images/img-lindexi%2F2020228858381651.jpg)
+![](images/img-modify-905105ad0214e550f770df21db3cc957.jpg)
 
 在里面添加下面代码
 
@@ -54,7 +54,7 @@ tags:
 
 <!-- ![](images/img-dotnet 用 NuGet 将自己的工具作为 dotnet tool 分发1.png) -->
 
-![](images/img-lindexi%2F202022885910226.jpg)
+![](images/img-modify-4e3e53a3f376bdd8fb94f48442da15d6.jpg)
 
 上面代码的 PackAsTool 就是告诉 VS 等工具这是一个 dotnet tool 工具，到时候将它输出为 NuGet 库，同时在 NuGet 库里面标记这是工具
 
@@ -66,7 +66,7 @@ tags:
 
 <!-- ![](images/img-dotnet 用 NuGet 将自己的工具作为 dotnet tool 分发2.png) -->
 
-![](images/img-lindexi%2F202022885949895.jpg)
+![](images/img-modify-277a381f8e5eb2ab8f05e1ce49c97750.jpg)
 
 测试方法非必要，作为一个自信的程序员，自己写出来的工具怎么需要测试呢？反正有问题了再升级一个版本发布咯
 
@@ -82,19 +82,19 @@ tags:
 
 <!-- ![](images/img-VisualStudio 使用新项目格式快速打出 Nuget 包8.png) -->
 
-![](images/img-lindexi%2F2018101511234592.png)
+![](images/img-modify-2aebabd137efb9e8b35963fcd3f5b9e0.png)
 
 点击设置
 
 <!-- ![](images/img-VisualStudio 使用新项目格式快速打出 Nuget 包9.png) -->
 
-![](images/img-lindexi%2F2018101511246876.png)
+![](images/img-modify-1ef1310096a653ddbbeaace113e8011f.png)
 
 点击添加一个本地的包，修改输出包的文件夹
 
 <!-- ![](images/img-VisualStudio 使用新项目格式快速打出 Nuget 包10.png) -->
 
-![](images/img-lindexi%2F20181015112432959.png)
+![](images/img-modify-7ebcd69b21a290c154cb7728c6c08710.png)
 
 设置完成之后打开cmd命令行输入下面代码安装自己的 NuGet 库
 
@@ -112,7 +112,7 @@ dotnet tool install -g NugetMergeFixTool
 
 <!-- ![](images/img-dotnet 用 NuGet 将自己的工具作为 dotnet tool 分发3.png) -->
 
-![](images/img-lindexi%2F202022898331084.jpg)
+![](images/img-modify-9ed3d0a1f5a0f25a735b732758c16bc8.jpg)
 
 有微软帐号的用微软帐号，没有微软帐号的，自己注册一个，注册步骤很简单，基本上看界面就会了
 
@@ -120,7 +120,7 @@ dotnet tool install -g NugetMergeFixTool
 
 <!-- ![](images/img-dotnet 用 NuGet 将自己的工具作为 dotnet tool 分发4.png) -->
 
-![](images/img-lindexi%2F202022899306735.jpg)
+![](images/img-modify-2f46c85c4db62ff943d21ae56efa4a0a.jpg)
 
 理论上只要不是有提示出错的，其他都可以忽略，点击上传之后就等待一小段时间，如去吃个饭。回来基本上就可以看到发布完成了，此时可以告诉小伙伴在命令行输入一段神奇的代码安装你的工具，然后使用一段有趣的代码启动你的工具
 

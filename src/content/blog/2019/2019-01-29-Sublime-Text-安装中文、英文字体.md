@@ -21,7 +21,7 @@ description: "Sublime Text 安装中文、英文字体"
 
 这个字体看起来效果比较差
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201812091421.jpg)
+![](images/img-modify-2c88e7dc968a9f3effd0921ff3baa418.jpg)
 
 下载地址：
 
@@ -31,7 +31,7 @@ description: "Sublime Text 安装中文、英文字体"
 
 这个字体在英文是很好，但是显示中文不好看
 
-![](images/img-AwCCAwMAItoFAMV%2BBQA28wYAAQAEAK4%2BAQBmQwIAaOgJAOjZ%2F2-modify-d3f4818ba16e914f743effa859cede34.jpg)
+![](images/img-modify-d3f4818ba16e914f743effa859cede34.jpg)
 
 下载地址：
 
@@ -43,7 +43,7 @@ BTSYNC：B6EZLWWDHSMHDHNF6DLOMGKYBSXT7OI4R
 
 建议使用字号 16 
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201812095947.jpg)
+![](images/img-modify-409a028a168c8c16a4ede7e9a2eef831.jpg)
 
 下载地址：
 
@@ -63,15 +63,15 @@ BTSYNC：B6EZLWWDHSMHDHNF6DLOMGKYBSXT7OI4R
 
 点击选择字体，他的字体放在  `C:\Program Files (x86)\FontForge\`
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201812093732.jpg)
+![](images/img-modify-73bcc17ff822cb3d453596f5af413c19.jpg)
 
 点击 FontInfo 修改字体名，注意名称不能添加空格
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201812094548.jpg)
+![](images/img-modify-eee15b831b07157e7c1e2369dafb2048.jpg)
 
 点击文件保存
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201812093945.jpg)
+![](images/img-modify-7b233aec8f8275cb8020135a130a5c33.jpg)
 
 教程：http://designwithfontforge.com/zh-CN/The_Final_Output_Generating_Font_Files.html
 

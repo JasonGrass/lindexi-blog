@@ -26,7 +26,7 @@ tags:
 
 <!-- ![](images/img-VisualStudio 开启仅我代码调试0.png) -->
 
-![](images/img-lindexi%2F201965192545316.png)
+![](images/img-modify-0b1f80aef71946ad9919554f6e964cbf.png)
 
 此时会自动跳过库里面的代码调试，同时也会跳过使用[DebuggerNonUserCodeAttribute](https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.debuggernonusercodeattribute?wt.mc_id=MVP )标记的代码
 

@@ -50,7 +50,7 @@ tags:
 
 <!-- ![](images/img-win10 uwp 使用 ScaleTransform 放大某个元素0.png) -->
 
-![](images/img-lindexi%2F2019313172057692.png)
+![](images/img-modify-7940423de37034afb6fb78684f4fe024.png)
 
 代码请看 [github](https://github.com/lindexi/lindexi_gd/tree/2c00ce47ec76474b95953bbfc17e286d9938d534/HearqicalbasteKajalltearfearnahir)
 
@@ -83,7 +83,7 @@ tags:
 ```
 <!-- ![](images/img-中心放大.gif) -->
 
-![](images/img-lindexi%2F2019313174718402.png)
+![](images/img-modify-2965814a70d5a6d13f47a1f71feb97e7.png)
 
 对比一下不设置的从左上角放大
 
@@ -97,7 +97,7 @@ tags:
 ```
 
 
-![](images/img-lindexi%2F2019313174957992.png)
+![](images/img-modify-a0c072ce88722db9138dd39a260b6ecf.png)
 
 那么如何做缩放动画
 

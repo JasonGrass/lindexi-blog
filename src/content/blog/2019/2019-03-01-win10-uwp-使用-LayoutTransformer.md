@@ -24,15 +24,15 @@ tags:
 
 原图：
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201711521149.jpg)
+![](images/img-modify-f20c15d8bc5e364656a6e2aea308936a.jpg)
 
 使用 RenderTransform 进行旋转
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201711521312.jpg)
+![](images/img-modify-b99cf27dc6b3d74f99358b3bd0e81313.jpg)
 
 使用 LayoutTransformer 旋转
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017115205320-modify-cfb70d075748c1e3eb27a7fc74b73f1d.jpg)
+![](images/img-modify-cfb70d075748c1e3eb27a7fc74b73f1d.jpg)
 
 可以看到，有时候需要元素旋转之后还在固定的大小内，那么就需要使用这个方法。
 

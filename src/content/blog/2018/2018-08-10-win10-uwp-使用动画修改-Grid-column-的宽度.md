@@ -23,7 +23,7 @@ tags:
 
 首先发出我做出的效果
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017%25E5%25B9%25-modify-abad0987ff094f22a5e745c870fa621e.gif)
+![](images/img-modify-abad0987ff094f22a5e745c870fa621e.gif)
 
 实际上我动画做的是 double ，当然通过 double 进行绑定，可以看到，如果使用绑定需要进行转换，首先写一个转换的代码
 

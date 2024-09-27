@@ -27,7 +27,7 @@ tags:
 
 <!-- ![](images/img-VisualStudio 使用多个环境进行调试1.png) -->
 
-![](images/img-lindexi%2F201882819618478.png)
+![](images/img-modify-78edbaf5183b204f0cf463f6a7732f8c.png)
 
 可以看到原来的是启动的按钮，现在被我修改为 lindexi 和 逗比，那么我是如何做到的？这个有什么用呢？
 
@@ -43,13 +43,13 @@ tags:
 
 <!-- ![](images/img-VisualStudio 使用多个环境进行调试0.png) -->
 
-![](images/img-lindexi%2F201882819948568.png)
+![](images/img-modify-b9ccf3f825105be5750a1969461c3bb4.png)
 
 点击调试可以看到配置文件，默认的配置文件就是和项目相同，这时只需要点击新建按钮然后输入新的名字，就可以创建新的配置
 
 <!-- ![](images/img-VisualStudio 使用多个环境进行调试2.png) -->
 
-![](images/img-lindexi%2F201882819135343.png)
+![](images/img-modify-7d1fd93c593c7cd86d41268f25133521.png)
 
 在不同的配置可以选择使用启动的是什么，如项目。选择项目就是启动这个项目进行调试，可以在调试的时候输入应用程序参数和设置工作文件夹。
 
@@ -57,13 +57,13 @@ tags:
 
 <!-- ![](images/img-VisualStudio 使用多个环境进行调试3.png) -->
 
-![](images/img-lindexi%2F2018828191648439.png)
+![](images/img-modify-fe5ff78cbe8e954a4056d089911963ac.png)
 
 我在主函数输出可以看到下面代码
 
 <!-- ![](images/img-VisualStudio 使用多个环境进行调试4.png) -->
 
-![](images/img-lindexi%2F2018828191834293.png)
+![](images/img-modify-ddea386f53933b1db787492aa81a8d53.png)
 
 那么工作文件夹又是做什么的呢？
 
@@ -71,7 +71,7 @@ tags:
 
 <!-- ![](images/img-VisualStudio 使用多个环境进行调试5.png) -->
 
-![](images/img-lindexi%2F2018828192030852.png)
+![](images/img-modify-0e830129010f14be214af8a02453a528.png)
 
 在主函数添加下面代码然后运行
 
@@ -85,20 +85,20 @@ tags:
 
 <!-- ![](images/img-VisualStudio 使用多个环境进行调试6.png) -->
 
-![](images/img-lindexi%2F2018828192221481.png)
+![](images/img-modify-c6bd3b2fc9d97204c2183de7f5297ef8.png)
 
 需要注意，添加的工作文件夹需要是存在的，不然会出现下面提示
 
 
 <!-- ![](images/img-VisualStudio 使用多个环境进行调试7.png) -->
 
-![](images/img-lindexi%2F201882819232121.png)
+![](images/img-modify-aecf68696e8365f91be00bd6e154fb27.png)
 
 启动除了使用项目还可以使用外面的程序，可以选择启动可执行文件，然后写入可执行文件的路径
 
 <!-- ![](images/img-VisualStudio 使用多个环境进行调试8.png) -->
 
-![](images/img-lindexi%2F2018828192754686.png)
+![](images/img-modify-b72e6cf7955bdd8b0486f40e22087973.png)
 
 这时的 VisualStudio 执行的就是这个传入的软件，这个就和使用调试附加到进程一样。
 
@@ -106,7 +106,7 @@ tags:
 
 <!-- ![](images/img-VisualStudio 使用多个环境进行调试9.png) -->
 
-![](images/img-lindexi%2F2018828193927296.png)
+![](images/img-modify-ec1d1e3148c673841ca4e03b7d965711.png)
 
 The first is IIS Express that will use IIS Express to host this project and the second is `Project` that will run this project and debugging it.
 

@@ -24,7 +24,7 @@ tags:
 
 <!-- ![](images/img-dotnet 通过 dotnetCampus.Localizations 将 YAML 多语言文件构建为代码0-modify-dbc429a7ca93f9be3b1a812f95a14a8d.png) -->
 
-![](images/img-lindexi%2F20202291028547378.jpg)
+![](images/img-modify-c241154a8200d62ef64c80c098b06fbc.jpg)
 
 但是用 YAML 作为输出的缺点是需要在软件运行的时候解析这个 YAML 多语言文件，而解析 YAML 多语言文件需要 YAML 解析库，但是实际上我可以在软件构建的时候将 YAML 文件转换为 C# 代码，这样我就可以在软件运行的时候不需要解析这个 YAML 文件，提升我软件的运行速度
 

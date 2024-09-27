@@ -23,7 +23,7 @@ tags:
 
 工程文件就是创建一个工程自动生成的，如果创建一个空白的程序，那么就可以从创建的文件夹看到这个文件
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017722155815-modify-cb20f69c60360e0dcf3c1f07de103c54.jpg)
+![](images/img-modify-cb20f69c60360e0dcf3c1f07de103c54.jpg)
 
 使用 SublimeText打开，可以看到他里面包含了很多文件
 
@@ -54,7 +54,7 @@ tags:
 
 把上面的代码放到两个文件，那么可以看到在解决方案存在两个文件，接下来就要把他们放在一起
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201772216156.jpg)
+![](images/img-modify-187555a635fda9fd26d4efe34db01571.jpg)
 
 可以看到在刚才打开的工程文件，有这样的代码
 
@@ -99,5 +99,5 @@ tags:
 如果想获得反射的知识，请看
 [win10 uwp 反射](http://lindexi.oschina.io/lindexi//post/win10-uwp-%E5%8F%8D%E5%B0%84/)
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F20177221639.jpg)
+![](images/img-modify-6b4ea5b980eabf9e1593bba198a45932.jpg)
 

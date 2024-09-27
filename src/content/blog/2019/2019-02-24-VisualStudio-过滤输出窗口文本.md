@@ -52,13 +52,13 @@ tags:
 
 但是实际的输出混合了两个逗比的输出
 
-![](images/img-lindexi%2F2019223154329248.png)
+![](images/img-modify-8f813076dfec6124c1c9ce01856d097f.png)
 
 通过 VisualStudio 插件[Filter Debug Window](https://marketplace.visualstudio.com/items?itemName=nertilpoci.FilterDebugWindow ) 可以过滤输出窗口文本
 
 <!-- ![](images/img-VisualStudio 过滤输出窗口文本0.png) -->
 
-![](images/img-lindexi%2F201922411520834.png)
+![](images/img-modify-b8c251ec6c4010c93d1889f035a79f27.png)
 
 通过 [VisualStudio 插件网站](https://marketplace.visualstudio.com/items?itemName=nertilpoci.FilterDebugWindow ) 或直接在 VisualStudio 搜 Filter Debug Window 就可以下载
 
@@ -72,29 +72,29 @@ tags:
 
 <!-- ![](images/img-VisualStudio 过滤输出窗口文本2.png) -->
 
-![](images/img-lindexi%2F201922315524988.png)
+![](images/img-modify-f075af5faf4e1f1537392fd03c950998.png)
 
 添加的过滤可以使用不同的条件过滤，如输出的内容包含某个字符串，或不包含某个字符串。输入过滤的内容，然后点击确定
 
 <!-- ![](images/img-VisualStudio 过滤输出窗口文本3.png) -->
 
-![](images/img-lindexi%2F2019223155348157.png)
+![](images/img-modify-1ba72ed4c246c4da98342acd1f8c1ebd.png)
 
 点击选择的过滤，也就是 0 Filters Selected 这个按钮
 
 <!-- ![](images/img-VisualStudio 过滤输出窗口文本4.png) -->
 
-![](images/img-lindexi%2F2019223155432965.png)
+![](images/img-modify-0734fc5a070453f9b1a143569ae28d29.png)
 
 选择刚才新建的过滤
 
 <!-- ![](images/img-VisualStudio 过滤输出窗口文本5.png) -->
 
-![](images/img-lindexi%2F2019223155458518.png)
+![](images/img-modify-b68fd5f35a1bd855db7337b002d8bedd.png)
 
 尝试再次运行代码，可以看到现在的输出只有 林德熙是逗比 通过这样的方法可以过滤自己不需要的信息
 
-![](images/img-lindexi%2F2019223155829363.png)
+![](images/img-modify-200f78d100928d28adb8d6946bd13ba2.png)
 
 同时这个插件支持同时设置多个过滤，设置为或的关系，这样就可以同时看到异常和自己需要的信息
 

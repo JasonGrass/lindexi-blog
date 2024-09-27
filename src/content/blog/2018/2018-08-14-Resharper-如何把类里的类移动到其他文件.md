@@ -43,7 +43,7 @@ tags:
 
 然后选择 B ，按 ctrl+shift+R
 
-![](images/img-AwCCAwMAItoFAMV%2BBQA28wYAAQAEAK4%2BAQBmQwIAaOgJAOjZ%2F2-modify-7d1e5ba7a9e79b9ebc0f12a65166aec5.jpg)
+![](images/img-modify-7d1e5ba7a9e79b9ebc0f12a65166aec5.jpg)
 
 移动到其他文件，第一个
 

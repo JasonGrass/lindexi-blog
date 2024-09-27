@@ -36,7 +36,7 @@ tags:
 
 <!-- ![](images/img-Roslyn 使用 Directory.Build.props 管理多个项目配置0.png) -->
 
-![](images/img-lindexi%2F2018920151353506.png)
+![](images/img-modify-43e9a68b757a0f2ca973c57d7a50c216.png)
 
 我创建了 Build 文件夹，这个文件夹里面就放一个文件，这个文件就是管理版本号
 

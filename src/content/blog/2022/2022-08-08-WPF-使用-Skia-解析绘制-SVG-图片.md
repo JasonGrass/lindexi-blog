@@ -24,7 +24,7 @@ tags:
 
 <!-- ![](images/img-WPF 使用 Skia 解析绘制 SVG 图片0.png) -->
 
-![](images/img-lindexi%2F2022881931555567.jpg)
+![](images/img-modify-f6d52228337d4cc857e723e19d4392e2.jpg)
 
 详细请看 [https://github.com/mono/SkiaSharp.Extended/issues/87#issuecomment-552113673](https://github.com/mono/SkiaSharp.Extended/issues/87#issuecomment-552113673)
 

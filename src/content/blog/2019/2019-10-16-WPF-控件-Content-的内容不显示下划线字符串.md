@@ -31,13 +31,13 @@ tags:
 
 <!-- ![](images/img-WPF 控件 Content 的内容不显示下划线字符串0.png) -->
 
-![](images/img-lindexi%2F2019101691346786.png)
+![](images/img-modify-7b35be7dc68cf5c56c70eb138d055119.png)
 
 如果此时在界面按下了 Alt 键，将会看到 `Text_Content` 中的 `C` 添加了下划线
 
 <!-- ![](images/img-WPF 控件 Content 的内容不显示下划线字符串1.png) -->
 
-![](images/img-lindexi%2F2019101691447318.png)
+![](images/img-modify-42cc41fb2419c0176e3f1f56ba128adc.png)
 
 按下 Alt + C 就可以选中这个按钮
 
@@ -61,7 +61,7 @@ tags:
 
 <!-- ![](images/img-WPF 控件 Content 的内容不显示下划线字符串2.png) -->
 
-![](images/img-lindexi%2F2019101691931375.png)
+![](images/img-modify-65456369695b2e1e3491ec0a25adf278.png)
 
 或者将 Content 里面添加文本控件
 

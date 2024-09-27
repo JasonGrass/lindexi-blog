@@ -26,7 +26,7 @@ tags:
 
 <!-- ![](images/img-dotnet 在 WPF 里显示数学 π 的颜色0.png) -->
 
-![](images/img-lindexi%2F20218231953154699.jpg)
+![](images/img-modify-5c9ce0146d9c32120d1aef09586cb3ca.jpg)
 
 我先从某个有趣的地方随便找到了 π 小数点之后很长的数值，接下来将这个数值存放作为字符串，再对这个字符串执行如下算法
 

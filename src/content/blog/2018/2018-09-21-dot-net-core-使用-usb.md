@@ -25,7 +25,7 @@ tags:
 
 首先需要打开 Nuget 安装 CoreCompat.LibUsbDotNet ，这是一个usb连接的库。
 
-![](images/img-lindexi%2F2018414152437169.jpg)
+![](images/img-modify-23b126be8bb14131ad2cb5dda8c0ab90.jpg)
 
 ## 获得通知
 

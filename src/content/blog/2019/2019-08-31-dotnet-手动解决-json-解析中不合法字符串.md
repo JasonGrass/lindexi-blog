@@ -54,7 +54,7 @@ tags:
 
 运行上面代码，可以看到一个有趣的代码
 
-![](images/img-lindexi%2F20193208581815.png)
+![](images/img-modify-b0a78991b2e09c70c2758ccbddd1279b.png)
 
 自己解决不合法的字符串可以通过 JsonSerializerSettings 的方法，里面有一个委托，在发现有不清真的字符串的时候就会调用这个委托
 

@@ -26,9 +26,9 @@ tags:
 
 <!-- ![](images/img-VisualStudio 禁用移动文件到文件夹自动修改命名空间功能1.png) -->
 
-![](images/img-lindexi%2FQQ%25E5%259B%25BE%25E7%2589%258720220831103818-modify-8e221a7c14aea2247949915c2dda5056.png)
+![](images/img-modify-8e221a7c14aea2247949915c2dda5056.png)
 
 英文版：
 
 <!-- ![](images/img-VisualStudio 禁用移动文件到文件夹自动修改命名空间功能0.png) -->
-![](images/img-lindexi%2F20228311035501070.jpg)
+![](images/img-modify-3d55a24a3be70c935255c933773447b0.jpg)

@@ -33,7 +33,7 @@ tags:
 > Do you want to install a compatible Windows App Runtime now?
 
 <!-- ![](images/img-WinUI 3 修复非打包应用运行提示缺少 Windows App Runtime 环境0.png) -->
-![](images/img-lindexi%2F20236151933384613.jpg)
+![](images/img-modify-bdf4e64d11138c86b0282e37247f24e9.jpg)
 
 点击确定时，默认跳转到 [https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/downloads](https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/downloads) 下载页
 

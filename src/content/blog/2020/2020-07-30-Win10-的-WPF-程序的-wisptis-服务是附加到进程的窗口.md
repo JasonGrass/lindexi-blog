@@ -25,7 +25,7 @@ tags:
 
 <!-- ![](images/img-Win10 的 WPF 程序的 wisptis 服务是附加到进程的窗口0.png) -->
 
-![](images/img-lindexi%2F20207301722262659.jpg)
+![](images/img-modify-481f51b1bd6499855d3578f242816b72.jpg)
 
 更多关于 WPF 触摸请看
 

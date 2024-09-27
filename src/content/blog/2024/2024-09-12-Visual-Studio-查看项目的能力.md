@@ -52,7 +52,7 @@ description: "Visual Studio 查看项目的能力"
 开启之后的 Visual Studio 界面大概如下
 
 <!-- ![](images/img-Visual Studio 查看项目的能力0.png) -->
-![](images/img-lindexi%2F20249111236252016.jpg)
+![](images/img-modify-40934e42470580db49580566f1abdc98.jpg)
 
 这里面的一项项就是项目的能力，如 AppDesigner 就是 指示项目使用应用程序设计器管理项目属性 的意思
 

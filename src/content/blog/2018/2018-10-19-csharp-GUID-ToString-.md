@@ -89,5 +89,5 @@ System.Console.WriteLine(Guid.NewGuid().ToString("P"));
 
 参见：[全局唯一标识符 - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/%E5%85%A8%E5%B1%80%E5%94%AF%E4%B8%80%E6%A0%87%E8%AF%86%E7%AC%A6 )
 
-![](images/img-65fb6078-c169-4ce3-cdd9-e35752d07be0%2Fyande.re%25204437-modify-8a9f690c5f565d4cc269d8549d2362ee.jpg)
+![](images/img-modify-8a9f690c5f565d4cc269d8549d2362ee.jpg)
 

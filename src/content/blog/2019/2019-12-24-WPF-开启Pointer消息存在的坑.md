@@ -36,7 +36,7 @@ tags:
 
 开启 Pointer 消息之后，调用 `Stylus.IsPressAndHoldEnabled="False"` 无效
 
-![](images/img-lindexi%2FWPF%2520can%2520not%2520work%2520well%2520with-modify-45a9d6f6c5268bcaa67f56db4068905a.gif)
+![](images/img-modify-45a9d6f6c5268bcaa67f56db4068905a.gif)
 
 在没有开启 Pointer 消息，将会在 System.Windows.Interop.HwndSource 的 Initialize 方法通过判断是否开启 Pointer 消息执行 HwndStylusInputProvider 逻辑
 

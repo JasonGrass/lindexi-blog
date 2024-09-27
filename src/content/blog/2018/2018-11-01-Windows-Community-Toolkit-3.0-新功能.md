@@ -51,7 +51,7 @@ tags:
 
 <!-- ![](images/img-Windows Community Toolkit 3.0 新功能0.png) -->
 
-![](images/img-lindexi%2F2018531191028975.jpg)
+![](images/img-modify-50e71a758baa4457ee24b0caef7e33d8.jpg)
 
 现在通过 Nuget 安装 [Microsoft.Toolkit.Win32.UI.Controls](https://www.nuget.org/packages/Microsoft.Toolkit.Win32.UI.Controls/ ) 就可以在 WinForms 和 WPF 使用 Edge 浏览器。
 
@@ -80,7 +80,7 @@ xmlns:gaze="using:Microsoft.Toolkit.Uwp.Input.GazeInteraction"
 
 <!-- ![](images/img-Windows Community Toolkit 3.0 新功能1.png) -->
 
-![](images/img-lindexi%2F20185311925337786.jpg)
+![](images/img-modify-2d61903b92bf87b2192e1ed81ac0a1d1.jpg)
 
 ## Microsoft Graph 控件
 
@@ -92,14 +92,14 @@ xmlns:gaze="using:Microsoft.Toolkit.Uwp.Input.GazeInteraction"
 
 <!-- ![](images/img-Windows Community Toolkit 3.0 新功能2.png) -->
 
-![](images/img-lindexi%2F20185311930215405.jpg)
+![](images/img-modify-c0ef828e043ce1fc821ee842cc339079.jpg)
 
 ### PeoplePicker
 
 从 一个组织的 AD 里面选择一个或多个用户的控件
 
 <!-- ![](images/img-Windows Community Toolkit 3.0 新功能3.png) -->
-![](images/img-lindexi%2F20185311931523872.jpg)
+![](images/img-modify-e9a15501cf56ccaaa1d0d86788cf14c2.jpg)
 
 ### SharePointFileList
 
@@ -107,7 +107,7 @@ xmlns:gaze="using:Microsoft.Toolkit.Uwp.Input.GazeInteraction"
 
 <!-- ![](images/img-Windows Community Toolkit 3.0 新功能4.png) -->
 
-![](images/img-lindexi%2F20185311933125111.jpg)
+![](images/img-modify-fa348e512eeea91a23785b353cc8696f.jpg)
 
 ## 新控件和辅助方法
 
@@ -156,7 +156,7 @@ CameraPreviewControl.CameraHelper.FrameArrived += CameraPreviewControl_FrameArri
 
 <!-- ![](images/img-Windows Community Toolkit 3.0 新功能5.png) -->
 
-![](images/img-lindexi%2F20185311940413508.jpg)
+![](images/img-modify-14ed8bc6cc65519b4fd2f84d17cd3d29.jpg)
 
 详细的文档：[UniformGrid XAML Control](https://docs.microsoft.com/en-us/windows/uwpcommunitytoolkit/controls/uniformgrid )
 
@@ -166,7 +166,7 @@ CameraPreviewControl.CameraHelper.FrameArrived += CameraPreviewControl_FrameArri
 
 <!-- ![](images/img-Windows Community Toolkit 3.0 新功能6.png) -->
 
-![](images/img-lindexi%2F20185311940413508.jpg)
+![](images/img-modify-14ed8bc6cc65519b4fd2f84d17cd3d29.jpg)
 
 如果想做一个简单的 ppt 软件，直接使用这个控件就可以做到。
 

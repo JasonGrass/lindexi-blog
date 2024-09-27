@@ -40,7 +40,7 @@ tags:
 
 <!-- ![](images/img-dotnet 强签名下使用 InternalsVisibleToAttribute 给程序集加上友元0.png) -->
 
-![](images/img-lindexi%2F20201218218201672.jpg)
+![](images/img-modify-5edabe306a299a1fcaa04278dbbecad0.jpg)
 
 新建的时候输入证书名就可以，可以不加上密码
 
@@ -58,7 +58,7 @@ tags:
 
 <!-- ![](images/img-dotnet 强签名下使用 InternalsVisibleToAttribute 给程序集加上友元1.png) -->
 
-![](images/img-lindexi%2F202012182113329105.jpg)
+![](images/img-modify-e6a21f33b96498e6b7dbf7e335986723.jpg)
 
 在开发者命令行工具可以使用 sn 命令，用到签名工具。使用 sn 工具读取出 dotnet-campus.snk 的公钥，可以使用下面代码
 

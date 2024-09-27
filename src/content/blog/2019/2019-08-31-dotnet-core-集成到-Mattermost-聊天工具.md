@@ -28,31 +28,31 @@ tags:
 
 然后点击打开集成页面
 
-![](images/img-lindexi%2F201951784850976.png)
+![](images/img-modify-766da4b743c0ae03094abf9e1b487bd7.png)
 
 <!-- ![](images/img-dotnet core 集成到 Mattermost 聊天工具0.png) -->
 
 在这里选择引入 Webhook 的方式
 
-![](images/img-lindexi%2F201951784924310.png)
+![](images/img-modify-9fb3247f25ad06b7ed5a210e2ccbe2be.png)
 
 <!-- ![](images/img-dotnet core 集成到 Mattermost 聊天工具1.png) -->
 
 点击添加钩子
 
-![](images/img-lindexi%2F20195178500833.png)
+![](images/img-modify-87337106a69cc7cb55898eadb6807011.png)
 
 <!-- ![](images/img-dotnet core 集成到 Mattermost 聊天工具2.png) -->
 
 输入一个标题和选择频道
 
-![](images/img-lindexi%2F201951785037963.png)
+![](images/img-modify-47c3c4fb2ba03cbf1f0b2763ffd75360.png)
 
 <!-- ![](images/img-dotnet core 集成到 Mattermost 聊天工具3.png) -->
 
 现在就可以看到一个链接了
 
-![](images/img-lindexi%2F201951785122324.png)
+![](images/img-modify-fd95d52a5390c2f0670f47eb1f703758.png)
 
 <!-- ![](images/img-dotnet core 集成到 Mattermost 聊天工具4.png) -->
 
@@ -99,7 +99,7 @@ tags:
 
 访问之后可以看到刚才创建的频道显示了信息
 
-![](images/img-lindexi%2F201951792512127.png)
+![](images/img-modify-aa73873333b848068ad595889cf80406.png)
 
 <!-- ![](images/img-dotnet core 集成到 Mattermost 聊天工具5.png) -->
 

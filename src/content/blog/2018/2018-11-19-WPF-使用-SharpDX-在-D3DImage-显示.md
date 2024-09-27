@@ -77,7 +77,7 @@ tags:
 
 因为没有直接从 Direct2D 到 D3D 显示的方法，下面需要告诉大家如何在 D3D11 显示 Direct2D 然后通过相同的格式转 D3D9 最后把缓冲区指针显示。
 
-![](images/img-lindexi%2F2018422932386479.jpg)
+![](images/img-modify-5e3d5898cce2b6c39d87e7ff4e74ac34.jpg)
 
 ## D3D 设备
 
@@ -317,7 +317,7 @@ using D3D9 = SharpDX.Direct3D9;
 
 <!-- ![](images/img-WPF 使用 SharpDX 在 D3DImage 显示0.gif) -->
 
-![](images/img-lindexi%2F5a1386e7414d2799ba2116a18fee85c0.gif)
+![](images/img-modify-f08ae1d08079930d6bd1ed0ee35ae5cc.gif)
 
 建议复制一下我的代码，在自己的vs粘贴，尝试跑一下，然后继续看博客。
 

@@ -38,7 +38,7 @@ tags:
 
 <!-- ![](images/img-win10 uwp 使用 Border 布局0.png) -->
 
-![](images/img-lindexi%2F2019331155659628.png)
+![](images/img-modify-632fc119442a6789cac5bfd07c3cdbb2.png)
 
 在 VisualStudio 2017 可以在 UWP 运行修改 xaml 代码修改界面，在 Border 控件定义边框
 
@@ -53,7 +53,7 @@ tags:
 
 <!-- ![](images/img-win10 uwp 使用 Border 布局1.png) -->
 
-![](images/img-lindexi%2F20193311602977.png)
+![](images/img-modify-1c13178e26baedf42a94d3636b94a5a4.png)
 
 其实边框可以定制的很多，如我需要边框的上方线条宽度是 2 像素，边框左边是10像素，边框的下方是 2 像素等，我可以这样写
 
@@ -68,7 +68,7 @@ tags:
 
 <!-- ![](images/img-win10 uwp 使用 Border 布局2.png) -->
 
-![](images/img-lindexi%2F201933116232839.png)
+![](images/img-modify-e01381a93b5ff1df7612be907d1e81b7.png)
 
 如果修改宽度为 0 那么就看不到相同，如我就需要在文本画一条直线
 
@@ -81,7 +81,7 @@ tags:
 
 <!-- ![](images/img-win10 uwp 使用 Border 布局6.png) -->
 
-![](images/img-lindexi%2F2019331161139357.png)
+![](images/img-modify-48aadb8655382ae5cd468ff2ed603130.png)
 
 边框还可以修改圆角 CornerRadius 请看代码
 
@@ -94,7 +94,7 @@ tags:
 
 <!-- ![](images/img-win10 uwp 使用 Border 布局4.png) -->
 
-![](images/img-lindexi%2F20193311673641.png)
+![](images/img-modify-8d6abd69c647edee7a8134052e8b2db2.png)
 
 和 BorderThickness 一样，可以修改 CornerRadius 的上下左右的值，顺序是左上角 右上角 右下角 左下角
 
@@ -107,7 +107,7 @@ tags:
 
 <!-- ![](images/img-win10 uwp 使用 Border 布局5.png) -->
 
-![](images/img-lindexi%2F2019331161219198.png)
+![](images/img-modify-b2bd27cd799fbe0b8e54c1c10c1f7941.png)
 
 在 TextBlock 是没有背景属性的，那么如何给一段文字修改背景？可以使用 Border 里面放文本，通过修改背景的方法。请看代码我修改了边框的背景，这样文本也就被我修改背景
 
@@ -122,7 +122,7 @@ tags:
 
 <!-- ![](images/img-win10 uwp 使用 Border 布局3.png) -->
 
-![](images/img-lindexi%2F201933116551921.png)
+![](images/img-modify-29c3ffed0cc29a98b24a4b9bc4d92bc0.png)
 
 在写到了背景会看到还有属性是 BackgroundSizing 这个表示背景是否包含边框，默认的值是 InnerBorderEdge 也就是背景大小是不包括边框，可以修改为 OuterBorderEdge 背景大小包括边框。这个属性是在边框是透明的时候才有用
 

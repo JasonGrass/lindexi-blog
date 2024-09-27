@@ -69,5 +69,5 @@ tags:
 
 更多请看 [手把手教你写 Roslyn 修改编译](https://lindexi.oschina.io/lindexi/post/roslyn.html )
 
-![](images/img-lindexi%2F2019123205745682.png)
+![](images/img-modify-9606c55b7c2b56d19d7cec03fd40b659.png)
 

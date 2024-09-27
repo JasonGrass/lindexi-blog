@@ -108,7 +108,7 @@ public class Foo : FrameworkElement
 
 <!-- ![](images/img-WPF 自定义控件入门 Focusable 与焦点0.png) -->
 
-![](images/img-lindexi%2F2023314165983686.jpg)
+![](images/img-modify-c515e6ee65e386e8e48d1107f6770a05.jpg)
 
 上图就是使用 [snoop](https://blog.lindexi.com/post/%E8%AE%A9-snoop-%E6%94%AF%E6%8C%81-.NET-Core-WPF-%E8%B0%83%E8%AF%95.html ) 工具调试的界面
 

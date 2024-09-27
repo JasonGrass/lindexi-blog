@@ -114,7 +114,7 @@ tags:
 
 <!-- ![](images/img-VisualStudio 开发文件自定义工具单文件生成工具0.png) -->
 
-![](images/img-lindexi%2F20194261033760.png)
+![](images/img-modify-10f8575800fc672a0e9b365c39d237d7.png)
 
 此时就可以看到代码运行，输出的林德熙是逗比将会写入到 Foo.txt 下面的 Foo.generated.cs 文件里面
 

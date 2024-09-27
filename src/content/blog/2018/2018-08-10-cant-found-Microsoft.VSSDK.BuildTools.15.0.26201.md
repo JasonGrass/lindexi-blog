@@ -37,5 +37,5 @@ description: "cant found Microsoft.VSSDK.BuildTools.15.0.26201"
 
 也可以点击工具选择扩展，搜索 Encoding 找到
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201766173231.jpg)
+![](images/img-modify-f9672a8faf971d649406a404d894305b.jpg)
 

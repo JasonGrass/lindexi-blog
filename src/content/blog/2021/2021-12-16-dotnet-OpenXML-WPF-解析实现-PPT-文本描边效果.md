@@ -34,7 +34,7 @@ tags:
 
 <!-- ![](images/img-dotnet OpenXML WPF 解析实现 PPT 文本描边效果0.png) -->
 
-![](images/img-lindexi%2F202112161518137486.jpg)
+![](images/img-modify-390cc110da708cb4385a93ef8c3dc8f9.jpg)
 
 ## 解析
 
@@ -268,7 +268,7 @@ git remote add origin https://github.com/lindexi/lindexi_gd.git
 
 <!-- ![](images/img-dotnet OpenXML WPF 解析实现 PPT 文本描边效果1.png) -->
 
-![](images/img-lindexi%2F202112281627318204.jpg)
+![](images/img-modify-21752fa2539057c298285020f5b14481.jpg)
 
 ### 没有线条颜色
 
@@ -294,7 +294,7 @@ git remote add origin https://github.com/lindexi/lindexi_gd.git
 
 <!-- ![](images/img-dotnet OpenXML WPF 解析实现 PPT 文本描边效果2.png) -->
 
-![](images/img-lindexi%2F20211228162949388.jpg)
+![](images/img-modify-b84f6763054da7880408ce073c17413a.jpg)
 
 ## 参考
 

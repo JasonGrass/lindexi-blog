@@ -25,7 +25,7 @@ tags:
 
 <!-- ![](images/img-C# 如何引用 WshShell 类0.png) -->
 
-![](images/img-lindexi%2F2019319102415818.png)
+![](images/img-modify-5df0bdbc19e996746d7fb88322f0700f.png)
 
 添加命名空间 `using IWshRuntimeLibrary;` 就可以使用了
 

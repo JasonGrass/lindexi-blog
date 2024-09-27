@@ -33,7 +33,7 @@ tags:
 
 在点击 VisualStudio 暂停的时候，可以看到业务应用创建了大量的线程
 
-![](images/img-lindexi%2F2020921211113804.jpg)
+![](images/img-modify-de6e260ffc4499989d0d0867db6f7553.jpg)
 
 其实调试到线程的时候，大概半个下午了，哈哈
 
@@ -45,7 +45,7 @@ tags:
 
 而根据 Eleven 老师的 asp dotnet core 源代码分析课程可以了解到，在 asp dotnet core 服务主机里面的线程是主线程固定的，但是调用到对应的控制器需要通过线程池调度。当然更多细节还请小伙伴关注 Eleven 老师的社区
 
-![](images/img-lindexi%2F20209121930471745.jpg)
+![](images/img-modify-bfb6d2b692623b8c0286a5254b34ab0b.jpg)
 
 在用光线程池的线程，此时的请求可以被主机处理，因此不会抛出远程服务器拒绝请求。但是主机通过线程池调度到对应控制器，因为线程池没有足够的线程，因此将会进入很长的等待。特别是有后续请求，那么将需要不断排队。这就是为什么我看到的业务应用拒绝服务
 
@@ -53,13 +53,13 @@ tags:
 
 我在调试中看到如下代码
 
-![](images/img-lindexi%2F20209212123591748.jpg)
+![](images/img-modify-d40b80de1577a109cb347fcfaed3ab13.jpg)
 
 我的底层库给我的方法是异步的上报日志方法，但是这个日志上报方法的核心是通过 Task.Run 一个线程进行同步调用
 
 其实在 asp dotnet core 的性能优化中，要尽量不使用 Task.Run 方法，在 [ASP.NET Core Performance Best Practices 官方文档](https://docs.microsoft.com/en-us/aspnet/core/performance/performance-best-practices?view=aspnetcore-3.1) 和译文 [ASP.NET Core 性能优化最佳实践 - Newbe36524 - 博客园](https://www.cnblogs.com/newbe36524/p/13663722.html) 都有提到，原因还请小伙伴看这两篇博客
 
-![](images/img-lindexi%2F20209212126156930.jpg)
+![](images/img-modify-aad108707b6f4c8764d2fef6d407704b.jpg)
 
 那么为什么上面的代码将会让线程池的线程都在等待？原因是 GetResponse 是一句同步的代码，同步的代码等待网络的返回，而此时我的日志服务大概写了如下代码
 

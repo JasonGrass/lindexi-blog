@@ -29,7 +29,7 @@ tags:
 
 右击解决方法，选择 Nuget 搜索 MetroLog 安装第一个
 
-![](images/img-lindexi%2F2018572033225407.jpg)
+![](images/img-modify-f92485c416220b4b6dcff19296b7fda3.jpg)
 
 最近有大神和我说 Log4Net 支持 UWP ，现在我先告诉大家如何用 MetroLog ，我尝试用这两个，还是 MetroLog 简单。
 
@@ -88,7 +88,7 @@ tags:
 
 双击打开 Package.appxmanifest 文件
 
-![](images/img-lindexi%2F2018572054392144.jpg)
+![](images/img-modify-4862cfab0e545789f3ec3968e8a9786f.jpg)
 
 点击打包可以看到包系列名
 
@@ -96,7 +96,7 @@ tags:
 
 打开 `LocalState\MetroLogs` 就可以看到日志
 
-![](images/img-lindexi%2F20185720574241.jpg)
+![](images/img-modify-ed38ba431c04822e07654055bbe6cf14.jpg)
 
 大概的路径是
 
@@ -106,7 +106,7 @@ C:\Users\lindexi\AppData\Local\Packages\0384ceff-e9d9-49eb-b1a4-9bba2a6d6a40_rdb
 
 打开文件可以看到日志
 
-![](images/img-lindexi%2F20185720596462.jpg)
+![](images/img-modify-1cc8ef252d9197b712040f0eee12cdcd.jpg)
 
 但是我会告诉大家这么难的方法？实际上使用一句代码就可以打开所在文件
 

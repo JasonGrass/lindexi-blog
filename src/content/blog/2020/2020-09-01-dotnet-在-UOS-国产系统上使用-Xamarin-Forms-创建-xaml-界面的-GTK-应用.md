@@ -32,27 +32,27 @@ tags:
 
 <!-- ![](images/img-dotnet 在 UOS 国产系统上安装 MonoDevelop 开发工具0.png) -->
 
-![](images/img-lindexi%2F20208311957535612.jpg)
+![](images/img-modify-2c8cabc94fd91fb7f573c6e727b8381a.jpg)
 
 <!-- ![](images/img-dotnet 在 UOS 国产系统上使用 MonoDevelop 创建 GTK 全平台带界面应用0.png) -->
 
-![](images/img-lindexi%2F20208312011468845.jpg)
+![](images/img-modify-c765a77b7e965f7359b1d40386b8c526.jpg)
 
 <!-- ![](images/img-dotnet 在 UOS 国产系统上使用 MonoDevelop 创建 GTK 全平台带界面应用1.png) -->
 
-![](images/img-lindexi%2F20208312012512841.jpg)
+![](images/img-modify-7629f9aa4a55931185ae09d19817ef2a.jpg)
 
 接着创建一个控制台项目，假定这个项目是 A 项目，这个控制台项目将会添加 Xamarin.Foms 负载，然后将构建出基于 Xamarin.Forms 的界面 dll 文件，接着将由 GTK 项目，假定命名为 B 项目，作为最终原生控件支持，被 Xamarin.Forms 的界面 dll 所映射，因此刚才新建的 GTK 项目就是最终入口项目，应用程序由他启动
 
 <!-- ![](images/img-dotnet 在 UOS 国产系统上使用 Xamarin Forms 创建 xaml 界面的 GTK 应用0-modify-3194d2c89f943970d198ce41cb3253ab.png) -->
 
-![](images/img-lindexi%2F202092912569433.jpg)
+![](images/img-modify-782ebbc66448912af09cb6b8f910b171.jpg)
 
 在创建的控制台项目里面，编辑 csproj 文件，右击刚才创建的控制台项目，点击工具，点击编辑文件
 
 <!-- ![](images/img-dotnet 在 UOS 国产系统上使用 Xamarin Forms 创建 xaml 界面的 GTK 应用1-modify-92552a94b789bdfbc4a16745515c1c4d.png) -->
 
-![](images/img-lindexi%2F20209291351362.jpg)
+![](images/img-modify-236e4f6a41384ba5acd1304097e019b8.jpg)
 
 修改 csproj 文件为下面内容
 
@@ -78,7 +78,7 @@ tags:
 
 <!-- ![](images/img-dotnet 在 UOS 国产系统上使用 Xamarin Forms 创建 xaml 界面的 GTK 应用2-modify-3d63ff60b4c938f16e335ff8c83a3275.png) -->
 
-![](images/img-lindexi%2F20209291457840.jpg)
+![](images/img-modify-b8281d370c92345c5b5ca013ad1ed1ca.jpg)
 
 有小伙伴说，在 Windows 下，用 VS 新建一个 Xamarin.Forms 项目之后，再拷贝到 UOS 上，也是可以的，但是有一点需要注意的是不能拷贝 `bin` 和  `obj` 文件夹过去，原因是在 obj 文件夹存放了很多依赖本机电脑的文件夹绝对路径的文件，如 nuget 还原里面的 project.assests.json 文件将会包含 fallback 路径，如果拷贝到 Linux 下的系统，也许会看到如下提示
 
@@ -195,7 +195,7 @@ using Xamarin.Forms.Xaml;
 
 <!-- ![](images/img-dotnet 在 UOS 国产系统上使用 Xamarin Forms 创建 xaml 界面的 GTK 应用3-modify-12d0507d7f89a510f915952e18b524d9.png) -->
 
-![](images/img-lindexi%2F202092174625530.jpg)
+![](images/img-modify-d374b7b2137b1322abf31a0cef4769ba.jpg)
 
 但是此时将会发现构建不通过，因为 B 项目，也就是 GTK 项目没有引用足够的 NuGet 包。给 B 项目添加以下 NuGet 库
 
@@ -225,13 +225,13 @@ using Xamarin.Forms.Xaml;
 
 <!-- ![](images/img-dotnet 在 UOS 国产系统上使用 Xamarin Forms 创建 xaml 界面的 GTK 应用4-modify-47ec3e799ac2bc1d5ef532cbe446da07.png) -->
 
-![](images/img-lindexi%2F202092175532764.jpg)
+![](images/img-modify-38a5878b21106feaa0265d03a750a8b0.jpg)
 
 当前的项目大概如下
 
 <!-- ![](images/img-dotnet 在 UOS 国产系统上使用 Xamarin Forms 创建 xaml 界面的 GTK 应用5-modify-6aa617a8757037f4f531d7bdc2738922.png) -->
 
-![](images/img-lindexi%2F20209217565624.jpg)
+![](images/img-modify-43b2b3579fe20f9200a207a4a3f07bf2.jpg)
 
 本文没有给大家一个简单的方法，主要是让大家可以了解更多内容
 

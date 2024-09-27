@@ -64,13 +64,13 @@ OpneXMl SDK: `var defaultTabSize = paragraphProperties.DefaultTabSize;`
 
 <!-- ![](images/img-dotnet OpenXML 文本 ParagraphProperties 的属性作用0.png) -->
 
-![](images/img-lindexi%2F20207221946151234.jpg)
+![](images/img-modify-fef43b3e10f133341663121bb0412795.jpg)
 
 在两个字符之间如果输入 Tab 键，那么这个 Tab 键将占用 360000EMU 单位空间，当然，后续在这两个字符中间输出不超过 360000EMU 单位空间 的字符，那么依然不会更改 Tab 后字符的距离，如下图，输入了多个 z 字符
 
 <!-- ![](images/img-dotnet OpenXML 文本 ParagraphProperties 的属性作用1.png) -->
 
-![](images/img-lindexi%2F20207221946373419.jpg)
+![](images/img-modify-f3a93e5003c2e5d36be8195fe035d164.jpg)
 
 当然，想要理解这一点，还需要了解 Tab 的规则
 
@@ -84,7 +84,7 @@ OpenXML SDK: `var latinLineBreak = paragraphProperties.LatinLineBreak;`
 
 <!-- ![](images/img-dotnet OpenXML 文本 ParagraphProperties 的属性作用2.png) -->
 
-![](images/img-lindexi%2F20207222011476219.jpg)
+![](images/img-modify-33cb96779eb078274e44cf84c1e2ec7c.jpg)
 
 例如下面代码
 
@@ -105,7 +105,7 @@ OpenXML SDK: `var latinLineBreak = paragraphProperties.LatinLineBreak;`
 
 <!-- ![](images/img-dotnet OpenXML 文本 ParagraphProperties 的属性作用3.png) -->
 
-![](images/img-lindexi%2F2020722201323813.jpg)
+![](images/img-modify-067b63191fad4a348e3b4e10a1c8a787.jpg)
 
 将 `latinLnBrk` 设置为 1 的效果如下
 
@@ -115,7 +115,7 @@ OpenXML SDK: `var latinLineBreak = paragraphProperties.LatinLineBreak;`
 
 <!-- ![](images/img-dotnet OpenXML 文本 ParagraphProperties 的属性作用4.png) -->
 
-![](images/img-lindexi%2F20207222014478714.jpg)
+![](images/img-modify-dd5431b44d6e545cb6ec00aa0e1a3a33.jpg)
 
 ## eaLnBrk
 
@@ -143,7 +143,7 @@ OpenXML SDK: `var eastAsianLineBreak = paragraphProperties.EastAsianLineBreak;`
 
 <!-- ![](images/img-dotnet OpenXML 文本 ParagraphProperties 的属性作用5.png) -->
 
-![](images/img-lindexi%2F20207222017553918.jpg)
+![](images/img-modify-d6bbb18940e0a608331a7dd5ff166a99.jpg)
 
 
 ## fontAlgn
@@ -160,7 +160,7 @@ Office 的 PPT 2016 不支持
 
 <!-- ![](images/img-dotnet OpenXML 文本 ParagraphProperties 的属性作用6.png) -->
 
-![](images/img-lindexi%2F2020722202183697.jpg)
+![](images/img-modify-fddaebd41c0c0de5e825f6ae7ed6c56c.jpg)
 
 可以作出上标下标的效果
 

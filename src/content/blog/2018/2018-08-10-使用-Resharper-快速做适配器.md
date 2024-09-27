@@ -64,9 +64,9 @@ tags:
 
 使用 ctrl+shift+R 把 Foo 弄出一个接口
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2018123183128-modify-025c9f7c2154d06d1605942bb39df277.jpg)
+![](images/img-modify-025c9f7c2154d06d1605942bb39df277.jpg)
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201812318323.jpg)
+![](images/img-modify-ef8e953f355c8058b18c22ceb964a01b.jpg)
 
 可以看到接口
 
@@ -94,9 +94,9 @@ tags:
 
 在这个类按 alt+insert 可以看到  Delegating Members ，点击
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201812318371.jpg)
+![](images/img-modify-01a8b892c8878479d956fcc29448f874.jpg)
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201812318383.jpg)
+![](images/img-modify-e1a624d01a650b7efd905519c0268cdf.jpg)
 
 这样就可以拿到这个类的所有属性和函数
 

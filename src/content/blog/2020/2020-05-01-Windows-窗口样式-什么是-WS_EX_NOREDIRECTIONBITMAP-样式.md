@@ -32,13 +32,13 @@ description: "Windows 窗口样式 什么是 WS_EX_NOREDIRECTIONBITMAP 样式"
 
 <!-- ![](images/img-Windows 窗口样式 什么是 WS_EX_NOREDIRECTIONBITMAP 样式0.png) -->
 
-![](images/img-lindexi%2F2020511141456512.jpg)
+![](images/img-modify-9ad2f8a6b71c08753cb524b8a7acb46c.jpg)
 
 对于 UWP 应用的实际窗口应该是 Windows.UI.Core.CoreWindow 窗口，右击属性切换到样式就可以看到 UWP 的窗口设置的样式就是 WS_EX_NOREDIRECTIONBITMAP 样式 
 
 <!-- ![](images/img-Windows 窗口样式 什么是 WS_EX_NOREDIRECTIONBITMAP 样式1.png) -->
 
-![](images/img-lindexi%2F2020511143189705.jpg)
+![](images/img-modify-520d8e8869a138c5bdfe60c005cbbba2.jpg)
 
 所有的 UWP 应用都用上了 DirectComposition 技术，此时的 UWP 能够通过 dx 创建多个不同的表面，将内容绘制到表面里面，然后经过 DWM 混合在屏幕显示
 

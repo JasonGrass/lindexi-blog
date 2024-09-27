@@ -26,7 +26,7 @@ tags:
 
 <!-- ![](images/img-WPF 漂亮的现代化控件 新 ModernWPF 界面库0.png) -->
 
-![](images/img-lindexi%2F2020910202507110.jpg)
+![](images/img-modify-5e4a77aa644e5b1f9d7ad300d5d15563.jpg)
 
 使用方法简单，从 NuGet 上安装 ModernWpfUI 库，然后打开 App.xaml 添加下面代码
 

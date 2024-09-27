@@ -327,17 +327,17 @@ RunStrategy=Throughput
 通过数据对比 Intel 和 兆芯 以上测试数据，可以看到在 `Int32[10000]` 的测试数据集里面，轻松就可以看到 Intel 比 兆芯 快了 10 倍，如下图所示
 
 <!-- ![](images/img-dotnet C# 在不同的机器 CPU 型号上的基准性能测试0.png) -->
-![](images/img-lindexi%2F20245814511970.jpg)
+![](images/img-modify-76a0ebb7c7899e7b54f89e497fa03f12.jpg)
 
 在如下图的对比 Intel 和 兆芯 的对较大的数组进行拷贝的性能，可以看到 Intel 平台也的确能够比 兆芯 快出 10 倍的性能
 
 <!-- ![](images/img-dotnet C# 在不同的机器 CPU 型号上的基准性能测试2.png) -->
-![](images/img-lindexi%2F20245819345307.jpg)
+![](images/img-modify-13fa3c46353be653b19eef5059953c57.jpg)
 
 具体的性能比较如下
 
 <!-- ![](images/img-dotnet C# 在不同的机器 CPU 型号上的基准性能测试3.png) -->
-![](images/img-lindexi%2Fdotnet%2520C%2523%2520%25E5%259C%25A8%25E4%25B-modify-1ae8d2b2d8f649dd2a3efa64de4abf59.png)
+![](images/img-modify-1ae8d2b2d8f649dd2a3efa64de4abf59.png)
 
 | 方法               | 数组长度         | Intel         | 兆芯           | Intel比兆芯  | 兆芯比Intel |
 | ------------------ | ---------------- | ------------- | -------------- | ------------ | ----------- |
@@ -362,7 +362,7 @@ RunStrategy=Throughput
 在更大的数据两情况下，可以看到 Intel 平台的 memcpy 和 CopyBlockUnaligned 对 for 循环的优化比率不断下跌，其数据情况如下
 
 <!-- ![](images/img-dotnet C# 在不同的机器 CPU 型号上的基准性能测试1.png) -->
-![](images/img-lindexi%2F2024581929549719.jpg)
+![](images/img-modify-df87aaaa34f7e4852addbff09b557b29.jpg)
 
 | 数组长度      | CopyByFor     | Memcpy        | CopyBlockUnaligned | CopyByFor与Memcpy比率 | CopyByFor与CopyBlockUnaligned比率 |
 | --------- | ------------- | ------------- | ------------------ | ------------------ | ------------------------------ |
@@ -439,7 +439,7 @@ RunStrategy=Throughput
 飞腾腾锐 Phytium,D2000/8 E8C, 8 logical cores 的跑分不高，与 Intel 最大差距在数组拷贝上能拉到 10 倍，均值性能差距是 4 倍左右。但在我的测试里面飞腾腾锐的性能比兆芯快，大概均值性能差距是 2 倍左右，如以下对比
 
 <!-- ![](images/img-dotnet C# 在不同的机器 CPU 型号上的基准性能测试4.png) -->
-![](images/img-lindexi%2F2024591945331191.jpg)
+![](images/img-modify-0b4517d5c3ceff4455906b1875dec5db.jpg)
 
 | 方法                 | 数组长度             | Intel         | 兆芯             | 飞腾腾锐           | Intel比兆芯     | 兆芯比Intel      | 飞腾比Intel      | 兆芯比飞腾        |
 | ------------------ | ---------------- | ------------- | -------------- | -------------- | ------------ | ------------- | ------------- | ------------ |
@@ -555,7 +555,7 @@ RunStrategy=Throughput
 | 千点     | Point[1000]  | Double[1000]  | 1.974  | 50.89  | 14.76  | 0.038789546 | 25.78014184 | 7.477203647 | 3.447831978 |
 
 <!-- ![](images/img-dotnet C# 在不同的机器 CPU 型号上的基准性能测试5.png) -->
-![](images/img-lindexi%2F20247271045427472.jpg)
+![](images/img-modify-09995fbafcf6569768732e7843edff05.jpg)
 
 通过上图可以看到，在进行基础的密集计算中，似乎兆芯做了负面优化
 

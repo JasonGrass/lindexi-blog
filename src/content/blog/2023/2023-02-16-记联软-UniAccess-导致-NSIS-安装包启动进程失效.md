@@ -42,7 +42,7 @@ nsExec::Exec "${PATH_MAIN}\lindexi.exe install"
 
 <!-- ![](images/img-记联软 UniAccess 导致 NSIS 安装包启动进程失效0.png) -->
 
-![](images/img-lindexi%2F20232161733498313.jpg)
+![](images/img-modify-61550a4d5ecf8337c0d3f7308e085f37.jpg)
 
 如上图，可以看到先在安装包里创建出了 `D:\Program Files (x86)\lindexi\lindexi.exe` 文件，接下来预期的就是安装包将启动此进程。然而通过 ProcessMonitor 看到是 QueryOpen 了 `D:\Program` 文件
 
@@ -50,7 +50,7 @@ nsExec::Exec "${PATH_MAIN}\lindexi.exe install"
 
 <!-- ![](images/img-记联软 UniAccess 导致 NSIS 安装包启动进程失效1.png) -->
 
-![](images/img-lindexi%2F2023216173894089.jpg)
+![](images/img-modify-914ee0ca722a25e7a8d5614d5713d64b.jpg)
 
 从图片可以看到，从 nsExec.dll 里面居然进入了 MozartBreathCore.dll 里面，证明就是被联软 UniAccess 的 C:\Window\LVUAAgentInstBaseRoot\syswow64\MozartBreathCore.dll 注入。然而联软 UniAccess 比较垃圾，没有好好处理好路径空格文件，于是就访问成了 `D:\Program` 文件
 

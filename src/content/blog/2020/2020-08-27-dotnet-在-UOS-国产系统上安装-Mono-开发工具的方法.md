@@ -26,7 +26,7 @@ tags:
 
 <!-- ![](images/img-dotnet 在 UOS 国产系统上安装 Mono 开发工具的方法0.png) -->
 
-![](images/img-lindexi%2Fdotnet%2520%25E5%259C%25A8%2520UOS%2520%25E5%2-modify-a6c02a9ba863ad7671ebddfe77e0273b.png)
+![](images/img-modify-a6c02a9ba863ad7671ebddfe77e0273b.png)
 
 进入 `/etc/apt` 文件夹，在终端输入下面代码
 
@@ -82,7 +82,7 @@ dpkg -i mono-devel_5.18.0.240+dfsg-3_all.deb
 
 <!-- ![](images/img-dotnet 在 UOS 国产系统上安装 Mono 开发工具的方法1.png) -->
 
-![](images/img-lindexi%2Fdotnet%2520%25E5%259C%25A8%2520UOS%2520%25E5%2-modify-dfb4da072a0124f35355370b2c682d98.png)
+![](images/img-modify-dfb4da072a0124f35355370b2c682d98.png)
 
 除了系统的库之外，其他的库都需要手动点击进去，然后和上面步骤差不多进行安装
 

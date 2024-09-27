@@ -55,7 +55,7 @@ tags:
 
 <!-- ![](images/img-dotnet OpenXML 简单聊聊 PPT 文本解析0.png) -->
 
-![](images/img-lindexi%2F2020722178122775.jpg)
+![](images/img-modify-94e2ba3b5e05f12a09c4952c74e40d8f.jpg)
 
 小伙伴可以看到在 PPT 软件的段落设置旁边有字体设置，这是对应放在 `<a:r>` 文本的内容，格式如下
 

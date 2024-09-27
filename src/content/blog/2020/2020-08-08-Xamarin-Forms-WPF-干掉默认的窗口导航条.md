@@ -24,7 +24,7 @@ tags:
 
 <!-- ![](images/img-Xamarin Forms WPF 干掉默认的窗口导航条0.png) -->
 
-![](images/img-lindexi%2F2020881119116467.jpg)
+![](images/img-modify-c5f10b2dcc8a02aee9396ec38a45662d.jpg)
 
 此时显示工具的蓝色条就是本文说的 窗口导航条，在 Xamarin Forms 的源代码，这个导航条是在 FormsWindow.xaml 文件里面，使用 PART_TopAppBar 控制的，也就是想要不显示这个工具栏，可以通过设置让这个控件不可见
 
@@ -60,7 +60,7 @@ NavigationPage.HasNavigationBar="False"
 
 <!-- ![](images/img-Xamarin Forms WPF 干掉默认的窗口导航条1.png) -->
 
-![](images/img-lindexi%2F2020881122165939.jpg)
+![](images/img-modify-f4646af6c6a1a909459de77fb0109878.jpg)
 
 此时原本显示工具的蓝色的一条就被干掉了
 

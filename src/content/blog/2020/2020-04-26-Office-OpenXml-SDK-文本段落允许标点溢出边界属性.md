@@ -22,7 +22,7 @@ tags:
 
 <!-- ![](images/img-Office OpenXml SDK 文本段落允许标点溢出边界属性0.png) -->
 
-![](images/img-lindexi%2F20204261056584592.jpg)
+![](images/img-modify-4f9e67eade88edbc346c3f58ddca7d29.jpg)
 
 在段落属性里面，如下面代码
 
@@ -56,13 +56,13 @@ private void HeawearajakeheCawchalljorurko(TextParagraphPropertiesType textParag
 
 <!-- ![](images/img-Office OpenXml SDK 文本段落允许标点溢出边界属性1.png) -->
 
-![](images/img-lindexi%2F2022101495629264.jpg)
+![](images/img-modify-6ed9a41c815d0834454d5bc444173de7.jpg)
 
 如上图，没有悬挂的情况下，由于标点符号 `"` 只占用了有限的字符高度，导致了存在了一段视觉空白。在某些排版需求下，设计师会觉得这样的排版不美观。那什么是字符高度？请看下图
 
 <!-- ![](images/img-Office OpenXml SDK 文本段落允许标点溢出边界属性2.png) -->
 
-![](images/img-lindexi%2F20221014104161936.jpg)
+![](images/img-modify-2d80e48b2ee955da233e491f4fc55fff.jpg)
 
 可以看到引号占用的字符的高度是非常小的
 

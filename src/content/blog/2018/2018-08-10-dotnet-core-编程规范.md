@@ -125,5 +125,5 @@ while (x == y)
 
 原文：[coding-style.md](https://github.com/dotnet/runtime/blob/main/docs/coding-guidelines/coding-style.md )
 
-![](images/img-lindexi%2F2018571237288065.jpg)
+![](images/img-modify-42ce0334c1577b51ccff4785f1fd5bad.jpg)
 

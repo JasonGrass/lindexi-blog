@@ -176,7 +176,7 @@ tags:
 
 运行的时候，两个类所在的是 Foo 在其他进程，而 F1 在呆磨程序
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2018126153031-modify-56b1e1885626f16a151aee9ec75db847.jpg)
+![](images/img-modify-56b1e1885626f16a151aee9ec75db847.jpg)
 
 使用的时候需要这样写
 
@@ -194,7 +194,7 @@ tags:
 
 可以看到运行`f.OnF1();`就可以让呆磨Foo获得值
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2018126154854-modify-2c25ae199235895f5c1aef6171ca98ce.jpg)
+![](images/img-modify-2c25ae199235895f5c1aef6171ca98ce.jpg)
 
 从上面代码看到，为什么不使用 `EventHandler<string>` ，自己定义委托，一般都是不建议自己定义，但是这里需要自己定义的，因为如果使用 `EventHandler<string>`会出现异常
 
@@ -454,7 +454,7 @@ System.Runtime.Remoting.RemotingException:“权限被拒绝: 无法远程调用
 
 <!-- ![](images/img-.net remoting 使用事件2.png) -->
 
-![](images/img-lindexi%2F2018822112741795.png)
+![](images/img-modify-e32816ea50750446a23ba08ba0874921.png)
 
 因为在 NativeEventHandle 是将 `RemoteEventHandle_Progress` 序列化传到 `RemoteEventHandle` 使用事件，在事件触发时通过序列化动态代理调用 `RemoteEventHandle_Progress` 方法。如果这个方法不是公开的，那么动态代理调用就会因为没有访问权限无法调用，这时就出现了 `权限被拒绝: 无法远程调用非公共或静态方法` 所以解决方法就是所有事件的函数都需要设置为 public 才可以。
 

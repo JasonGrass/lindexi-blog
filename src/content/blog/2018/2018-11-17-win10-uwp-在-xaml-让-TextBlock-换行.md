@@ -27,7 +27,7 @@ tags:
 
 <!-- ![](images/img-win10 uwp 在 xaml 让 TextBlock 换行0.png) -->
 
-![](images/img-lindexi%2F20181117153856312.png)
+![](images/img-modify-9b95a68a9e7665d4b03f2ebf136c2811.png)
 
 ```xml
         <TextBlock Text="换行的最简单方法&#x0a;欢迎访问我博客 lindexi.gitee.io 里面有大量 UWP WPF 博客
@@ -85,5 +85,5 @@ tags:
 
 <!-- ![](images/img-win10 uwp 在 xaml 让 TextBlock 换行1.png) -->
 
-![](images/img-lindexi%2F2018111716224687.png)
+![](images/img-modify-3c7a184de7ffff902d07222353910a0d.png)
 

@@ -93,7 +93,7 @@ public class Model
 
 <!-- ![](images/img-WPF 已知问题 在 ObservableCollection 的 CollectionChanged 修改集合-modify-38ef4c2a54f64a1b42584957a2363017.png) -->
 
-![](images/img-lindexi%2F20232618034628.jpg)
+![](images/img-modify-ba9a37c42aadd40861b98117477e1525.jpg)
 
 在 Loaded 事件里面，将 List 的第 1 项删除，代码如下
 
@@ -130,7 +130,7 @@ System.InvalidOperationException:“Cannot change ObservableCollection during a 
 
 <!-- ![](images/img-WPF 已知问题 在 ObservableCollection 的 CollectionChanged 修改集合-modify-4d8acd637400b5e29328a8b976ff0edd.png) -->
 
-![](images/img-lindexi%2F202326182471683.jpg)
+![](images/img-modify-f15e5a1250ed1b7b230f5c0759cdcce6.jpg)
 
 以上就是最简单的方法让大家了解到问题
 
@@ -165,7 +165,7 @@ System.InvalidOperationException:“Cannot change ObservableCollection during a 
 
 <!-- ![](images/img-WPF 已知问题 在 ObservableCollection 的 CollectionChanged 修改集合-modify-915b342215d2bad460c39fb4fa0fdba3.png) -->
 
-![](images/img-lindexi%2F20232618703073.jpg)
+![](images/img-modify-b02eca45ebf7001d0f7bc17abfd85850.jpg)
 
 第二个方法是强行刷 ItemsSource 内容，强行刷不能在 `List_CollectionChanged` 立即调用，否则将会抛出 InvalidOperationException 异常
 

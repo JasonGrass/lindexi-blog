@@ -31,7 +31,7 @@ tags:
 大概制作出来的应用的界面如下图
 
 <!-- ![](images/img-dotnet C# 从控制台开始 关联 Win2D 和 WinUI 3 应用0.png) -->
-![](images/img-lindexi%2F2024824102210872.jpg)
+![](images/img-modify-32ad6cf32479bcbbafc21d8f22cb9ab4.jpg)
 
 上图里面的左上角的灰色矩形就是使用 Win2D 绘制出来的内容，中间的文字则是 TextBlock 控件所提供的界面内容
 
@@ -242,7 +242,7 @@ internal class Program
 
 <!-- ![](images/img-dotnet C# 从控制台开始 关联 Win2D 和 WinUI 3 应用1.png) -->
 
-![](images/img-lindexi%2F2024824111825433.jpg)
+![](images/img-modify-15dc68dca8bdaa66c76e0c05c5301a5f.jpg)
 
 <!-- https://13.r302.cc/04LpyN8 -->
 

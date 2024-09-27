@@ -35,15 +35,15 @@ tags:
 
 注册之后创建应用
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F20171123164512201-modify-f5f271e0f4dea2da0af6e13e91c5ee32.jpg)
+![](images/img-modify-f5f271e0f4dea2da0af6e13e91c5ee32.jpg)
 
 点击设置
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F20171123164512201-modify-3757da3e082a983ddd38090d8352092c.jpg)
+![](images/img-modify-3757da3e082a983ddd38090d8352092c.jpg)
 
 点击key可以看到自己的 appid
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F20171123164512201-modify-7e9daaeeb2f8bf39e608c0220c546162.jpg)
+![](images/img-modify-7e9daaeeb2f8bf39e608c0220c546162.jpg)
 
 然后复制自己的App ID、App Key，下面我代码的App ID、App Key就用自己的替换
 
@@ -63,7 +63,7 @@ tags:
 
 现在就可以试试自己的博客是否开了评论
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F20171123164512201-modify-039cdb9d5996e666042a5e7d9e7bcdbc.jpg)
+![](images/img-modify-039cdb9d5996e666042a5e7d9e7bcdbc.jpg)
 
 
 [Valine -- 一款极简的评论系统 ](https://ioliu.cn/2017/add-valine-comments-to-your-blog/ )

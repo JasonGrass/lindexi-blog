@@ -35,7 +35,7 @@ tags:
 
 <!-- ![](images/img-win10 uwp 使用 Microsoft.Graph 发送邮件0.png) -->
 
-![](images/img-lindexi%2F20181015121212521.png)
+![](images/img-modify-e6fe0e36d61970727f26ebd5847699d2.png)
 
 本文用的例子都是使用国际版的 Office 365 版本，而不会使用国内的版本，因为国内的版本少了很多功能
 
@@ -44,31 +44,31 @@ tags:
 
 <!-- ![](images/img-win10 uwp 使用 Microsoft.Graph 发送邮件1.png) -->
 
-![](images/img-lindexi%2F20181015121656595.png)
+![](images/img-modify-26ba12d6e6ca688625c78f2f51f64198.png)
 
 需要记下程序的 ID 在应用会用到
 
 <!-- ![](images/img-win10 uwp 使用 Microsoft.Graph 发送邮件2.png) -->
 
-![](images/img-lindexi%2F20181015121755354.png)
+![](images/img-modify-3398e42b187ee1628d3ad46437a1ddb1.png)
 
 添加权限，要发送邮件，需要添加 `"User.Read", "Mail.Read", "Mail.Send","Files.Read"` 权限
 
 <!-- ![](images/img-win10 uwp 使用 Microsoft.Graph 发送邮件3.png) -->
 
-![](images/img-lindexi%2F2018101514950830.png)
+![](images/img-modify-c743c53b81c39fa3b42ae5be2681497f.png)
 
 点击添加权限
 
 <!-- ![](images/img-win10 uwp 使用 Microsoft.Graph 发送邮件4.png) -->
 
-![](images/img-lindexi%2F2018101514114175.png)
+![](images/img-modify-6f837454dbfec341ee3dc7239f4ad6ee.png)
 
 点击添加应用程序权限
 
 <!-- ![](images/img-win10 uwp 使用 Microsoft.Graph 发送邮件5.png) -->
 
-![](images/img-lindexi%2F20181015141238603.png)
+![](images/img-modify-0a9257a04731eea14968a78af14d4067.png)
 
 关于权限这一步，请先照着点，详细请看[Office 365 开发入门指南](https://chenxizhang.gitbooks.io/office365devguide)
 
@@ -82,11 +82,11 @@ tags:
 
 <!-- ![](images/img-win10 uwp 使用 Microsoft.Graph 发送邮件6.png) -->
 
-![](images/img-lindexi%2F2018101514206621.png)
+![](images/img-modify-0e7e7b089195df271512dc7d7c51e844.png)
 
 <!-- ![](images/img-win10 uwp 使用 Microsoft.Graph 发送邮件7.png) -->
 
-![](images/img-lindexi%2F20181015142032258.png)
+![](images/img-modify-a39025aed52ba42d54b12be07d51e9a6.png)
 
 ## 安装 nuget 包
 
@@ -96,13 +96,13 @@ tags:
 
 <!-- ![](images/img-win10 uwp 使用 Microsoft.Graph 发送邮件8.png) -->
 
-![](images/img-lindexi%2F2018101514228335.png)
+![](images/img-modify-a9b01c7230383482b389fdf94c7db95a.png)
 
 然后勾选包含预发行版，找到 Microsoft.Identity.Client 的 2.2 版本
 
 <!-- ![](images/img-win10 uwp 使用 Microsoft.Graph 发送邮件9.png) -->
 
-![](images/img-lindexi%2F20181015142347648.png)
+![](images/img-modify-66fd3bdbc79d2257c61852f993e5bbdf.png)
 
 ## 添加访问权限
 
@@ -110,7 +110,7 @@ tags:
 
 <!-- ![](images/img-win10 uwp 使用 Microsoft.Graph 发送邮件10.png) -->
 
-![](images/img-lindexi%2F20181015142546269.png)
+![](images/img-modify-5f62bdb798804e0deae7909d1f2f86d2.png)
 
 在 Load 事件的函数添加自己的代码，首先使用 DelegateAuthenticationProvider 拿到访问的权限，在 Microsoft.Graph 的所有访问都需要先获得 OAuth 的权限
 
@@ -143,7 +143,7 @@ using Microsoft.Graph;
 
 <!-- ![](images/img-win10 uwp 使用 Microsoft.Graph 发送邮件11.png) -->
 
-![](images/img-lindexi%2F2018101514327508.png)
+![](images/img-modify-022a288c5d29f56771eda361d8874258.png)
 
 请看下面代码
 
@@ -159,7 +159,7 @@ using Microsoft.Graph;
 
 <!-- ![](images/img-win10 uwp 使用 Microsoft.Graph 发送邮件12.png) -->
 
-![](images/img-lindexi%2F20181015143311916.png)
+![](images/img-modify-98c1c3bc57944cf0eb8ecf0a4f9af773.png)
 
 通过 clientID 创建 `Microsoft.Identity.Client.PublicClientApplication` 请看代码
 
@@ -235,7 +235,7 @@ using Microsoft.Graph;
 
 <!-- ![](images/img-win10 uwp 使用 Microsoft.Graph 发送邮件13.png) -->
 
-![](images/img-lindexi%2F2018101514456116.png)
+![](images/img-modify-f66e350ff52e492362baf8b9ea2331eb.png)
 
 特别是 EmailAddress 请修改为你自己的邮箱，因为已经设置 SaveToSentItems 即使发送给我也可以在自己的已经发送邮件夹找到这个邮件
 
@@ -245,13 +245,13 @@ using Microsoft.Graph;
 
 <!-- ![](images/img-win10 uwp 使用 Microsoft.Graph 发送邮件14.png) -->
 
-![](images/img-lindexi%2F20181015144838376.png)
+![](images/img-modify-61fa3a94bf5e0d1e2b4123dcbcdaf6da.png)
 
 如果看到下面这个界面，请多次重试
 
 <!-- ![](images/img-win10 uwp 使用 Microsoft.Graph 发送邮件15.png) -->
 
-![](images/img-lindexi%2F20181015144929880.png)
+![](images/img-modify-29a0019e32cad8d34c1c0ce2d1dfeafb.png)
 
 或者给 IE 可以用的代理，默认的 UWP 程序会使用 IE 的代理
 
@@ -259,17 +259,17 @@ using Microsoft.Graph;
 
 <!-- ![](images/img-win10 uwp 使用 Microsoft.Graph 发送邮件16.png) -->
 
-![](images/img-lindexi%2F20181015145042878.png)
+![](images/img-modify-bb74616b401ac37b4ca4b6b75111289a.png)
 
 因为所有的代码都没有涉及到界面，登陆之后等待一会，就可以打开自己的 Outlook 邮箱看到刚才发送的邮件
 
 <!-- ![](images/img-win10 uwp 使用 Microsoft.Graph 发送邮件17.png) -->
 
-![](images/img-lindexi%2F20181015145249465.png)
+![](images/img-modify-1b3a48bc199afd8edb05b92e18d39f00.png)
 
 <!-- ![](images/img-win10 uwp 使用 Microsoft.Graph 发送邮件18.png) -->
 
-![](images/img-lindexi%2F201810151511767.png)
+![](images/img-modify-a1a6c2b0858f9562f11925dd28348b7f.png)
 
 看到这里就可以知道，现在UWP发送邮件有三个方法，本文是其中一个，其他方法请看[win10 UWP 发邮件](https://lindexi.gitee.io/post/win10-UWP-%E5%8F%91%E9%82%AE%E4%BB%B6.html )
 

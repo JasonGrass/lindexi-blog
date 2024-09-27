@@ -39,7 +39,7 @@ Run the code and you can see this image.
 
 <!-- ![](images/img-How can I change the right click menu of a RichTextBlock-modify-1abcff3e7d43f4589c5d37a8dc22a86a.gif) -->
 
-![](images/img-lindexi%2F201932094724277.png)
+![](images/img-modify-4b23c23c7feddee08c5df0931476a3d5.png)
 
 All code is in [github](https://github.com/lindexi/lindexi_gd/tree/7a716887868435aab72683997806c9e7133722b4/LekaryusijefowHirgemsterevepalltrallxay)
 

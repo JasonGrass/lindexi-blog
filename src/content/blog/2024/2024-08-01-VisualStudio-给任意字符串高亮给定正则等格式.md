@@ -33,7 +33,7 @@ tags:
 
 <!-- ![](images/img-VisualStudio 给任意字符串给定正则等格式0.png) -->
 
-![](images/img-lindexi%2F2019912112531543.png)
+![](images/img-modify-b18af24a19d51cf995e475faa64e8a92.png)
 
 在 VisualStudio 里面有这样的功能，在字符串定义的上面写上 `// lang=xx` 将会表示字符串格式
 
@@ -48,7 +48,7 @@ tags:
 
 <!-- ![](images/img-VisualStudio 给任意字符串给定正则等格式1.png) -->
 
-![](images/img-lindexi%2F2019912112717359.png)
+![](images/img-modify-a0490314dda9ab4c379752c2880c4ff1.png)
 
 除了在字符串定义的上一行写，还可以写在字符串前面
 

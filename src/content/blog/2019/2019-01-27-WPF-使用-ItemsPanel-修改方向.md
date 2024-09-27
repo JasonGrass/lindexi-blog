@@ -80,7 +80,7 @@ tags:
 
 <!-- ![](images/img-WPF 使用 ItemsPanel 修改方向0.png) -->
 
-![](images/img-lindexi%2F2019111195855155.png)
+![](images/img-modify-987dbdf4527206e9ddff76d8810ff4ac.png)
 
 如果需要修改为水平的，可以通过 ItemsPanel 修改
 
@@ -94,7 +94,7 @@ tags:
 
 <!-- ![](images/img-WPF 使用 ItemsPanel 修改方向1.png) -->
 
-![](images/img-lindexi%2F20191112004858.png)
+![](images/img-modify-d776507bdc3b883e33c9e1dbce940df7.png)
 
 代码全部都在 xaml 写，因为神树说在后台写不好
 
@@ -152,5 +152,5 @@ tags:
 
 代码 https://gitee.com/lindexi/lindexi_gd/blob/68cefabd097bf2f4fc35e3384f34e1dc622a67ad/PotrallTiscawMouger/PotrallTiscawMouger/MainWindow.xaml
 
-![](images/img-lindexi%2F20191272185553.png)
+![](images/img-modify-80e37006a11acf6f855b1f88a2e198a2.png)
 

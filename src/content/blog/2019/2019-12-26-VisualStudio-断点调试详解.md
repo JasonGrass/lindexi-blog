@@ -31,7 +31,7 @@ tags:
 
 <!-- ![](images/img-VisualStudio 断点调试详解0.png) -->
 
-![](images/img-lindexi%2F2019621161853113.png)
+![](images/img-modify-8965cf70e54f8773584241fec2732bde.png)
 
 运行程序，当程序运行到此行的时候，将会进入断点，程序将会暂停进入调试
 
@@ -63,7 +63,7 @@ WegaljifoWhelbaichewair.Program.Main(string[])
 
 <!-- ![](images/img-VisualStudio 断点调试详解1.png) -->
 
-![](images/img-lindexi%2F20196211627553.png)
+![](images/img-modify-850046507f0f78469d86795f22fc19b1.png)
 
 如上图是我的一个程序运行的调用堆栈，在堆栈的每一项就是一次方法调用，在对应的一项上面右击可以选择添加断点
 
@@ -87,7 +87,7 @@ WegaljifoWhelbaichewair.Program.Main(string[])
 
 <!-- ![](images/img-VisualStudio 断点调试详解2.png) -->
 
-![](images/img-lindexi%2F201962116434214.png)
+![](images/img-modify-347d91494d3ce6534cc1b79ffaa23bef.png)
 
 在断点窗口点击 显示列 可以选择函数，此时就可以看到断点窗口显示多了一列是函数，这就是添加断点对应的函数，在这个函数里面会写全命名空间。如果在运行时，将会添加对应的程序文件
 
@@ -111,7 +111,7 @@ KikuSimairme.cs，行 161 字符 9;;;总是中断(当前为 1);NawbemcemXadre.ex
 
 <!-- ![](images/img-VisualStudio 断点调试详解3.png) -->
 
-![](images/img-lindexi%2F2019621165724834.png)
+![](images/img-modify-53306082114528022c70d604af3447f0.png)
 
 点击右边白色的圆的按钮就可以禁用断点
 
@@ -121,7 +121,7 @@ KikuSimairme.cs，行 161 字符 9;;;总是中断(当前为 1);NawbemcemXadre.ex
 
 <!-- ![](images/img-VisualStudio 断点调试详解4.png) -->
 
-![](images/img-lindexi%2F2019621165916346.png)
+![](images/img-modify-941e31cac9b28c44ba1a4ac47531a26c.png)
 
 在断点窗口的禁用或打开断点的按钮的功能是如果用户有勾选某些断点，那么点击的时候对被勾选的断点生效，否则对当前显示的所有断点生效
 
@@ -131,7 +131,7 @@ KikuSimairme.cs，行 161 字符 9;;;总是中断(当前为 1);NawbemcemXadre.ex
 
 <!-- ![](images/img-VisualStudio 断点调试详解5.png) -->
 
-![](images/img-lindexi%2F201962117769.png)
+![](images/img-modify-01f16d84f003c30c5ae88c8512f730a5.png)
 
 ## 条件断点
 
@@ -143,13 +143,13 @@ KikuSimairme.cs，行 161 字符 9;;;总是中断(当前为 1);NawbemcemXadre.ex
 
 <!-- ![](images/img-VisualStudio 断点调试详解3.png) -->
 
-![](images/img-lindexi%2F2019621165724834.png)
+![](images/img-modify-53306082114528022c70d604af3447f0.png)
 
 这两个按钮的功能如下图
 
 <!-- ![](images/img-VisualStudio 断点调试详解6.png) -->
 
-![](images/img-lindexi%2F2019621171253591.png)
+![](images/img-modify-8c106dc9149344efb520503e1d56a480.png)
 
 另一个设置方法是在断点窗口里面右击对应的断点，点击设置就可以显示设置窗口
 
@@ -163,7 +163,7 @@ KikuSimairme.cs，行 161 字符 9;;;总是中断(当前为 1);NawbemcemXadre.ex
 
 <!-- ![](images/img-VisualStudio 断点调试详解7.png) -->
 
-![](images/img-lindexi%2F2019621173057903.png)
+![](images/img-modify-295aa43dcda43ad7c6db8c70e5d9776b.png)
 
 在断点的中途可以选择重置次数
 
@@ -181,7 +181,7 @@ KikuSimairme.cs，行 161 字符 9;;;总是中断(当前为 1);NawbemcemXadre.ex
 
 <!-- ![](images/img-VisualStudio 断点调试详解8.png) -->
 
-![](images/img-lindexi%2F2019621174245548.png)
+![](images/img-modify-35e77bf3cca83c1aa01bf6c453bf1598.png)
 
 添加表达式可以使用对象的私有字段
 
@@ -258,7 +258,7 @@ ThreadId = 19768
 
 <!-- ![](images/img-VisualStudio 断点调试详解9.png) -->
 
-![](images/img-lindexi%2F201962119364743.png)
+![](images/img-modify-84507084262a71064b6fc75680e18b8e.png)
 
 可以选择 在列中 的数据作为搜寻范围，如选择条件和函数，通过选择函数可以过滤某个命名空间
 
@@ -274,7 +274,7 @@ ThreadId = 19768
 
 <!-- ![](images/img-VisualStudio 断点调试详解10.png) -->
 
-![](images/img-lindexi%2F2019621194735998.png)
+![](images/img-modify-c2bda1791a8d3e99e45d3b22f6f8d6cf.png)
 
 导出的断点是 xml 格式，对于代码行断点用途不大，因为代码行都会不断修改，而对于函数断点倒是有一点用，这个功能用途不是很多，实际我会在代码里面通过 `Debugger.Break` 添加断点如果我觉得这个断点很多小伙伴都需要
 

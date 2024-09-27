@@ -29,13 +29,13 @@ description: "Unity3D OpenVR SteamVR 在头盔视觉前面常驻文本"
 
 如系列博客的内容，咱通过加入 SteamVR SDK 然后将 Player 拖入到咱的场景中，如下图
 
-![](images/img-lindexi%2F20215302212195348.jpg)
+![](images/img-modify-3f683ae7b57e45a46ce269b307aef705.jpg)
 
 在 Player 的 VRCamera 添加一个文本，设置 z 轴方向为正数，让文本在相机前
 
 <!-- ![](images/img-Unity3D OpenVR SteamVR 在头盔视觉前面常驻文本0.png) -->
 
-![](images/img-lindexi%2F20215312118557167.jpg)
+![](images/img-modify-750a370a3c255235b13d0cc889b7fc0f.jpg)
 
 因为文本放在相机对象，因此文本随着相机，文本在相机前面，玩家可以看到文本
 

@@ -27,7 +27,7 @@ tags:
 
 先给大家看一下界面
 
-![](images/img-lindexi%2F2018551724559489.jpg)
+![](images/img-modify-3ae44fae8584bd9098286e31e1086a89.jpg)
 
 不要以为这个界面很复杂，实际上他需要的代码很少。
 

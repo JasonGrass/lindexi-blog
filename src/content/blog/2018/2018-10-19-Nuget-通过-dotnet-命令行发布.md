@@ -29,37 +29,37 @@ tags:
 
 <!-- ![](images/img-Nuget 通过 dotnet 命令行发布0.png) -->
 
-![](images/img-lindexi%2F2018921833164.png)
+![](images/img-modify-ff073c5d8913196455fde7538256661c.png)
 
 登陆之后，可以在右上角看到自己的账号，点击一下可以看到下面界面，这时点击一个 Api key 因为在使用命令行发布的时候需要一个秘钥，通过上面的界面就可以创建秘钥
 
 <!-- ![](images/img-Nuget 通过 dotnet 命令行发布1.png) -->
 
-![](images/img-lindexi%2F20189218412962.png)
+![](images/img-modify-9675c388de6553b122cb6f74563e5387.png)
 
 在 Api Key 界面可以看到 Create 这个按钮，没错，这是一个按钮
 
 <!-- ![](images/img-Nuget 通过 dotnet 命令行发布2.png) -->
 
-![](images/img-lindexi%2F20189218523524.png)
+![](images/img-modify-407c9e8b8c48c7cf9683c82996317dfc.png)
 
 点击一下就可以创建一个 key 了，创建一个 key 可以给 key 不同的功能，具体请看下图
 
 <!-- ![](images/img-Nuget 通过 dotnet 命令行发布3.png) -->
 
-![](images/img-lindexi%2F201892183656304.png)
+![](images/img-modify-67727c4ccc690c84c478e0442db971cd.png)
 
 如果指定了可以修改版本的权限，可以设置有哪些轮子的版本号可以被这个 key 修改，请看下面
 
 <!-- ![](images/img-Nuget 通过 dotnet 命令行发布4.png) -->
 
-![](images/img-lindexi%2F201892183755177.png)
+![](images/img-modify-6bfa52b236bbb8d93c2e6fb716a26e7b.png)
 
 设置完成就可以点击 Create 了
 
 <!-- ![](images/img-Nuget 通过 dotnet 命令行发布5.png) -->
 
-![](images/img-lindexi%2F201892183847127.png)
+![](images/img-modify-cb400a5939401cea9aa783eb9e0897aa.png)
 
 创建之后需要复制这个 Key 的 序列，先将这个序列保存到文本，在之后会用到。注意，一个key只能在网页没关闭之前复制一次
 
@@ -69,13 +69,13 @@ tags:
 
 <!-- ![](images/img-Nuget 通过 dotnet 命令行发布6.png) -->
 
-![](images/img-lindexi%2F201892184427574.png)
+![](images/img-modify-40aab753d3a66c7fdfee6bf20e7f02d8.png)
 
 然后我可以在地址栏输入 cmd 启动命令行，为什么需要在地址栏输入？原因是这样输入打开 cmd 就可以自动设置工作路径，请看下图，通过 cmd 打开的就是我需要的工作路径
 
 <!-- ![](images/img-Nuget 通过 dotnet 命令行发布7.png) -->
 
-![](images/img-lindexi%2F201892184552795.png)
+![](images/img-modify-431e7fbae334545ca09050ac78c74c0b.png)
 
 这时可以通过下面的命令发布对应的 nuget 到 nuget.org 网站
 

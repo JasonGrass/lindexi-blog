@@ -97,21 +97,21 @@ Bitmap 的数据类型可以是任意，因为只是把他的数据转换到 Wri
 
 对比一下性能，这时原先的 BitmapSource 方法占用内存
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017119165352-modify-405650c475c87c29b6d73fc5e0f8b2b0.jpg)
+![](images/img-modify-405650c475c87c29b6d73fc5e0f8b2b0.jpg)
 
 这是使用不安全代码占用内存
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F20171110102410-modify-e27c63bc28a6241dd2a3934777713699.jpg)
+![](images/img-modify-e27c63bc28a6241dd2a3934777713699.jpg)
 
 实际跑一张 gif 图的性能
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017%25E5%25B9%25-modify-f740bda900493c3ee452b94e64b610c2.gif)
+![](images/img-modify-f740bda900493c3ee452b94e64b610c2.gif)
 
 可以看到这个方法可以节省很多的内存，而且占用的 cpu 很低，因为没有很多gc
 
 但是不要太高兴，因为不安全代码的exception是接不住的，下面请修改一下代码，让他输入错误，于是就出现异常，结果程序就关了。
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F20171110102647-modify-48da43c45edcc3bd1eca7a7f670b32b0.jpg)
+![](images/img-modify-48da43c45edcc3bd1eca7a7f670b32b0.jpg)
 
 所以使用这个方法还是很大的坑。
 

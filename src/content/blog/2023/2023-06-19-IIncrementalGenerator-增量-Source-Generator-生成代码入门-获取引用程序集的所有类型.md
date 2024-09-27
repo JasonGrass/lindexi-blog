@@ -136,7 +136,7 @@ public interface IFoo
 }
 ```
 
-![](images/img-lindexi%2F20236171233417273.jpg)
+![](images/img-modify-1c24ce08389ca3493089669a3e9bb055.jpg)
 
 完成准备工作之后，接下来开始本文的核心逻辑编写。先在 Analyzers 分析器项目上新建一个继承 IIncrementalGenerator 接口的 FooTelescopeIncrementalGenerator 类型，接下来的核心逻辑将在 FooTelescopeIncrementalGenerator 的 Initialize 开始编写
 

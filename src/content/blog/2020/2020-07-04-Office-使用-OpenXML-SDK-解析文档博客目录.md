@@ -297,7 +297,7 @@ C# / VB.NET Word component
 
 <!-- ![](images/img-Office 使用 OpenXML SDK 解析文档博客目录0.png) -->
 
-![](images/img-lindexi%2F2022818101656359.jpg)
+![](images/img-modify-7a70c6ea4d8be2fbb36977bfc2e2ab05.jpg)
 
 [https://www.gemboxsoftware.com](https://www.gemboxsoftware.com)
 

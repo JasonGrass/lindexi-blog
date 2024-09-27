@@ -45,23 +45,23 @@ RetroShare 这个软件的使用还是有一点难度的，他不需要向服务
 
 下面这张图是偷的，因为我已经注册好了
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201822112240.jpg)
+![](images/img-modify-96bac13fbeb13ac6e7527531a95a99f1.jpg)
 
 不过我发现可以注册多个账户，方法是只需要多打开一个 RetroShare 就可以看到这个界面
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2018221154320-modify-75325460a52a3fdc7beb69651243e1c1.jpg)
+![](images/img-modify-75325460a52a3fdc7beb69651243e1c1.jpg)
 
 点击 New Profile 就可以创建一个新的账户
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2018221154353-modify-de6ac9f80815d50cce0eb650a1ec1dce.jpg)
+![](images/img-modify-de6ac9f80815d50cce0eb650a1ec1dce.jpg)
 
 在这里输入用户名和两次密码，然后不停移动鼠标
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2018221154436-modify-439e826a20c108e831a3fb8c6874e054.jpg)
+![](images/img-modify-439e826a20c108e831a3fb8c6874e054.jpg)
 
 直到最后的进入到 20% 或以上，就可以点击下一步
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2018221154622-modify-da4a733b4226baf57d96333a0a2a3555.jpg)
+![](images/img-modify-da4a733b4226baf57d96333a0a2a3555.jpg)
 
 
 ## 添加好友
@@ -70,13 +70,13 @@ RetroShare 这个软件的使用还是有一点难度的，他不需要向服务
 
 打开软件可以看到下面的图片
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201822121155.jpg)
+![](images/img-modify-27576b5cf7478441412f499cb479c5f4.jpg)
 
 中间的代码就是自己的信息，可以把这个信息发给其他小伙伴，然后他就可以添加你为好友
 
 下面试试添加我为好友，首先点击 Add Friend
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2018221124959-modify-c0cb17c64cabaf6cccc5e9ed540ebd8c.jpg)
+![](images/img-modify-c0cb17c64cabaf6cccc5e9ed540ebd8c.jpg)
 
 粘贴下面的代码
 
@@ -97,31 +97,31 @@ QIIQaIZvbC3YBp7h5nqg+VAb8yECDne8aNK7BZWmQi6YkGuH3X41h0lh2Qvo4jG+
 BgtNeSBjb21wdXRlcgUQZo7z5oldc5A82kGQmlF7+gcDdOl1
 ```
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2018221155128-modify-60060c6ed5c23409b215aea2d6ef6378.jpg)
+![](images/img-modify-60060c6ed5c23409b215aea2d6ef6378.jpg)
 
 这样就可以添加好友
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2018221155154-modify-406990df79f357629ff5bd407c478b3c.jpg)
+![](images/img-modify-406990df79f357629ff5bd407c478b3c.jpg)
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2018221155225-modify-f83a8c3e6da96e00fdb92356d44fedca.jpg)
+![](images/img-modify-f83a8c3e6da96e00fdb92356d44fedca.jpg)
 
 但是这时候还需要好友同意才可以添加，如果有人添加我好友，那么我可以在邮件看到
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2018221155311-modify-71e3fea85df0778aec770c7fe7543ba5.jpg)
+![](images/img-modify-71e3fea85df0778aec770c7fe7543ba5.jpg)
 
 点击邮件
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2018221155352-modify-4a72a73d346a70b232ebfa91a43f1954.jpg)
+![](images/img-modify-4a72a73d346a70b232ebfa91a43f1954.jpg)
 
 或点击 Log 也可以看到
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2018221155451-modify-866cb952a0341faf57523f1b1a8d0ed5.jpg)
+![](images/img-modify-866cb952a0341faf57523f1b1a8d0ed5.jpg)
 
 点击接受好友就可以添加
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2018221155519-modify-71bd2b62da8ea20ada29abf00066c240.jpg)
+![](images/img-modify-71bd2b62da8ea20ada29abf00066c240.jpg)
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2018221155530-modify-2b2296ae0c440a439107fc9c81429029.jpg)
+![](images/img-modify-2b2296ae0c440a439107fc9c81429029.jpg)
 
 现在就可以在网络看到添加的好友
 
@@ -129,11 +129,11 @@ BgtNeSBjb21wdXRlcgUQZo7z5oldc5A82kGQmlF7+gcDdOl1
 
 现在就是大家最想看的部分，如何分享自己的资源和如何下载别人的资源。点击 Files 文件然后就可以看到下面的界面
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2018221163546-modify-3640895a7ba15eef6354e53603a27831.jpg)
+![](images/img-modify-3640895a7ba15eef6354e53603a27831.jpg)
 
 点击 Config share folder 就可以选择要分享的文件夹。我这里选择了一个很大的文件夹，这时点击确定需要校验很久。
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201822116350.jpg)
+![](images/img-modify-254ab1029c26625be9b1d102375d59b0.jpg)
 
 ▲**点击 Add New 添加文件**
 
@@ -141,7 +141,7 @@ BgtNeSBjb21wdXRlcgUQZo7z5oldc5A82kGQmlF7+gcDdOl1
 
 第三个按钮如果打勾，那么就可以在下面这个界面看到分享的文件，可以直接点击下载，如果是在同个局域网，那么速度很快
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201822116310.jpg)
+![](images/img-modify-d5d4908a537ed80d87edba0c5bfc3ad9.jpg)
 
 下面来告诉大家如何下载资源
 
@@ -149,11 +149,11 @@ BgtNeSBjb21wdXRlcgUQZo7z5oldc5A82kGQmlF7+gcDdOl1
 
 实际上的 RetroShare 可以搜索到好友的分享资源和好友的好友分享的资源，所以这个功能很厉害，我搜索了一下就可以找到资源。
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2018221151058-modify-f77d659e0f67c32bca944afe5bf19c2e.jpg)
+![](images/img-modify-f77d659e0f67c32bca944afe5bf19c2e.jpg)
 
 但是在搜索之前还需要大家有好友才可以。
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2018221161456-modify-0ba18c33113a4f484b10948eb7fd1e68.jpg)
+![](images/img-modify-0ba18c33113a4f484b10948eb7fd1e68.jpg)
 
 搜索到资源之后通过双击想要的资源就可以进行下载。
 
@@ -161,7 +161,7 @@ BgtNeSBjb21wdXRlcgUQZo7z5oldc5A82kGQmlF7+gcDdOl1
 
 点击 Preferences 可以看到下面的界面，里面有两个文件夹可以设置，实际上只需要设置 Incoming Directory 就可以了，把他设为自己的下载文件夹。
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2018221151439-modify-8cab559e7ca5d54cf76a1f2b45fbcd91.jpg)
+![](images/img-modify-8cab559e7ca5d54cf76a1f2b45fbcd91.jpg)
 
 ## 获得资源
 
@@ -181,11 +181,11 @@ BgtNeSBjb21wdXRlcgUQZo7z5oldc5A82kGQmlF7+gcDdOl1
 
 这时我会邀请你进入小圈
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2018221162834-modify-7f881b4b9f805b96dc76dd78afd406e4.jpg)
+![](images/img-modify-7f881b4b9f805b96dc76dd78afd406e4.jpg)
 
 点击确定就可以进入，进入之后如果想加朋友，那么可以通过右击发送自己的证书，这样小伙伴就可以添加
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2018221162952-modify-906af6a119de45a4461c6071acada0d9.jpg)
+![](images/img-modify-906af6a119de45a4461c6071acada0d9.jpg)
 
 推荐：[RetroShare 帮助](https://gongzisun.github.io/ )
 

@@ -50,7 +50,7 @@ tags:
 
 <!-- ![](images/img-dotnet 使用 Infer# 自动分析代码缺陷0.png) -->
 
-![](images/img-lindexi%2F202111191944415549.jpg)
+![](images/img-modify-ef267c59b68a7daae0b95d9460202189.jpg)
 
 可以看到输出了资源没有释放和线程安全问题
 

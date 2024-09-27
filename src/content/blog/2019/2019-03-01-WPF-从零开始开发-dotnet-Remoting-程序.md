@@ -52,7 +52,7 @@ tags:
 
 <!-- ![](images/img-WPF 使用 dotnet remoting 的例子0.png) -->
 
-![](images/img-lindexi%2F2018830204646342.png)
+![](images/img-modify-373b08651aeccab52e2e1de95bc016d8.png)
 
 <!-- v1.0.1 -->
 
@@ -150,7 +150,7 @@ tags:
 
 <!-- ![](images/img-WPF 使用 dotnet remoting 的例子1.png) -->
 
-![](images/img-lindexi%2F2018830211453893.png)
+![](images/img-modify-aa864cc34847de57c7a90fbe56c1a033.png)
 
 使用下面的代码创建 TCPChannel 传入的参数就是端口
 
@@ -274,7 +274,7 @@ tags:
 
 <!-- ![](images/img-WPF 使用 dotnet remoting 的例子2.png) -->
 
-![](images/img-lindexi%2F20188319015310.png)
+![](images/img-modify-4f5302b167fe1ce48f5c0f20cdc170f7.png)
 
 在这个过程中几乎所有步骤都可以拿出来说
 

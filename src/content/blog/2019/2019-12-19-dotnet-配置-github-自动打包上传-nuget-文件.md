@@ -42,7 +42,7 @@ name: publish nuget
 
 上面的代码就会添加命名是 `publish nuget` 的 workflow 在 action 页面可以通过对应的命名找到不同的 workflow 如
 
-![](images/img-lindexi%2F2019128152151911.png)
+![](images/img-modify-0f07a3aeefe88d8d99ba0d9a26ca525d.png)
 
 ## 触发条件
 
@@ -100,7 +100,7 @@ jobs:
 
 <!-- ![](images/img-dotnet 配置 github 自动打包上传 nuget 文件0.png) -->
 
-![](images/img-lindexi%2F2019128153156985.png)
+![](images/img-modify-a7b8380d26f40268ac7e315cc0cce784.png)
 
 在安装 dotnet 应用将会使用现有的脚本，其实在上一步的 `uses: actions/checkout@v1` 其实就是使用 github 的 `https://github.com/actions/checkout` 仓库的脚本
 
@@ -190,19 +190,19 @@ jobs:
 
 <!-- ![](images/img-dotnet 配置 github 自动打包上传 nuget 文件1.png) -->
 
-![](images/img-lindexi%2F2019128155016416.png)
+![](images/img-modify-f327a141a09f3435534c228ec6742c57.png)
 
 进入之后按照下图给配置，或根据自己的需要给配置
 
 <!-- ![](images/img-dotnet 配置 github 自动打包上传 nuget 文件2.png) -->
 
-![](images/img-lindexi%2F201912816257779.png)
+![](images/img-modify-f0ea0de4dd065b9130f652a825a01d35.png)
 
 点击完成，将 API key 复制
 
 <!-- ![](images/img-dotnet 配置 github 自动打包上传 nuget 文件3.png) -->
 
-![](images/img-lindexi%2F201912816427603.png)
+![](images/img-modify-c6a9e466afce7307633d9c81645a06b9.png)
 
 小伙伴也不想将这个的 API Key 放在脚本里面，如果放在脚本里面，也许有逗比会哪这个 API Key 传一些有趣的库，所以需要在这个 API Key 放在安全的地方。这个安全的地方就是 GitHub 的凭据管理器。设置方法如下
 
@@ -210,25 +210,25 @@ jobs:
 
 <!-- ![](images/img-dotnet 配置 github 自动打包上传 nuget 文件4.png) -->
 
-![](images/img-lindexi%2F201912816628658.png)
+![](images/img-modify-7b87badf505f457373862418f14320b9.png)
 
 点击安全
 
 <!-- ![](images/img-dotnet 配置 github 自动打包上传 nuget 文件5.png) -->
 
-![](images/img-lindexi%2F20191281674137.png)
+![](images/img-modify-3861735125a7340611722695ddbee49f.png)
 
 点击新建安全
 
 <!-- ![](images/img-dotnet 配置 github 自动打包上传 nuget 文件6.png) -->
 
-![](images/img-lindexi%2F20191281684809.png)
+![](images/img-modify-eb718ff89dc7073b123e0f94c84f9d00.png)
 
 粘贴刚才复制的 API Key 到内容
 
 <!-- ![](images/img-dotnet 配置 github 自动打包上传 nuget 文件7.png) -->
 
-![](images/img-lindexi%2F201912816938783.png)
+![](images/img-modify-6ceabece492e793c0fbe821e5abad183.png)
 
 这样就将 API Key 存放到 GitHub 安全里面了
 

@@ -49,7 +49,7 @@ public static readonly DependencyProperty IconDataProperty =
 
 就会在运行出现无法从string转换，但是如何把用户控件改为 Path ，就可以运行
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017718194714-modify-ff7ceb56ab9725e72bdfcd68b14334e9.jpg)
+![](images/img-modify-ff7ceb56ab9725e72bdfcd68b14334e9.jpg)
 
 那么如何在用户控件使用资源的字符串
 
@@ -89,7 +89,7 @@ public class GeometryConvert : IValueConverter
 
 可以看到，这个方法可以显示图片
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017718194953-modify-7d4888ee1d17d9b72279dd0655424552.jpg)
+![](images/img-modify-7d4888ee1d17d9b72279dd0655424552.jpg)
 
 所以，需要绑定字符串，可以使用这个方法。
 

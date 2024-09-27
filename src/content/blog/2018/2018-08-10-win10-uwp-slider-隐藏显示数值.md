@@ -22,7 +22,7 @@ tags:
  
 <!-- csdn -->
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201811292241.jpg)
+![](images/img-modify-f50db1f6aef1c0fe8d69b448d401056b.jpg)
 
 最简单的方法是设置 IsThumbToolTipEnabled ，请看下面
 
@@ -30,7 +30,7 @@ tags:
 <Slider IsThumbToolTipEnabled="False"/>
 ```
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201811292330.jpg)
+![](images/img-modify-480971ec24a0afb2b55848cbd26a98e7.jpg)
 
 如果这时需要显示拖动的值，可以使用 ValueChanged 事件，我下面使用一个 TextBlock 来显示拖动的值
 
@@ -40,7 +40,7 @@ tags:
         <TextBlock x:Name="CumjvpxVufe" Margin="10,100,10,10"></TextBlock>
 ```
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F20181129288.jpg)
+![](images/img-modify-43c2236e43b558f15f5d79a05262a582.jpg)
 
 如果需要绑定，那么就可以不需要后台写代码
 

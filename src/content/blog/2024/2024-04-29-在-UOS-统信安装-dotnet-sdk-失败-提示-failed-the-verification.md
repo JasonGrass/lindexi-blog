@@ -26,12 +26,12 @@ tags:
 先开启开发者模式
 
 <!-- ![](images/img-在 UOS 统信安装 dotnet sdk 失败 提示 failed the verification0-modify-937390d8c597445b1571a9a4701cab37.png) -->
-![](images/img-lindexi%2F20244281530303325.jpg)
+![](images/img-modify-a15bb1730ff5df5d59fbd6319ccb8983.jpg)
 
 再点击 “如需安装和运行未签名应用，前往安全中心进行设置” 里面的“安全中心”超链接，即可进入下面界面
 
 <!-- ![](images/img-在 UOS 统信安装 dotnet sdk 失败 提示 failed the verification1-modify-00f99943d43ed3af3ed67533cb02fd31.png) -->
-![](images/img-lindexi%2F20244281531267992.jpg)
+![](images/img-modify-47919b28eb3185a23fdf54f63a4bd58b.jpg)
 
 点击切换到允许任意应用即可
 

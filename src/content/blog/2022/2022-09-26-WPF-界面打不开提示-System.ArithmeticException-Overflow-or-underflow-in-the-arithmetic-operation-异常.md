@@ -27,11 +27,11 @@ tags:
 点击进入高级页面，如下图
 
 <!-- ![](images/img-WPF 界面打不开提示 System.ArithmeticException Overflow or under-modify-5b601a4774fe81cc0a7cc209612a55fe.png) -->
-![](images/img-lindexi%2F20229261737438118.jpg)
+![](images/img-modify-c6801f91ed31a0a6bae77138c17bda21.jpg)
 
 英文版本的页面如下
 
-![](images/img-lindexi%2F20229261739475138.jpg)
+![](images/img-modify-26948766b33017c4ccdb733be4edccb1.jpg)
 
 要求你的应用的配置和我的相同，例如设备配置文件里，推荐是 sRGB IEC61996-2.1 的等
 

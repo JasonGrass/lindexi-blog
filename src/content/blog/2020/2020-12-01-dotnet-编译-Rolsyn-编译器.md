@@ -37,13 +37,13 @@ tags:
 
 <!-- ![](images/img-dotnet 编译 Rolsyn 编译器0.png) -->
 
-![](images/img-lindexi%2F2020121848396081.jpg)
+![](images/img-modify-24a2e63e0960c947d78ff72df9b00379.jpg)
 
 导入刚才拉下来的 Rolsyn 仓库的 .vsconfig 文件
 
 <!-- ![](images/img-dotnet 编译 Rolsyn 编译器1.png) -->
 
-![](images/img-lindexi%2F2020121849177287.jpg)
+![](images/img-modify-d96f357819cd4fc021dc489567f8a9e2.jpg)
 
 等待 VS 的安装完成，然后切换到网络比较好的环境
 

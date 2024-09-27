@@ -75,13 +75,13 @@ tags:
 
 <!-- ![](images/img-VisualStudio 调试内存泄漏方法1.png) -->
 
-![](images/img-lindexi%2F20191222117326649.jpg)
+![](images/img-modify-ed3cad4fede75630e1aa31d1714ee525.jpg)
 
 第三步是打开快照堆视图，尝试搜业务用到的类的名，看是否这些类还在内存中
 
 <!-- ![](images/img-VisualStudio 调试内存泄漏方法0.png) -->
 
-![](images/img-lindexi%2F20191222931578405.jpg)
+![](images/img-modify-461e59dc64a1b5e5c36db4fefec795ad.jpg)
 
 如果找到了对应的类还在内存中，通过查看是哪个对象引用了这个对象，一步步找到引用的代码。此时可以通过在对应的引用的代码的赋值里面添加断点，如果熟悉业务，那么就直接在业务执行完成之后进行清理，如果和本金鱼一样忘记了代码，通过断点可以找到是哪里设置进来的
 
@@ -122,7 +122,7 @@ tags:
 
 <!-- ![](images/img-VisualStudio 调试内存泄漏方法3.png) -->
 
-![](images/img-lindexi%2F201912221129524520.jpg)
+![](images/img-modify-0dabb550a3d5c916979236dae76692ef.jpg)
 
 通过在代码给元素命名，也就是继承基础的数组等，这样可以在调试内存泄漏时，将不同的业务分开。解决在调试内存时看到大量的都是如 `List<int>` 的元素
 

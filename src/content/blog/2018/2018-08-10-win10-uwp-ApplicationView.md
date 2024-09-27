@@ -46,11 +46,11 @@ tags:
 
  首先做一个简单的按钮，在点击他就设置为false，不可截图。在点击前，使用 Q 截图，发现可以
 
- ![](images/img-AwCCAwMAItoFADbzBgABAAQArj4BAGZDAgBo6AkA6Nk%3D%2F2017429-modify-60d1364ba6dc8868d8168e2275e13793.jpg)
+ ![](images/img-modify-60d1364ba6dc8868d8168e2275e13793.jpg)
 
  点击之后，截图看到的
 
- ![](images/img-AwCCAwMAItoFADbzBgABAAQArj4BAGZDAgBo6AkA6Nk%3D%2F2017429-modify-dc2e79fffeccdd1b096be8c0324a4016.jpg)
+ ![](images/img-modify-dc2e79fffeccdd1b096be8c0324a4016.jpg)
 
  如果设置了，可以看到，但是不可以获取，可以对信息安全要求高的程序进行使用，但是设置了性能可能没有之前好。
 
@@ -80,9 +80,9 @@ tags:
 
  - 设置标题栏颜色 applicationView.TitleBar 可以获得标题栏，可以通过设置属性自定义标题栏
 
-   - BackgroundColor ![](images/img-AwCCAwMAItoFADbzBgABAAQArj4BAGZDAgBo6AkA6Nk%3D%2F2017429-modify-4c72a1cbef8edd9e7ff598360fff6530.jpg)
+   - BackgroundColor ![](images/img-modify-4c72a1cbef8edd9e7ff598360fff6530.jpg)
 
-   - ButtonBackgroundColor ![](images/img-AwCCAwMAItoFADbzBgABAAQArj4BAGZDAgBo6AkA6Nk%3D%2F2017429-modify-b71db856a618168fb565fb0d067259ec.jpg)
+   - ButtonBackgroundColor ![](images/img-modify-b71db856a618168fb565fb0d067259ec.jpg)
 
  - 获取窗口可见区 applicationView.VisibleBounds ，通过 applicationView.VisibleBoundsChanged 可以知道隐藏或显示标题栏会改变窗口可见大小的方法
 

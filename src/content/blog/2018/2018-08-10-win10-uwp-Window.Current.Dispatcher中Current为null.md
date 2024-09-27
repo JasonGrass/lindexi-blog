@@ -51,11 +51,11 @@ tags:
 要么改用HttpClient类的异步方法来请求，是Windows.Web.Http下面的类，非.net core类型
 
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017718194348-modify-5ef24da17513dcef983d4f6449017fd2.jpg)
+![](images/img-modify-5ef24da17513dcef983d4f6449017fd2.jpg)
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201771819441.jpg)
+![](images/img-modify-55b84aa8d8f4af85cb67b6741e5690fa.jpg)
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017718194411-modify-06035307b27fe570fb7ec8aa7a6735d3.jpg)
+![](images/img-modify-06035307b27fe570fb7ec8aa7a6735d3.jpg)
 
 简单方法：
 

@@ -81,11 +81,11 @@ tags:
 
 这时点击确定可以看到，需要等待一些时间才可以响应界面
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F%25E6%2580%25A7%2-modify-5a8cd06697cb50b525a05305907a0fd0.gif)
+![](images/img-modify-5a8cd06697cb50b525a05305907a0fd0.gif)
 
 如果加上了 DoEvents 就可以看到下图的效果
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F%25E6%2580%25A7%2-modify-0fb3776a27b83cc34c25e1e5dabd87ab.gif)
+![](images/img-modify-0fb3776a27b83cc34c25e1e5dabd87ab.gif)
 
 
 ## 用法
@@ -130,7 +130,7 @@ tags:
 
 请看一下底层的`PushFrameImpl` 下面的代码有删减
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F%25E6%2580%25A7%2-modify-931e3425da9cf24a7a1c1f9c6ea5125a.jpg)
+![](images/img-modify-931e3425da9cf24a7a1c1f9c6ea5125a.jpg)
 
 会导致UI重绘的消息：0xC25A及0xC262 所以发送这个消息就可以让UI响应
 
@@ -231,9 +231,9 @@ tags:
 
 关键就是`Dispatcher.Invoke(() => { }, DispatcherPriority.Background);`，这句代码就是在主线程插入一个`Background` 因为优先级，所以这时就可以让UI处理其他的输入
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F%25E6%2580%25A7%2-modify-009da43e898d671d2f2240e8f94f3e6f.jpg)
+![](images/img-modify-009da43e898d671d2f2240e8f94f3e6f.jpg)
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F%25E6%2580%25A7%2-modify-bf6be35c1ba11e3630221b2b475d305e.gif)
+![](images/img-modify-bf6be35c1ba11e3630221b2b475d305e.gif)
 
 但是直接使用`Dispatcher.Invoke`代码太长，是不是可以使用比较简单的？实际上还是有的，请看代码。
 

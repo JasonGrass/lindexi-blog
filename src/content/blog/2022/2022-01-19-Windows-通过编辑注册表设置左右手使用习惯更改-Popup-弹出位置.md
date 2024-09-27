@@ -20,22 +20,22 @@ description: "Windows 通过编辑注册表设置左右手使用习惯更改 Pop
 在用户端，可以通过在运行里面，输入 `shell:::{80F3F1D5-FECA-45F3-BC32-752C152E456E}` 按下回车，可以进入平板电脑设置界面，中文版和英文版界面分别如下
 
 <!-- ![](images/img-Windows 通过编辑注册表设置左右手使用习惯更改 Popup 弹出位置0.png) -->
-![](images/img-lindexi%2F2022119840397318.jpg)
+![](images/img-modify-6ee22fa3dc0760cee2643806723d4c9a.jpg)
 
 <!-- ![](images/img-Windows 通过编辑注册表设置左右手使用习惯更改 Popup 弹出位置1.png) -->
-![](images/img-lindexi%2F202211984127675.jpg)
+![](images/img-modify-7a1d1c7a80927526be43276239d0ca46.jpg)
 
 这个选项将会影响 WPF 的 Popup 弹出的默认方向位置，以及所有的菜单的弹出方向位置
 
 设置惯用左手时的 Popup 弹出行为如下：
 
 <!-- ![](images/img-Windows 通过编辑注册表设置左右手使用习惯更改 Popup 弹出位置3.png) -->
-![](images/img-lindexi%2F2022119846235982.jpg)
+![](images/img-modify-7ed377a233464319b92829be6fd79088.jpg)
 
 设置惯用右手时的 Popup 弹出行为如下：
 
 <!-- ![](images/img-Windows 通过编辑注册表设置左右手使用习惯更改 Popup 弹出位置2.png) -->
-![](images/img-lindexi%2F2022119845213918.jpg)
+![](images/img-modify-c0f7ba3e50516f087b9bcf202bbd9012.jpg)
 
 通过注册表修改设置的方式是在运行里输入 `regedit` 打开注册表编辑，进入 `HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Windows` 路径，修改 `MenuDropAlignment` 选项。默认的 `MenuDropAlignment` 选项是 0 的值，不同的值对应如下
 

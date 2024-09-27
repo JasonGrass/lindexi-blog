@@ -125,7 +125,7 @@ if: steps.format.outputs.has-changes == 'true'
 
 <!-- ![](images/img-dotnet 基于 dotnet format 的 GitHub Action 自动代码格式化机器人0.png) -->
 
-![](images/img-lindexi%2F20201013209367736.jpg)
+![](images/img-modify-5c6ade28ab9f9d111bb3178775ab64e3.jpg)
 
 感谢 [jfversluis](https://github.com/jfversluis) 大佬的 [dotnet-format](https://github.com/jfversluis/dotnet-format) 脚本，和 [Peter Evans](https://github.com/peter-evans) 的创建代码审查的 [create-pull-request](https://github.com/peter-evans/create-pull-request) 脚本
 

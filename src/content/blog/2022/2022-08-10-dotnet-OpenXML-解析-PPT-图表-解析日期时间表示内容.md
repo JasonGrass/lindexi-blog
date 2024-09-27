@@ -27,7 +27,7 @@ tags:
 
 <!-- ![](images/img-dotnet OpenXML 解析 PPT 图表 解析日期时间表示内容0.png) -->
 
-![](images/img-lindexi%2F20228101758163271.jpg)
+![](images/img-modify-e50b5371595ffa848f26b8003eb2b798.jpg)
 
 存储的代码如下
 
@@ -203,7 +203,7 @@ var useDate1904 = chartSpace.Date1904?.Val?.Value ?? false;
 
 <!-- ![](images/img-dotnet OpenXML 解析 PPT 图表 解析日期时间表示内容1.png) -->
 
-![](images/img-lindexi%2F2022810181627672.jpg)
+![](images/img-modify-d607ac6d6af8047674821c9e0624c9a7.jpg)
 
 本文以上的测试文件和代码放在[github](https://github.com/lindexi/lindexi_gd/tree/9edb86c15c3f7c9aff9896ffc2de903464b2feb7/Pptx) 和 [gitee](https://gitee.com/lindexi/lindexi_gd/tree/9edb86c15c3f7c9aff9896ffc2de903464b2feb7/Pptx) 欢迎访问
 

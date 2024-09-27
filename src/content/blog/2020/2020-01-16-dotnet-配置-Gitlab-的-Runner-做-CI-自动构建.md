@@ -46,7 +46,7 @@ tags:
 
 <!-- ![](images/img-dotnet 配置 Gitlab 的 Runner 做 CI 自动构建0.png) -->
 
-![](images/img-lindexi%2F2020115191542249.png)
+![](images/img-modify-c9a614c196359ac041f13214a52612d6.png)
 
 从 gitlab 的设置点击 CI 选项
 
@@ -56,7 +56,7 @@ tags:
 
 <!-- ![](images/img-dotnet 配置 Gitlab 的 Runner 做 CI 自动构建1.png) -->
 
-![](images/img-lindexi%2F2020115191657700.png)
+![](images/img-modify-10f9f865ebe3e440f98bbcd8e6ad00c2.png)
 
 在命令行输入 `gitlab-runner.exe register` 回车
 
@@ -64,7 +64,7 @@ tags:
 
 <!-- ![](images/img-dotnet 配置 Gitlab 的 Runner 做 CI 自动构建2.png) -->
 
-![](images/img-lindexi%2F2020115191856782.png)
+![](images/img-modify-733edb60f6a0ed879a105f273a72fdcd.png)
 
 因为 gitlab runner 是使用 System 在虚拟机运行的，也就是在虚拟机里面需要做比较多的配置让服务可以访问到各个工具
 
@@ -82,13 +82,13 @@ tags:
 
 下一步就是给具体的项目配置 CI 了，如果没有在项目看到这个图标，那么就是这个项目没有配置好
 
-![](images/img-lindexi%2F2020115193054852.png)
+![](images/img-modify-ad562fe5f104f8286461c2e86c34c959.png)
 
 进入 General Settings 然后展开 Visibility, project features, permissions 的内容，让你的设置和我下面的图片相同
 
 <!-- ![](images/img-dotnet 配置 Gitlab 的 Runner 做 CI 自动构建3.png) -->
 
-![](images/img-lindexi%2F2020115193219976.png)
+![](images/img-modify-97afd5b81879090942880bbe8f8c821b.png)
 
 如果之前配置过 Jenkins 那么请到 Integrations Settings 将链接删掉
 

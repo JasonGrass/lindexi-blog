@@ -27,7 +27,7 @@ tags:
 实现的效果图如下
 
 <!-- ![](images/img-dotnet C# 使用 SHFileOperation 调用 Win32 的文件复制对话框0.png) -->
-![](images/img-lindexi%2F2024891944276857.jpg)
+![](images/img-modify-041bf8171bed4160eac105b9bc04b789.jpg)
 
 详细实现逻辑还请大家参阅： [C#中使用SHFileOperation调用Windows的复制文件对话框 - 季风哥 - 博客园](https://www.cnblogs.com/jifengg/archive/2013/05/13/3076131.html ) 
 

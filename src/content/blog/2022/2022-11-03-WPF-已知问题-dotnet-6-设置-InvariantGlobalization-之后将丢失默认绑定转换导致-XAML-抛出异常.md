@@ -80,7 +80,7 @@ System.Globalization.CultureNotFoundException: 'Only the invariant culture is su
 
 <!-- ![](images/img-WPF 已知问题 dotnet 6 设置 InvariantGlobalization 之后将丢失默认绑定转换导-modify-a9b7ab319444fe87d873ffe931b9b877.png) -->
 
-![](images/img-lindexi%2F2022113183757572.jpg)
+![](images/img-modify-849b85165054091330f8b151d969e593.jpg)
 
 这是符合 [官方文档](https://github.com/dotnet/runtime/blob/64b3ee4d35f9ba6a0bf66a0c5b41d2c8873cd89f/docs/design/features/globalization-invariant-mode.md) 描述的
 

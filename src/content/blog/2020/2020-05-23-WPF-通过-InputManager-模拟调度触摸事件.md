@@ -173,7 +173,7 @@ System.Windows.Input.InputManager.Current.ProcessInput(_lastEventArgs);
 
 <!-- ![](images/img-WPF 通过 InputManager 模拟调度触摸事件.gif) -->
 
-![](images/img-lindexi%2FWPF%2520%25E9%2580%259A%25E8%25BF%2587%2520Inp-modify-d86ec48b73c38f03abeddaf8805e0c26.gif)
+![](images/img-modify-d86ec48b73c38f03abeddaf8805e0c26.gif)
 
 上面图片是测试工具 [ManipulationDemo](https://github.com/dotnet-campus/ManipulationDemo/) 的显示，这个工具会在事件触发的时候修改对应事件颜色，也就是在鼠标点击的时候触发了触摸的按下和移动和抬起
 

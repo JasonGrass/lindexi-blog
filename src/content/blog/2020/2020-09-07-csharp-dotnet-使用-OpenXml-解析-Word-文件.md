@@ -26,7 +26,7 @@ tags:
 
 先新建一个简单的 Word 文件
 
-![](images/img-lindexi%2F2020952036365930.jpg)
+![](images/img-modify-5433b42a10ecbd684c93d097ff36503d.jpg)
 
 然后新建一个 WPF 程序，在这个程序里面添加简单的界面
 
@@ -73,7 +73,7 @@ tags:
             }
 ```
 
-![](images/img-lindexi%2F202095203446551.jpg)
+![](images/img-modify-f6338cf4e2f1a42d6218adad17457146.jpg)
 
 可以看到代码非常简单，但是如果想要将整个 Word 的文档的内容解析出来，这个就复杂一些
 

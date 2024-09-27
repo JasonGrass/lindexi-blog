@@ -27,7 +27,7 @@ tags:
 
 <!-- ![](images/img-win10 uwp 使用 AppCenter 自动构建0.png) -->
 
-![](images/img-lindexi%2F2018116201329903.png)
+![](images/img-modify-1f6ae4f63da72a99b7d0d0c07df08dcb.png)
 
 点击 add new 添加一个 UWP 程序，需要写出 app 的命名和选择是哪个平台
 
@@ -35,43 +35,43 @@ tags:
 
 <!-- ![](images/img-win10 uwp 使用 AppCenter 自动构建1.png) -->
 
-![](images/img-lindexi%2F2018116201455717.png)
+![](images/img-modify-97bd90109514eacec57ac1613874acb2.png)
 
 创建完成之后可以看到下面的界面
 
 <!-- ![](images/img-win10 uwp 使用 AppCenter 自动构建2.png) -->
 
-![](images/img-lindexi%2F20181162016472.png)
+![](images/img-modify-33e634dcf1e37a965cbd367e293808f4.png)
 
 点击 Build 标签，可以看到配置自动构建的界面
 
 <!-- ![](images/img-win10 uwp 使用 AppCenter 自动构建3.png) -->
 
-![](images/img-lindexi%2F2018116201730107.png)
+![](images/img-modify-6e07eaf19fa003db6cd931b6940a3b0e.png)
 
 因为 UWP 图床是放在 [github](https://github.com/lindexi/uwp) 所以这里选择 github 在弹出的页面选择 UWP 项目
 
 <!-- ![](images/img-win10 uwp 使用 AppCenter 自动构建4.png) -->
 
-![](images/img-lindexi%2F2018116201918333.png)
+![](images/img-modify-6849485387f8da4fef529506bfbabab8.png)
 
 点击选择之后可以看到当前的分支，这里选择 master 分支
 
 <!-- ![](images/img-win10 uwp 使用 AppCenter 自动构建5.png) -->
 
-![](images/img-lindexi%2F2018116201957962.png)
+![](images/img-modify-21586e3b84e6e670027cf9904a796101.png)
 
 然后点击配置编译
 
 <!-- ![](images/img-win10 uwp 使用 AppCenter 自动构建6.png) -->
 
-![](images/img-lindexi%2F2018116202027669.png)
+![](images/img-modify-7c2fea17d5d2bbe122f0816e6424b510.png)
 
 在这个网站比较好的是会将所有的 sln 文件列出来，让大家选自己需要编译的文件，同时还可以设置编译的平台
 
 <!-- ![](images/img-win10 uwp 使用 AppCenter 自动构建7.png) -->
 
-![](images/img-lindexi%2F201811620211923.png)
+![](images/img-modify-c6932d44185d5d251751c6054cbe1cdb.png)
 
 只需要设置需要编译哪个项目就可以啦，其他的东西都是自动配置的
 
@@ -81,7 +81,7 @@ tags:
 
 <!-- ![](images/img-win10 uwp 使用 AppCenter 自动构建8.png) -->
 
-![](images/img-lindexi%2F2018116202312684.png)
+![](images/img-modify-6a6b52d0771d938471da088df02b235f.png)
 
 将内容复制出来，大概就是这样
 

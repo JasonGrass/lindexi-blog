@@ -27,7 +27,7 @@ tags:
 
 <!-- ![](images/img-WPF 通过 InputManager 模拟调度触摸事件.gif) -->
 
-![](images/img-lindexi%2FWPF%2520%25E9%2580%259A%25E8%25BF%2587%2520Inp-modify-d86ec48b73c38f03abeddaf8805e0c26.gif)
+![](images/img-modify-d86ec48b73c38f03abeddaf8805e0c26.gif)
 
 可以显示接收到的 Win32 消息、当前的触摸设备状态，以及设备插拔信息
 

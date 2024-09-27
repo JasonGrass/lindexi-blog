@@ -88,7 +88,7 @@ Error:
 
 <!-- ![](images/img-Roslyn 解决 dotnet core 应用进程间引用找不到 runtimeconfig 依赖文件0-modify-54360adefafc64c44c17c97b88e81cd6.png) -->
 
-![](images/img-lindexi%2F2020931729581851.jpg)
+![](images/img-modify-9c907fc5acbb2e7f67834a8a9d5b555a.jpg)
 
 原因是可执行项目输出的配置文件内容如下
 

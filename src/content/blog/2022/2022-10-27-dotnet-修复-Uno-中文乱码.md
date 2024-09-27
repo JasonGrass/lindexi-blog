@@ -25,7 +25,7 @@ tags:
 
 <!-- ![](images/img-dotnet 修复 Uno 中文乱码0.png) -->
 
-![](images/img-lindexi%2F2022102789389762.jpg)
+![](images/img-modify-a4add6e9f5ff465e974790e5bef98236.jpg)
 
 我的代码如下
 
@@ -127,7 +127,7 @@ git pull origin 08c2d7c8da65ffbb1d873a9f4fdb21304a9c2688
 
 <!-- ![](images/img-dotnet 修复 Uno 中文乱码1.png) -->
 
-![](images/img-lindexi%2F2022102781759763.jpg)
+![](images/img-modify-82fb533ec9226eb48bcdabb42306c44b.jpg)
 
 我更改后的代码也放在[github](https://github.com/lindexi/lindexi_gd/tree/613b6ec4fc7650fba9af341a090b653899d5cb63/TestUnoIslands) 和 [gitee](https://gitee.com/lindexi/lindexi_gd/tree/613b6ec4fc7650fba9af341a090b653899d5cb63/TestUnoIslands) 欢迎访问
 

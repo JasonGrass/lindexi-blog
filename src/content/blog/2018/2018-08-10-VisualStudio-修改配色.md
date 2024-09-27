@@ -27,7 +27,7 @@ tags:
 
 我推荐大家到 [https://studiostyl.es/](https://studiostyl.es/) 下载主题，下面是我找到的一些好看的主题
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201822152331.jpg)
+![](images/img-modify-ff699ae4dbb34049743ee97aeddb59fa.jpg)
 
 [点击下载](https://studiostyl.es/schemes/son-of-obsidian)
 

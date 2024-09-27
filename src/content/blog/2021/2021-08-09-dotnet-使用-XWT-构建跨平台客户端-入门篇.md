@@ -93,7 +93,7 @@ tags:
 
 <!-- ![](images/img-dotnet 使用 XWT 构建跨平台客户端 入门篇0.png) -->
 
-![](images/img-lindexi%2F202189211138887.jpg)
+![](images/img-modify-adea643ed2c35f6dfa247ca4a614c380.jpg)
 
 本文所有代码在 [github](https://github.com/lindexi/lindexi_gd/tree/11125ca50dc91e50cf581c36476f03b853bc7ef8/LarwearceceyokuDokealuwo) 和 [gitee](https://gitee.com/lindexi/lindexi_gd/tree/11125ca50dc91e50cf581c36476f03b853bc7ef8/LarwearceceyokuDokealuwo) 上完全开源
 

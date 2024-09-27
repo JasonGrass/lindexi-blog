@@ -65,7 +65,7 @@ tags:
 
 <!-- ![](images/img-dotnet 读 WPF 源代码笔记 GlyphRun 的 DeviceFontName 的功能是什么0-modify-9ca2fe4f2d4a5314d279dec9dde2d0c3.png) -->
 
-![](images/img-lindexi%2F2023111177506058.jpg)
+![](images/img-modify-e53ab099a8bfad03a8964271238fa60c.jpg)
 
 至于 `DeviceFontName` 属性，完全只有一个逻辑在使用，那就是用来创建 GlyphRun 副本时作为参数传入，如下面代码
 

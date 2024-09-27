@@ -24,7 +24,7 @@ tags:
 
 <!-- ![](images/img-asp dotnet core 从零开始创建一个 WebApi 服务0.png) -->
 
-![](images/img-lindexi%2F20202241122423502.jpg)
+![](images/img-modify-4c0e0ba8fe98b3e6bf2768b16dfb6e8e.jpg)
 
 安装完成之后，打开一个 cmd 控制台，输入 `dotnet --info` 确定安装成功
 
@@ -88,7 +88,7 @@ info: Microsoft.Hosting.Lifetime[0]
 
 <!-- ![](images/img-asp dotnet core 从零开始创建一个 WebApi 服务1.png) -->
 
-![](images/img-lindexi%2F2020224114022251.jpg)
+![](images/img-modify-fd2911152fb85a0ff55644307e7d1b62.jpg)
 
 此时应该可以通过浏览器看到了 林德熙是逗比 的输出了
 
@@ -98,29 +98,29 @@ info: Microsoft.Hosting.Lifetime[0]
 
 <!-- ![](images/img-win10 uwp 手把手教你使用 asp dotnet core 做 cs 程序0.png) -->
 
-![](images/img-lindexi%2F20186310321749.png)
+![](images/img-modify-e268ec6adc31b3b81cf4a9ffcc0e003e.png)
 
 <!-- ![](images/img-win10 uwp 手把手教你使用 asp dotnet core 做 cs 程序1.png) -->
 
-![](images/img-lindexi%2F2018631041941.png)
+![](images/img-modify-402a58b82c412e66221dc9cd7e0893b2.png)
 
 打开 VisualStudio 点击新建项目，选择 ASP.NET Core Web 应用程序
 
 <!-- ![](images/img-asp dotnet core 从零开始创建一个 WebApi 服务2.png) -->
 
-![](images/img-lindexi%2F20202241150196756.jpg)
+![](images/img-modify-74d265451ba7e8018f29a9b06704d2b2.jpg)
 
 输入项目名点击下一步
 
 <!-- ![](images/img-asp dotnet core 从零开始创建一个 WebApi 服务3.png) -->
 
-![](images/img-lindexi%2F20202241151385882.jpg)
+![](images/img-modify-d64c39f37f08a800ec7383f809935591.jpg)
 
 此时可以选择 API 应用等，本文主要告诉大家如何创建一个 WebApi 服务，所以请小伙伴选择 API 应用。在右侧可以选择是否开启 HTTPS 支持，如果是内部的应用，可以考虑不开启 HTTPS 支持。另外如果电脑上不部署 docker 还可以勾选 docker 的容器，勾选之后可以选择 Linux 容器或 Windows 容器
 
 <!-- ![](images/img-asp dotnet core 从零开始创建一个 WebApi 服务4.png) -->
 
-![](images/img-lindexi%2F20202241152254135.jpg)
+![](images/img-modify-41e159c60981d01360c87b22d1b71f38.jpg)
 
 最简单的项目是两个都不要勾选
 
@@ -128,7 +128,7 @@ info: Microsoft.Hosting.Lifetime[0]
 
 <!-- ![](images/img-asp dotnet core 从零开始创建一个 WebApi 服务5.png) -->
 
-![](images/img-lindexi%2F20202241159434941.jpg)
+![](images/img-modify-27d42ad16b54308bfc6951189c8a2eb6.jpg)
 
 依然在控制器里面就包含了对外服务的相关方法，和上面用控制台创建的相同
 
@@ -136,7 +136,7 @@ info: Microsoft.Hosting.Lifetime[0]
 
 <!-- ![](images/img-asp dotnet core 从零开始创建一个 WebApi 服务6.png) -->
 
-![](images/img-lindexi%2F202022412127493.jpg)
+![](images/img-modify-aeaa6ac94095658e699438353e77d12e.jpg)
 
 创建完成之后按下 F5 在 VisualStudio 中运行调试
 
@@ -144,7 +144,7 @@ info: Microsoft.Hosting.Lifetime[0]
 
 <!-- ![](images/img-asp dotnet core 从零开始创建一个 WebApi 服务7.png) -->
 
-![](images/img-lindexi%2F2020224126199174.jpg)
+![](images/img-modify-c49676ea2616a3785b519d42e9b808d0.jpg)
 
 其实都是通过 Route 这个特性进行识别的，这个特性的功能大概可以水几篇博客哦，本文这里就不多说了，大概通过上面两个例子大家也能知道是如何使用的
 
@@ -178,19 +178,19 @@ info: Microsoft.Hosting.Lifetime[0]
 
 <!-- ![](images/img-asp dotnet core 从零开始创建一个 WebApi 服务8.png) -->
 
-![](images/img-lindexi%2F20202241228314984.jpg)
+![](images/img-modify-7749ae945aae82cc7aed252100fa7527.jpg)
 
 此时点击编辑可以进行设置是否使用框架依赖发布或独立发布
 
 <!-- ![](images/img-asp dotnet core 从零开始创建一个 WebApi 服务9.png) -->
 
-![](images/img-lindexi%2F20202241229386807.jpg)
+![](images/img-modify-f47457acc5fc599b593ab21a4d41e203.jpg)
 
 什么是框架发布？框架发布就是依赖对应的框架，我需要在服务器上面先安装 dotnet 工具然后我才可以运行这个应用。而独立发布就是我将所有的依赖全部放在一起，相比框架依赖的优点就是到服务器不需要部署安装环境，只需要运行我的程序就可以了。而缺点就是发布的文件会比较大，虽然这点大小可以忽略，大概就100M左右
 
 <!-- ![](images/img-asp dotnet core 从零开始创建一个 WebApi 服务10.png) -->
 
-![](images/img-lindexi%2F20202241231248223.jpg)
+![](images/img-modify-1bd8c7da6b06127dc0773fd73c940003.jpg)
 
 完成配置之后，可以点击发布按钮，发布完成之后就可以将发布文件发送给服务器进行运行了。如果服务器上配置了 FTP 等，那么还可以省略上传的步骤。如果设置的是 Azure 虚拟机，部署上去之后还能帮忙跑起来
 
@@ -202,13 +202,13 @@ info: Microsoft.Hosting.Lifetime[0]
 
 <!-- ![](images/img-asp dotnet core 从零开始创建一个 WebApi 服务11.png) -->
 
-![](images/img-lindexi%2F20202241236441985.jpg)
+![](images/img-modify-4508b5319d21d60fb40a699db9c82985.jpg)
 
 接着右击 dockerfile 点击生成 docker image 按钮
 
 <!-- ![](images/img-asp dotnet core 从零开始创建一个 WebApi 服务12.png) -->
 
-![](images/img-lindexi%2F20202241237338585.jpg)
+![](images/img-modify-fea686ae507b5cd3d7e54e77df0a935c.jpg)
 
 接着就可以通过命令行输入 docker image list 找到刚才创建的 image 了，此时如何推送 docker 和如何发布本文就不多说了，小伙伴自己百度去
 

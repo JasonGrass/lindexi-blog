@@ -33,7 +33,7 @@ tags:
 
 <!-- ![](images/img-win10 uwp 使用 WinDbg 调试0.png) -->
 
-![](images/img-lindexi%2F20198319345802.png)
+![](images/img-modify-6513790eda28bd8a8ea10f03dba4c5e2.png)
 
 用这个版本输入下面代码将会提示 `Syntax error in '.querypackages'` 也就是不支持 UWP 调试
 
@@ -46,7 +46,7 @@ tags:
 
 <!-- ![](images/img-win10 uwp 使用 WinDbg 调试1.png) -->
 
-![](images/img-lindexi%2F201983193552220.png)
+![](images/img-modify-89ef63b2dbe61247639e16ca013b6879.png)
 
 ## 附加进程调试
 

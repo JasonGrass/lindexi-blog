@@ -44,7 +44,7 @@ tags:
 
 <!-- ![](images/img-WPF dotnet 使用本机映像 native 优化 dotnet framework 二进制文件0.png) -->
 
-![](images/img-lindexi%2F202022797159914.jpg)
+![](images/img-modify-5b4b2bd3193401eef5c92e1e5cd8f0a5.jpg)
 
 <!-- 以上是[官方文档](https://docs.microsoft.com/zh-cn/windows/msix/desktop/desktop-to-uwp-r2r) 提供的图片，而最新的 VisualStudio 2019 的设置如下图 -->
 
@@ -66,13 +66,13 @@ tags:
 
 <!-- ![](images/img-WPF dotnet 使用本机映像 native 优化 dotnet framework 二进制文件2.png) -->
 
-![](images/img-lindexi%2F202022791799100.jpg)
+![](images/img-modify-7a4f0cef1182d4724bd448116cebecf5.jpg)
 
 中文版界面请看下图
 
 <!-- ![](images/img-WPF dotnet 使用本机映像 native 优化 dotnet framework 二进制文件3.png) -->
 
-![](images/img-lindexi%2F2020227917576048.jpg)
+![](images/img-modify-3f5ce1ba5d44412b0c11998cf0035e40.jpg)
 
 注意，设置为 AnyCPU 不支持使用本机映像编译器构建
 

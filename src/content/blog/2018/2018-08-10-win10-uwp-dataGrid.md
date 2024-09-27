@@ -102,7 +102,7 @@ xaml：
 
 <!-- ![](images/img-win10_uwp_datagrid0.png) -->
 
-![](images/img-lindexi%2F20185271922537551.jpg)
+![](images/img-modify-6b0c30b9dbc0767dfd8c356f68b8c030.jpg)
 
 也就是不需要写代码就可以自动创建表格，因为默认的 AutoGenerateColumns 就是 true ，如果需要自定义表头，请看下面
 
@@ -133,7 +133,7 @@ xaml：
 
 <!-- ![](images/img-win10_uwp_datagrid1.png) -->
 
-![](images/img-lindexi%2F2018527192719520.jpg)
+![](images/img-modify-efa6e795c5cfb96bdbce56a21b1a5b0b.jpg)
 
 ### 属性
 
@@ -145,13 +145,13 @@ xaml：
 
 <!-- ![](images/img-win10_uwp_datagrid2.png) -->
 
-![](images/img-lindexi%2F20185271936574099.jpg)
+![](images/img-modify-68aedc9e2e6033dcd6a9d95140671fae.jpg)
 
 如果设置为 Horizontal 就显示水平的表格线，如下图
 
 <!-- ![](images/img-win10_uwp_datagrid3.png) -->
 
-![](images/img-lindexi%2F2018527193719194.jpg)
+![](images/img-modify-3b232b87ff2b1467e80067517c746ec8.jpg)
 
 还可以设置为 Vertical 只显示水平表格线，和设置 All 显示水平和垂直的表格线
 
@@ -171,7 +171,7 @@ xaml：
 
 <!-- ![](images/img-win10_uwp_datagrid4.png) -->
 
-![](images/img-lindexi%2F20185271940583087.jpg)
+![](images/img-modify-d0f80fc2dc9a51980875feb974bba693.jpg)
 
 #### 多选
 

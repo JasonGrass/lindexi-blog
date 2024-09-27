@@ -64,13 +64,13 @@ tags:
 
 <!-- ![](images/img-win10 uwp 使用 asp dotnet core 做图床服务器客户端0.png) -->
 
-![](images/img-lindexi%2F2018101820273610.png)
+![](images/img-modify-3a644f2d020854de1d0fcc04bd238521.png)
 
 接下来就是选择刚才模型创建控制器
 
 <!-- ![](images/img-win10 uwp 使用 asp dotnet core 做图床服务器客户端1.png) -->
 
-![](images/img-lindexi%2F20181018202824441.png)
+![](images/img-modify-17c4cfbc0d4fa048b5680c7e4e83f369.png)
 
 ### 添加上传下载代码
 
@@ -342,7 +342,7 @@ tags:
 
 <!-- ![](images/img-win10 uwp 使用 asp dotnet core 做图床服务器客户端2.png) -->
 
-![](images/img-lindexi%2F20181018203933380.png)
+![](images/img-modify-1663439649de6e0f079a48990ed2f581.png)
 
 一般只需要修改端口就可以
 

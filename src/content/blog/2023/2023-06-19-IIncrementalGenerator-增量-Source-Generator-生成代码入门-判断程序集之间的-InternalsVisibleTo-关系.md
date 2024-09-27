@@ -67,7 +67,7 @@ using System.Runtime.CompilerServices;
 
 大概的项目组织如下图
 
-![](images/img-lindexi%2F20236171619301553.jpg)
+![](images/img-modify-552f1d9440c98734db35583831cc7e76.jpg)
 
 修改 Analyzers 项目，让这个项目成为 Roslyn 分析器项目，修改之后的 csproj 项目文件代码如下
 

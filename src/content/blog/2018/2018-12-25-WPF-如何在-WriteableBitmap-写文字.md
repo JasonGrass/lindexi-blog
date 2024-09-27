@@ -107,7 +107,7 @@ tags:
 
 这样运行就可以看到文字，而且这个方法的性能比较好
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F20171215172352017-modify-f51832a5ab2672af935b265c384e8b0d.jpg)
+![](images/img-modify-f51832a5ab2672af935b265c384e8b0d.jpg)
 
 因为我没有设置文字大小和显示的大小，所以看起来文字就没有那么清晰
 

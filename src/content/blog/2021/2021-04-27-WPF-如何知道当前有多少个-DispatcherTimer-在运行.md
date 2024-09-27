@@ -47,19 +47,19 @@ tags:
 
 <!-- ![](images/img-WPF 如何知道当前有多少个 DispatcherTime 在运行0.png) -->
 
-![](images/img-lindexi%2F2021427848391412.jpg)
+![](images/img-modify-347478a17fe7386c608b6f5da7390e0e.jpg)
 
 进入 VisualStudio 的监视界面，输入 `System.Windows.Threading.Dispatcher.CurrentDispatcher._timers` 即可了解当前主线程有多少个 DispatcherTime 定时器在运行。根据 Dispatcher.CurrentDispatcher 的定义，此 CurrentDispatcher 是 ThreadStatic 线程静态，因此以上调试断点必须落在主线程执行的代码
 
 <!-- ![](images/img-WPF 如何知道当前有多少个 DispatcherTime 在运行1.png) -->
 
-![](images/img-lindexi%2F2021427850496549.jpg)
+![](images/img-modify-9ddeab2a2169466abf43e096a975ec97.jpg)
 
 如进一步了解当前的 DispatcherTimer 定时器是由哪个业务模块定义的，可以通过 `Tick` 委托找到对应的业务模块，如下图
 
 <!-- ![](images/img-WPF 如何知道当前有多少个 DispatcherTime 在运行2.png) -->
 
-![](images/img-lindexi%2F202142785269796.jpg)
+![](images/img-modify-2297efa40bb8f9a791f7884c45eb8f8b.jpg)
 
 通过 `Tick` 委托可以了解到是哪个类的哪个方法，通过静态代码可以找到业务
 
@@ -71,7 +71,7 @@ tags:
 
 <!-- ![](images/img-WPF 如何知道当前有多少个 DispatcherTime 在运行3.png) -->
 
-![](images/img-lindexi%2F202142797477989.jpg)
+![](images/img-modify-94641480b33f833041800e6380a76f7f.jpg)
 
 加载符号时需要一点网络，基本上都能加载成功。为什么需要加载 WindowsBase.dll 的符号？原因是 System.Windows.Threading.DispatcherTimer 定义在 WindowsBase 程序集
 
@@ -79,14 +79,14 @@ tags:
 
 <!-- ![](images/img-WPF 如何知道当前有多少个 DispatcherTime 在运行5.png) -->
 
-![](images/img-lindexi%2F20214279105514.jpg)
+![](images/img-modify-9f046090b4199ee044e7a742ea8c72b9.jpg)
 
 
 输入调试的函数，进行断点，如断点放在 `System.Windows.Threading.DispatcherTimer.Start` 函数里面，当然，这只是一个例子
 
 <!-- ![](images/img-WPF 如何知道当前有多少个 DispatcherTime 在运行6.png) -->
 
-![](images/img-lindexi%2F2021427911339141.jpg)
+![](images/img-modify-4bb818432d0b3dab128c5f37dd5348b1.jpg)
 
 这样在触发 DispatcherTimer.Start 函数将会进入断点
 
@@ -94,13 +94,13 @@ tags:
 
 <!-- ![](images/img-WPF 如何知道当前有多少个 DispatcherTime 在运行4.png) -->
 
-![](images/img-lindexi%2F2021427910175813.jpg)
+![](images/img-modify-265938f64ee69e6cc68de6112cd52b11.jpg)
 
 通过调用堆栈即可了解到当前是哪个模块调用了 DispatcherTimer.Start 函数
 
 <!-- ![](images/img-WPF 如何知道当前有多少个 DispatcherTime 在运行7.png) -->
 
-![](images/img-lindexi%2F2021427912181310.jpg)
+![](images/img-modify-4ef3b6979de86ad07925a65104343668.jpg)
 
 以上步骤比较多，还需要大家玩一下才能了解
 

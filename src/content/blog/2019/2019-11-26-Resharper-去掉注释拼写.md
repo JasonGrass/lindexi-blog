@@ -30,25 +30,25 @@ tags:
 
 <!-- ![](images/img-Resharper 去掉注释拼写1.png) -->
 
-![](images/img-lindexi%2F20189418353344.png)
+![](images/img-modify-12a3700bfaa27f1de2a43ecb69ba62ac.png)
 
 这时我的 `switch` 单词写不对，从上面图片可以看到单词下面有下划线，通过在下划线按 `alt+enter` 就看可以看到 Resharper 的提示
 
 <!-- ![](images/img-Resharper 去掉注释拼写2.png) -->
 
-![](images/img-lindexi%2F201894183641549.png)
+![](images/img-modify-dab8537c9d91656a803ce5e6e43fda9c.png)
 
 这时可以通过 Resharper 的拼写重新命名，注意现在的 Resharper 还不会自动帮你选择一个单词，需要自己修改单词。
 
 <!-- ![](images/img-Resharper 去掉注释拼写4.png) -->
 
-![](images/img-lindexi%2F201894183827660.png)
+![](images/img-modify-1888d8a43d929cd0e99336c79e034b0d.png)
 
 如果单词是自己创建的，可以使用添加到字典，可以添加到自己的设备的设置，可以添加到项目的私人配置，可以添加到项目的团队配置。
 
 <!-- ![](images/img-Resharper 去掉注释拼写5.png) -->
 
-![](images/img-lindexi%2F201894184059924.png)
+![](images/img-modify-288619c2b65f4f727c9893728d048ad5.png)
 
 如果添加到团队的设置，就可以使用 git 同步到团队的仓库
 
@@ -60,7 +60,7 @@ tags:
 
 <!-- ![](images/img-Resharper 去掉注释拼写0.png) -->
 
-![](images/img-lindexi%2F201894183237702.png)
+![](images/img-modify-6ce926fb0fe5108d7955b8c3846b863d.png)
 
 现在在 Resharper 默认就打开这个功能，需要点击 Resharper 选择 Option 在 `Code Inspection->inspection severity` 输入 `typo` 搜索
 
@@ -84,7 +84,7 @@ tags:
 
 <!-- ![](images/img-Resharper 去掉注释拼写7.png) -->
 
-![](images/img-lindexi%2F201894184512799.png)
+![](images/img-modify-1bd2301b203001026758b0b6fbaa81df.png)
 
 参见 [Integrated spell checking with ReSpeller in ReSharper and Rider - .NET Tools Blog.NET Tools Blog](https://blog.jetbrains.com/dotnet/2018/07/10/integrated-spell-checking-respeller-resharper-rider/ )
 

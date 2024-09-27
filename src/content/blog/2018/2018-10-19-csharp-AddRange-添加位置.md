@@ -43,5 +43,5 @@ tags:
 
 不要打我，答案是 1256， AddRange 添加数组的末尾。
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2017917111552-modify-6d4d22daee5f84aba718de8394b2c012.jpg)
+![](images/img-modify-6d4d22daee5f84aba718de8394b2c012.jpg)
 

@@ -24,7 +24,7 @@ tags:
 
 <!-- ![](images/img-dotnet 在析构函数调用 ThreadLocal 也许会抛出对方已释放0.png) -->
 
-![](images/img-lindexi%2F202111292027212000.jpg)
+![](images/img-modify-85a5db05c440d2b318bed3605e319f8b.jpg)
 
 调用堆栈是 `~ByteListMessageStream` 函数，也就是 ByteListMessageStream 的 析构函数。代码如下
 
@@ -37,13 +37,13 @@ tags:
 
 <!-- ![](images/img-dotnet 在析构函数调用 ThreadLocal 也许会抛出对方已释放2.png) -->
 
-![](images/img-lindexi%2F202111292029373046.jpg)
+![](images/img-modify-27b94c4baabf65c4d1aec87f657600db.jpg)
 
 在进行数组归还的时候，因为 ThreadLocal 已被释放，所在的线程也不存在。此时的访问将失败，如下图
 
 <!-- ![](images/img-dotnet 在析构函数调用 ThreadLocal 也许会抛出对方已释放1.png) -->
 
-![](images/img-lindexi%2F20211129202922896.jpg)
+![](images/img-modify-9b8de83fcce6a3e079d60c19315a2f23.jpg)
 
 请大家不要重复踩入此坑
 

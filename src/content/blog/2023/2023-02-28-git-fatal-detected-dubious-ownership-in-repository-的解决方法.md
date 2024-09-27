@@ -35,6 +35,6 @@ tags:
 
 <!-- ![](images/img-git fatal detected dubious ownership in repository 的解决方法-modify-4e2e8578fc039d10f3f42f924be41f38.png) -->
 
-![](images/img-lindexi%2F2023228124415551.jpg)
+![](images/img-modify-b4f67a85f399815956001d1d7b0c7cc6.jpg)
 
 更改所有者之后，再次试试 git 命令，预计此时就可以使用

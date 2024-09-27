@@ -25,7 +25,7 @@ tags:
 
 <!-- ![](images/img-VisualStudio 2019 新创建项目添加 git 仓库1.png) -->
 
-![](images/img-lindexi%2F201972515142244.png)
+![](images/img-modify-76913b820e4f1d3437539095e53ea46a.png)
 
 如上图，在 VisualStudio 2019 去掉了在新建项目的同时创建 git 仓库的功能
 
@@ -33,13 +33,13 @@ tags:
 
 <!-- ![](images/img-VisualStudio 2019 新创建项目添加 git 仓库0.png) -->
 
-![](images/img-lindexi%2F20197251534592.png)
+![](images/img-modify-a0ccb648390985d5db03660b5faf2b87.png)
 
 或者在文件里面点击添加到源代码管理的选项
 
 <!-- ![](images/img-VisualStudio 2019 新创建项目添加 git 仓库2.png) -->
 
-![](images/img-lindexi%2F201972515630516.png)
+![](images/img-modify-87ebc72a1cf898dce6a69e920bf873e3.png)
 
 使用 VisualStudio 新建的 Git 仓库可以自动添加 `.gitignore` 和 `.gitattributes` 文件，在忽略文件里面包含了编译创建的文件，这样就不会上传编译创建的文件
 

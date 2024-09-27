@@ -68,7 +68,7 @@ dotnet gcdump collect -p <target-process-PID>
 
 <!-- ![](images/img-dotnet 用 gcdump 调试应用程序内存占用0.png) -->
 
-![](images/img-lindexi%2F202011795246131.png)
+![](images/img-modify-6c08d963373d85b152caab41873320f9.png)
 
 这是[测试程序](https://github.com/lindexi/lindexi_gd/tree/648db1f7aba1308b5741e6b428b78ac1e79a54c3/WearbewhujawChallwealicel)的分析，通过这个工具可以非常方便拿到某个进程的内存
 

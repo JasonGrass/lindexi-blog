@@ -32,7 +32,7 @@ The prompt for a missing Windows App Runtime environment on the user's machine l
 > Do you want to install a compatible Windows App Runtime now?
 
 <!-- ![](images/img-WinUI 3 修复非打包应用运行提示缺少 Windows App Runtime 环境0.png) -->
-![](images/img-lindexi%2F20236151933384613.jpg)
+![](images/img-modify-bdf4e64d11138c86b0282e37247f24e9.jpg)
 
 Clicking "Yes" will take you to the [https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/downloads](https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/downloads) download page.
 

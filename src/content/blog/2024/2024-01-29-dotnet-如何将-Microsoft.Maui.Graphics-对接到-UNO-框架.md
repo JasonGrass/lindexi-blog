@@ -36,7 +36,7 @@ tags:
 整体的架构引用关系图如下
 
 <!-- ![](images/img-dotnet 如何将 Microsoft.Maui.Graphics 对接到 UNO 框架0.png) -->
-![](images/img-lindexi%2F20241291046424091.jpg)
+![](images/img-modify-98df753bd3114b856439efcf2d0505d4.jpg)
 
 上图的 Microsoft.Maui.Graphics.UnoAbstract 和 UnoHacker (SamplesApp) 就是接下来咱重点要工作的部分，额外的一部分工作则放在 Uno.Skia.WPF 和 Uno.Skia.GTK 平台对接代码上，平台项目的对接工作量很小，所需的代码量很少
 
@@ -249,7 +249,7 @@ public class Program
 运行项目，将可以看到如下界面
 
 <!-- ![](images/img-dotnet 如何将 Microsoft.Maui.Graphics 对接到 UNO 框架1.png) -->
-![](images/img-lindexi%2F20241291131332697.jpg)
+![](images/img-modify-88f17398f2bc05b422b36ec479728e64.jpg)
 
 本文以上代码放在[github](https://github.com/lindexi/lindexi_gd/tree/daf3e44a853177d55e9ebb15d989e27b1e497591/KefalurcilaybelJallbuderenajel) 和 [gitee](https://gitee.com/lindexi/lindexi_gd/tree/daf3e44a853177d55e9ebb15d989e27b1e497591/KefalurcilaybelJallbuderenajel) 欢迎访问
 

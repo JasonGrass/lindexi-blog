@@ -30,43 +30,43 @@ tags:
 
 <!-- ![](images/img-win10 uwp 使用 Azure DevOps 自动构建0.png) -->
 
-![](images/img-lindexi%2F2018116203842298.png)
+![](images/img-modify-dbe3f9cdddbf36dbd1c9169217c9c3ad.png)
 
 创建的时候需要等待很久，创建之后点击 Repos 导入 github 的仓库作为代码库，或者自己使用创建的项目提交代码
 
 <!-- ![](images/img-win10 uwp 使用 Azure DevOps 自动构建1.png) -->
 
-![](images/img-lindexi%2F2018116203944879.png)
+![](images/img-modify-ae336b0502e28afdb0e2170118fd07ef.png)
 
 本文是导入开源在 github 的 uwp 图床项目，点击导入
 
 <!-- ![](images/img-win10 uwp 使用 Azure DevOps 自动构建2.png) -->
 
-![](images/img-lindexi%2F2018116204014790.png)
+![](images/img-modify-30a6c6f30bb2ee0c692c337e52d54fc5.png)
 
 输入自己的仓库地址
 
 <!-- ![](images/img-win10 uwp 使用 Azure DevOps 自动构建3.png) -->
 
-![](images/img-lindexi%2F2018116204040211.png)
+![](images/img-modify-54b76bdcffaeb3ed8a5283de8ae514c1.png)
 
 点击 Pipelines 点击 Build 配置自动构建
 
 <!-- ![](images/img-win10 uwp 使用 Azure DevOps 自动构建4.png) -->
 
-![](images/img-lindexi%2F2018116204137570.png)
+![](images/img-modify-0738e7c3accf7f94ca70ce0201db87aa.png)
 
 创建新的构建
 
 <!-- ![](images/img-win10 uwp 使用 Azure DevOps 自动构建5.png) -->
 
-![](images/img-lindexi%2F2018116204156981.png)
+![](images/img-modify-b0b93e6fa23a93efa17ab99dcb63750f.png)
 
 因为刚才已经导入代码，现在就可以直接导入代码
 
 <!-- ![](images/img-win10 uwp 使用 Azure DevOps 自动构建6.png) -->
 
-![](images/img-lindexi%2F2018116204240144.png)
+![](images/img-modify-b02213e3037a67124450c4ff26feb14d.png)
 
 直接点击下一步就可以
 
@@ -74,7 +74,7 @@ tags:
 
 <!-- ![](images/img-win10 uwp 使用 Azure DevOps 自动构建7.png) -->
 
-![](images/img-lindexi%2F2018116204342413.png)
+![](images/img-modify-fb82da655f80f2586e1c23cc8861d0c1.png)
 
 点击应用
 
@@ -82,31 +82,31 @@ tags:
 
 <!-- ![](images/img-win10 uwp 使用 Azure DevOps 自动构建9.png) -->
 
-![](images/img-lindexi%2F201811620481520.png)
+![](images/img-modify-84002cd5f272f8e951a9cf9ea76fc229.png)
 
 这里选择项目之后点击保存
 
 <!-- ![](images/img-win10 uwp 使用 Azure DevOps 自动构建10.png) -->
 
-![](images/img-lindexi%2F2018116204850186.png)
+![](images/img-modify-031ea300c576cdd6934f4d49652e73cf.png)
 
 点击队列按钮就可以进行构建
 
 <!-- ![](images/img-win10 uwp 使用 Azure DevOps 自动构建11.png) -->
 
-![](images/img-lindexi%2F2018116205047145.png)
+![](images/img-modify-2c11f1b53d54886c83f83eb892a56323.png)
 
 这样就设置好了构建的方法，点击 Triggers 设置触发，可以设置有 push 上去就进行构建，也可以设置在某个时间进行构建
 
 <!-- ![](images/img-win10 uwp 使用 Azure DevOps 自动构建12.png) -->
 
-![](images/img-lindexi%2F2018116205245547.png)
+![](images/img-modify-b979925e1c130c46b95b7c75f341c98d.png)
 
 点击添加任务，可以设置在某一天的时间构建
 
 <!-- ![](images/img-win10 uwp 使用 Azure DevOps 自动构建13.png) -->
 
-![](images/img-lindexi%2F2018116205334255.png)
+![](images/img-modify-c5e49f7e6739f052f1c9cc898021848e.png)
 
 设置完成点击保存就可以
 
@@ -114,19 +114,19 @@ tags:
 
 <!-- ![](images/img-win10 uwp 使用 Azure DevOps 自动构建8.png) -->
 
-![](images/img-lindexi%2F2018116204711359.png)
+![](images/img-modify-6944d40ff478913a28c02fc166c8824e.png)
 
 选择需要编译的项目，如果有单元测试项目就设置单元测试项目
 
 <!-- ![](images/img-win10 uwp 使用 Azure DevOps 自动构建14.png) -->
 
-![](images/img-lindexi%2F2018116205553394.png)
+![](images/img-modify-22eccdeedfb9d7a5e5a593f51bec390c.png)
 
 如果没有单元测试项目就点击移除单元测试项目
 
 <!-- ![](images/img-win10 uwp 使用 Azure DevOps 自动构建15.png) -->
 
-![](images/img-lindexi%2F2018116205622467.png)
+![](images/img-modify-9c1d14630329786ffa3cce564145455b.png)
 
 设置完成之后点击保存
 
@@ -136,7 +136,7 @@ tags:
 
 <!-- ![](images/img-win10 uwp 使用 Azure DevOps 自动构建16.png) -->
 
-![](images/img-lindexi%2F2018116205840156.png)
+![](images/img-modify-0f196fa11d45a71fd07a338febd34fb2.png)
 
 直接点击队列按钮就可以
 
@@ -144,13 +144,13 @@ tags:
 
 <!-- ![](images/img-win10 uwp 使用 Azure DevOps 自动构建17.png) -->
 
-![](images/img-lindexi%2F2018116205911728.png)
+![](images/img-modify-ef60d3a5bec19a90141c990e37be9dcc.png)
 
 再次点击 Build 就可以看到当前的构建
 
 <!-- ![](images/img-win10 uwp 使用 Azure DevOps 自动构建18.png) -->
 
-![](images/img-lindexi%2F2018116205939773.png)
+![](images/img-modify-dcd0d78c2ff2070c825f8c0e0cc36648.png)
 
 点击 Option 可以将构建是否成功的图标复制出来
 

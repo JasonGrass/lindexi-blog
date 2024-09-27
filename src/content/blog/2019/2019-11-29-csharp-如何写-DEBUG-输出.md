@@ -135,7 +135,7 @@ using lindexi.linq;
 
 <!-- ![](images/img-C# 如何写 DEBUG 输出0.png) -->
 
-![](images/img-lindexi%2F201976144722703.png)
+![](images/img-modify-b17f2b2b12d6240530d49222b3ed6e9e.png)
 
 ## 过滤输出
 

@@ -191,7 +191,7 @@ namespace AddDllDirectoryDetectCs
 
 <!-- ![](images/img-探索 dotnet core 为何在 Windows7 系统需要补丁的原因0.png) -->
 
-![](images/img-lindexi%2F202112251032427520.jpg)
+![](images/img-modify-80bf873d0802314a86225645d590cf13.jpg)
 
 收到 [Vatsan Madhavan](https://github.com/vatsan-madhavan ) 大佬赞
 

@@ -66,13 +66,13 @@ tags:
 
 <!-- ![](images/img-C# dotnet 高性能多线程工具 ExecuteOnceAwaiter 只执行一次的任务0.png) -->
 
-![](images/img-lindexi%2F202092594236174.jpg)
+![](images/img-modify-e7b8b7f7515f204d45b7d07454a542f1.jpg)
 
 <!-- ![](images/img-C# dotnet 高性能多线程工具 ExecuteOnceAwaiter 只执行一次的任务1.gif) -->
 
 执行的效果如下图，在点击启动任务多次的时候，只有一个任务在执行。在任务执行过程点击重置任务是啥都不做。在任务执行完成之后，点击重置任务，可以重新运行任务
 
-![](images/img-lindexi%2FC%2523%2520dotnet%2520%25E9%25AB%2598%25E6%258-modify-55a09eed222af2659aee252ef63c9752.gif)
+![](images/img-modify-55a09eed222af2659aee252ef63c9752.gif)
 
 界面代码如下
 

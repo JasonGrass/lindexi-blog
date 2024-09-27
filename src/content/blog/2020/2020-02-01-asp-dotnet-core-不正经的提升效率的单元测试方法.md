@@ -55,7 +55,7 @@ public class DemoTest
 
 运行单元测试将看到这样的结果视图
 
-![](images/img-lindexi%2F20202111018744.jpg)
+![](images/img-modify-5f3b711aff04f7476bb705e1a67de893.jpg)
 
 只要有任何一个单元测试炸了，相信小伙伴看提示特别快就知道哪里炸了
 

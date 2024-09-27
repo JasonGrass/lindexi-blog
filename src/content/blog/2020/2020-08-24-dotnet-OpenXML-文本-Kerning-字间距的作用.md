@@ -28,7 +28,7 @@ tags:
 
 <!-- ![](images/img-dotnet OpenXML 文本 Kerning 字间距的作用0.png) -->
 
-![](images/img-lindexi%2Fdotnet%2520OpenXML%2520%25E6%2596%2587%25E6%25-modify-50391119ed0458652986b8e2eb5bc7a1.png)
+![](images/img-modify-50391119ed0458652986b8e2eb5bc7a1.png)
 
 在第一行是经过优化的文本，可以看到 AV 这两个字符的间距和 AR 是不相同，而 AV 和 AT 都会有两个字符重叠，此时在英语语系阅读第一行字符会感到舒服
 

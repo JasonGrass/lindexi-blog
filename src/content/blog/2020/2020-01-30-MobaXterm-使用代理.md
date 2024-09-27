@@ -34,29 +34,29 @@ tags:
 
 点击 MobaXterm 的 Tool 可以打开 ssh 通道，打开可以看到下面的界面
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201821317278.jpg)
+![](images/img-modify-e57dca2b596f977a601c95621de3bee9.jpg)
 
 点击创建新通道
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2018213172725-modify-85b8c6ca9166b866364054bc53a95ee6.jpg)
+![](images/img-modify-85b8c6ca9166b866364054bc53a95ee6.jpg)
 
 选择 动态端口，然后写入本地的端口和中间服务器的端口点击保存，然后启动
 
 ## ssh 代理
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201821317278.jpg)
+![](images/img-modify-e57dca2b596f977a601c95621de3bee9.jpg)
 
 点击创建新通道，然后输入服务器和端口
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2018213172725-modify-85b8c6ca9166b866364054bc53a95ee6.jpg)
+![](images/img-modify-85b8c6ca9166b866364054bc53a95ee6.jpg)
 
 选择 动态端口，然后写入本地的端口和中间服务器的端口点击保存，然后启动
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2018213172748-modify-6bd14fa50cfd436d1f32c31df7fff21f.jpg)
+![](images/img-modify-6bd14fa50cfd436d1f32c31df7fff21f.jpg)
 
 设置完成点保存，然后开启
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2018213145741-modify-12e1f7e2c87e6aae1bd7f4cf64eca134.jpg)
+![](images/img-modify-12e1f7e2c87e6aae1bd7f4cf64eca134.jpg)
 
 ## ssh 代理
 
@@ -68,7 +68,7 @@ tags:
 ssh -D 代理端口 服务器 -p 端口
 ```
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2018213172918-modify-1877b5f24bb928979cd692176b026aa0.jpg)
+![](images/img-modify-1877b5f24bb928979cd692176b026aa0.jpg)
 
 如果需要指定端口，请加上 `-p 端口`
 
@@ -76,7 +76,7 @@ ssh -D 代理端口 服务器 -p 端口
 
 这个是我现在使用的方法，点击编辑连接可以看到下面界面
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F2018213173016-modify-a25e5ed96b7223f46663a33a99b4bf01.jpg)
+![](images/img-modify-a25e5ed96b7223f46663a33a99b4bf01.jpg)
 
 点击 use proxy 选择代理，然后写入服务器就可以
 
@@ -84,7 +84,7 @@ ssh -D 代理端口 服务器 -p 端口
 
 如果需要使用中间服务器，可以点击 Connect through ssh gateway 然后写入服务器的地址和端口
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201821317311.jpg)
+![](images/img-modify-a54ab87ead62d70af77080d5b133b50e.jpg)
 
 如果在使用中发现任何问题，欢迎告诉我
 

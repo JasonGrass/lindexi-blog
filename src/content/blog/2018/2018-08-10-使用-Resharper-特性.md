@@ -27,11 +27,11 @@ tags:
 
 如果想使用 Resharper 特性，首先需要安装一些类。最简单方法是随便写一个类，然后继承`INotifyPropertyChanged`按 alt+Enter选择 Implement InotifyPropertyChanged ，请看下面
 
-![](images/img-lindexi%2F20184251127266332.jpg)
+![](images/img-modify-e8f0ba8cace308d0d65b08bd40c098f0.jpg)
 
 现在 Resharper 会问你是不是要在项目添加特性，点击确定
 
-![](images/img-lindexi%2F2018425112939438.jpg)
+![](images/img-modify-e924e97a0902d3501f59606436980ae5.jpg)
 
 可以看到项目有 Annotations.cs ，这个类就是特性
 
@@ -41,17 +41,17 @@ tags:
 
 表示属性或参数可能为空，返回值可能为空。
 
-![](images/img-lindexi%2F20184251132503207.jpg)
+![](images/img-modify-a9066dfc2ecaeeda79bbea695d20e3f9.jpg)
 
 使用了这个特性，就可以告诉 Resharper 在使用这个属性、参数之前需要先判断是不是空。
 
-![](images/img-lindexi%2F2018425113574576.jpg)
+![](images/img-modify-487e98d7c91bd451cac8f90c5cdd94f6.jpg)
 
 ## NotNullAttribute
 
 和上面的不同，这个表示这个参数属性不为空。但是如果是公开的接口，还是需要判断。
 
-![](images/img-lindexi%2F20184251138269628.jpg)
+![](images/img-modify-1675fff041d38f82cd081322fbe2478b.jpg)
 
 标记了参数 NotNull 是告诉调用的时候不要传入为空，函数还是需要判断传入是否空。
 
@@ -61,7 +61,7 @@ tags:
 
 表示一个列表的所有参数都不为空
 
-![](images/img-lindexi%2F20184251150427793.jpg)
+![](images/img-modify-fa00d5a1feca7c0192879240e22fb1c6.jpg)
 
 如果判断一个项为空，就会提示这个为true，一般用在函数返回
 
@@ -69,7 +69,7 @@ tags:
 
 和上面不同，表示列表可能存空的
 
-![](images/img-lindexi%2F2018425115133496.jpg)
+![](images/img-modify-5eadd43209c73305769939310f703e55.jpg)
 
 如果不判断是否空的就使用，会告诉可能这个参数异常，这个很多人都在函数返回使用
 
@@ -141,7 +141,7 @@ tags:
     }
 ```
 
-![](images/img-lindexi%2F20184251410312081.jpg)
+![](images/img-modify-79ba70912c138017232aeda80680b799.jpg)
 
 除了标记在类 LocalizationRequiredAttribute 也可以标记属性
 
@@ -155,7 +155,7 @@ tags:
     }
 ```
 
-![](images/img-lindexi%2F201842514121763.jpg)
+![](images/img-modify-7877ea1ca3e422edecc55ca0a9839cdd.jpg)
 
 ## CannotApplyEqualityOperatorAttribute
 
@@ -166,7 +166,7 @@ tags:
     public class DwdThfck
 ```
 
-![](images/img-lindexi%2F2018425141438995.jpg)
+![](images/img-modify-c7ddbcac1b19516b14e80c8700fe4e56.jpg)
 
 一般用在两个不能用来判断大小和相等的类。
 
@@ -184,7 +184,7 @@ tags:
 
 即使一个接口现在只有内部使用，他也不会说 public can be make private 
 
-![](images/img-lindexi%2F2018425141825989.jpg)
+![](images/img-modify-1bf6559e2d080b9f1891f8b9f8b6b3ef.jpg)
 
 尝试去掉 PublicAPI 就会告诉 KqoSgqkpifef 方法没有被使用，HokwdSni 可以写为私有。
 
@@ -218,7 +218,7 @@ tags:
         private int Multiply(int x, int y) => x * y;
 ```
 
-![](images/img-lindexi%2F20184251420423223.jpg)
+![](images/img-modify-a49ae2dd0189b39648f2f6450a5d7358.jpg)
 
 ## PathReferenceAttribute
 
@@ -231,7 +231,7 @@ tags:
         }
 ```
 
-![](images/img-lindexi%2F2018425142339986.jpg)
+![](images/img-modify-d7ec90ae238da2c3211a9d19f8b5e569.jpg)
 
 ## CollectionAccessAttribute
 
@@ -305,7 +305,7 @@ tags:
 
 用于标记在特性，表示只有基类继承某个类的才可以使用这个特性
 
-![](images/img-lindexi%2F2018425164248513.jpg)
+![](images/img-modify-fb758f847ae51c43e37a6ab255da553b.jpg)
 
 [C#/.NET 中的契约 - walterlv](https://walterlv.github.io/post/contracts-in-csharp.html#resharper-%E4%B8%AD%E5%B8%B8%E7%94%A8%E7%9A%84%E5%A5%91%E7%BA%A6-attribute )
 

@@ -61,7 +61,7 @@ tags:
 
 <!-- ![](images/img-dotnet OpenXML 继承组合颜色的 GrpFill 属性0.png) -->
 
-![](images/img-lindexi%2F2021724152819149.jpg)
+![](images/img-modify-09f9d41669dbe6e6958260010f556863.jpg)
 
 可以看到左边的矩形采用了 `565656` 的颜色，而另一个矩形采用自己定义的 `F6F656` 颜色。也就是说第一个矩形的颜色是从组合读取的
 
@@ -153,7 +153,7 @@ git remote add origin https://github.com/lindexi/lindexi_gd.git
 
 <!-- ![](images/img-dotnet OpenXML 继承组合颜色的 GrpFill 属性1.png) -->
 
-![](images/img-lindexi%2F20217241817573168.jpg)
+![](images/img-modify-dbf6884e9e0140997842d06008e0c713.jpg)
 
 修改一下逻辑，如下
 
@@ -237,7 +237,7 @@ git pull origin f15fb418610fc95ac807289a4ea19343489daa2d
 
 <!-- ![](images/img-dotnet OpenXML 继承组合颜色的 GrpFill 属性2.png) -->
 
-![](images/img-lindexi%2F20217251038379856.jpg)
+![](images/img-modify-43bcee5c8752ae8dabbcf23136632ce5.jpg)
 
 咱使用代码读取的方法如下
 

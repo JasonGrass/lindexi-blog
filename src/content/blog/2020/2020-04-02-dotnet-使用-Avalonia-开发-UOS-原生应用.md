@@ -86,7 +86,7 @@ chmod 777 ./avalonial
 
 <!-- ![](images/img-dotnet 使用 Avalonia 开发 UOS 原生应用0.png) -->
 
-![](images/img-lindexi%2F20204293577880.jpg)
+![](images/img-modify-66b0c254cb190f7a391d65eee9ae8b9e.jpg)
 
 在成功跑起来之后，再请小伙伴修改界面，写出还玩的应用。此时部署炸了就肯定不会说 Avalonia 不兼容 UOS 了
 

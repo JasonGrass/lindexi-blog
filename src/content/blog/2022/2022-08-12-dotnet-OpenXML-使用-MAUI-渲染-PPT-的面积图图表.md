@@ -26,7 +26,7 @@ tags:
 
 <!-- ![](images/img-dotnet OpenXML 使用 MAUI 渲染 PPT 的面积图图表3.png) -->
 
-![](images/img-lindexi%2F20228121559227277.jpg)
+![](images/img-modify-2f03ee4437d4fa45efe6a1a7fc6ed6fb.jpg)
 
 本文将包含两个部分，一个是解析渲染面积图图表，另一个是使用 MAUI 开发跨平台应用。解析面积图图表是用到 OpenXML 解析 PPT 的知识，本文只包含很少量的 OpenXML 的知识，我将详细的使用 OpenXML 解析 PPT 的面积图的方法放在了 [dotnet OpenXML 解析 PPT 图表 面积图入门](https://blog.lindexi.com/post/dotnet-OpenXML-%E8%A7%A3%E6%9E%90-PPT-%E5%9B%BE%E8%A1%A8-%E9%9D%A2%E7%A7%AF%E5%9B%BE%E5%85%A5%E9%97%A8.html ) 博客里。本文的用到的解析 PPT 的代码也是从此博客里面抄的，这部分代码将不会在本文上贴出。 如对 OpenXML 解析 PPT 毫无概念的伙伴，阅读本文也不会存在问题，只需要假定本文的解析 PPT 的代码是通过某个方式获取到了图表的相关信息即可，请将重点放在图表的绘制渲染，以及如何做跨平台对接上
 
@@ -39,24 +39,24 @@ tags:
 这是在 PPT 的图表：
 
 <!-- ![](images/img-dotnet OpenXML 使用 MAUI 渲染 PPT 的面积图图表0.png) -->
-![](images/img-lindexi%2F2022812849449398.jpg)
+![](images/img-modify-f9c6b749cfcc3c2dc2803e3ae610881b.jpg)
 
 在 Windows 下，使用 Skia 绘制为图片文件，然后使用 Image 控件显示图片，界面效果如下：
 
 <!-- ![](images/img-dotnet OpenXML 使用 MAUI 渲染 PPT 的面积图图表1.png) -->
-![](images/img-lindexi%2F2022812851569210.jpg)
+![](images/img-modify-43015b8eeb0878f6e1b17a100b48bf64.jpg)
 
 以上只是将 MAUI 接入 WPF 的一个方法。不代表只能通过图片文件的方式接入，其他绘制方法请看 [WPF 使用 MAUI 的自绘制逻辑](https://blog.lindexi.com/post/WPF-%E4%BD%BF%E7%94%A8-MAUI-%E7%9A%84%E8%87%AA%E7%BB%98%E5%88%B6%E9%80%BB%E8%BE%91.html )
 
 在 Linux 下，使用 Skia 对接 Gtk 框架，界面效果如下：
 
 <!-- ![](images/img-dotnet OpenXML 使用 MAUI 渲染 PPT 的面积图图表2.png) -->
-![](images/img-lindexi%2F2022812853375558.jpg)
+![](images/img-modify-8bd4a0501df23e376002c8ce1d58cfaf.jpg)
 
 动态运行效果如下
 
 <!-- ![](images/img-dotnet OpenXML 使用 MAUI 渲染 PPT 的面积图图表1.gif) -->
-![](images/img-lindexi%2Fdotnet%2520OpenXML%2520%25E4%25BD%25BF%25E7%25-modify-127f82342cfd028e242b7c8067156093.gif)
+![](images/img-modify-127f82342cfd028e242b7c8067156093.gif)
 
 接下来将告诉大家如何实现
 
@@ -101,13 +101,13 @@ public class AreaChartRenderContext
 
 <!-- ![](images/img-dotnet OpenXML 解析 PPT 图表 面积图入门2.png) -->
 
-![](images/img-lindexi%2F2022841720599455.jpg)
+![](images/img-modify-50b9faae634a2a2a88b460619f767bda.jpg)
 
 - 纵坐标轴：
 
 <!-- ![](images/img-dotnet OpenXML 解析 PPT 图表 面积图入门3.png) -->
 
-![](images/img-lindexi%2F2022841726527914.jpg)
+![](images/img-modify-755f6945aed0b3e283cac82c07a3da8a.jpg)
 
 - 数据系列：
 
@@ -117,7 +117,7 @@ public class AreaChartRenderContext
 
 <!-- ![](images/img-dotnet OpenXML 解析 PPT 图表 面积图入门4.png) -->
 
-![](images/img-lindexi%2F202284173329890.jpg)
+![](images/img-modify-3f84d16ed1af815388f5359fb694c3a4.jpg)
 
 系列名称大部分时候都放在图例里面，也就是图例里面的内容就是由系列名称提供的
 
@@ -125,7 +125,7 @@ public class AreaChartRenderContext
 
 <!-- ![](images/img-dotnet OpenXML 解析 PPT 图表 面积图入门5.png) -->
 
-![](images/img-lindexi%2F2022841735278798.jpg)
+![](images/img-modify-5b2d4951186997c3fa56281a3c0686e3.jpg)
 
 如图，面积图有两个数据系列，通过上面的 Excel 内容可以了解到两个系列的数据分别如下
 
@@ -761,7 +761,7 @@ public class SkiaPngImageRenderCanvas : IRenderCanvas
 运行效果如下
 
 <!-- ![](images/img-dotnet OpenXML 使用 MAUI 渲染 PPT 的面积图图表1.png) -->
-![](images/img-lindexi%2F2022812851569210.jpg)
+![](images/img-modify-43015b8eeb0878f6e1b17a100b48bf64.jpg)
 
 可以看到在 Windows 下，通过 WPF 对接 MAUI 是十分简单的
 
@@ -940,7 +940,7 @@ areaChartRender.Render(skiaCanvas);
 运行的效果如下
 
 <!-- ![](images/img-dotnet OpenXML 使用 MAUI 渲染 PPT 的面积图图表1.gif) -->
-![](images/img-lindexi%2Fdotnet%2520OpenXML%2520%25E4%25BD%25BF%25E7%25-modify-127f82342cfd028e242b7c8067156093.gif)
+![](images/img-modify-127f82342cfd028e242b7c8067156093.gif)
 
 这就是使用 MAUI 在 Windows 和 Linux 上解析和绘制 PPT 的图表的例子，本文忽略了很多细节，更多细节请阅读本文使用的代码
 

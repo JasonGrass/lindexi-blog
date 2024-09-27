@@ -34,7 +34,7 @@ lindexi’s iOS 13.1.2 doesn’t match cloudkeyboard.app’s iOS 14.0 deployment
 
 <!-- ![](images/img-Xamarin iOS 部署版本大于手机的系统版本0.png) -->
 
-![](images/img-lindexi%2F20201026102289762.jpg)
+![](images/img-modify-de7a9ce14ad396f16290d7a8ba3f4193.jpg)
 
 一个简单的解决方法就是使用文本编辑工具将 iOS 项目代码里面所有的 14.0 替换为 13.1 就可以了
 
@@ -42,7 +42,7 @@ lindexi’s iOS 13.1.2 doesn’t match cloudkeyboard.app’s iOS 14.0 deployment
 
 <!-- ![](images/img-Xamarin iOS 部署版本大于手机的系统版本1.png) -->
 
-![](images/img-lindexi%2F202010261025204707.jpg)
+![](images/img-modify-081f7c76a53b5e4c7a42e1ce65c11f68.jpg)
 
 要求选择 UIKit App Delegate 才可以
 

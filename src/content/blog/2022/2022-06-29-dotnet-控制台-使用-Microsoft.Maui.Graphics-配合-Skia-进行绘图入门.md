@@ -30,7 +30,7 @@ tags:
 
 <!-- ![](images/img-dotnet 控制台 使用 Microsoft.Maui.Graphics 配合 Skia 进行绘图入门0-modify-3c17a67c2191857edbda50bb746c11d3.png) -->
 
-![](images/img-lindexi%2F20226291517543714.jpg)
+![](images/img-modify-692cbca10ff4dfe4cd1d924448b14284.jpg)
 
 本文将从一个控制台开始，从比较基础的层面告诉大家如何使用 Microsoft.Maui.Graphics 进行绘图。我采用 Microsoft.Maui.Graphics.Skia 库的 Skia 进行具体的绘图实现，实现将画出的内容存放到本地文件
 
@@ -154,13 +154,13 @@ using (SKBitmap skBitmap = SKBitmap.FromImage(skImage))
 
 <!-- ![](images/img-dotnet 控制台 使用 Microsoft.Maui.Graphics 配合 Skia 进行绘图入门1-modify-64269c76a08d0d16d0e392f6698ff9db.png) -->
 
-![](images/img-lindexi%2F20226291555347769.jpg)
+![](images/img-modify-a37dc9c50c5aeceb48dcf13cfa4a501c.jpg)
 
 接下来进入 WLS 也运行一下代码
 
 <!-- ![](images/img-dotnet 控制台 使用 Microsoft.Maui.Graphics 配合 Skia 进行绘图入门2-modify-5f9a89759e07fba8dc3daf5070b0ca12.png) -->
 
-![](images/img-lindexi%2F20226291557539520.jpg)
+![](images/img-modify-b317a4786650fcf15ba86bb1bdba326e.jpg)
 
 输出的图片和在 Windows 上输出的图片文件是完全二进制相同的
 

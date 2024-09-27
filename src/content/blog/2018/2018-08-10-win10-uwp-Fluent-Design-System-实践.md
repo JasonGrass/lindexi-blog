@@ -28,7 +28,7 @@ tags:
 
 无边框的设计按钮在这里使用，可以看到无边框的按钮会在之后很多使用，如果大家在设计按钮的时候，试试直接使用。
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201812585415.jpg)
+![](images/img-modify-614aafca4cea707ad061f8763fb12bcf.jpg)
 
 无边框按钮请看 [[UWP]使用Reveal - dino.c - 博客园](http://www.cnblogs.com/dino623/p/Reveal.html )，里面的代码直接拿就可以做出无边框的按钮，下面是 dino 大神做出的界面
 
@@ -40,7 +40,7 @@ tags:
 
 在开始菜单也使用fds，主要是ListView 使用。
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201812591821.jpg)
+![](images/img-modify-50c02d93cfb09e4d06b300a944aa84ef.jpg)
 
 如何在软件使用毛玻璃，请看 [win10 uwp 毛玻璃 - 林德熙](https://lindexi.oschina.io/lindexi/post/win10-uwp-%E6%AF%9B%E7%8E%BB%E7%92%83.html )
 
@@ -48,7 +48,7 @@ tags:
 
 下面来告诉大家如何创建一个空白页面
 
-![](images/img-65fb6078-c169-4ce3-cdd9-e35752d07be0%2F20183421123.jpg)
+![](images/img-modify-d1caa82122cffa865a3475a52c0a494e.jpg)
 
 首先创建一个页面，随意的命名，然后在主页面跳转到这个页面，因为这是用于测试的。
 

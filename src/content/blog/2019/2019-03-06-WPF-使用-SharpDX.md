@@ -49,7 +49,7 @@ tags:
 
 首先安装 SharpDX 的库，需要安装下面几个库
 
-![](images/img-lindexi%2F2018420916204836.jpg)
+![](images/img-modify-cc2ebab2c704365431b73a1c68bf93ab.jpg)
 
 ## 创建工厂
 
@@ -187,7 +187,7 @@ RawColor4 就是 rgba ，颜色是从 0 到 1 ，对应 WPF 的 RGB 从 0 到 25
         }
 ```
 
-![](images/img-lindexi%2F201842010126671.jpg)
+![](images/img-modify-4b279d98f4880f3d335b5202fa2e6539.jpg)
 
 重新告诉大家如何画出。首先拿到窗口，在 WPF 能创建的 WindowRenderTarget 最简单是拿到窗口。因为通过几个属性设置如何渲染，在哪渲染，所以还需要多使用几个属性才可以创建 D2D.WindowRenderTarget 。因为需要一个时机对 WindowRenderTarget 画出，所以我就使用 CompositionTarget 对他进行画出。
 

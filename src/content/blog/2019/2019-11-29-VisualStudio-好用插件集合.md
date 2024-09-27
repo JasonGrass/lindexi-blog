@@ -55,15 +55,15 @@ tags:
 
 安装插件只需要在需要复制的代码上面右击复制
 
-![](images/img-lindexi%2F201943185842685.png)
+![](images/img-modify-15d08fab86585a4dba3c67e359a1321d.png)
 
 然后打开断点，新建函数断点
 
-![](images/img-lindexi%2F201943185857968.png)
+![](images/img-modify-c80c0574ef15ee4b124fc6fcc0114ce5.png)
 
 就可以输入函数断点
 
-![](images/img-lindexi%2F201943185915393.png)
+![](images/img-modify-abfe20c641f2d72aea86dbb8cbfcbc31.png)
 
 [Copy Function Breakpoint Name - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=jnm2.CopyFunctionBreakpointName )
 
@@ -113,7 +113,7 @@ tags:
 
 <!-- ![](images/img-VisualStudio 好用插件集合0.png) -->
 
-![](images/img-lindexi%2F202163126515664.jpg)
+![](images/img-modify-b86f41ae71dc2992b0d96fd84e0d3219.jpg)
 
 如上图效果，看起来不错，只是这个插件的配色和 Resharper 有冲突
 
@@ -122,11 +122,11 @@ tags:
 
 下载地址： [https://marketplace.visualstudio.com/items?itemName=MadsKristensen.RainbowBraces](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.RainbowBraces)
 
-![](images/img-lindexi%2F202210916203054.jpg)
+![](images/img-modify-836e245608d09cb83b2a99a76f4930e3.jpg)
 
 每一级的花括号可以有每一级的颜色，特别方便分开花括号属于哪一级
 
-![](images/img-lindexi%2F2022109162389046.jpg)
+![](images/img-modify-efe51c4f5ebbf42bf4cd8f7df8b5f455.jpg)
 
 默认的配色如上图
 

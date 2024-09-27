@@ -24,7 +24,7 @@ resharper 可以使用 ctrl+b 跳转到源代码，但是如果使用库的源�
 
 打开 tool->External xx 
 
-![](images/img-AwCCAwMAItoFADbzBgABAAQArj4BAGZDAgBo6AkA6Nk%3D%2F2017510-modify-2980c3d4ccc6c167b58f38c4e2ebefb1.jpg)
+![](images/img-modify-2980c3d4ccc6c167b58f38c4e2ebefb1.jpg)
 
 选择跳转到源代码，点击确定，这样就可以让他跳转到源代码
 

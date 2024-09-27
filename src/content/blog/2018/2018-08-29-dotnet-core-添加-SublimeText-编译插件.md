@@ -80,7 +80,7 @@ tags:
 
 <!-- ![](images/img-dotnet core 添加 SublimeText 编译插件0.png) -->
 
-![](images/img-lindexi%2F201882985320829.png)
+![](images/img-modify-0e9928a9836dbe7f635a859600fb8787.png)
 
 对于所有的中文都没有显示，所以写入文件就可以从文件里看，可以看到传入的文件是不会和 SublieText 显示一样
 

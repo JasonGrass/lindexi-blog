@@ -62,7 +62,7 @@ tags:
 
 这时可以设置元素的宽度，或者高度，这样可以做出下面的效果。
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F201811121814.jpg)
+![](images/img-modify-8a960151e5a1207e6af53e8115aa4339.jpg)
 
 ## 选中显示元素
 
@@ -198,7 +198,7 @@ tags:
 
 这个方法是比较差的，但是可以使用
 
-![](images/img-AwCCAwMAItoFADbzBgABAAQArj4BAGZDAgBo6AkA6Nk%3D%2F2017%25-modify-e4d7b8cc3ecc178dbdb9609b8726dedf.gif)
+![](images/img-modify-e4d7b8cc3ecc178dbdb9609b8726dedf.gif)
 
 参见：http://stackoverflow.com/questions/43461819/the-listviewitem-style-cant-trigger-unselected
 

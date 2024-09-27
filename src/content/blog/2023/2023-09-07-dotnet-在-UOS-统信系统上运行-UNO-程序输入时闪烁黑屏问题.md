@@ -25,7 +25,7 @@ tags:
 本质上说这个问题和 UNO 毫无关系，这是一个 OpenGL 硬件加速在虚拟机里运行的问题，问题现象如下
 
 <!-- ![](images/img-uos-UNO-skia-gtk-flash.gif) -->
-![](images/img-lindexi%2Fuos-UNO-skia-gtk-flash.gif)
+![](images/img-modify-ff4aafe9c4b9e999f89474f7e11ca62a.gif)
 
 我给 UNO 官方报告了：https://github.com/unoplatform/uno/issues/13530
 

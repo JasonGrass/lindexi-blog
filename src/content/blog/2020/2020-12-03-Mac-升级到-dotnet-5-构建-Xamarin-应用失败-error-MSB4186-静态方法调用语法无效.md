@@ -26,5 +26,5 @@ tags:
 
 <!-- ![](images/img-Mac 升级到 dotnet 5 构建 Xamarin 应用失败 error MSB4186 静态方法调用语法无-modify-a19f0cff16757b0e02e902fcc5078224.png) -->
 
-![](images/img-lindexi%2F2020123955448402.jpg)
+![](images/img-modify-4910750e5803a56203dd05df5027152f.jpg)
 

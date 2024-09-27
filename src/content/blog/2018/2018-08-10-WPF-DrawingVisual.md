@@ -39,11 +39,11 @@ tags:
 
 于是新建一个  FrameworkElement  需要添加 一些方法，这是默认的，只需要自动创建就好。
 
-![](images/img-AwCCAwMAItoFAMV%2BBQA28wYAAQAEAK4%2BAQBmQwIAaOgJAOjZ%2F2-modify-9d223ff78cefbb0ae55938097990e1fd.jpg)
+![](images/img-modify-9d223ff78cefbb0ae55938097990e1fd.jpg)
 
 这个类不是主要的，他是让DrawingVisual显示，在构造函数写下面的代码
 
-![](images/img-AwCCAwMAItoFAMV%2BBQA28wYAAQAEAK4%2BAQBmQwIAaOgJAOjZ%2F2-modify-a82cafa8acd09363f97eecb4f618c218.jpg)
+![](images/img-modify-a82cafa8acd09363f97eecb4f618c218.jpg)
 
 
 这就是可以让 他可以显示。为何这样可以，参见：http://blog.csdn.net/changtianshuiyue/article/details/26981797
@@ -57,7 +57,7 @@ tags:
 ```
 来看下他的方法 
 
-![](images/img-AwCCAwMAItoFAMV%2BBQA28wYAAQAEAK4%2BAQBmQwIAaOgJAOjZ%2F2-modify-4372bfbd0cc2ddd55370506904cc772d.jpg)
+![](images/img-modify-4372bfbd0cc2ddd55370506904cc772d.jpg)
 
 这样就可以画出文字。
 
@@ -70,7 +70,7 @@ tags:
 ```
 
 
-![](images/img-AwCCAwMAItoFAMV%2BBQA28wYAAQAEAK4%2BAQBmQwIAaOgJAOjZ%2F2-modify-e93471adf102bbae2fdb97e650f4118c.jpg)
+![](images/img-modify-e93471adf102bbae2fdb97e650f4118c.jpg)
 
 为什么这样就可以画出？
 
@@ -80,7 +80,7 @@ tags:
 
 那么如何做出下图的程序？
 
-![](images/img-AwCCAwMAItoFAMV%2BBQA28wYAAQAEAK4%2BAQBmQwIAaOgJAOjZ%2F2-modify-c85cbf5cf50b166173fde88568b6b8f8.gif)
+![](images/img-modify-c85cbf5cf50b166173fde88568b6b8f8.gif)
 
 首先对代码做修改，在 Windows 的MouseMove 调用 StrokeVisual 的 Add 方法和 画出来
 

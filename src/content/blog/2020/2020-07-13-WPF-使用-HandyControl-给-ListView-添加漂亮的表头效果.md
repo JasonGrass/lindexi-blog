@@ -22,7 +22,7 @@ tags:
 
 <!-- ![](images/img-WPF 使用 HandyControl 给 ListView 添加漂亮的表头效果0.png) -->
 
-![](images/img-lindexi%2F20207111635465.jpg)
+![](images/img-modify-3196b6edc271dc2ca156eafebf568eb1.jpg)
 
 完成上面的效果很简单，让我一步步告诉大家如何做
 

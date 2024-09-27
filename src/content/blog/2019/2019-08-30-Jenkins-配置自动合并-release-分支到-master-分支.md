@@ -26,13 +26,13 @@ tags:
 
 <!-- ![](images/img-Jenkins 配置自动合并 release 分支到 master 分支0.png) -->
 
-![](images/img-lindexi%2F2018913184226191.png)
+![](images/img-modify-29ca98522f6767dfdf716b9a115bee61.png)
 
 然后在 Branches to build 添加分支，这里需要将 release 合 master 所以就填写 release 就可以
 
 <!-- ![](images/img-Jenkins 配置自动合并 release 分支到 master 分支1.png) -->
 
-![](images/img-lindexi%2F2018913184557380.png)
+![](images/img-modify-6f53a95f4c16f5e26db65b1832041a67.png)
 
 在 Additional Behaviours 添加三个值，一个是 Clean before checkout 这样可以清空仓库，第二个是 Prune stale remote-tracking branches 让本地和远程同步。
 
@@ -49,7 +49,7 @@ t/lindexi/github
 
 <!-- ![](images/img-Jenkins 配置自动合并 release 分支到 master 分支2.png) -->
 
-![](images/img-lindexi%2F201891318473954.png)
+![](images/img-modify-311575e7cb6d52216b657638250a4266.png)
 
 为了在用户推送的时候合并，就需要在 Build Triggers 添加 Build when a change is pushed to GitLab. 这样就可以添加 web hook 在打钩之后可以看到下面有一个链接，如下面是我的链接，这个链接会在之后设置到 gitlab 所以暂时需要记下
 
@@ -59,13 +59,13 @@ https://newci.gz.lindexi.cn/project/lindexi/github_merge_release_to_dev
 
 <!-- ![](images/img-Jenkins 配置自动合并 release 分支到 master 分支3.png) -->
 
-![](images/img-lindexi%2F201891318535709.png)
+![](images/img-modify-b5c27e5a1996d0c6a4e2d9631a04e9c4.png)
 
 下面就是 Build 这里可以写编译的内容，我下面执行了一些代码
 
 <!-- ![](images/img-Jenkins 配置自动合并 release 分支到 master 分支4.png) -->
 
-![](images/img-lindexi%2F2018913185454746.png)
+![](images/img-modify-f0c62ca559f52239d56ffe90d67abdc3.png)
 
 只有在编译成功我才可以让 release 合并到 master 分支，如果编译不成功就不能合并
 
@@ -75,7 +75,7 @@ https://newci.gz.lindexi.cn/project/lindexi/github_merge_release_to_dev
 
 <!-- ![](images/img-Jenkins 配置自动合并 release 分支到 master 分支5.png)  -->
 
-![](images/img-lindexi%2F2018913185852214.png)
+![](images/img-modify-de0aa8869fe4073c70b3b3da33725884.png)
 
 点击保存就设置完成，下面就是设置 gitlab 让 gitlab 可以支持 Jenkins 推送
 
@@ -83,7 +83,7 @@ https://newci.gz.lindexi.cn/project/lindexi/github_merge_release_to_dev
 
 <!-- ![](images/img-Jenkins 配置自动合并 release 分支到 master 分支6.png) -->
 
-![](images/img-lindexi%2F201891319125120.png)
+![](images/img-modify-9a2ba6cb1e6fb5c4ecf92857553094ea.png)
 
 点击 Integrations 添加 webhook 这里需要填写刚才 Jenkins 的链接，我的链接是 https://newci.gz.lindexi.cn/project/lindexi/github_merge_release_to_dev 大家可不要没事就来攻击我的服务器
 
@@ -91,13 +91,13 @@ https://newci.gz.lindexi.cn/project/lindexi/github_merge_release_to_dev
 
 <!-- ![](images/img-Jenkins 配置自动合并 release 分支到 master 分支7.png) -->
 
-![](images/img-lindexi%2F201891319342834.png)
+![](images/img-modify-bca2abc1a9a9bcc3ee7cdfa047ee1c5a.png)
 
 在添加之后可以看到有 Test 按钮，点击可以模拟一个 push 的测试
 
 <!-- ![](images/img-Jenkins 配置自动合并 release 分支到 master 分支8.png) -->
 
-![](images/img-lindexi%2F201891319515759.png)
+![](images/img-modify-6a39f3f877e64225a51a50792c65039e.png)
 
 点击测试看 Jenkins 是否自动执行，如果有就是设置成功
 
@@ -107,7 +107,7 @@ https://newci.gz.lindexi.cn/project/lindexi/github_merge_release_to_dev
 
 <!-- ![](images/img-Jenkins 配置自动合并 release 分支到 master 分支9.png) -->
 
-![](images/img-lindexi%2F2018913191115860.png)
+![](images/img-modify-8d5704083151080383a700bb135b0ffb.png)
 
 具体设置请看 [Using GIT deploy key in Jenkins](https://blogs.perficient.com/2014/03/26/using-git-deploy-key-in-jenkins-written-by-tom-tang/ )
 

@@ -38,7 +38,7 @@ Xcode couldn't find any iOS App Development provisioning profiles matching 'com.
 
 <!-- ![](images/img-Xamarin iOS 部署项目提示 Failed to register bundle identifier -modify-7737753ee1ec0c9bff0c83e68fb5c28d.png) -->
 
-![](images/img-lindexi%2F202010261043583843.jpg)
+![](images/img-modify-79f9c2570a2aabf97ea5c3d473a6365e.jpg)
 
 快速的解决方法是修改 Bundle Identifier 的值，将 `com.walterlv` 修改为 `com.lindexi-gd` 的值，同时回到 Xamarin 项目里面，做同样的更改
 
@@ -46,5 +46,5 @@ Xcode couldn't find any iOS App Development provisioning profiles matching 'com.
 
 <!-- ![](images/img-Xamarin iOS 部署项目提示 Failed to register bundle identifier -modify-2b831f4ad254f87868b6a49a1aaa6f21.png) -->
 
-![](images/img-lindexi%2F202010261048328031.jpg)
+![](images/img-modify-8bcc7a05ad598bb717b02af2763e4a62.jpg)
 

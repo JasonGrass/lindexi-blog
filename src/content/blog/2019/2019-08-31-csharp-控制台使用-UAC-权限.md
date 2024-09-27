@@ -27,7 +27,7 @@ tags:
 
 <!-- ![](images/img-C# 控制台使用 UAC 权限0.png) -->
 
-![](images/img-lindexi%2F2018751952201949.jpg)
+![](images/img-modify-3b8712d16126a5debe53a477a8832c02.jpg)
 
 在 WPF 使用 UAC 也是一样的方法。
 

@@ -36,31 +36,31 @@ tags:
 
 <!-- ![](images/img-VisualStudio 解决方案筛选器 slnf 文件0.png) -->
 
-![](images/img-lindexi%2F20194711323285.png)
+![](images/img-modify-5b4229ea3a3766acc1bd3d6ff871af9b.png)
 
 这时打开的项目都是不加载的，虽然打开很快，但是我需要手动加载我需要使用的项目。如果每个小伙伴都需要这样手动加载，估计我又会被拉出去
 
 <!-- ![](images/img-VisualStudio 解决方案筛选器 slnf 文件2.png) -->
 
-![](images/img-lindexi%2F2019471172599.png)
+![](images/img-modify-bb8d7eda64288cf9bc2248ab296e1279.png)
 
 在 VisualStudio 2019 可以在第一次手动加载需要的项目之后保存解决方案筛选器 slnf 文件，当然不需要每个项目都点击重新加载，定义指定一个高层的项目，右击点击加载依赖项目，于是所有被他依赖的项目都会加载
 
 <!-- ![](images/img-VisualStudio 解决方案筛选器 slnf 文件1.png) -->
 
-![](images/img-lindexi%2F20194711510679.png)
+![](images/img-modify-a2719e0ef6da09bb6402109f7153ece9.png)
 
 下次小伙伴直接打开 slnf 文件的时候就可以看到只有我上次加载的项目，其他的项目默认是隐藏的
 
 <!-- ![](images/img-VisualStudio 解决方案筛选器 slnf 文件3.png) -->
 
-![](images/img-lindexi%2F201947111616834.png)
+![](images/img-modify-ffe766a8c821c016bdfceb9a02fc650a.png)
 
 如果小伙伴忽然需要某个项目，可以右击显示隐藏的项目
 
 <!-- ![](images/img-VisualStudio 解决方案筛选器 slnf 文件4.png) -->
 
-![](images/img-lindexi%2F201947111656836.png)
+![](images/img-modify-6c3b641298b3c136f74e261d8401959e.png)
 
 那么使用 slnf 文件有什么好处？
 

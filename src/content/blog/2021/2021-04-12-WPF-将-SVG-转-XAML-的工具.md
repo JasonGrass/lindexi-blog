@@ -30,13 +30,13 @@ tags:
 
 <!-- ![](images/img-WPF 将 SVG 转 XAML 的工具0.png) -->
 
-![](images/img-lindexi%2F2021413832301944.jpg)
+![](images/img-modify-fe0242722a535f8022dd7ad405a22f53.jpg)
 
 可以在设置中勾选 Show Output File 打开 XAML 输出界面，可以看到的 XAML 输出界面如下
 
 <!-- ![](images/img-WPF 将 SVG 转 XAML 的工具1.png) -->
 
-![](images/img-lindexi%2F202141383381426.jpg)
+![](images/img-modify-f5246a70f74ddb7caed2afceafb89d20.jpg)
 
 这个工具可以通过开源的 SharpVectors 仓库 [https://github.com/ElinamLLC/SharpVectors](https://github.com/ElinamLLC/SharpVectors) 里面的 WpfTestSvgSample 测试项目构建获取
 
@@ -50,7 +50,7 @@ tags:
 
 <!-- ![](images/img-WPF 将 SVG 转 XAML 的工具2.png) -->
 
-![](images/img-lindexi%2F2021413840447807.jpg)
+![](images/img-modify-a62883928a988a72994c4fb0e6ef59d8.jpg)
 
 这个工具适合在设计师给一堆图片的时候，批量转换为 XAML 文件
 
@@ -89,7 +89,7 @@ Svg2Xaml
 
 <!-- ![](images/img-WPF 将 SVG 转 XAML 的工具3.png) -->
 
-![](images/img-lindexi%2F202141384520490.jpg)
+![](images/img-modify-2a4cf899329427c1bfe505a226c66d25.jpg)
 
 这个工具在 GitHub 上完全开源，请看 [https://github.com/dotnet-campus/dotnetCampus.Svg2XamlTool](https://github.com/dotnet-campus/dotnetCampus.Svg2XamlTool)
 

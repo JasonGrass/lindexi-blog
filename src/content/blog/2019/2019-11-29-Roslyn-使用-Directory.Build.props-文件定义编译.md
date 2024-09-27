@@ -41,14 +41,14 @@ tags:
 
 首先打开宇宙第一IDE某个在i7固态打开需要10分钟的工具，使用随意的变量做3个项目
 
-![](images/img-lindexi%2F20187181240279015.jpg)
+![](images/img-modify-05a3b17abc936778ca9bb05aaed47242.jpg)
 
 <!-- ![](images/img-Roslyn 使用 Directory.Build.props 文件定义编译0.png) -->
 
 
 通过上面的方式创建 3 个项目 GeajoYabaFarcho，SeepoHairsarsawjoo，KawkasDrurxere现在项目可以右击打包
 
-![](images/img-lindexi%2F20187181242241337.jpg)
+![](images/img-modify-4c34e70d5227ef126ee2f2b20707b820.jpg)
 
 <!-- ![](images/img-Roslyn 使用 Directory.Build.props 文件定义编译1.png) -->
 
@@ -66,7 +66,7 @@ tags:
 
 现在可以尝试添加 `Directory.Build.props` 文件，在 sln 文件所在的文件夹创建文件，请看下图
 
-![](images/img-lindexi%2F2018718124461257.jpg)
+![](images/img-modify-8be0f84a378405bcd79f5b95df028abc.jpg)
 
 <!-- ![](images/img-Roslyn 使用 Directory.Build.props 文件定义编译2.png) -->
 

@@ -77,7 +77,7 @@ Writing the tag as version by dotnet tool.
 
 <!-- ![](images/img-How to generate NuGet package with Git Tag version using-modify-eb60c828ea21f929b0bb1ef575464ef7.png) -->
 
-![](images/img-lindexi%2F20205281056227454.jpg)
+![](images/img-modify-f1600c1430688f3030df07c9eb5781e3.jpg)
 
 Building the package
 

@@ -236,7 +236,7 @@ git pull origin d47f1aec803bfd7adb32e82fb61916308d317fcd
 
 <!-- ![](images/img-dotnet OpenXML PPT 动画框架入门1.png) -->
 
-![](images/img-lindexi%2F2021731242377693.jpg)
+![](images/img-modify-758a11cf1f36338abec6c6a64ab47c7d.jpg)
 
 ```xml
 <p:cTn id="2" dur="indefinite" nodeType="mainSeq">
@@ -773,7 +773,7 @@ git pull origin 2c06ddf74e45c31ad7842dd06dc09bcc67b6142e
 
 <!-- ![](images/img-dotnet OpenXML PPT 动画框架入门2.png) -->
 
-<!-- ![](images/img-lindexi%2F20217695613233.jpg) -->
+<!-- ![](images/img-modify-e218cbd04a824290805d1fd5042514f1.jpg) -->
 
 ![](https://i.loli.net/2021/07/06/jaVqPSNyTIUfuRn.jpg)
 

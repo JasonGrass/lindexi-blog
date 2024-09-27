@@ -52,7 +52,7 @@ tags:
 
 <!-- 图片 命名管道加MVC的本机多进程通讯 IPC 库.enbx -->
 
-![](images/img-lindexi%2F20221161622432592.jpg)
+![](images/img-modify-119d56def8c5332c9f0c07354be784f0.jpg)
 
 充当 IPC 里的服务端和客户端的业务代码将分别与 ASP.NET Core 和 HttpClient 对接。而 ASP.NET Core 和 HttpClient 又与 dotnetCampus.Ipc 层对接，一切的跨进程通讯逻辑都在 dotnetCampus.Ipc 这一层内完成，由 [dotnetCampus.Ipc](https://github.com/dotnet-campus/dotnetCampus.Ipc) 层维持稳定的 IPC 传输。下面来看看如何使用此方式开发应用
 
@@ -178,7 +178,7 @@ using System.Net.Http;
 
 以上代码通过 `await _ipcPipeMvcClient.GetStringAsync("api/Foo");` 访问到服务端的 Get 方法，运行效果如下
 
-![](images/img-lindexi%2F20221161725566107.jpg)
+![](images/img-modify-9e5f83450348142191909b2a21bc031c.jpg)
 
 如上图可以看到，客户端成功调用了服务端，从服务端拿到了返回值
 
@@ -209,7 +209,7 @@ public class FooController : ControllerBase
 
 运行效果如下
 
-![](images/img-lindexi%2F20221161746529208.jpg)
+![](images/img-modify-0d2e51b24893620d74b71ae8bd6ab2c1.jpg)
 
 可以看到客户端成功调用了服务端执行了计算，拿到了返回值
 
@@ -240,7 +240,7 @@ public class FooController : ControllerBase
 
 运行效果如下图
 
-![](images/img-lindexi%2F20221161750511785.jpg)
+![](images/img-modify-37ed24bd9f356aea1ab35c126c22d377.jpg)
 
 如上图可以看到客户端成功采用 POST 方法请求到服务端
 
@@ -286,7 +286,7 @@ public class FooContent
 
 运行效果如下图
 
-![](images/img-lindexi%2F20221161816537986.jpg)
+![](images/img-modify-5ab33c50a1839b4ab938060332eca0b0.jpg)
 
 如上图，客户端成功将 FooContent 参数传给服务端
 

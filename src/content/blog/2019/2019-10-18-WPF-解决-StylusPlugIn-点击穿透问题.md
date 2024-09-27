@@ -85,7 +85,7 @@ tags:
 
 <!-- ![](images/img-WPF 解决 StylusPlugIn 点击穿透问题0.png) -->
 
-![](images/img-lindexi%2F20191811622277.png)
+![](images/img-modify-ac2a35f404e11de9a2a390b19048d367.png)
 
 此时摸到了 `林德熙是逗比` 的元素，在 JallsiniPeagelJurnarbe 还是可以收到触摸的消息，如果是通过 JallsiniPeagelJurnarbe 做书写，那么就会发现在 `林德熙是逗比` 的元素后面进行了书写，此时在 `林德熙是逗比` 的元素的 Down Move 函数使用 `e.Handle = true` 也没有用，因为 StylusPlugIn 走的不是路由事件
 
@@ -116,7 +116,7 @@ tags:
 
 从底层元素按下，然后移动到说德熙是逗比的元素上，接着移到底层元素上抬起
 
-![](images/img-lindexi%2F201918145941588.png)
+![](images/img-modify-a0b85b0b6f4e534c70e7b509916e6013.png)
 
 <!-- ![](images/img-WPF 解决 StylusPlugIn 点击穿透问题 1.gif) -->
 
@@ -134,7 +134,7 @@ tags:
 
 如果是从说德熙是逗比的元素上按下，然后移动到底层元素，请看下图
 
-![](images/img-lindexi%2F20191815441309.png)
+![](images/img-modify-97977e58970e1e1f5647748bdab0f687.png)
 
 <!-- ![](images/img-WPF 解决 StylusPlugIn 点击穿透问题 2.gif) -->
 

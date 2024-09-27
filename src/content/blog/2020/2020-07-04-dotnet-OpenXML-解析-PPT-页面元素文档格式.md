@@ -27,13 +27,13 @@ tags:
 
 <!-- ![](images/img-dotnet OpenXML 解析 PPT 页面元素文档格式0.png) -->
 
-![](images/img-lindexi%2F202074113482127.jpg)
+![](images/img-modify-7fa2734954c345f41ffaeadaa96a4d7e.jpg)
 
 大概的主结构如下
 
 <!-- ![](images/img-dotnet OpenXML 解析 PPT 页面元素文档格式1.png) -->
 
-![](images/img-lindexi%2F2020741138264456.jpg)
+![](images/img-modify-bcc1fc6ef7ef2ebff9fdf3aa26db4645.jpg)
 
 对应缩写如下
 
@@ -65,7 +65,7 @@ p:spTree - ShapeTree
 
 <!-- ![](images/img-dotnet OpenXML 解析 PPT 页面元素文档格式2.png) -->
 
-![](images/img-lindexi%2F2020741141243443.jpg)
+![](images/img-modify-5d5ef964ab1be0dabfcdba2bc528dd32.jpg)
  
 尽管有多媒体元素等不属于 Shape 形状，但是在 PPT 里面形状属于最基础的元素， 在 PPT 里面的所有的元素都放在 ShapeTree 里面。虽然 ShapeTree 命名是形状，但实际上所有元素都可以当成形状使用
 
@@ -91,7 +91,7 @@ foreach (var openXmlElement in shapeTree)
 
 <!-- ![](images/img-dotnet OpenXML 解析 PPT 页面元素文档格式3.png) -->
 
-![](images/img-lindexi%2F2020741147529721.jpg)
+![](images/img-modify-5fea028eee3ae17d960bfb61131eb3d3.jpg)
 
 此时对应的 XML 的缩写的含义以及对应的属性将可以在 VS 调试的时候看到，看到具体的属性含义以及值，相对来说开发效率会提升很多。当然这需要你学会 VS 的调试方法哈
 

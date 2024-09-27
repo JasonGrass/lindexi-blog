@@ -159,7 +159,7 @@ ShowLineNumbers="True"
 
 <!-- ![](images/img-WPF 用 AvalonEdit 开发简单的代码编辑器 支持高亮自动提示0.png) -->
 
-![](images/img-lindexi%2F202012217649554.jpg)
+![](images/img-modify-99dbb003abea8c1c3a7d3743bd69dda0.jpg)
 
 本文的代码放在 [github](https://github.com/lindexi/lindexi_gd/tree/7d40e0de674f9892b6fce9014f07074de47bfe75/NakacehenaHemqawhearlel) 欢迎小伙伴访问
 

@@ -35,19 +35,19 @@ description: "Unity3D OpenVR 虚拟现实 保龄球打砖块游戏开发"
 
 <!-- ![](images/img-Unity3D OpenVR 虚拟现实 保龄球打砖块游戏开发0.png) -->
 
-![](images/img-lindexi%2F2021516202783990.jpg)
+![](images/img-modify-fdf4be16fdd99f166da9c793778fdc83.jpg)
 
 以上墙里面的各个砖块记得加上刚体（Rigidbody）同时设置质量为 0.2 不然咱可打不掉砖块
 
 <!-- ![](images/img-Unity3D OpenVR 虚拟现实 保龄球打砖块游戏开发1.png) -->
 
-![](images/img-lindexi%2F2021516202919858.jpg)
+![](images/img-modify-c8085d760c34a96773ecb944175d4aef.jpg)
 
 接下来咱来创建保龄球子弹，按照约定创建 Prefabs 文件夹，在里面创建一个叫 Bullet 的圆球
 
 <!-- ![](images/img-Unity3D OpenVR 虚拟现实 保龄球打砖块游戏开发2.png) -->
 
-![](images/img-lindexi%2F20215162030537346.jpg)
+![](images/img-modify-6865ef993434cb52308deb0fcc05148c.jpg)
 
 如上图，同样给此子弹加上刚体，设置比较大的质量。如上图给了质量是 10 这样才好将砖块打到地板下。请不要将地板加上刚体哦，默认的刚体是加上重力的，刚进入调试发现地板掉了，这可不是在做恐怖游戏哈
 
@@ -103,20 +103,20 @@ public SteamVR_Action_Boolean Shooting;
 
 <!-- ![](images/img-Unity3D OpenVR 虚拟现实 保龄球打砖块游戏开发4.png) -->
 
-![](images/img-lindexi%2F20215162053441264.jpg)
+![](images/img-modify-7ac657715ef01c45ef0442000ee5c508.jpg)
 
 咱选择 InteracetUI 这个动作，默认在 SteamVR 里面就是扣扳机这个交互，当然，用户也可以自己设置到其他按键里面
 
 <!-- ![](images/img-Unity3D OpenVR 虚拟现实 保龄球打砖块游戏开发5.png) -->
 
-![](images/img-lindexi%2F20215162054247395.jpg)
+![](images/img-modify-b10c7dbcae21f6659aa3a9b223667f7b.jpg)
 
 此时我推荐大家如果之前没有做过 SteamVR 的交互，那请尝试在 VisualStudio 里面附加 Unity3D 调试，在 Update 方法里面获取 Shooting 字段的值了解这部分的交互
 
 <!-- ![](images/img-Unity3D OpenVR 虚拟现实 保龄球打砖块游戏开发6.png) -->
 
 
-![](images/img-lindexi%2F20215162059327734.jpg)
+![](images/img-modify-6d87ba71db2ffd42ed889488581c969d.jpg)
 
 如上图，此时咱将 Shooting 字段和 InteracetUI 这个动作绑定
 
@@ -274,7 +274,7 @@ public class ShootWithRotation : MonoBehaviour
 
 <!-- ![](images/img-Unity3D OpenVR 虚拟现实 保龄球打砖块游戏开发7.png) -->
 
-![](images/img-lindexi%2F2021516212433402.jpg)
+![](images/img-modify-beaeb83cd9869a9a6dd191149a9c3a00.jpg)
 
 再给子弹添加一个 Throwable 脚本，让这个球可以被扔掉
 

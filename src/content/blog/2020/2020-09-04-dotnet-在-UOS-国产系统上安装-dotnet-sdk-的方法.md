@@ -26,7 +26,7 @@ tags:
 
 <!-- ![](images/img-dotnet 在 UOS 国产系统上安装 Mono 开发工具的方法0.png) -->
 
-![](images/img-lindexi%2Fdotnet%2520%25E5%259C%25A8%2520UOS%2520%25E5%2-modify-a6c02a9ba863ad7671ebddfe77e0273b.png)
+![](images/img-modify-a6c02a9ba863ad7671ebddfe77e0273b.png)
 
 进入 `/etc/apt` 文件夹，在终端输入下面代码
 
@@ -50,7 +50,7 @@ deb https://mirrors.ustc.edu.cn/debian buster main contrib non-free
 
 <!-- ![](images/img-dotnet 在 UOS 国产系统上安装 dotnet sdk 的方法0.png) -->
 
-![](images/img-lindexi%2F2020931729581851.jpg)
+![](images/img-modify-9c907fc5acbb2e7f67834a8a9d5b555a.jpg)
 
 按照 [在 Debian 上安装 .NET Core ](https://docs.microsoft.com/zh-cn/dotnet/core/install/linux-debian?WT.mc_id=WD-MVP-5003260 ) 的方法，在命令行输入下面代码，将 Microsoft 包签名密钥添加到受信任密钥列表，并添加包存储库
 

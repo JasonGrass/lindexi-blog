@@ -81,7 +81,7 @@ public interface ITablet //: IUnknown
 
 <!-- ![](images/img-探索 WPF 的 ITabletManager.GetTabletCount 在 Win11 系统的底层实现0-modify-c7b17425b05fb85fdfba8cf221146064.png) -->
 
-![](images/img-lindexi%2F20239192012398353.jpg)
+![](images/img-modify-aabe6f06342e393c3eef53a2d998faf8.jpg)
 
 在写到这里我才看到 VisualStudio 里已经写了 wisp.dll 文件了，不需要自己去算地址，也是方便哈
 
@@ -89,7 +89,7 @@ public interface ITablet //: IUnknown
 
 <!-- ![](images/img-探索 WPF 的 ITabletManager.GetTabletCount 在 Win11 系统的底层实现1-modify-1abb96714e49952a252ba95fdbdfcff5.png) -->
 
-![](images/img-lindexi%2F20239192018351610.jpg)
+![](images/img-modify-b177274eae6f6e21b94ec0b2dba34d0a.jpg)
 
 可以看到在第 53 行里使用的是 GetPointerDevices 方法。我感觉这就是核心实现了，这个 GetPointerDevices 是在 Win10 下的 WM_Pointer 触摸系列下的获取触摸设备数量的方法
 

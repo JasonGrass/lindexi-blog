@@ -43,7 +43,7 @@ tags:
 
 <!-- ![](images/img-dotnet 使用 ShowMeTheXAML 显示 WPF 的 XAML 控件内容0.png) -->
 
-![](images/img-lindexi%2F202141848155823.jpg)
+![](images/img-modify-fbac8f5f10c5d102c2d2da08536e6c3b.jpg)
 
 可以看到在界面将写在 XamlDisplay 控件里面的代码显示出来，这样就方便库的开发者提供示例项目给其他开发者阅读，可以看到界面逻辑
 

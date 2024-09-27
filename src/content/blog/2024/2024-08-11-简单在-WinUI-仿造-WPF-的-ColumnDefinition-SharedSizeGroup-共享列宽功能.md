@@ -67,7 +67,7 @@ tags:
 运行代码的界面效果如下图
 
 <!-- ![](images/img-简单在 WinUI 仿造 WPF 的 ColumnDefinition SharedSizeGroup 共享列宽-modify-6161b7f8717dbac2034671804c2cbfe8.gif) -->
-![](images/img-lindexi%2F%25E7%25AE%2580%25E5%258D%2595%25E5%259C%25A8%-modify-2dc551f64eedfba36bff2ecf53526975.gif)
+![](images/img-modify-2dc551f64eedfba36bff2ecf53526975.gif)
 
 核心代码是 ColumnSharedSizeHelper 类型，其实现逻辑如下
 

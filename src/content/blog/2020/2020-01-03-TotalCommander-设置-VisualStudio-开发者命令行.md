@@ -24,13 +24,13 @@ tags:
 
 <!-- ![](images/img-TotalCommander 设置 VisualStudio 开发者命令行0.png) -->
 
-![](images/img-lindexi%2F2020138414306.png)
+![](images/img-modify-eaf0c2b01665f1c60c328d56a7ed282d.png)
 
 点击添加按钮
 
 <!-- ![](images/img-TotalCommander 设置 VisualStudio 开发者命令行1.png) -->
 
-![](images/img-lindexi%2F2020138517489.png)
+![](images/img-modify-eb3cdb07478491fa3e854c17404101a7.png)
 
 此时通过开始菜单，搜寻 Developer Command Prompt 右击打开所在文件夹，可以找到快捷方式
 
@@ -48,7 +48,7 @@ tags:
 
 <!-- ![](images/img-TotalCommander 设置 VisualStudio 开发者命令行2.png) -->
 
-![](images/img-lindexi%2F2020138830649.png)
+![](images/img-modify-767fba963b63447e0ee020630ed3b129.png)
 
 此时在 TotalCommnader 进入文件夹，可以点击命令行图标进入开发者命令行，同时自动设置了命令行当前文件夹是进入的文件夹
 
@@ -74,5 +74,5 @@ C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe -noe -c "&{Import-Modu
 
 <!-- ![](images/img-TotalCommander 设置 VisualStudio 开发者命令行3.png) -->
 
-![](images/img-lindexi%2F20201381913424.png)
+![](images/img-modify-15af2fb8abf43aea4b7fe36b99a75043.png)
 

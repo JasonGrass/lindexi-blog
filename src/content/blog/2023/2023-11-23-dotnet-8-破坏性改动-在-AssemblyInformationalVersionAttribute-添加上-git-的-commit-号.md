@@ -48,7 +48,7 @@ tags:
 在使用 dotnet 8 的 SDK 构建时，无论使用的运行时是 dotnet 6 还是 dotnet 7 等，都会在 InformationalVersion 里面拿到 `版本号+commit` 格式的字符串，如下图
 
 <!-- ![](images/img-dotnet 8 破坏性改动 在 AssemblyInformationalVersionAttribute 添-modify-91daf4c38a83525a157a6b7c86f4e4d4.png) -->
-![](images/img-lindexi%2F20231123202119736.jpg)
+![](images/img-modify-6e977ab0049c80f3bfe0e45975815255.jpg)
 
 此变更不仅修改了版本号字符串，还影响了 VisualStudio 的热重载
 
@@ -76,7 +76,7 @@ obj\Debug\net7.0-windows\Xxx.AssemblyInfo.cs (第 17 行): 错误 ENC0003: 更�
 修改之后的重新构建应用运行，可以看到此时界面只显示版本号
 
 <!-- ![](images/img-dotnet 8 破坏性改动 在 AssemblyInformationalVersionAttribute 添-modify-e9d4fe6c7ac0d73cc300b1a2035c891e.png) -->
-![](images/img-lindexi%2F202311232023417082.jpg)
+![](images/img-modify-71e01165f529bdb49dd463d0f0bed291.jpg)
 
 如果想要自定义版本号后面添加的信息，可以通过配置 SourceRevisionId 属性。在没有设置 IncludeSourceRevisionInInformationalVersion 为 false 的前提下，设置 SourceRevisionId 属性的值，即可让 SourceRevisionId 设置的内容在 InformationalVersion 属性里面追加到版本号字符串后面
 
@@ -103,7 +103,7 @@ obj\Debug\net7.0-windows\Xxx.AssemblyInfo.cs (第 17 行): 错误 ENC0003: 更�
 
 <!-- ![](images/img-dotnet 8 破坏性改动 在 AssemblyInformationalVersionAttribute 添-modify-11985566a080387d1971ad17ddc34ece.png) -->
 
-![](images/img-lindexi%2F202311232028231201.jpg)
+![](images/img-modify-a8c2a879e899cdcc0d3b065eee78d2b0.jpg)
 
 更多请参阅：
 

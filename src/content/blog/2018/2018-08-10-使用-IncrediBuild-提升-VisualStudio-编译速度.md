@@ -28,7 +28,7 @@ tags:
 
 可以通过 VisualStudio 安装，在 2017 就可以在安装的时候选择 IncrediBuild 
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F20171215172352017-modify-c3d5e182f477b138ad8a61464909284b.jpg)
+![](images/img-modify-c3d5e182f477b138ad8a61464909284b.jpg)
 
 点击他就可以看到修改，之后等待一下就安装好了
 
@@ -38,13 +38,13 @@ tags:
 
 先到[官网](https://www.incredibuild.com/trial_download?upgrade=1)注册一个账号，填写完成可以看到他会发送一个注册码给你
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F20171215172352017-modify-4d36998111a962bcd92a46edb29c8ed6.jpg)
+![](images/img-modify-4d36998111a962bcd92a46edb29c8ed6.jpg)
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F20171215172352017-modify-0c98af4cf4f6f4ced8202b3ac08f5421.jpg)
+![](images/img-modify-0c98af4cf4f6f4ced8202b3ac08f5421.jpg)
 
 把邮件的许可弄下来，打开 IncrediBuild 添加许可就好啦。如果点击设置可以看到下面的界面，那么就是使用成功。
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F20171215172352017-modify-5338864943fbc62a8f29d3e47d5c81d2.jpg)
+![](images/img-modify-5338864943fbc62a8f29d3e47d5c81d2.jpg)
 
 ## 使用
 
@@ -52,9 +52,9 @@ tags:
 
 打开 VisualStudio 可以看到存在一个选项，点击他可以看到这是一个编译的加速软件，点击编译整个解决方案，可以看到他在进行分开编译不相互依赖的库
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F20171215172352017-modify-d21d3191a058c390f7f8a64574be5179.jpg)
+![](images/img-modify-d21d3191a058c390f7f8a64574be5179.jpg)
 
-![](images/img-34fdad35-5dfe-a75b-2b4b-8c5e313038e2%2F20171215172352017-modify-033e6b52fa67a6321bc5f9fcd7c109dd.jpg)
+![](images/img-modify-033e6b52fa67a6321bc5f9fcd7c109dd.jpg)
 
 因为发现没有使用所有的核，所以这时用局域网的其他电脑进行加速也不多。
 
