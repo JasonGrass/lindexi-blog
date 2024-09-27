@@ -7,6 +7,8 @@ title: "About"
 
 > 本站点由德熙粉丝自行部署，内容迁移自德熙的博客 <http://blog.lindexi.com/>，最新内容请前往 <http://blog.lindexi.com/> 查看
 
+<https://github.com/lindexi>
+
 德熙的其它内容平台
 
 [lindexi - 博客园](https://www.cnblogs.com/lindexi )  
