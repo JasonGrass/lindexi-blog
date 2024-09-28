@@ -3,6 +3,7 @@ const fsPromise = require("fs").promises;
 const path = require("path");
 const simpleGit = require("simple-git");
 const imageHandler = require("./imageHandler");
+const siteHandler = require("./siteHandler");
 
 const currentDir = process.cwd();
 
@@ -223,6 +224,7 @@ ${content}`;
 }
 
 (async () => {
+  // 删除全部的博客和图片
   // await removeDirContents(targetDir);
 
   const files = await fs.readdirSync(sourceBlogDir);
@@ -233,4 +235,8 @@ ${content}`;
     await parseOne(file);
     console.log(`migrate finish ${file}`);
   }
+
+  await siteHandler.modifyAboutPage(currentDir);
+
+  console.log("=== MIGRATE FINISH ===");
 })();
