@@ -1,6 +1,9 @@
 #!/bin/bash
 
 cd ../lindexi
+
+pwd
+
 while true; do
     git pull
     if [ $? -eq 0 ]; then
@@ -16,6 +19,8 @@ echo "====================================="
 
 cd ../lindexi.github.io
 
+pwd
+
 while true; do
     git pull
     if [ $? -eq 0 ]; then
@@ -30,6 +35,8 @@ done
 echo "====================================="
 
 cd ../lindexi-blog
+
+pwd
 
 while true; do
     git pull
