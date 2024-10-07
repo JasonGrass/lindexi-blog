@@ -9,11 +9,8 @@ const currentDir = process.cwd();
 
 console.log(`work dir: ${currentDir}`);
 
-const sourceDir = path.resolve(currentDir, "../../lindexi-blog/lindexi");
-const sourceDir2 = path.resolve(
-  currentDir,
-  "../../lindexi-blog/lindexi.github.io"
-);
+const sourceDir = path.resolve(currentDir, "../lindexi");
+const sourceDir2 = path.resolve(currentDir, "../lindexi.github.io");
 
 const sourceBlogDir = path.resolve(sourceDir, "_posts");
 
