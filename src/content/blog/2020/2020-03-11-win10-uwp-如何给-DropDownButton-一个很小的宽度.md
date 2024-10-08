@@ -33,7 +33,7 @@ tags:
 
 现在看起来的效果如下图
 
-![](https://i.stack.imgur.com/uSccD.png)
+![](images/img-uSccD.png)
 
 更多关于 DropDownButton 请看 [DropDownButton Class - Windows UWP applications](https://docs.microsoft.com/en-us/uwp/api/microsoft.ui.xaml.controls.dropdownbutton?view=winui-2.3 )
 

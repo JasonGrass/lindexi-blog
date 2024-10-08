@@ -28,7 +28,7 @@ tags:
 
 这样看起来的界面就是
 
-![](https://i.stack.imgur.com/XiMnQ.jpg)
+![](images/img-XiMnQ.jpg)
 
 但是如果要做出下面的图片的样子，就需要修改`Style`，下面我来告诉大家如何做出下面图片
 
