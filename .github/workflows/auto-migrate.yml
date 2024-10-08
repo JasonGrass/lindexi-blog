@@ -9,8 +9,15 @@ on:
 jobs:
   run-script:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write
     steps:
+      - name: Set timezone to Asia/Shanghai
+        run: |
+          sudo ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+          echo "Asia/Shanghai" | sudo tee /etc/timezone
+          date
+
       - name: Checkout repository
         uses: actions/checkout@v2
 
@@ -30,7 +37,7 @@ jobs:
         run: |
           git clone https://github.com/lindexi/lindexi.github.io.git ../lindexi.github.io
 
-      - name: Ready
+      - name: Yarn install
         run: |
           yarn install
 
@@ -40,10 +47,10 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .
-          git commit -m "Automated migrate on $(date '+%Y-%m-%d %H:%M:%S') by GitHub Actions"
+          git commit -m "Automated migration on $(date '+%Y-%m-%d %H:%M:%S') by GitHub Actions"
           git push
         env:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
