@@ -1,0 +1,49 @@
+name: Auto Migrate
+
+on:
+  schedule:
+    # 每天晚上 9 点执行
+    - cron: "0 21 * * *"
+  workflow_dispatch:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "22"
+
+      - name: Install Yarn
+        run: npm install -g yarn
+
+      - name: Clone lindexi.git repo
+        run: |
+          git clone https://github.com/lindexi/lindexi.git ../lindexi
+
+      - name: Clone lindexi.github.io.git repo
+        run: |
+          git clone https://github.com/lindexi/lindexi.github.io.git ../lindexi.github.io
+
+      - name: Ready
+        run: |
+          yarn install
+
+      - name: Auto Migrate
+        run: |
+          yarn migrate
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Automated migrate on $(date '+%Y-%m-%d %H:%M:%S') by GitHub Actions"
+          git push
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
