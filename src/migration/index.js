@@ -236,4 +236,9 @@ ${content}`;
   await siteHandler.modifyAboutPage(currentDir);
 
   console.log("=== MIGRATE FINISH ===");
+
+  setTimeout(() => {
+    console.log("=== MIGRATE EXIT ===");
+    process.exit();
+  }, 30000);
 })();
