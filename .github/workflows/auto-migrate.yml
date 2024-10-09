@@ -2,8 +2,8 @@ name: Auto Migrate
 
 on:
   schedule:
-    # 每天晚上 9 点执行
-    - cron: "0 21 * * *"
+    # 每天 12 点执行 (UTC时间，北京时间 21 点)
+    - cron: "0 12 * * *"
   workflow_dispatch:
 
 jobs:
@@ -19,12 +19,12 @@ jobs:
           date
 
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: "22"
+          node-version: "latest"
 
       - name: Install Yarn
         run: npm install -g yarn
