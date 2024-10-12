@@ -1,7 +1,7 @@
 ---
 title: "IIncrementalGenerator 增量 Source Generator 生成代码入门 读取 csproj 项目文件的属性配置"
 pubDatetime: 2022-11-07 00:04:32
-modDatetime: 2024-05-20 08:22:03
+modDatetime: 2024-10-11 12:17:31
 slug: IIncrementalGenerator-增量-Source-Generator-生成代码入门-读取-csproj-项目文件的属性配置
 description: "IIncrementalGenerator 增量 Source Generator 生成代码入门 读取 csproj 项目文件的属性配置"
 tags:
@@ -158,7 +158,7 @@ namespace LainewihereJerejawwerye.Analyzers
                 (productionContext, provider) =>
                 {
                     // 这里的代码只有当配置初始化或变更时才会被执行
-                };
+                });
 ```
 
 这里拿到的 `provider` 就是项目的配置了，其中本文期望的 csproj 项目文件的属性也就在 GlobalOptions 属性里面，可以通过如下代码进行获取
@@ -176,7 +176,7 @@ namespace LainewihereJerejawwerye.Analyzers
                     {
                         text += " " + myCustomProperty;
                     }
-                };
+                });
 ```
 
 如此即可拿到属性的内容，放入到 `text` 变量。接着再使用本文已开始的生成代码，完成之后的代码如下
