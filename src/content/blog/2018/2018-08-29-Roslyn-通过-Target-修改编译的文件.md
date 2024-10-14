@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 通过 Target 修改编译的文件"
 pubDatetime: 2018-08-29 01:10:46
-modDatetime: 2024-05-20 08:22:03
+modDatetime: 2024-10-13 02:03:45
 slug: Roslyn-通过-Target-修改编译的文件
 description: "Roslyn 通过 Target 修改编译的文件"
 tags:
@@ -131,7 +131,7 @@ tags:
 <!-- TIM图片20180824091722.jpg -->
 ![](images/img-5b7f5cd130375.jpg)
 
-更多关于 Roslyn 请看 [手把手教你写 Roslyn 修改编译](https://lindexi.oschina.io/lindexi/post/roslyn.html ) 
+更多关于 Roslyn 请看 [手把手教你写 Roslyn 修改编译](https://blog.lindexi.com/post/roslyn.html )
 
 参见：[专栏：Roslyn 入门 - CSDN博客](https://blog.csdn.net/lindexi_gd/category_7945110.html )
 

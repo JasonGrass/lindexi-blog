@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 通过 nuget 统一管理信息"
 pubDatetime: 2018-09-04 00:55:19
-modDatetime: 2024-08-06 12:43:33
+modDatetime: 2024-10-13 02:03:39
 slug: Roslyn-通过-nuget-统一管理信息
 description: "Roslyn 通过 nuget 统一管理信息"
 tags:
@@ -161,5 +161,5 @@ lindexi.targets
 
 代码 [Roslyn 通过 nuget 统一管理信息-CSDN下载](https://download.csdn.net/download/lindexi_gd/10641158 )
 
-更多请看[手把手教你写 Roslyn 修改编译](https://lindexi.oschina.io/lindexi/post/roslyn.html )
+更多请看[手把手教你写 Roslyn 修改编译](https://blog.lindexi.com/post/roslyn.html )
 

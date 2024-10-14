@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 打包 NuGet 包 BuildTransitive 文件夹用于穿透依赖传递拷贝文件"
 pubDatetime: 2021-07-15 11:40:39
-modDatetime: 2024-05-20 08:22:03
+modDatetime: 2024-10-13 02:03:11
 slug: Roslyn-打包-NuGet-包-BuildTransitive-文件夹用于穿透依赖传递拷贝文件
 description: "Roslyn 打包 NuGet 包 BuildTransitive 文件夹用于穿透依赖传递拷贝文件"
 tags:
@@ -245,7 +245,7 @@ git remote add origin https://github.com/lindexi/lindexi_gd.git
 
 获取代码之后，进入 BuildTransitivePackage 文件夹
 
-更多关于 Roslyn 请看 [手把手教你写 Roslyn 修改编译](https://lindexi.oschina.io/lindexi/post/roslyn.html ) 
+更多关于 Roslyn 请看 [手把手教你写 Roslyn 修改编译](https://blog.lindexi.com/post/roslyn.html )
 
 官方文档 [Allow package authors to define build assets transitive behavior · NuGet/Home Wiki](https://github.com/NuGet/Home/wiki/Allow-package--authors-to-define-build-assets-transitive-behavior )
 

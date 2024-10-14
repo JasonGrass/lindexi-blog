@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 获得 sln 文件所在的文件夹"
 pubDatetime: 2019-07-22 00:57:14
-modDatetime: 2024-08-06 12:43:33
+modDatetime: 2024-10-13 02:03:18
 slug: Roslyn-获得-sln-文件所在的文件夹
 description: "Roslyn 获得 sln 文件所在的文件夹"
 tags:
@@ -67,7 +67,7 @@ tags:
 
 [MSBuild Reserved and Well-known Properties](https://docs.microsoft.com/en-us/visualstudio/msbuild/msbuild-reserved-and-well-known-properties?view=vs-2017 )
 
-更多请看 [手把手教你写 Roslyn 修改编译](https://lindexi.oschina.io/lindexi/post/roslyn.html )
+更多请看 [手把手教你写 Roslyn 修改编译](https://blog.lindexi.com/post/roslyn.html )
 
 ![](images/img-modify-9606c55b7c2b56d19d7cec03fd40b659.png)
 
