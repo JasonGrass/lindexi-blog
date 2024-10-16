@@ -209,6 +209,10 @@ ${tags.map(tag => `  - ${tag}`).join("\n")}\n`);
   if (isDraft) {
     headerLines.push(`draft: ${isDraft}\n`);
   }
+  // 博客导航放到 featured
+  if (slug === "博客导航") {
+    headerLines.push(`featured: true\n`);
+  }
   headerLines.push("---\n");
 
   let header = headerLines.join("");
