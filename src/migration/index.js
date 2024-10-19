@@ -4,6 +4,7 @@ const path = require("path");
 const simpleGit = require("simple-git");
 const imageHandler = require("./imageHandler");
 const siteHandler = require("./siteHandler");
+const repeatBlogHandler = require("./repeatBlogRemove");
 
 const currentDir = process.cwd();
 
@@ -236,6 +237,11 @@ ${content}`;
     await parseOne(file);
     console.log(`migrate finish ${file}`);
   }
+
+  console.log("=== remove repeat blog begin ===");
+  var blogDir = path.resolve(currentDir, "./src/content//blog/");
+  repeatBlogHandler.uniqueMarkdownFiles(blogDir);
+  console.log("=== remove repeat blog finish ===");
 
   await siteHandler.modifyAboutPage(currentDir);
 
