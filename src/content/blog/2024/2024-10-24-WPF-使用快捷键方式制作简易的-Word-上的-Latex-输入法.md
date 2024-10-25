@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用快捷键方式制作简易的 Word 上的 Latex 输入法"
-pubDatetime: 2024-10-23 11:50:07
-modDatetime: 2024-10-23 12:04:33
+pubDatetime: 2024-10-23 23:03:34
+modDatetime: 2024-10-24 03:11:04
 slug: WPF-使用快捷键方式制作简易的-Word-上的-Latex-输入法
 description: "WPF 使用快捷键方式制作简易的 Word 上的 Latex 输入法"
 tags:
@@ -16,18 +16,20 @@ tags:
 <!--more-->
 
 
+<!-- CreateTime:2024/10/24 07:03:34 -->
+
 <!-- 发布 -->
 <!-- 博客 -->
 
 软件的界面效果如下：
 
 <!-- ![](images/img-WPF 使用快捷键方式制作简易的 Word 上的 Latex 输入法0.png) -->
-![](http://image.acmx.xyz/lindexi%2F20241023195116538.jpg)
+![](images/img-modify-11e58dfe25d7d2dbf86c8f14c49f5d63.jpg)
 
 运行效果如下：
 
 <!-- ![](images/img-WPF 使用快捷键方式制作简易的 Word 上的 Latex 输入法1.gif) -->
-![](http://image.acmx.xyz/lindexi%2FWPF%2520%25E4%25BD%25BF%25E7%2594%25A8%25E5%25BF%25AB%25E6%258D%25B7%25E9%2594%25AE%25E6%2596%25B9%25E5%25BC%258F%25E5%2588%25B6%25E4%25BD%259C%25E7%25AE%2580%25E6%2598%2593%25E7%259A%2584%2520Word%2520%25E4%25B8%258A%25E7%259A%2584%2520Latex%2520%25E8%25BE%2593%25E5%2585%25A5%25E6%25B3%25951.gif)
+![](images/img-modify-1b9d59285befbf0a510fc041d1275e30.gif)
 
 本文以下为演示应用，没有包含从用户输入生成 Latex 格式的公式，仅仅只包含核心的如何在 Word 插入公式部分
 
