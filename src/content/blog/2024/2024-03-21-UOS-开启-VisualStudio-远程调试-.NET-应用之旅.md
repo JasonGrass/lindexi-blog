@@ -1,7 +1,7 @@
 ---
 title: "UOS 开启 VisualStudio 远程调试 .NET 应用之旅"
 pubDatetime: 2024-03-20 23:05:36
-modDatetime: 2024-08-06 12:43:34
+modDatetime: 2024-11-04 01:55:48
 slug: UOS-开启-VisualStudio-远程调试-.NET-应用之旅
 description: "UOS 开启 VisualStudio 远程调试 .NET 应用之旅"
 tags:
@@ -75,6 +75,8 @@ PasswordAuthentication yes
 
 <!-- ![](images/img-UOS 开启 VisualStudio 远程调试 .NET 应用之旅3.png) -->
 ![](images/img-modify-a02806e0613b961e64e09b02ef90b789.png)
+
+> 注： 如果没有找到 sshd_config 文件、或使用 vi 打开时是空白，则证明其服务端没有带上，可使用 `sudo apt-get install openssh-server` 命令进行安装 ssh 服务端
 
 配置完成之后，使用以下命令了解一下 ssh 的运行情况
 
