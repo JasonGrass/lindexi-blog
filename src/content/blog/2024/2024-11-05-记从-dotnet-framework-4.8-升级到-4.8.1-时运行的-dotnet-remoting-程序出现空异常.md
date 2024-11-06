@@ -1,7 +1,7 @@
 ---
 title: "记从 dotnet framework 4.8 升级到 4.8.1 时运行的 dotnet remoting 程序出现空异常"
-pubDatetime: 2024-11-04 07:48:57
-modDatetime: 2024-11-04 07:50:00
+pubDatetime: 2024-11-04 23:11:44
+modDatetime: 2024-11-04 23:11:44
 slug: 记从-dotnet-framework-4.8-升级到-4.8.1-时运行的-dotnet-remoting-程序出现空异常
 description: "记从 dotnet framework 4.8 升级到 4.8.1 时运行的 dotnet remoting 程序出现空异常"
 tags:
@@ -15,6 +15,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2024/11/05 07:11:44 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
