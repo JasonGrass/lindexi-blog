@@ -2,6 +2,7 @@
 layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
+import Collapsible from '../components/Collapsible.jsx'
 
 林德熙 - 微软最具价值专家和 .NET 基金会成员
 
@@ -21,6 +22,58 @@ title: "About"
 
 [lindexi_gd-CSDN博客](https://blog.csdn.net/lindexi_gd )  
 
+---
+
+<Collapsible title="看不见的内容" client:load>
+
+德熙的博客偶尔加载比较慢，以下油猴脚本可以将 `https://blog.lindexi.com/post/` 自动重定向到本站点
+
+```js
+// ==UserScript==
+// @name         lindexi blog redirect
+// @namespace    blog.lindexi.com
+// @version      2024-11-06
+// @description  add redirect to backup blog
+// @author       You
+// @match        *blog.lindexi.com/post/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=lindexi.com
+// @grant        none
+// @run-at       document-start
+// ==/UserScript==
+
+(async function () {
+  "use strict";
+
+  const oldUrlPrefix = "https://blog.lindexi.com/post/";
+  const newUrlPrefix = "https://lindexi-blog.jgrass.cc/posts/";
+
+  if (location.href.startsWith(oldUrlPrefix)) {
+    let newUrl = location.href.replace(oldUrlPrefix, newUrlPrefix);
+
+    // Remove the .html extension if present
+    if (newUrl.endsWith(".html")) {
+      newUrl = newUrl.substring(0, newUrl.length - 5);
+    }
+
+    // Check if the new URL is valid
+    try {
+      const response = await fetch(newUrl, { method: "HEAD" });
+      if (response.ok) {
+        // If response is OK (200-299), redirect
+        location.href = newUrl;
+      } else {
+        // Handle 404 or other errors if needed
+        console.error(`Redirect URL Fail ${newUrl}`);
+        console.error("Redirect URL returned an error:", response.status);
+      }
+    } catch (error) {
+      console.error("Error fetching the new URL:", error);
+    }
+  }
+})();
+```
+
+</Collapsible>
 ---
 
 站点使用 [AstroPaper](https://github.com/satnaing/astro-paper) 搭建，部署在 [vercel](https://vercel.com/) 上
