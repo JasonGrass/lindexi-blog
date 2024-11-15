@@ -1,7 +1,7 @@
 ---
 title: "dotnet 解决使用本地不安全 http 的 NuGet 源 NU1803 警告或构建失败问题"
-pubDatetime: 2024-07-19 01:03:07
-modDatetime: 2024-11-13 07:50:18
+pubDatetime: 2024-11-13 23:29:27
+modDatetime: 2024-11-13 23:29:27
 slug: dotnet-解决使用本地不安全-http-的-NuGet-源-NU1803-警告或构建失败问题
 description: "dotnet 解决使用本地不安全 http 的 NuGet 源 NU1803 警告或构建失败问题"
 tags:
@@ -15,6 +15,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2024/11/14 07:29:27 -->
 
 <!-- 发布 -->
 <!-- 博客 -->

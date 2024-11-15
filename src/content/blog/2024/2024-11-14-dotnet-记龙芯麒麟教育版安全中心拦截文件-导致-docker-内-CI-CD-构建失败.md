@@ -1,7 +1,7 @@
 ---
 title: "dotnet 记龙芯麒麟教育版安全中心拦截文件 导致 docker 内 CI CD 构建失败"
-pubDatetime: 2024-11-13 12:28:34
-modDatetime: 2024-11-13 13:01:01
+pubDatetime: 2024-11-13 23:29:28
+modDatetime: 2024-11-14 00:51:12
 slug: dotnet-记龙芯麒麟教育版安全中心拦截文件-导致-docker-内-CI-CD-构建失败
 description: "dotnet 记龙芯麒麟教育版安全中心拦截文件 导致 docker 内 CI CD 构建失败"
 tags:
@@ -15,6 +15,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2024/11/14 07:29:28 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
@@ -184,3 +186,5 @@ key=0389218
 to=
 term=2025-12-18
 ```
+
+其他拦截问题请看： [记 Kylin 麒麟系统安全中心拦截导致 dotnet sdk 找不到 OpenSsl 构建失败](https://blog.lindexi.com/post/%E8%AE%B0-Kylin-%E9%BA%92%E9%BA%9F%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8%E4%B8%AD%E5%BF%83%E6%8B%A6%E6%88%AA%E5%AF%BC%E8%87%B4-dotnet-sdk-%E6%89%BE%E4%B8%8D%E5%88%B0-OpenSsl-%E6%9E%84%E5%BB%BA%E5%A4%B1%E8%B4%A5.html ) <!-- [记 Kylin 麒麟系统安全中心拦截导致 dotnet sdk 找不到 OpenSsl 构建失败 - lindexi - 博客园](https://www.cnblogs.com/lindexi/p/18514833 ) -->
