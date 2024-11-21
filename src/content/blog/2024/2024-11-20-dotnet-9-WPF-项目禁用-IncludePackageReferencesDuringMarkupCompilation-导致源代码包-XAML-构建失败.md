@@ -1,7 +1,7 @@
 ---
 title: "dotnet 9 WPF 项目禁用 IncludePackageReferencesDuringMarkupCompilation 导致源代码包 XAML 构建失败"
-pubDatetime: 2024-11-19 06:40:05
-modDatetime: 2024-11-19 07:35:25
+pubDatetime: 2024-11-19 23:17:26
+modDatetime: 2024-11-19 23:17:26
 slug: dotnet-9-WPF-项目禁用-IncludePackageReferencesDuringMarkupCompilation-导致源代码包-XAML-构建失败
 description: "dotnet 9 WPF 项目禁用 IncludePackageReferencesDuringMarkupCompilation 导致源代码包 XAML 构建失败"
 tags:
@@ -16,6 +16,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2024/11/20 07:17:26 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
