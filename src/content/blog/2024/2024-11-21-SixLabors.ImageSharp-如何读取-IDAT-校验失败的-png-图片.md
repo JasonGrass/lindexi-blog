@@ -1,7 +1,7 @@
 ---
 title: "SixLabors.ImageSharp 如何读取 IDAT 校验失败的 png 图片"
-pubDatetime: 2024-11-20 01:11:40
-modDatetime: 2024-11-20 01:16:21
+pubDatetime: 2024-11-20 23:09:35
+modDatetime: 2024-11-20 23:09:35
 slug: SixLabors.ImageSharp-如何读取-IDAT-校验失败的-png-图片
 description: "SixLabors.ImageSharp 如何读取 IDAT 校验失败的 png 图片"
 ---
@@ -13,6 +13,8 @@ description: "SixLabors.ImageSharp 如何读取 IDAT 校验失败的 png 图片"
 
 <!--more-->
 
+
+<!-- CreateTime:2024/11/21 07:09:35 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
