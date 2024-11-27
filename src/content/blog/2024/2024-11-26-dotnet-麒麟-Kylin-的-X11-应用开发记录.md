@@ -1,7 +1,7 @@
 ---
 title: "dotnet 麒麟 Kylin 的 X11 应用开发记录"
-pubDatetime: 2024-11-25 06:29:36
-modDatetime: 2024-11-25 07:52:38
+pubDatetime: 2024-11-26 00:40:32
+modDatetime: 2024-11-26 00:40:32
 slug: dotnet-麒麟-Kylin-的-X11-应用开发记录
 description: "dotnet 麒麟 Kylin 的 X11 应用开发记录"
 tags:
@@ -16,6 +16,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2024/11/26 08:40:32 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
