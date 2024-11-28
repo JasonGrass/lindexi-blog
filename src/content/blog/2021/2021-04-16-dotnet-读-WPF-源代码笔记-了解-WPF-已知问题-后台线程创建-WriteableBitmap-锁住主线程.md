@@ -1,7 +1,7 @@
 ---
 title: "dotnet 读 WPF 源代码笔记 了解 WPF 已知问题 后台线程创建 WriteableBitmap 锁住主线程"
 pubDatetime: 2021-04-16 08:53:15
-modDatetime: 2024-05-20 08:22:04
+modDatetime: 2024-11-27 09:05:31
 slug: dotnet-读-WPF-源代码笔记-了解-WPF-已知问题-后台线程创建-WriteableBitmap-锁住主线程
 description: "dotnet 读 WPF 源代码笔记 了解 WPF 已知问题 后台线程创建 WriteableBitmap 锁住主线程"
 tags:
@@ -98,7 +98,6 @@ tags:
                         DUCECompatiblePtr
                         );
                 }
-            }
         }
      }
 ```
