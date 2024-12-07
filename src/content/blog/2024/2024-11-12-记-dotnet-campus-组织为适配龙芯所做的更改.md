@@ -1,7 +1,7 @@
 ---
 title: "记 dotnet campus 组织为适配龙芯所做的更改"
 pubDatetime: 2024-11-12 14:16:36
-modDatetime: 2024-11-12 14:29:16
+modDatetime: 2024-12-06 01:47:29
 slug: 记-dotnet-campus-组织为适配龙芯所做的更改
 description: "记 dotnet campus 组织为适配龙芯所做的更改"
 tags:
@@ -38,3 +38,7 @@ tags:
 - <https://github.com/dotnet-campus/dotnetCampus.SourceLocalizations/pull/8>
 - <https://github.com/dotnet-campus/dotnetCampus.Logger/pull/29>
 - <https://github.com/dotnet-campus/dotnetCampus.Ipc/pull/156>
+
+## 修复源代码包
+
+- <https://github.com/dotnet-campus/DocumentFormat.OpenXml.Extensions/pull/46>
