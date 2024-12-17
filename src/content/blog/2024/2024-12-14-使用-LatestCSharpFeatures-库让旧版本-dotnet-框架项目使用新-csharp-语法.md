@@ -1,7 +1,7 @@
 ---
 title: "使用 LatestCSharpFeatures 库让旧版本 dotnet 框架项目使用新 C# 语法"
-pubDatetime: 2024-12-13 12:14:53
-modDatetime: 2024-12-13 12:17:23
+pubDatetime: 2024-12-13 23:06:05
+modDatetime: 2024-12-13 23:06:05
 slug: 使用-LatestCSharpFeatures-库让旧版本-dotnet-框架项目使用新-C-语法
 description: "使用 LatestCSharpFeatures 库让旧版本 dotnet 框架项目使用新 C# 语法"
 tags:
@@ -16,6 +16,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2024/12/14 07:06:05 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
