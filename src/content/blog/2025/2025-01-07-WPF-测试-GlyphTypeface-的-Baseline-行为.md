@@ -107,7 +107,7 @@ tags:
 运行代码，可见画出来的线条就刚好是文本的基线，非常正确
 
 <!-- ![](images/img-WPF 测试 GlyphTypeface 的 Baseline 行为0.png) -->
-![](http://cdn.lindexi.site/lindexi%2F202517204253480.jpg)
+![](images/img-modify-5afb665b67c6531fdb031e9418511c08.jpg)
 
 如此可证明将 GlyphTypeface 的 Baseline 属性乘以字号就是文本字符的基线
 
