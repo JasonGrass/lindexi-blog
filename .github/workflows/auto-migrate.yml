@@ -2,8 +2,8 @@ name: Auto Migrate
 
 on:
   schedule:
-    # 每天 20 点执行 (UTC时间，北京时间 4 点)
-    - cron: "0 20 * * *"
+    # 每两天 20 点执行 (UTC时间，北京时间 4 点)
+    - cron: "0 20 */2 * *"
   workflow_dispatch:
 
 jobs:
