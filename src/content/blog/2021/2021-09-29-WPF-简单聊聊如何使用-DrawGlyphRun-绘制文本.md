@@ -1,7 +1,7 @@
 ---
 title: "WPF 简单聊聊如何使用 DrawGlyphRun 绘制文本"
 pubDatetime: 2021-09-29 11:09:47
-modDatetime: 2025-01-07 10:04:52
+modDatetime: 2025-01-08 00:52:25
 slug: WPF-简单聊聊如何使用-DrawGlyphRun-绘制文本
 description: "WPF 简单聊聊如何使用 DrawGlyphRun 绘制文本"
 tags:
@@ -188,6 +188,9 @@ for (var i = 0; i < text.Length; i++)
 ```
 
 以上代码是将 GetBaseline 的返回值给到 location 的 Y 值，这适合用在水平布局文本上。如果是垂直排版的文本，自然就需要放在水平方向。请根据你的业务代码修改以上逻辑
+
+更多基线计算请参阅 [WPF 测试 GlyphTypeface 的 Baseline 行为](https://blog.lindexi.com/post/WPF-%E6%B5%8B%E8%AF%95-GlyphTypeface-%E7%9A%84-Baseline-%E8%A1%8C%E4%B8%BA.html )
+<!-- [WPF 测试 GlyphTypeface 的 Baseline 行为 - lindexi - 博客园](https://www.cnblogs.com/lindexi/p/18658843 ) -->
 
 ## 语言文化
 
