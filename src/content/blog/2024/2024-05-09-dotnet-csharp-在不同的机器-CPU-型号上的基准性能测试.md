@@ -1,7 +1,7 @@
 ---
 title: "dotnet C# 在不同的机器 CPU 型号上的基准性能测试"
 pubDatetime: 2024-05-08 23:29:08
-modDatetime: 2024-08-06 12:43:26
+modDatetime: 2025-01-15 02:51:49
 slug: dotnet-C-在不同的机器-CPU-型号上的基准性能测试
 description: "dotnet C# 在不同的机器 CPU 型号上的基准性能测试"
 tags:
@@ -18,7 +18,7 @@ tags:
 
 
 <!-- CreateTime:2024/05/09 07:29:08 -->
-
+<!-- 博客 -->
 <!-- 发布 -->
 
 以下是我的测试结果，对应的测试代码放在 [github](https://github.com/lindexi/lindexi_gd/tree/1e20b4c8ef64b17604e1ee92f41f7ac25ad08d26/BulowukaileFeanayjairwo) 上，可以在本文末尾找到下载代码的方法
@@ -44,6 +44,7 @@ BenchmarkDotNet v0.13.12, Windows 11 (10.0.22631.3447/23H2/2023Update/SunValley3
 RunStrategy=Throughput  
 
 ```
+
 | Method                   | ArraySize | Mean             | Error          | StdDev         | Median           | Ratio | RatioSD |
 |------------------------- |---------- |-----------------:|---------------:|---------------:|-----------------:|------:|--------:|
 | NewArray                 | 10        |         3.873 ns |      0.1146 ns |      0.2417 ns |         3.777 ns |  1.00 |    0.00 |
