@@ -1,7 +1,7 @@
 ---
 title: "dotnet 6 InterpolatedStringHandler 构造函数的 out 参数有什么意义"
-pubDatetime: 2025-01-17 09:17:38
-modDatetime: 2025-01-20 01:41:30
+pubDatetime: 2025-01-20 23:05:14
+modDatetime: 2025-01-20 23:05:14
 slug: dotnet-6-InterpolatedStringHandler-构造函数的-out-参数有什么意义
 description: "dotnet 6 InterpolatedStringHandler 构造函数的 out 参数有什么意义"
 tags:
@@ -15,6 +15,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2025/01/21 07:05:14 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
