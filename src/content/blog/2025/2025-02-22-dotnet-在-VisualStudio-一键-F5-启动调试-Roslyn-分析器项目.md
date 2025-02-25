@@ -1,7 +1,7 @@
 ---
 title: "dotnet 在 VisualStudio 一键 F5 启动调试 Roslyn 分析器项目"
-pubDatetime: 2025-02-21 01:08:36
-modDatetime: 2025-02-21 03:34:59
+pubDatetime: 2025-02-21 23:21:27
+modDatetime: 2025-02-21 23:21:27
 slug: dotnet-在-VisualStudio-一键-F5-启动调试-Roslyn-分析器项目
 description: "dotnet 在 VisualStudio 一键 F5 启动调试 Roslyn 分析器项目"
 tags:
@@ -17,6 +17,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2025/02/22 07:21:27 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
@@ -120,7 +122,7 @@ git pull origin c0e948b2a3aab521f2d6d86593c385f4d406cfa5
 再点击分析器项目的调试属性，如下图所示
 
 <!-- ![](images/img-dotnet 在 VisualStudio 一键 F5 启动调试 Roslyn 分析器项目0.png) -->
-![](http://cdn.lindexi.site/lindexi%2F20252211054587914.jpg)
+![](images/img-modify-d05c25c7abe22a2962eb81fe9ecd89d1.jpg)
 
 在打开的启动配置文件窗口里面，找个命令行参数，随便写入点字符。这个过程仅仅只是为了让 VisualStudio 帮助咱快速创建 `launchSettings.json` 文件而已。我现在还没有找到比这个方法更加顺手便捷的方式哈
 
