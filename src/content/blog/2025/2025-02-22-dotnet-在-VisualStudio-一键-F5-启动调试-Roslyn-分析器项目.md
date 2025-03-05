@@ -1,7 +1,7 @@
 ---
 title: "dotnet 在 VisualStudio 一键 F5 启动调试 Roslyn 分析器项目"
 pubDatetime: 2025-02-21 23:21:27
-modDatetime: 2025-02-27 01:04:07
+modDatetime: 2025-03-03 00:59:27
 slug: dotnet-在-VisualStudio-一键-F5-启动调试-Roslyn-分析器项目
 description: "dotnet 在 VisualStudio 一键 F5 启动调试 Roslyn 分析器项目"
 tags:
@@ -28,6 +28,22 @@ tags:
 本文将和大家介绍如何使用 DebugRoslynComponent 启动方式进行调试启动 Roslyn 分析器项目
 
 本文先告诉大家完全手动的编辑文件的配置方式，然后再告诉大家如何通过图形化的配置方式作为日常工程化的配置
+
+## 环境准备
+
+要求 Visual Studio 安装好了 `.NET Compiler Platform SDK` 负载组件，这个组件是用于支持 Roslyn 的调试环境。给 Visual Studio 打上 `.NET Compiler Platform SDK` 负载组件方法如下：
+
+1. 运行“Visual Studio 安装程序”
+2. 选择“修改”
+3. 检查“Visual Studio 扩展开发”工作负荷。
+4. 在摘要树中打开“Visual Studio 扩展开发”节点。
+5. 选中“.NET Compiler Platform SDK”框。 将在可选组件最下面找到它
+
+<!-- ![](images/img-dotnet 源代码生成器分析器入门10.png) -->
+![](images/img-modify-022aa3f0bd5aa07deee009a64c24b709.jpg)
+
+<!-- ![](images/img-dotnet 源代码生成器分析器入门11.png) -->
+![](images/img-modify-b56f8ee90715037595940c04cb67c96d.jpg)
 
 ## 手动配置
 
