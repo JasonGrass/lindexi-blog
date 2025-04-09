@@ -1,7 +1,7 @@
 ---
 title: "dotnet C# 判断应用程序在 Wine 里运行的方法"
-pubDatetime: 2025-04-04 02:01:52
-modDatetime: 2025-04-04 02:04:49
+pubDatetime: 2025-04-04 02:05:02
+modDatetime: 2025-04-04 02:05:02
 slug: dotnet-C-判断应用程序在-Wine-里运行的方法
 description: "dotnet C# 判断应用程序在 Wine 里运行的方法"
 tags:
@@ -16,6 +16,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2025/04/04 10:05:02 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
