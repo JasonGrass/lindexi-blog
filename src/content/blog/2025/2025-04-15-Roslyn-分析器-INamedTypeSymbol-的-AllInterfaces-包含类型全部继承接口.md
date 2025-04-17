@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 分析器 INamedTypeSymbol 的 AllInterfaces 包含类型全部继承接口"
-pubDatetime: 2025-04-14 06:19:51
-modDatetime: 2025-04-14 06:23:34
+pubDatetime: 2025-04-14 23:19:32
+modDatetime: 2025-04-14 23:19:32
 slug: Roslyn-分析器-INamedTypeSymbol-的-AllInterfaces-包含类型全部继承接口
 description: "Roslyn 分析器 INamedTypeSymbol 的 AllInterfaces 包含类型全部继承接口"
 tags:
@@ -15,6 +15,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2025/04/15 07:19:32 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
