@@ -1,7 +1,7 @@
 ---
 title: "dotnet 警惕设置 StreamReader 的 BaseStream 的 Position 属性"
-pubDatetime: 2025-04-18 03:50:54
-modDatetime: 2025-04-18 06:09:15
+pubDatetime: 2025-04-18 23:27:51
+modDatetime: 2025-04-18 23:27:51
 slug: dotnet-警惕设置-StreamReader-的-BaseStream-的-Position-属性
 description: "dotnet 警惕设置 StreamReader 的 BaseStream 的 Position 属性"
 tags:
@@ -15,6 +15,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2025/04/19 07:27:51 -->
 
 <!-- 发布 -->
 <!-- 博客 -->

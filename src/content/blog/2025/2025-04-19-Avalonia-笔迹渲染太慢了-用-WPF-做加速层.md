@@ -1,7 +1,7 @@
 ---
 title: "Avalonia 笔迹渲染太慢了 用 WPF 做加速层"
-pubDatetime: 2025-04-18 09:24:16
-modDatetime: 2025-04-18 10:01:00
+pubDatetime: 2025-04-18 23:27:29
+modDatetime: 2025-04-18 23:27:29
 slug: Avalonia-笔迹渲染太慢了-用-WPF-做加速层
 description: "Avalonia 笔迹渲染太慢了 用 WPF 做加速层"
 tags:
@@ -16,6 +16,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2025/04/19 07:27:29 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
