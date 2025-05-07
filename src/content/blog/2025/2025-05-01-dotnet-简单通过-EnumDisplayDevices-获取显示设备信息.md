@@ -1,7 +1,7 @@
 ---
 title: "dotnet 简单通过 EnumDisplayDevices 获取显示设备信息"
-pubDatetime: 2025-04-30 01:03:24
-modDatetime: 2025-04-30 01:03:24
+pubDatetime: 2025-04-30 23:07:49
+modDatetime: 2025-04-30 23:07:49
 slug: dotnet-简单通过-EnumDisplayDevices-获取显示设备信息
 description: "dotnet 简单通过 EnumDisplayDevices 获取显示设备信息"
 tags:
@@ -15,6 +15,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2025/05/01 07:07:49 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
