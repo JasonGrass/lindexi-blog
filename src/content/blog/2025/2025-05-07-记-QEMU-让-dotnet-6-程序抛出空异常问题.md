@@ -1,7 +1,7 @@
 ---
 title: "记 QEMU 让 dotnet 6 程序抛出空异常问题"
-pubDatetime: 2025-05-06 11:50:09
-modDatetime: 2025-05-06 11:54:17
+pubDatetime: 2025-05-06 23:30:17
+modDatetime: 2025-05-06 23:30:17
 slug: 记-QEMU-让-dotnet-6-程序抛出空异常问题
 description: "记 QEMU 让 dotnet 6 程序抛出空异常问题"
 tags:
@@ -15,6 +15,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2025/05/07 07:30:17 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
