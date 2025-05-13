@@ -1,7 +1,7 @@
 ---
 title: "dotnet MCP 无魔法 本地进程内服务端客户端调用和通讯示例"
-pubDatetime: 2025-05-09 13:10:29
-modDatetime: 2025-05-09 13:10:29
+pubDatetime: 2025-05-09 23:07:40
+modDatetime: 2025-05-09 23:07:40
 slug: dotnet-MCP-无魔法-本地进程内服务端客户端调用和通讯示例
 description: "dotnet MCP 无魔法 本地进程内服务端客户端调用和通讯示例"
 tags:
@@ -15,6 +15,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2025/05/10 07:07:40 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
