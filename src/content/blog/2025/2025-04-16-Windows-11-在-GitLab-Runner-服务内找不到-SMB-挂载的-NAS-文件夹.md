@@ -1,7 +1,7 @@
 ---
 title: "Windows 11 在 GitLab Runner 服务内找不到 SMB 挂载的 NAS 文件夹"
-pubDatetime: 2025-04-15 23:23:58
-modDatetime: 2025-04-15 23:23:58
+pubDatetime: 2025-04-15 23:23:59
+modDatetime: 2025-05-14 11:51:07
 slug: Windows-11-在-GitLab-Runner-服务内找不到-SMB-挂载的-NAS-文件夹
 description: "Windows 11 在 GitLab Runner 服务内找不到 SMB 挂载的 NAS 文件夹"
 tags:
@@ -16,7 +16,7 @@ tags:
 <!--more-->
 
 
-<!-- CreateTime:2025/04/16 07:23:58 -->
+<!-- CreateTime:2025/04/16 07:23:59 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
@@ -86,3 +86,33 @@ New-SmbMapping : 本地设备名已在使用中。
 ```
 
 执行完成 New-SmbMapping 命令之后，重新在 GitLab Runner 服务调度启动的进程里面，使用 `Directory.Exists(@"Y:\")` 这句代码时，可以正常返回文件夹存在，问题解决
+
+---
+
+有伙伴和我反馈说调用 `powershell New-SmbMapping -LocalPath Y: -RemotePath \\nas.lindexi.com\Data -Persistent $True` 时，出现了以下错误信息
+
+```
+New-SmbMapping : Cannot process argument transformation on parameter 'Persistent'. Cannot convert value "System.String"
+ to type "System.Boolean". Boolean parameters accept only Boolean values and numbers, such as $True, $False, 1 or 0.
+At line:1 char:78
+```
+
+也不知道是哪里挂了，核心说的是将 `$True` 识别为 System.String 字符串了
+
+解决方法就是将 `$True` 改成 1 就好了，修改之后的命令如下
+
+```
+powershell New-SmbMapping -LocalPath Y: -RemotePath \\nas.lindexi.com\Data -Persistent 1
+```
+
+修改之后的 `.gitlab-ci.yml` 文件内容大概如下
+
+```yml
+stages:
+  - build
+
+Build:
+    stage: build
+    script:
+        - 'powershell New-SmbMapping -LocalPath Y: -RemotePath \\nas.lindexi.com\Data -Persistent 1'
+```
