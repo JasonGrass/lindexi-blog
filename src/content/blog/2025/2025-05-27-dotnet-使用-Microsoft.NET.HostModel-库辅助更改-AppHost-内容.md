@@ -1,7 +1,7 @@
 ---
 title: "dotnet 使用 Microsoft.NET.HostModel 库辅助更改 AppHost 内容"
-pubDatetime: 2025-05-26 12:12:45
-modDatetime: 2025-05-26 12:15:34
+pubDatetime: 2025-05-26 23:07:29
+modDatetime: 2025-05-26 23:07:29
 slug: dotnet-使用-Microsoft.NET.HostModel-库辅助更改-AppHost-内容
 description: "dotnet 使用 Microsoft.NET.HostModel 库辅助更改 AppHost 内容"
 tags:
@@ -15,6 +15,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2025/05/27 07:07:29 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
