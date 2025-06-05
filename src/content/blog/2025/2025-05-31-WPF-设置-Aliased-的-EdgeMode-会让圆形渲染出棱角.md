@@ -1,7 +1,7 @@
 ---
 title: "WPF 设置 Aliased 的 EdgeMode 会让圆形渲染出棱角"
-pubDatetime: 2025-05-29 09:21:57
-modDatetime: 2025-05-29 09:36:24
+pubDatetime: 2025-05-30 23:26:00
+modDatetime: 2025-05-30 23:26:00
 slug: WPF-设置-Aliased-的-EdgeMode-会让圆形渲染出棱角
 description: "WPF 设置 Aliased 的 EdgeMode 会让圆形渲染出棱角"
 tags:
@@ -15,6 +15,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2025/05/31 07:26:00 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
