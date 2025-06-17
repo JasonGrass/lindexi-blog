@@ -1,7 +1,7 @@
 ---
 title: "FastTunnel 搭配 nginx 将本地内网电脑 HTTP 服务公开到子域名公网访问"
-pubDatetime: 2025-06-11 11:53:50
-modDatetime: 2025-06-11 12:14:09
+pubDatetime: 2025-06-11 23:17:45
+modDatetime: 2025-06-11 23:17:45
 slug: FastTunnel-搭配-nginx-将本地内网电脑-HTTP-服务公开到子域名公网访问
 description: "FastTunnel 搭配 nginx 将本地内网电脑 HTTP 服务公开到子域名公网访问"
 ---
@@ -13,6 +13,8 @@ description: "FastTunnel 搭配 nginx 将本地内网电脑 HTTP 服务公开到
 
 <!--more-->
 
+
+<!-- CreateTime:2025/06/12 07:17:45 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
