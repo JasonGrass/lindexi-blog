@@ -1,7 +1,7 @@
 ---
 title: "使用 SatelliteResourceLanguages 减少 WPF 发布的多语言文件夹数量"
-pubDatetime: 2025-06-16 12:11:47
-modDatetime: 2025-06-16 12:15:29
+pubDatetime: 2025-06-16 23:06:20
+modDatetime: 2025-06-16 23:06:20
 slug: 使用-SatelliteResourceLanguages-减少-WPF-发布的多语言文件夹数量
 description: "使用 SatelliteResourceLanguages 减少 WPF 发布的多语言文件夹数量"
 tags:
@@ -15,6 +15,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2025/06/17 07:06:20 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
