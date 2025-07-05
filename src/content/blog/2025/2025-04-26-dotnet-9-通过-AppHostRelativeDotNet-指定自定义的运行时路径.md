@@ -1,7 +1,7 @@
 ---
 title: "dotnet 9 通过 AppHostRelativeDotNet 指定自定义的运行时路径"
 pubDatetime: 2025-04-25 23:13:38
-modDatetime: 2025-05-19 11:53:44
+modDatetime: 2025-07-03 02:56:37
 slug: dotnet-9-通过-AppHostRelativeDotNet-指定自定义的运行时路径
 description: "dotnet 9 通过 AppHostRelativeDotNet 指定自定义的运行时路径"
 tags:
@@ -65,7 +65,7 @@ C:\Program Files\CompanyName\Produce3\
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <AppHostDotNetSearch>AppRelative;Global;</AppHostDotNetSearch>
+    <AppHostDotNetSearch>AppRelative;EnvironmentVariable;Global;</AppHostDotNetSearch>
     <AppHostRelativeDotNet>../relative/path/to/runtime</AppHostRelativeDotNet>
   </PropertyGroup>
 
