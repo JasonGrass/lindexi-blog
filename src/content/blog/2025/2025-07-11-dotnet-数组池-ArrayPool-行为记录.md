@@ -1,7 +1,7 @@
 ---
 title: "dotnet 数组池 ArrayPool 行为记录"
-pubDatetime: 2025-07-10 01:58:48
-modDatetime: 2025-07-10 01:59:02
+pubDatetime: 2025-07-10 23:27:22
+modDatetime: 2025-07-10 23:27:22
 slug: dotnet-数组池-ArrayPool-行为记录
 description: "dotnet 数组池 ArrayPool 行为记录"
 tags:
@@ -15,6 +15,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2025/07/11 07:27:22 -->
 
 <!-- 发布 -->
 <!-- 博客 -->

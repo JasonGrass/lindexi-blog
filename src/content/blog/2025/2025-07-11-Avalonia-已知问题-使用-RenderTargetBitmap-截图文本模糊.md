@@ -1,7 +1,7 @@
 ---
 title: "Avalonia 已知问题 使用 RenderTargetBitmap 截图文本模糊"
-pubDatetime: 2025-07-10 06:41:45
-modDatetime: 2025-07-10 06:45:56
+pubDatetime: 2025-07-10 23:27:03
+modDatetime: 2025-07-10 23:27:03
 slug: Avalonia-已知问题-使用-RenderTargetBitmap-截图文本模糊
 description: "Avalonia 已知问题 使用 RenderTargetBitmap 截图文本模糊"
 tags:
@@ -15,6 +15,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2025/07/11 07:27:03 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
