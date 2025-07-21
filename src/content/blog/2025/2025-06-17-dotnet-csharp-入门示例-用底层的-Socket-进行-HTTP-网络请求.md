@@ -1,7 +1,7 @@
 ---
 title: "dotnet C# 入门示例 用底层的 Socket 进行 HTTP 网络请求"
 pubDatetime: 2025-06-16 23:05:23
-modDatetime: 2025-06-16 23:05:23
+modDatetime: 2025-07-19 07:47:43
 slug: dotnet-C-入门示例-用底层的-Socket-进行-HTTP-网络请求
 description: "dotnet C# 入门示例 用底层的 Socket 进行 HTTP 网络请求"
 tags:
