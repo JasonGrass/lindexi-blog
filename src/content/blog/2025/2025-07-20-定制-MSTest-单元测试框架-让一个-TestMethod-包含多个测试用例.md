@@ -1,7 +1,7 @@
 ---
 title: "定制 MSTest 单元测试框架 让一个 TestMethod 包含多个测试用例"
-pubDatetime: 2025-07-19 02:36:10
-modDatetime: 2025-07-19 06:56:08
+pubDatetime: 2025-07-19 23:06:08
+modDatetime: 2025-07-19 23:06:08
 slug: 定制-MSTest-单元测试框架-让一个-TestMethod-包含多个测试用例
 description: "定制 MSTest 单元测试框架 让一个 TestMethod 包含多个测试用例"
 ---
@@ -13,6 +13,8 @@ description: "定制 MSTest 单元测试框架 让一个 TestMethod 包含多个
 
 <!--more-->
 
+
+<!-- CreateTime:2025/07/20 07:06:08 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
