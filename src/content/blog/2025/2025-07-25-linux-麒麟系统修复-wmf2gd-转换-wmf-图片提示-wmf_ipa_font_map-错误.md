@@ -1,7 +1,7 @@
 ---
 title: "linux 麒麟系统修复 wmf2gd 转换 wmf 图片提示 wmf_ipa_font_map 错误"
-pubDatetime: 2025-07-24 12:05:59
-modDatetime: 2025-07-24 12:19:46
+pubDatetime: 2025-07-24 23:13:48
+modDatetime: 2025-07-24 23:13:48
 slug: linux-麒麟系统修复-wmf2gd-转换-wmf-图片提示-wmf_ipa_font_map-错误
 description: "linux 麒麟系统修复 wmf2gd 转换 wmf 图片提示 wmf_ipa_font_map 错误"
 ---
@@ -13,6 +13,8 @@ description: "linux 麒麟系统修复 wmf2gd 转换 wmf 图片提示 wmf_ipa_fo
 
 <!--more-->
 
+
+<!-- CreateTime:2025/07/25 07:13:48 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
