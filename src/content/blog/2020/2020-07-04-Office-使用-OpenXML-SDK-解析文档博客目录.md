@@ -1,7 +1,7 @@
 ---
 title: "Office 使用 OpenXML SDK 解析文档博客目录"
 pubDatetime: 2020-07-04 02:05:36
-modDatetime: 2025-07-10 02:01:43
+modDatetime: 2025-07-28 09:46:41
 slug: Office-使用-OpenXML-SDK-解析文档博客目录
 description: "Office 使用 OpenXML SDK 解析文档博客目录"
 tags:
@@ -316,6 +316,14 @@ C# / VB.NET Word component
 ![](images/img-modify-7a70c6ea4d8be2fbb36977bfc2e2ab05.jpg)
 
 [https://www.gemboxsoftware.com](https://www.gemboxsoftware.com)
+
+### OfficeIMO
+
+[EvotecIT/OfficeIMO: Fast and easy to use cross-platform .NET library that creates or modifies Microsoft Word (DocX) and later also Excel (XLSX) files without installing any software. Library is based on Open XML SDK](https://github.com/EvotecIT/OfficeIMO )
+
+### DocSharp
+
+[manfromarce/DocSharp: Pure C# library to convert between document formats (Office 97-2003, Open XML, RTF, Markdown)](https://github.com/manfromarce/DocSharp )
 
 ### VS 插件
 
