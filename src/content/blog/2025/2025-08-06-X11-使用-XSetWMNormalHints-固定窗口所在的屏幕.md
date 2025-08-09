@@ -1,7 +1,7 @@
 ---
 title: "X11 使用 XSetWMNormalHints 固定窗口所在的屏幕"
-pubDatetime: 2025-08-05 11:50:10
-modDatetime: 2025-08-05 12:35:28
+pubDatetime: 2025-08-05 23:04:32
+modDatetime: 2025-08-05 23:04:32
 slug: X11-使用-XSetWMNormalHints-固定窗口所在的屏幕
 description: "X11 使用 XSetWMNormalHints 固定窗口所在的屏幕"
 tags:
@@ -15,6 +15,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2025/08/06 07:04:32 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
