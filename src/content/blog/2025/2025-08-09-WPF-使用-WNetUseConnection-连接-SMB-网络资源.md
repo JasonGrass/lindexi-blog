@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 WNetUseConnection 连接 SMB 网络资源"
 pubDatetime: 2025-08-08 23:12:14
-modDatetime: 2025-08-11 22:01:53
+modDatetime: 2025-08-12 00:52:48
 slug: WPF-使用-WNetUseConnection-连接-SMB-网络资源
 description: "WPF 使用 WNetUseConnection 连接 SMB 网络资源"
 tags:
@@ -20,7 +20,6 @@ tags:
 
 <!-- 发布 -->
 <!-- 博客 -->
-<!-- 置顶1 -->
 
 为了方便起见，我编写了一个简单的界面，代码如下
 

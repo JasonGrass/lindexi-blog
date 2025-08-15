@@ -1,7 +1,7 @@
 ---
 title: "dotnet X11 获取多屏 edid 信息"
-pubDatetime: 2025-08-11 13:04:42
-modDatetime: 2025-08-11 13:08:45
+pubDatetime: 2025-08-11 23:01:35
+modDatetime: 2025-08-11 23:01:35
 slug: dotnet-X11-获取多屏-edid-信息
 description: "dotnet X11 获取多屏 edid 信息"
 tags:
@@ -16,6 +16,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2025/08/12 07:01:35 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
