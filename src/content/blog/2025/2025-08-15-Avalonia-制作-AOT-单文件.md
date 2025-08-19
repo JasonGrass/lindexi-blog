@@ -1,7 +1,7 @@
 ---
 title: "Avalonia 制作 AOT 单文件"
-pubDatetime: 2025-08-14 11:02:11
-modDatetime: 2025-08-14 11:02:11
+pubDatetime: 2025-08-14 23:15:06
+modDatetime: 2025-08-14 23:15:06
 slug: Avalonia-制作-AOT-单文件
 description: "Avalonia 制作 AOT 单文件"
 tags:
@@ -15,6 +15,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2025/08/15 07:15:06 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
