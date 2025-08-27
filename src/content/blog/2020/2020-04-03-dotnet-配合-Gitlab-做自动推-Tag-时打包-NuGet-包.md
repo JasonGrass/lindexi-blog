@@ -1,7 +1,7 @@
 ---
 title: "dotnet 配合 Gitlab 做自动推 Tag 时打包 NuGet 包"
 pubDatetime: 2020-04-03 00:31:45
-modDatetime: 2024-05-20 08:22:04
+modDatetime: 2025-08-25 12:21:12
 slug: dotnet-配合-Gitlab-做自动推-Tag-时打包-NuGet-包
 description: "dotnet 配合 Gitlab 做自动推 Tag 时打包 NuGet 包"
 tags:
@@ -190,4 +190,3 @@ tagpublish:
 
 - [Roslyn 让 VisualStudio 急速调试底层库方法](https://blog.lindexi.com/post/Roslyn-%E8%AE%A9-VisualStudio-%E6%80%A5%E9%80%9F%E8%B0%83%E8%AF%95%E5%BA%95%E5%B1%82%E5%BA%93%E6%96%B9%E6%B3%95.html )
 - [VS DLL引用替换插件](https://github.com/dotnet-campus/DllReferencePathChanger )
-
