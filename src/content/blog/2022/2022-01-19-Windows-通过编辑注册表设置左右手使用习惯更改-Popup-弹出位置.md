@@ -1,7 +1,7 @@
 ---
 title: "Windows 通过编辑注册表设置左右手使用习惯更改 Popup 弹出位置"
 pubDatetime: 2022-01-19 00:40:14
-modDatetime: 2024-08-06 12:43:39
+modDatetime: 2025-08-27 09:47:14
 slug: Windows-通过编辑注册表设置左右手使用习惯更改-Popup-弹出位置
 description: "Windows 通过编辑注册表设置左右手使用习惯更改 Popup 弹出位置"
 ---
@@ -81,3 +81,4 @@ description: "Windows 通过编辑注册表设置左右手使用习惯更改 Pop
 
 更多请看 [Popup element are reversed left and right in Windows 11 · Issue #5944 · dotnet/wpf](https://github.com/dotnet/wpf/issues/5944 )
 
+由于这个功能的入口在 Win11 里完全被干掉了。且即使注册表更改了，整个系统应用、甚至包括记事本等应用，再也不听这个设置了。我认为在 WPF 里面遵守这个规则只会坑到开发者，不如就废弃此功能。我给 WPF 写了一个提案，如果大家认同的话，还请帮我点一个赞支持一下，详细请看 <https://github.com/dotnet/wpf/issues/11073>
