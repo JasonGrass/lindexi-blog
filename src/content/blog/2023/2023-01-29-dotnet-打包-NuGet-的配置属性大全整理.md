@@ -1,7 +1,7 @@
 ---
 title: "dotnet 打包 NuGet 的配置属性大全整理"
 pubDatetime: 2023-01-29 03:43:55
-modDatetime: 2025-09-03 02:33:58
+modDatetime: 2025-09-18 03:14:37
 slug: dotnet-打包-NuGet-的配置属性大全整理
 description: "dotnet 打包 NuGet 的配置属性大全整理"
 tags:
@@ -177,6 +177,12 @@ tags:
 
 ```xml
 <Copyright>Copyright (c) 玄年-玄月 Metaphysical Algorithm Co.,Ltd</Copyright>
+```
+
+中间的 `(c)` 的正确表述应该是 UTF-8 编码的 169 号（0xA9）字符，这个字符经常存在编码问题。好在 csproj 等都采用 XML 格式，可以直接使用 XML 编码 `&#169;` 表示，如
+
+```xml
+<Copyright>Copyright &#169; dotnet-campus 2020-$([System.DateTime]::Now.ToString(`yyyy`))</Copyright>
 ```
 
 #### CopyrightSlim

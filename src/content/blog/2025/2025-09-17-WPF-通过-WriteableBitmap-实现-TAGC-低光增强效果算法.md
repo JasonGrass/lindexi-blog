@@ -1,7 +1,7 @@
 ---
 title: "WPF 通过 WriteableBitmap 实现 TAGC 低光增强效果算法"
-pubDatetime: 2025-09-16 12:59:17
-modDatetime: 2025-09-16 13:15:11
+pubDatetime: 2025-09-16 23:28:07
+modDatetime: 2025-09-16 23:28:07
 slug: WPF-通过-WriteableBitmap-实现-TAGC-低光增强效果算法
 description: "WPF 通过 WriteableBitmap 实现 TAGC 低光增强效果算法"
 tags:
@@ -15,6 +15,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2025/09/17 07:28:07 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
@@ -35,10 +37,10 @@ tags:
 
 实现效果如下图所示
 
-<!-- ![](image/WPF 通过 WriteableBitmap 实现 TAGC 低光增强效果算法/WPF 通过 WriteableBitmap 实现 TAGC 低光增强效果算法0.png) -->
+<!-- ![](images/img-WPF 通过 WriteableBitmap 实现 TAGC 低光增强效果算法0.png) -->
 ![](images/img-lindexi-20259162059499512.jpg)
 
-<!-- ![](image/WPF 通过 WriteableBitmap 实现 TAGC 低光增强效果算法/WPF 通过 WriteableBitmap 实现 TAGC 低光增强效果算法1.png) -->
+<!-- ![](images/img-WPF 通过 WriteableBitmap 实现 TAGC 低光增强效果算法1.png) -->
 ![](images/img-lindexi-2025916210159899.jpg)
 
 这个过程无需玄学算法参与，无需对接任何 AI 相关的算法，仅仅只是非常简单的逐个像素进行数学计算。核心实现代码如下
@@ -120,7 +122,7 @@ public class TuningAdaptiveGammaCorrectionAlgorithm
 
 具体计算的原理，如 <https://www.cnblogs.com/Imageshop/p/19025343> 博客内容所述：
 
-<!-- ![](image/WPF 通过 WriteableBitmap 实现 TAGC 低光增强效果算法/WPF 通过 WriteableBitmap 实现 TAGC 低光增强效果算法2.png) -->
+<!-- ![](images/img-WPF 通过 WriteableBitmap 实现 TAGC 低光增强效果算法2.png) -->
 ![](images/img-lindexi-2025916211521872.jpg)
 
 使用 Tuning adaptive gamma correction (TAGC) 确实能够帮我将很多拍摄暗光照片进行低光增强。但对于一些屏幕截图的效果或其他非拍摄的图片的处理效果不佳
