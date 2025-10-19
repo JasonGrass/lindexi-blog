@@ -1,7 +1,7 @@
 ---
 title: "C# 使用 using 关键字间接实现只读局部变量的方法"
-pubDatetime: 2025-10-15 01:43:57
-modDatetime: 2025-10-15 01:43:57
+pubDatetime: 2025-10-16 23:09:14
+modDatetime: 2025-10-16 23:09:14
 slug: C-使用-using-关键字间接实现只读局部变量的方法
 description: "C# 使用 using 关键字间接实现只读局部变量的方法"
 tags:
@@ -15,6 +15,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2025/10/17 07:09:14 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
