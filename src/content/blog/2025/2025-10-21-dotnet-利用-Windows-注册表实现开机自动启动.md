@@ -1,7 +1,7 @@
 ---
 title: "dotnet 利用 Windows 注册表实现开机自动启动"
-pubDatetime: 2025-10-20 07:24:20
-modDatetime: 2025-10-20 07:28:28
+pubDatetime: 2025-10-20 23:01:46
+modDatetime: 2025-10-20 23:01:46
 slug: dotnet-利用-Windows-注册表实现开机自动启动
 description: "dotnet 利用 Windows 注册表实现开机自动启动"
 tags:
@@ -15,6 +15,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2025/10/21 07:01:46 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
