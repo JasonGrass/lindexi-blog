@@ -1,7 +1,7 @@
 ---
 title: "WPF 已知问题 使用 WindowChrome 在切换系统主题色时导致窗口界面偏移"
-pubDatetime: 2025-11-03 00:53:17
-modDatetime: 2025-11-03 00:53:17
+pubDatetime: 2025-11-03 00:54:05
+modDatetime: 2025-11-03 00:54:05
 slug: WPF-已知问题-使用-WindowChrome-在切换系统主题色时导致窗口界面偏移
 description: "WPF 已知问题 使用 WindowChrome 在切换系统主题色时导致窗口界面偏移"
 tags:
@@ -15,6 +15,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2025/11/03 08:54:05 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
