@@ -1,7 +1,7 @@
 ---
 title: "WPF 讲讲 Microsoft.NET.Sdk.WindowsDesktop 的原理"
 pubDatetime: 2020-03-16 00:31:10
-modDatetime: 2024-05-20 08:22:03
+modDatetime: 2025-11-07 02:20:22
 slug: WPF-讲讲-Microsoft.NET.Sdk.WindowsDesktop-的原理
 description: "WPF 讲讲 Microsoft.NET.Sdk.WindowsDesktop 的原理"
 tags:
@@ -142,4 +142,3 @@ tags:
 更多请看 [理解 C# 项目 csproj 文件格式的本质和编译流程 - walterlv](https://blog.walterlv.com/post/understand-the-csproj.html )
 
 [WPF迁移至WPF Core 之 生成操作](https://huchengv5.github.io/post/WPF%E8%BF%81%E7%A7%BB%E8%87%B3WPF-Core-%E4%B9%8B-%E7%94%9F%E6%88%90%E6%93%8D%E4%BD%9C.html?tdsourcetag=s_pcqq_aiomsg )
-

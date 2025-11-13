@@ -1,7 +1,7 @@
 ---
 title: "dotnet 读 WPF 源代码 学习使用 Microsoft.DotNet.Arcade.Sdk 处理代码里的多语言"
-pubDatetime: 2025-11-06 06:33:09
-modDatetime: 2025-11-06 12:56:01
+pubDatetime: 2025-11-06 23:25:42
+modDatetime: 2025-11-06 23:25:42
 slug: dotnet-读-WPF-源代码-学习使用-Microsoft.DotNet.Arcade.Sdk-处理代码里的多语言
 description: "dotnet 读 WPF 源代码 学习使用 Microsoft.DotNet.Arcade.Sdk 处理代码里的多语言"
 tags:
@@ -16,6 +16,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2025/11/07 07:25:42 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
