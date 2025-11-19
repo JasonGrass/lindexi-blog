@@ -1,7 +1,7 @@
 ---
 title: "dotnet 10 已知问题 构建 WPF 时提示 System.Private.Windows.GdiPlus 程序集未找到错误"
-pubDatetime: 2025-11-14 00:51:52
-modDatetime: 2025-11-14 00:51:52
+pubDatetime: 2025-11-14 23:29:18
+modDatetime: 2025-11-17 01:43:00
 slug: dotnet-10-已知问题-构建-WPF-时提示-System.Private.Windows.GdiPlus-程序集未找到错误
 description: "dotnet 10 已知问题 构建 WPF 时提示 System.Private.Windows.GdiPlus 程序集未找到错误"
 tags:
@@ -17,6 +17,8 @@ tags:
 <!--more-->
 
 
+<!-- CreateTime:2025/11/15 07:29:18 -->
+
 <!-- 发布 -->
 <!-- 博客 -->
 
@@ -24,7 +26,7 @@ tags:
 
 此问题已修复，详细请看 <https://github.com/dotnet/dotnet/pull/3120>
 
-本文写于 2025年11月15日 此时为 .NET 10 首个版本发布，此问题为首个版本带来的。此问题在首个版本发布之后才修复，需要等待下个版本 SDK 发布才能解决此问题
+本文写于 2025年11月15日 此时为 .NET 10 首个正式版本发布，此问题为首个正式版本带来的。此问题在首个正式版本发布之后才修复，需要等待下个版本 SDK 发布才能解决此问题
 
 详细错误信息如下
 
