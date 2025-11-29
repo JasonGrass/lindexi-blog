@@ -1,7 +1,7 @@
 ---
 title: "WPF Application Compatibility switches list"
 pubDatetime: 2022-02-25 11:50:37
-modDatetime: 2024-05-20 08:22:03
+modDatetime: 2025-11-27 06:30:56
 slug: WPF-Application-Compatibility-switches-list
 description: "WPF Application Compatibility switches list"
 tags:
@@ -629,4 +629,16 @@ See Switch.System.Windows.Media.MediaContext.DisableDirtyRectangles
 
 See <https://github.com/dotnet/wpf/pull/5837> <https://github.com/dotnet/wpf/issues/5441>
 
+### Switch.System.Windows.Media.DisableDWMCrashContainment
 
+Using AppContextSwitch, we are trying to contain the retry mechanism of DWM's `ExtendFrameIntoClientArea` API call.
+
+After .NET 10, developers can use the AppContextSwtich as below to avoid the retry mechanism:
+
+```xml
+<ItemGroup>
+    <RuntimeHostConfigurationOption Include="Switch.System.Windows.Media.DisableDWMCrashContainment" Value="true" />
+</ItemGroup>
+```
+
+See https://github.com/dotnet/wpf/pull/11285
