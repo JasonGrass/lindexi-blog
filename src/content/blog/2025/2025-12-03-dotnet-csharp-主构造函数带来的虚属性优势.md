@@ -1,7 +1,7 @@
 ---
 title: "dotnet C# 主构造函数带来的虚属性优势"
-pubDatetime: 2025-12-02 11:46:39
-modDatetime: 2025-12-02 11:51:32
+pubDatetime: 2025-12-02 23:15:14
+modDatetime: 2025-12-02 23:15:14
 slug: dotnet-C-主构造函数带来的虚属性优势
 description: "dotnet C# 主构造函数带来的虚属性优势"
 tags:
@@ -16,6 +16,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2025/12/03 07:15:14 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
