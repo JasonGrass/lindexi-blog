@@ -1,7 +1,7 @@
 ---
 title: "C# 浮点数 double 的 IsFinite IsNormal IsRealNumber 分不清楚"
-pubDatetime: 2025-12-04 07:24:54
-modDatetime: 2025-12-04 07:53:12
+pubDatetime: 2025-12-04 23:11:33
+modDatetime: 2025-12-04 23:11:33
 slug: C-浮点数-double-的-IsFinite-IsNormal-IsRealNumber-分不清楚
 description: "C# 浮点数 double 的 IsFinite IsNormal IsRealNumber 分不清楚"
 tags:
@@ -15,6 +15,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2025/12/05 07:11:33 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
