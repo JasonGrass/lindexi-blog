@@ -1,7 +1,7 @@
 ---
 title: "dotnet C# 高性能配置文件读写库 dotnetCampus.Configurations 简介"
 pubDatetime: 2021-07-18 11:43:35
-modDatetime: 2024-05-20 08:22:03
+modDatetime: 2025-12-28 07:46:05
 slug: dotnet-C-高性能配置文件读写库-dotnetCampus.Configurations-简介
 description: "dotnet C# 高性能配置文件读写库 dotnetCampus.Configurations 简介"
 tags:

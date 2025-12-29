@@ -1,7 +1,7 @@
 ---
 title: "asp dotnet core 实现服务器发送事件 Server-Sent Events 简单方式"
 pubDatetime: 2020-01-06 10:17:58
-modDatetime: 2024-05-20 08:22:03
+modDatetime: 2025-12-28 07:46:05
 slug: asp-dotnet-core-实现服务器发送事件-Server-Sent-Events-简单方式
 description: "asp dotnet core 实现服务器发送事件 Server-Sent Events 简单方式"
 tags:

@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 在 xaml 让 TextBlock 换行"
 pubDatetime: 2018-11-17 08:02:29
-modDatetime: 2024-08-06 12:43:37
+modDatetime: 2025-12-28 07:46:05
 slug: win10-uwp-在-xaml-让-TextBlock-换行
 description: "win10 uwp 在 xaml 让 TextBlock 换行"
 tags:

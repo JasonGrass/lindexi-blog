@@ -1,7 +1,7 @@
 ---
 title: "win10 UWP button"
 pubDatetime: 2018-08-10 11:16:53
-modDatetime: 2024-08-06 12:43:35
+modDatetime: 2025-12-28 07:46:05
 slug: win10-UWP-button
 description: "win10 UWP button"
 tags:

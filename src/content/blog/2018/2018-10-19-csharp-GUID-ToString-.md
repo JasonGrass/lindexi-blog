@@ -1,7 +1,7 @@
 ---
 title: "C# GUID ToString "
 pubDatetime: 2018-10-19 01:04:44
-modDatetime: 2024-08-06 12:43:24
+modDatetime: 2025-12-28 07:46:05
 slug: C-GUID-ToString-
 description: "C# GUID ToString "
 tags:

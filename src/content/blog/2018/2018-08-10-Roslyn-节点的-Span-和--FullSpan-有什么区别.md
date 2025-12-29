@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 节点的 Span 和  FullSpan 有什么区别"
 pubDatetime: 2018-08-10 11:16:52
-modDatetime: 2024-08-06 12:43:33
+modDatetime: 2025-12-28 07:46:05
 slug: Roslyn-节点的-Span-和--FullSpan-有什么区别
 description: "Roslyn 节点的 Span 和  FullSpan 有什么区别"
 tags:

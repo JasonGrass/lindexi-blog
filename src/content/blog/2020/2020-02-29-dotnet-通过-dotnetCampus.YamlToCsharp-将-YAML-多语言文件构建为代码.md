@@ -1,7 +1,7 @@
 ---
 title: "dotnet 通过 dotnetCampus.YamlToCsharp 将 YAML 多语言文件构建为代码"
 pubDatetime: 2020-02-29 03:29:01
-modDatetime: 2024-08-06 12:43:31
+modDatetime: 2025-12-28 07:46:05
 slug: dotnet-通过-dotnetCampus.YamlToCsharp-将-YAML-多语言文件构建为代码
 description: "dotnet 通过 dotnetCampus.YamlToCsharp 将 YAML 多语言文件构建为代码"
 tags:

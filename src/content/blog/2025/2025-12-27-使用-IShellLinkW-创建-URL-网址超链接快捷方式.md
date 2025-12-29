@@ -1,7 +1,7 @@
 ---
 title: "使用 IShellLinkW 创建 URL 网址超链接快捷方式"
-pubDatetime: 2025-12-26 08:05:44
-modDatetime: 2025-12-26 08:05:44
+pubDatetime: 2025-12-26 23:10:26
+modDatetime: 2025-12-26 23:10:26
 slug: 使用-IShellLinkW-创建-URL-网址超链接快捷方式
 description: "使用 IShellLinkW 创建 URL 网址超链接快捷方式"
 ---
@@ -13,6 +13,8 @@ description: "使用 IShellLinkW 创建 URL 网址超链接快捷方式"
 
 <!--more-->
 
+
+<!-- CreateTime:2025/12/27 07:10:26 -->
 
 <!-- 发布 -->
 <!-- 博客 -->

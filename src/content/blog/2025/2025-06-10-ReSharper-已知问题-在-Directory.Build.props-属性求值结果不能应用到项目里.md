@@ -1,7 +1,7 @@
 ---
 title: "ReSharper 已知问题 在 Directory.Build.props 属性求值结果不能应用到项目里"
 pubDatetime: 2025-06-09 23:01:43
-modDatetime: 2025-06-09 23:01:43
+modDatetime: 2025-12-28 07:46:05
 slug: ReSharper-已知问题-在-Directory.Build.props-属性求值结果不能应用到项目里
 description: "ReSharper 已知问题 在 Directory.Build.props 属性求值结果不能应用到项目里"
 tags:
