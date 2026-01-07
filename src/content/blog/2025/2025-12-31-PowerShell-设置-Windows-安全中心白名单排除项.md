@@ -1,7 +1,7 @@
 ---
 title: "PowerShell 设置 Windows 安全中心白名单排除项"
-pubDatetime: 2025-12-30 03:54:45
-modDatetime: 2025-12-30 06:07:59
+pubDatetime: 2025-12-30 23:21:58
+modDatetime: 2025-12-30 23:21:58
 slug: PowerShell-设置-Windows-安全中心白名单排除项
 description: "PowerShell 设置 Windows 安全中心白名单排除项"
 ---
@@ -13,6 +13,8 @@ description: "PowerShell 设置 Windows 安全中心白名单排除项"
 
 <!--more-->
 
+
+<!-- CreateTime:2025/12/31 07:21:58 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
