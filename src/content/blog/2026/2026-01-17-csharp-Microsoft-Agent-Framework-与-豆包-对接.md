@@ -1,7 +1,7 @@
 ---
 title: "C# Microsoft Agent Framework 与 豆包 对接"
-pubDatetime: 2026-01-16 00:55:47
-modDatetime: 2026-01-16 02:00:28
+pubDatetime: 2026-01-16 23:27:15
+modDatetime: 2026-01-16 23:27:15
 slug: C-Microsoft-Agent-Framework-与-豆包-对接
 description: "C# Microsoft Agent Framework 与 豆包 对接"
 tags:
@@ -15,6 +15,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2026/01/17 07:27:15 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
