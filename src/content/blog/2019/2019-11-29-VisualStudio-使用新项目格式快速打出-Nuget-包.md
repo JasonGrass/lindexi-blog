@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 使用新项目格式快速打出 Nuget 包"
 pubDatetime: 2019-11-29 02:15:25
-modDatetime: 2024-08-06 12:43:34
+modDatetime: 2026-01-26 09:43:28
 slug: VisualStudio-使用新项目格式快速打出-Nuget-包
 description: "VisualStudio 使用新项目格式快速打出 Nuget 包"
 tags:
@@ -57,7 +57,7 @@ nuget.exe spec
     <authors>lindexi</authors>
     <owners>lindexi</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>欢迎访问我博客 https://lindexi.gitee.io/ 里面有很多 UWP WPF 博客</description>
+    <description>欢迎访问我博客 https://blog.lindexi.com/ 里面有很多 UWP WPF 博客</description>
     <dependencies>
       <group targetFramework=".NETCoreApp2.1">
         <dependency id="Microsoft.NETCore.App" version="2.1.0" exclude="Build,Analyzers" />

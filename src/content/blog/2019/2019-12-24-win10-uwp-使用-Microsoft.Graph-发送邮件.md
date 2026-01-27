@@ -1,7 +1,7 @@
 ---
 title: "win10 uwp 使用 Microsoft.Graph 发送邮件"
 pubDatetime: 2019-12-24 01:27:54
-modDatetime: 2024-08-06 12:43:36
+modDatetime: 2026-01-26 09:45:24
 slug: win10-uwp-使用-Microsoft.Graph-发送邮件
 description: "win10 uwp 使用 Microsoft.Graph 发送邮件"
 tags:
@@ -271,7 +271,7 @@ using Microsoft.Graph;
 
 ![](images/img-modify-a1a6c2b0858f9562f11925dd28348b7f.png)
 
-看到这里就可以知道，现在UWP发送邮件有三个方法，本文是其中一个，其他方法请看[win10 UWP 发邮件](https://lindexi.gitee.io/post/win10-UWP-%E5%8F%91%E9%82%AE%E4%BB%B6.html )
+看到这里就可以知道，现在UWP发送邮件有三个方法，本文是其中一个，其他方法请看[win10 UWP 发邮件](https://blog.lindexi.com/post/win10-UWP-%E5%8F%91%E9%82%AE%E4%BB%B6.html )
 
 本文代码放在 [github](https://github.com/lindexi/lindexi_gd/blob/22a89c4f916dc891e384324b29138dda3dfdb426/BalreMahouVoomawbatu/) 欢迎小伙伴访问
 

@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 使用三个方法启动最新 C# 功能"
 pubDatetime: 2019-11-29 00:58:50
-modDatetime: 2024-08-06 12:43:34
+modDatetime: 2026-01-26 09:43:18
 slug: VisualStudio-使用三个方法启动最新-C-功能
 description: "VisualStudio 使用三个方法启动最新 C# 功能"
 tags:
@@ -61,7 +61,7 @@ tags:
     <Authors>lindexi</Authors>
     <RepositoryUrl>https://github.com/lindexi/UWP</RepositoryUrl>
     <Description>
-      欢迎来我博客 lindexi.gitee.io
+      欢迎来我博客 blog.lindexi.com
     </Description>
   </PropertyGroup>
 ```

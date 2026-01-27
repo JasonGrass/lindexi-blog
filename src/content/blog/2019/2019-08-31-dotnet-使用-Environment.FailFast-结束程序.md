@@ -1,7 +1,7 @@
 ---
 title: "dotnet 使用 Environment.FailFast 结束程序"
 pubDatetime: 2019-08-31 08:55:58
-modDatetime: 2024-08-06 12:43:29
+modDatetime: 2026-01-26 09:38:09
 slug: dotnet-使用-Environment.FailFast-结束程序
 description: "dotnet 使用 Environment.FailFast 结束程序"
 tags:
@@ -36,7 +36,7 @@ tags:
 
 ![](images/img-modify-337b6b032339e87b662d0223b75da5bb.png)
 
-通过这个方法不仅可以记日志，还可以自动创建一个 DUMP 文件，至于这个 DUMP 放在哪里，请看[win10 uwp 收集 DUMP 文件](https://lindexi.gitee.io/post/win10-uwp-%E6%94%B6%E9%9B%86-DUMP-%E6%96%87%E4%BB%B6.html )
+通过这个方法不仅可以记日志，还可以自动创建一个 DUMP 文件，至于这个 DUMP 放在哪里，请看[win10 uwp 收集 DUMP 文件](https://blog.lindexi.com/post/win10-uwp-%E6%94%B6%E9%9B%86-DUMP-%E6%96%87%E4%BB%B6.html )
 
 同时这个方法调用的时候 finally 里面的代码是无法执行的
 

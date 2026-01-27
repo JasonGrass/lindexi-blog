@@ -1,7 +1,7 @@
 ---
 title: "VisualStudio 扩展开发 添加菜单"
 pubDatetime: 2019-02-02 07:35:18
-modDatetime: 2024-08-06 12:43:35
+modDatetime: 2026-01-26 09:43:39
 slug: VisualStudio-扩展开发-添加菜单
 description: "VisualStudio 扩展开发 添加菜单"
 tags:
@@ -28,7 +28,7 @@ tags:
 
 ![](images/img-modify-a97b577ab3253590d512fec2b689c352.png)
 
-在之前我写过 [VisualStudio 扩展开发](https://lindexi.gitee.io/post/VisualStudio-%E6%89%A9%E5%B1%95%E5%BC%80%E5%8F%91.html) 使用的是 VisualStudio 2015 开发，在开发 VisualStudio 2017 的插件和开发之前的版本几乎一样
+在之前我写过 [VisualStudio 扩展开发](https://blog.lindexi.com/post/VisualStudio-%E6%89%A9%E5%B1%95%E5%BC%80%E5%8F%91.html) 使用的是 VisualStudio 2015 开发，在开发 VisualStudio 2017 的插件和开发之前的版本几乎一样
 
 新建一个插件的程序
 
@@ -72,7 +72,7 @@ tags:
 这里的 ButtonText 就是显示的内容，先在这里做一点修改
 
 ```csharp
-          <ButtonText>欢迎访问我博客 http://lindexi.gitee.io 里面有大量 UWP WPF 博客</ButtonText>
+          <ButtonText>欢迎访问我博客 http://blog.lindexi.com 里面有大量 UWP WPF 博客</ButtonText>
 
 ```
 
@@ -91,7 +91,7 @@ tags:
 ```csharp
         private void Execute(object sender, EventArgs e)
         {
-            Process.Start("http://lindexi.gitee.io");
+            Process.Start("http://blog.lindexi.com");
         }
 ```
 

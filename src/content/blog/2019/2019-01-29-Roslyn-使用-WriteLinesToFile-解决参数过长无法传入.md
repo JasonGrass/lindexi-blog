@@ -1,7 +1,7 @@
 ---
 title: "Roslyn 使用 WriteLinesToFile 解决参数过长无法传入"
 pubDatetime: 2019-01-29 08:31:43
-modDatetime: 2024-05-20 08:22:03
+modDatetime: 2026-01-26 09:41:56
 slug: Roslyn-使用-WriteLinesToFile-解决参数过长无法传入
 description: "Roslyn 使用 WriteLinesToFile 解决参数过长无法传入"
 tags:
@@ -136,7 +136,7 @@ tags:
 <!-- 下载文件 NekasNugouMedapai -->
 
 参见：
-[项目文件中的已知属性（知道了这些，就不会随便在 csproj 中写死常量啦） - walterlv](https://walterlv.gitee.io/post/known-properties-in-csproj.html )
+[项目文件中的已知属性（知道了这些，就不会随便在 csproj 中写死常量啦） - walterlv](https://blog.walterlv.com/post/known-properties-in-csproj.html )
 
 ![](images/img-5b7aab757d2f9.jpg)
 

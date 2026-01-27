@@ -1,7 +1,7 @@
 ---
 title: "Packaging.DebUOS 专门为 dotnet 应用制作 UOS 安装包"
 pubDatetime: 2024-01-29 00:58:31
-modDatetime: 2025-07-01 07:43:14
+modDatetime: 2026-01-26 06:09:59
 slug: Packaging.DebUOS-专门为-dotnet-应用制作-UOS-安装包
 description: "Packaging.DebUOS 专门为 dotnet 应用制作 UOS 安装包"
 tags:
@@ -31,7 +31,7 @@ Packaging.DebUOS 旨在通过使用 csproj 项目文件等方式进行配置，�
 
 ```xml
   <ItemGroup>
-    <PackageReference Include="Packaging.DebUOS" Version="3.17.6"/>
+    <PackageReference Include="Packaging.DebUOS" Version="3.17.10"/>
   </ItemGroup>
 ```
 
