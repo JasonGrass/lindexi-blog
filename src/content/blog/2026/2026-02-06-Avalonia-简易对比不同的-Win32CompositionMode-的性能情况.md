@@ -1,7 +1,7 @@
 ---
 title: "Avalonia 简易对比不同的 Win32CompositionMode 的性能情况"
 pubDatetime: 2026-02-05 23:17:20
-modDatetime: 2026-02-05 23:17:20
+modDatetime: 2026-02-09 09:45:31
 slug: Avalonia-简易对比不同的-Win32CompositionMode-的性能情况
 description: "Avalonia 简易对比不同的 Win32CompositionMode 的性能情况"
 tags:
@@ -153,7 +153,7 @@ git pull origin 2599a486433e897590ba552cd9049a1bfcdf364f
   - DWM: 占用为 40 左右，可见合成过程中确实让 GPU 非常繁忙
   - 帧率: 20-30 帧
 
-虽然 GPU 没有吃满，但是已经掉帧了，感觉这里应该有坑
+虽然 GPU 没有吃满，但是已经掉帧了，感觉这里应该有坑。详细请看 <https://github.com/AvaloniaUI/Avalonia/issues/20643>
 
 ## DirectComposition
 

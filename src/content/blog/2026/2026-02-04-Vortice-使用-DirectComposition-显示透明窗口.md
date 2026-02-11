@@ -1,7 +1,7 @@
 ---
 title: "Vortice 使用 DirectComposition 显示透明窗口"
 pubDatetime: 2026-02-03 23:15:58
-modDatetime: 2026-02-06 22:24:08
+modDatetime: 2026-02-10 22:05:49
 slug: Vortice-使用-DirectComposition-显示透明窗口
 description: "Vortice 使用 DirectComposition 显示透明窗口"
 tags:
@@ -11,6 +11,7 @@ tags:
   - Vortice
   - Direct2D
   - 渲染
+  - DirectComposition
 ---
 
 
@@ -25,7 +26,7 @@ tags:
 
 <!-- 发布 -->
 <!-- 博客 -->
-<!-- 标签：C#,D2D,DirectX,Vortice,Direct2D,渲染 -->
+<!-- 标签：C#,D2D,DirectX,Vortice,Direct2D,渲染,DirectComposition -->
 <!-- 置顶1 -->
 
 本文是[渲染相关系列博客](https://blog.lindexi.com/post/WPF-%E4%BD%BF%E7%94%A8-SharpDx-%E6%B8%B2%E6%9F%93%E5%8D%9A%E5%AE%A2%E5%AF%BC%E8%88%AA.html )中的一篇，该系列博客已按照逻辑顺序编排，方便大家依次阅读。如您对渲染相关感兴趣，可以通过以下链接访问整个系列：[渲染相关系列博客导航](https://blog.lindexi.com/post/WPF-%E4%BD%BF%E7%94%A8-SharpDx-%E6%B8%B2%E6%9F%93%E5%8D%9A%E5%AE%A2%E5%AF%BC%E8%88%AA.html )
@@ -153,7 +154,7 @@ DCompositionCreateDevice
             {
                 cbSize = (uint) Marshal.SizeOf<WNDCLASSEXW>(),
                 style = style,
-                lpfnWndProc = new WNDPROC(WndProc),
+                lpfnWndProc = new WNDPROC(WndProc), // 注： 这里没有作为字段，可能会被 GC 回收，请不要在实际项目这么编写
                 hInstance = new HINSTANCE(GetModuleHandle(null).DangerousGetHandle()),
                 hCursor = defaultCursor,
                 hbrBackground = new HBRUSH(IntPtr.Zero),
@@ -673,6 +674,7 @@ git pull origin 369de6b65c4122cec6a6c9ffbcc0b352a419e83e
 
         var className = $"lindexi-{Guid.NewGuid().ToString()}";
         var title = "The Title";
+        _myInstanceWndProc = new WNDPROC(WndProc)
         fixed (char* pClassName = className)
         fixed (char* pTitle = title)
         {
@@ -680,7 +682,7 @@ git pull origin 369de6b65c4122cec6a6c9ffbcc0b352a419e83e
             {
                 cbSize = (uint) Marshal.SizeOf<WNDCLASSEXW>(),
                 style = style,
-                lpfnWndProc = new WNDPROC(WndProc),
+                lpfnWndProc = _myInstanceWndProc,
                 hInstance = new HINSTANCE(GetModuleHandle(null).DangerousGetHandle()),
                 hCursor = defaultCursor,
                 hbrBackground = new HBRUSH(IntPtr.Zero),
@@ -701,9 +703,23 @@ git pull origin 369de6b65c4122cec6a6c9ffbcc0b352a419e83e
             return windowHwnd;
         }
     }
+
+    private WNDPROC _myInstanceWndProc;
 ```
 
 可见核心关键改动只有 `WINDOW_EX_STYLE exStyle = WINDOW_EX_STYLE.WS_EX_NOREDIRECTIONBITMAP;` 这一行
+
+> 注： 原博客代码里面，是直接使用 `new WNDPROC(WndProc)` 局部变量的写法，会导致当委托被回收的时候，抛出如下异常:
+
+```
+Process terminated.
+A callback was made on a garbage collected delegate of type 'NearajurkeekallnoYabarfoge!Windows.Win32.UI.WindowsAndMessaging.WNDPROC::Invoke'.
+   at Windows.Win32.PInvoke.GetMessage(Windows.Win32.UI.WindowsAndMessaging.MSG*, Windows.Win32.Foundation.HWND, UInt32, UInt32)
+   at NearajurkeekallnoYabarfoge.DemoWindow.Run()
+   at NearajurkeekallnoYabarfoge.Program.Main(System.String[])
+```
+
+解决方法就是将委托放在字段里面，防止被回收。详细请看： <https://github.com/lindexi/lindexi_gd/pull/85>
 
 如果期望显示标题栏，则可以继续在 WndProc 进行改动，删除 WM_NCCALCSIZE 相关代码，删除之后的代码如下
 
@@ -916,6 +932,10 @@ git pull origin b678a0cc6d689aa63fd1239bb88113ff8a4b9fcd
 ```
 
 获取代码之后，进入 DirectX/D2D/LurqificelgallRikurneawekearner 文件夹，即可获取到源代码
+
+## 特别感谢
+
+- 特别感谢 [@luojunyuan](https://github.com/luojunyuan) 帮忙修复博客示例代码
 
 ## 更多博客
 

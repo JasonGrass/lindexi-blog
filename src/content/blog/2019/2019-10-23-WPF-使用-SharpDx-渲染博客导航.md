@@ -1,7 +1,7 @@
 ---
 title: "WPF 使用 SharpDx 渲染博客导航"
 pubDatetime: 2019-10-23 13:10:13
-modDatetime: 2026-02-06 09:11:55
+modDatetime: 2026-02-10 00:47:07
 slug: WPF-使用-SharpDx-渲染博客导航
 description: "WPF 使用 SharpDx 渲染博客导航"
 tags:
@@ -93,6 +93,9 @@ tags:
 - [使用 Silk.NET 调用 DirectWrite 获取字体 Font Metrics 信息](https://blog.lindexi.com/post/%E4%BD%BF%E7%94%A8-Silk.NET-%E8%B0%83%E7%94%A8-DirectWrite-%E8%8E%B7%E5%8F%96%E5%AD%97%E4%BD%93-Font-Metrics-%E4%BF%A1%E6%81%AF.html )
 <!-- [使用 Silk.NET 调用 DirectWrite 获取字体 Font Metrics 信息 - lindexi - 博客园](https://www.cnblogs.com/lindexi/p/19001918 ) -->
 
+- [dotnet Vortice 通过 Angle 将 Skia 和 DirectX 对接](https://blog.lindexi.com/post/dotnet-Vortice-%E9%80%9A%E8%BF%87-Angle-%E5%B0%86-Skia-%E5%92%8C-DirectX-%E5%AF%B9%E6%8E%A5.html )
+<!-- [dotnet Vortice 通过 Angle 将 Skia 和 DirectX 对接 - lindexi - 博客园](https://www.cnblogs.com/lindexi/p/19593476 ) -->
+
 在 4k 下的性能测试请看 [WPF 模拟 WPFMediaKit 的 D3D 配置用来测试4k性能](https://blog.lindexi.com/post/WPF-%E6%A8%A1%E6%8B%9F-WPFMediaKit-%E7%9A%84-D3D-%E9%85%8D%E7%BD%AE%E7%94%A8%E6%9D%A5%E6%B5%8B%E8%AF%954k%E6%80%A7%E8%83%BD.html )
 
 如果有部分逻辑是通过其实平台渲染的，可以通过 SharedHandle 在不同的 Direct3D 设备之间共享资源，详细请看下面博客
@@ -107,6 +110,9 @@ tags:
 
 [Vortice 使用 DirectComposition 显示透明窗口](https://blog.lindexi.com/post/Vortice-%E4%BD%BF%E7%94%A8-DirectComposition-%E6%98%BE%E7%A4%BA%E9%80%8F%E6%98%8E%E7%AA%97%E5%8F%A3.html )
 <!-- [Vortice 使用 DirectComposition 显示透明窗口 - lindexi - 博客园](https://www.cnblogs.com/lindexi/p/19541356 ) -->
+
+[dotnet Vortice 无需交换链与 DirectComposition 对接渲染层](https://blog.lindexi.com/post/dotnet-Vortice-%E6%97%A0%E9%9C%80%E4%BA%A4%E6%8D%A2%E9%93%BE%E4%B8%8E-DirectComposition-%E5%AF%B9%E6%8E%A5%E6%B8%B2%E6%9F%93%E5%B1%82.html )
+<!-- [dotnet Vortice 无需交换链与 DirectComposition 对接渲染层 - lindexi - 博客园](https://www.cnblogs.com/lindexi/p/19597758 ) -->
 
 [win10 uwp 渲染原理 DirectComposition 渲染](https://blog.lindexi.com/post/win10-uwp-%E6%B8%B2%E6%9F%93%E5%8E%9F%E7%90%86-DirectComposition-%E6%B8%B2%E6%9F%93.html )
 

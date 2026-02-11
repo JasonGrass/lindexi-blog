@@ -1,11 +1,15 @@
 ---
 title: "dotnet Vortice 通过 Angle 将 Skia 和 DirectX 对接"
-pubDatetime: 2026-02-06 02:39:01
-modDatetime: 2026-02-06 07:20:18
+pubDatetime: 2026-02-06 23:23:45
+modDatetime: 2026-02-10 01:15:45
 slug: dotnet-Vortice-通过-Angle-将-Skia-和-DirectX-对接
 description: "dotnet Vortice 通过 Angle 将 Skia 和 DirectX 对接"
 tags:
-  - dotnet
+  - DirectX
+  - Vortice
+  - DirectComposition
+  - 渲染
+  - Skia
 ---
 
 
@@ -16,6 +20,8 @@ tags:
 <!--more-->
 
 
+<!-- CreateTime:2026/02/07 07:23:45 -->
+<!-- 标签：DirectX,Vortice,DirectComposition,渲染,Skia -->
 <!-- 发布 -->
 <!-- 博客 -->
 
@@ -80,9 +86,9 @@ ANGLE 是谷歌开源的组件，提供将 OpenGL ES API 调用转换为实际�
 以上代码的 ShowWindow 是标准的 Win32 方法，由 CsWin32 库生成。定义如下
 
 ```csharp
-		[DllImport("USER32.dll", ExactSpelling = true),DefaultDllImportSearchPaths(DllImportSearchPath.System32)]
-		[SupportedOSPlatform("windows5.0")]
-		internal static extern winmdroot.Foundation.BOOL ShowWindow(winmdroot.Foundation.HWND hWnd, winmdroot.UI.WindowsAndMessaging.SHOW_WINDOW_CMD nCmdShow);
+        [DllImport("USER32.dll", ExactSpelling = true),DefaultDllImportSearchPaths(DllImportSearchPath.System32)]
+        [SupportedOSPlatform("windows5.0")]
+        internal static extern winmdroot.Foundation.BOOL ShowWindow(winmdroot.Foundation.HWND hWnd, winmdroot.UI.WindowsAndMessaging.SHOW_WINDOW_CMD nCmdShow);
 ```
 
 为了直接使用方法，在本文这里直接在命名空间引用静态类，代码如下
