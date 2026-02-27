@@ -1,7 +1,7 @@
 ---
 title: "dotnet Vortice 通过 Angle 将 Skia 和 DirectX 对接"
 pubDatetime: 2026-02-06 23:23:45
-modDatetime: 2026-02-10 01:15:45
+modDatetime: 2026-02-25 03:24:21
 slug: dotnet-Vortice-通过-Angle-将-Skia-和-DirectX-对接
 description: "dotnet Vortice 通过 Angle 将 Skia 和 DirectX 对接"
 tags:
@@ -1106,7 +1106,7 @@ class Program
             {
                 cbSize = (uint)Marshal.SizeOf<WNDCLASSEXW>(),
                 style = style,
-                lpfnWndProc = new WNDPROC(WndProc),
+                lpfnWndProc = new WNDPROC(WndProc), // 注：由于 `new WNDPROC(WndProc)` 委托没有赋值给字段，仅仅只是一个局部变量，将在被 GC 回收之后，抛出执行引擎异常而崩溃进程。请在正式项目里面，将此捕获到字段上，防止被回收
                 hInstance = new HINSTANCE(GetModuleHandle(null).DangerousGetHandle()),
                 hCursor = defaultCursor,
                 hbrBackground = new HBRUSH(IntPtr.Zero),

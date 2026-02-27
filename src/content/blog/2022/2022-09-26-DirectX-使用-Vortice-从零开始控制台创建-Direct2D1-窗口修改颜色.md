@@ -1,7 +1,7 @@
 ---
 title: "DirectX 使用 Vortice 从零开始控制台创建 Direct2D1 窗口修改颜色"
 pubDatetime: 2022-09-26 00:23:45
-modDatetime: 2024-08-06 12:43:26
+modDatetime: 2026-02-25 03:23:46
 slug: DirectX-使用-Vortice-从零开始控制台创建-Direct2D1-窗口修改颜色
 description: "DirectX 使用 Vortice 从零开始控制台创建 Direct2D1 窗口修改颜色"
 tags:
@@ -256,7 +256,7 @@ VIRTUAL_KEY
             {
                 cbSize = (uint)Unsafe.SizeOf<WNDCLASSEXW>(),
                 style = CS_HREDRAW | CS_VREDRAW | CS_OWNDC,
-                // 核心逻辑，设置消息循环
+                // 核心逻辑，设置消息循环。注：由于 `new WNDPROC(WndProc)` 委托没有赋值给字段，仅仅只是一个局部变量，将在被 GC 回收之后，抛出执行引擎异常而崩溃进程。请在正式项目里面，将此捕获到字段上，防止被回收
                 lpfnWndProc = new WNDPROC(WndProc),
                 hInstance = (HINSTANCE)hInstance.DangerousGetHandle(),
                 hCursor = LoadCursor((HINSTANCE)IntPtr.Zero, szCursorName),
