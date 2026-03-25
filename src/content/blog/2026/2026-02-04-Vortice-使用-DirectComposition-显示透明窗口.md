@@ -1,7 +1,7 @@
 ---
 title: "Vortice 使用 DirectComposition 显示透明窗口"
 pubDatetime: 2026-02-03 23:15:58
-modDatetime: 2026-03-19 22:30:04
+modDatetime: 2026-03-24 22:11:38
 slug: Vortice-使用-DirectComposition-显示透明窗口
 description: "Vortice 使用 DirectComposition 显示透明窗口"
 tags:
