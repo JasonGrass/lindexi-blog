@@ -1,7 +1,7 @@
 ---
 title: "Avalonia 已知问题 过早创建 App 对象将抛出 PlatformNotSupportedException 异常"
-pubDatetime: 2026-04-03 02:38:16
-modDatetime: 2026-04-03 02:59:00
+pubDatetime: 2026-04-03 23:11:22
+modDatetime: 2026-04-03 23:11:22
 slug: Avalonia-已知问题-过早创建-App-对象将抛出-PlatformNotSupportedException-异常
 description: "Avalonia 已知问题 过早创建 App 对象将抛出 PlatformNotSupportedException 异常"
 tags:
@@ -15,6 +15,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2026/04/04 07:11:22 -->
 
 <!-- 发布 -->
 <!-- 博客 -->

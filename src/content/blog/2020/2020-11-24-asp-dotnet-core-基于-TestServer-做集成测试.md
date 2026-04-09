@@ -1,7 +1,7 @@
 ---
 title: "asp dotnet core 基于 TestServer 做集成测试"
 pubDatetime: 2020-11-24 12:29:54
-modDatetime: 2024-05-20 08:22:03
+modDatetime: 2026-04-07 03:39:40
 slug: asp-dotnet-core-基于-TestServer-做集成测试
 description: "asp dotnet core 基于 TestServer 做集成测试"
 tags:
@@ -213,4 +213,11 @@ public class DemoTest
 在经过了两天的更新依然失败之后，我强行魔改了代码，上到了 dotet 5 之后，发现了 APM 挂了…… 因 APM 内部使用了原先 dotnet core 3.1 的在 dotnet 5 废弃的接口…… 然后就到了写博客时间了
 
 
+---
 
+更新，当使用 WebApplicationBuilder 时，应该取 WebApplicationBuilder 的 WebHost 属性调用 UseTestServer 方法，代码如下
+
+```csharp
+        WebApplicationBuilder builder = WebApplication.CreateBuilder();
+        builder.WebHost.UseTestServer();
+```
