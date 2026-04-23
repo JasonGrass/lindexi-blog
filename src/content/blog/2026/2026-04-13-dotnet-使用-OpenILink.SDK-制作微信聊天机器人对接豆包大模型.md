@@ -1,7 +1,7 @@
 ---
 title: "dotnet 使用 OpenILink.SDK 制作微信聊天机器人对接豆包大模型"
-pubDatetime: 2026-04-13 00:52:35
-modDatetime: 2026-04-13 00:52:35
+pubDatetime: 2026-04-13 00:52:55
+modDatetime: 2026-04-13 00:52:55
 slug: dotnet-使用-OpenILink.SDK-制作微信聊天机器人对接豆包大模型
 description: "dotnet 使用 OpenILink.SDK 制作微信聊天机器人对接豆包大模型"
 tags:
@@ -15,6 +15,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2026/04/13 08:52:55 -->
 
 <!-- 发布 -->
 <!-- 博客 -->

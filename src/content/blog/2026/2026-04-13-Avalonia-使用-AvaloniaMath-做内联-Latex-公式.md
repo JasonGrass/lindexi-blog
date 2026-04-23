@@ -1,7 +1,7 @@
 ---
 title: "Avalonia 使用 AvaloniaMath 做内联 Latex 公式"
-pubDatetime: 2026-04-10 11:43:06
-modDatetime: 2026-04-10 11:48:35
+pubDatetime: 2026-04-13 00:52:41
+modDatetime: 2026-04-13 00:52:41
 slug: Avalonia-使用-AvaloniaMath-做内联-Latex-公式
 description: "Avalonia 使用 AvaloniaMath 做内联 Latex 公式"
 tags:
@@ -15,6 +15,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2026/04/13 08:52:41 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
