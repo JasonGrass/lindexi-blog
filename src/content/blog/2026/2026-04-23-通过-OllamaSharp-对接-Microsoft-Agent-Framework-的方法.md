@@ -1,7 +1,7 @@
 ---
 title: "通过 OllamaSharp 对接 Microsoft Agent Framework 的方法"
-pubDatetime: 2026-04-22 12:58:19
-modDatetime: 2026-04-22 13:01:01
+pubDatetime: 2026-04-22 23:02:39
+modDatetime: 2026-04-22 23:02:39
 slug: 通过-OllamaSharp-对接-Microsoft-Agent-Framework-的方法
 description: "通过 OllamaSharp 对接 Microsoft Agent Framework 的方法"
 ---
@@ -13,6 +13,8 @@ description: "通过 OllamaSharp 对接 Microsoft Agent Framework 的方法"
 
 <!--more-->
 
+
+<!-- CreateTime:2026/04/23 07:02:39 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
