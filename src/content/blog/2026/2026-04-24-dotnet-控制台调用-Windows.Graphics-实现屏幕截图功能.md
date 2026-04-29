@@ -1,7 +1,7 @@
 ---
 title: "dotnet 控制台调用 Windows.Graphics 实现屏幕截图功能"
-pubDatetime: 2026-04-23 08:15:09
-modDatetime: 2026-04-23 12:12:13
+pubDatetime: 2026-04-23 23:29:48
+modDatetime: 2026-04-23 23:29:48
 slug: dotnet-控制台调用-Windows.Graphics-实现屏幕截图功能
 description: "dotnet 控制台调用 Windows.Graphics 实现屏幕截图功能"
 tags:
@@ -15,6 +15,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2026/04/24 07:29:48 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
