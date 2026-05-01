@@ -1,7 +1,7 @@
 ---
 title: "Avalonia 在 Docker 容器中通过 xvfb 运行的方法"
-pubDatetime: 2026-04-27 02:10:33
-modDatetime: 2026-04-28 09:10:35
+pubDatetime: 2026-04-28 23:01:23
+modDatetime: 2026-04-28 23:01:23
 slug: Avalonia-在-Docker-容器中通过-xvfb-运行的方法
 description: "Avalonia 在 Docker 容器中通过 xvfb 运行的方法"
 tags:
@@ -15,6 +15,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2026/04/29 07:01:23 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
