@@ -1,7 +1,7 @@
 ---
 title: "Avalonia 无头模式在 Docker 容器中的运行方法"
-pubDatetime: 2026-04-29 03:52:06
-modDatetime: 2026-04-29 04:52:44
+pubDatetime: 2026-04-30 00:44:46
+modDatetime: 2026-04-30 00:44:46
 slug: Avalonia-无头模式在-Docker-容器中的运行方法
 description: "Avalonia 无头模式在 Docker 容器中的运行方法"
 tags:
@@ -15,6 +15,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2026/04/30 08:44:46 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
