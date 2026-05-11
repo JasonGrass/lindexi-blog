@@ -1,7 +1,7 @@
 ---
 title: "dotnet 基于 FFmpeg 实现图片加多音频批量合成视频方法"
-pubDatetime: 2026-05-08 03:51:32
-modDatetime: 2026-05-08 03:54:30
+pubDatetime: 2026-05-08 23:07:29
+modDatetime: 2026-05-08 23:07:29
 slug: dotnet-基于-FFmpeg-实现图片加多音频批量合成视频方法
 description: "dotnet 基于 FFmpeg 实现图片加多音频批量合成视频方法"
 tags:
@@ -15,6 +15,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2026/05/09 07:07:29 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
