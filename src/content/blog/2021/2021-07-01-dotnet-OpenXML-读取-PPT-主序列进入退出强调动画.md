@@ -1,7 +1,7 @@
 ---
 title: "dotnet OpenXML 读取 PPT 主序列进入退出强调动画"
 pubDatetime: 2021-07-01 13:00:50
-modDatetime: 2024-05-20 08:22:03
+modDatetime: 2026-05-27 03:15:52
 slug: dotnet-OpenXML-读取-PPT-主序列进入退出强调动画
 description: "dotnet OpenXML 读取 PPT 主序列进入退出强调动画"
 tags:
@@ -25,7 +25,7 @@ tags:
 
 <!-- ![](images/img-dotnet OpenXML 读取 PPT 主序列进入退出强调动画0.png) -->
 
-![](https://i.loli.net/2021/07/01/RZmjPobNxvHyTJg.jpg)
+![](images/img-modify-58a4f6d03b70dc53e868c16c0fd48ebb.png)
 
 大概的动画内容如下
 
