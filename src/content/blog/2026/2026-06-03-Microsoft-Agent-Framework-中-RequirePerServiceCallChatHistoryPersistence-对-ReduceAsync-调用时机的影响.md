@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Agent Framework 中 RequirePerServiceCallChatHistoryPersistence 对 ReduceAsync 调用时机的影响"
-pubDatetime: 2026-06-02 09:59:25
-modDatetime: 2026-06-02 10:04:46
+pubDatetime: 2026-06-02 23:04:01
+modDatetime: 2026-06-02 23:04:01
 slug: Microsoft-Agent-Framework-中-RequirePerServiceCallChatHistoryPersistence-对-ReduceAsync-调用时机的影响
 description: "Microsoft Agent Framework 中 RequirePerServiceCallChatHistoryPersistence 对 ReduceAsync 调用时机的影响"
 ---
@@ -13,6 +13,8 @@ description: "Microsoft Agent Framework 中 RequirePerServiceCallChatHistoryPers
 
 <!--more-->
 
+
+<!-- CreateTime:2026/06/03 07:04:01 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
