@@ -1,7 +1,7 @@
 ---
 title: "git 在 Windows 上判断文件变更只比较文件长度和修改日期"
-pubDatetime: 2026-06-25 04:59:03
-modDatetime: 2026-06-25 04:59:03
+pubDatetime: 2026-06-25 23:21:45
+modDatetime: 2026-06-25 23:21:45
 slug: git-在-Windows-上判断文件变更只比较文件长度和修改日期
 description: "git 在 Windows 上判断文件变更只比较文件长度和修改日期"
 tags:
@@ -15,6 +15,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2026/06/26 07:21:45 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
