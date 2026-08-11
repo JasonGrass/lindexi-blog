@@ -1,7 +1,7 @@
 ---
 title: "C# 字典 Dictionary 的 TryGetValue 与先判断 ContainsKey 然后 Get 的性能对比"
 pubDatetime: 2019-11-29 02:13:19
-modDatetime: 2024-05-20 08:22:03
+modDatetime: 2026-08-10 08:21:37
 slug: C-字典-Dictionary-的-TryGetValue-与先判断-ContainsKey-然后-Get-的性能对比
 description: "C# 字典 Dictionary 的 TryGetValue 与先判断 ContainsKey 然后 Get 的性能对比"
 tags:
@@ -152,5 +152,5 @@ Frequency=3328130 Hz, Resolution=300.4690 ns, Timer=TSC
 
 ```
 
-我的博客即将搬运同步至腾讯云+社区，邀请大家一同入驻：https://cloud.tencent.com/developer/support-plan?invite_code=19bm8i8js1ezb
+我的博客即将同步至腾讯云开发者社区，邀请大家一同入驻：https://cloud.tencent.com/developer/support-plan?invite_code=19bm8i8js1ezb
 
