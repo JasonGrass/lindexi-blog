@@ -1,7 +1,7 @@
 ---
 title: "WpfRuntime 提前体验尚未发布的 WPF 新功能"
-pubDatetime: 2026-09-20 12:58:01
-modDatetime: 2026-09-20 13:04:17
+pubDatetime: 2026-09-20 23:12:47
+modDatetime: 2026-09-20 23:12:47
 slug: WpfRuntime-提前体验尚未发布的-WPF-新功能
 description: "WpfRuntime 提前体验尚未发布的 WPF 新功能"
 tags:
@@ -15,6 +15,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2026/09/21 07:12:47 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
