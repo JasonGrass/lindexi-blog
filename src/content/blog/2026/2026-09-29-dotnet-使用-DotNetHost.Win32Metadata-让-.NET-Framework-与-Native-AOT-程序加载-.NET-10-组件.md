@@ -1,7 +1,7 @@
 ---
 title: "dotnet 使用 DotNetHost.Win32Metadata 让 .NET Framework 与 Native AOT 程序加载 .NET 10 组件"
-pubDatetime: 2026-09-28 07:48:31
-modDatetime: 2026-09-28 07:58:31
+pubDatetime: 2026-09-28 23:21:46
+modDatetime: 2026-09-28 23:21:46
 slug: dotnet-使用-DotNetHost.Win32Metadata-让-.NET-Framework-与-Native-AOT-程序加载-.NET-10-组件
 description: "dotnet 使用 DotNetHost.Win32Metadata 让 .NET Framework 与 Native AOT 程序加载 .NET 10 组件"
 tags:
@@ -15,6 +15,8 @@ tags:
 
 <!--more-->
 
+
+<!-- CreateTime:2026/09/29 07:21:46 -->
 
 <!-- 发布 -->
 <!-- 博客 -->
